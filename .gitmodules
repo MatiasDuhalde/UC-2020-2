@@ -1,0 +1,48 @@
+[submodule "IIC2413/BasesDeDatos30"]
+	path = IIC2413/BasesDeDatos30
+	url = git@github.com:SugarFreeManatee/BasesDeDatos30.git
+	branch = master
+[submodule "IIC2413/grupo69"]
+	path = IIC2413/grupo69
+	url = git@github.com:MatiasDuhalde/grupo69.git
+	branch = master
+[submodule "IIC2413/Syllabus-fork"]
+	path = IIC2413/Syllabus-fork
+	url = git@github.com:MatiasDuhalde/Syllabus-2020-2.git
+	branch = master
+[submodule "IIC2413/Syllabus-2020-2"]
+	path = IIC2413/Syllabus-2020-2
+	url = git@github.com:IIC2413/Syllabus-2020-2.git
+	branch = master
+[submodule "IIC2133/T0-2020-2-MatiasDuhalde"]
+	path = IIC2133/T0-2020-2-MatiasDuhalde
+	url = git@github.com:IIC2133-PUC/T0-2020-2-MatiasDuhalde.git
+	branch = master
+[submodule "IIC2133/T1-2020-2-MatiasDuhalde"]
+	path = IIC2133/T1-2020-2-MatiasDuhalde
+	url = git@github.com:IIC2133-PUC/T1-2020-2-MatiasDuhalde.git
+	branch = master
+[submodule "IIC2133/T2-2020-2-MatiasDuhalde"]
+	path = IIC2133/T2-2020-2-MatiasDuhalde
+	url = git@github.com:IIC2133-PUC/T2-2020-2-MatiasDuhalde.git
+	branch = master
+[submodule "IIC2133/T3-2020-2-MatiasDuhalde"]
+	path = IIC2133/T3-2020-2-MatiasDuhalde
+	url = git@github.com:IIC2133-PUC/T3-2020-2-MatiasDuhalde.git
+	branch = master
+[submodule "IIC2133/T4-2020-2-MatiasDuhalde"]
+	path = IIC2133/T4-2020-2-MatiasDuhalde
+	url = git@github.com:IIC2133-PUC/T4-2020-2-MatiasDuhalde.git
+	branch = master
+[submodule "IIC2233/syllabus-2020-2"]
+	path = IIC2233/syllabus-2020-2
+	url = git@github.com:IIC2233/syllabus-2020-2.git
+	branch = master
+[submodule "IIC2233/contenidos-2020-2"]
+	path = IIC2233/contenidos-2020-2
+	url = git@github.com:IIC2233/contenidos-2020-2.git
+	branch = master
+[submodule "IIC2233/private-2020-2"]
+	path = IIC2233/private-2020-2
+	url = git@github.com:IIC2233/private-2020-2.git
+	branch = master
