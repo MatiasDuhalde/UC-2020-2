@@ -1,0 +1,515 @@
+14:04:42	 From  Constanza Osorio : el wsl tiene puras trabas con RoR :(
+14:04:44	 From  Pablo Inzunza : sipue
+14:05:09	 From  PABLO ARANEDA : si
+14:05:11	 From  VICENTE VEGA ULLOA : sii
+14:05:12	 From  Ronaldo Sosa : si
+14:05:13	 From  AGUSTIN RIOS : si
+14:05:13	 From  Felipe Guzmán : si
+14:07:05	 From  Borja Figueroa Ortega : van a subir ese ppt?
+14:07:10	 From  AGUSTIN RIOS : ya esta
+14:07:12	 From  Pablo Inzunza : los foo fighters cuando programan en C
+14:07:16	 From  Eduardo Oteiza : sha está
+14:07:19	 From  Borja Figueroa Ortega : gracias
+14:07:51	 From  Tomás C : que pasa si declaro sin definir?
+14:07:52	 From  PABLO ARANEDA : las dos declaraciones son equivalentes?
+14:08:10	 From  Eduardo Oteiza : al definir se declara?
+14:08:25	 From  NICOLAS ORELLANA DRAGO : Entonces declarar no es como redundante?
+14:08:28	 From  NICOLAS ORELLANA DRAGO : ahh
+14:10:10	 From  ALONSO ORTEGA LOYOLA : aunque estén en diferentes scopes?
+14:10:28	 From  PABLO ARANEDA : no pueden haber dos funciones con el mismo nombre incluso si reciben distinta cantidad de elementos?
+14:10:44	 From  SEBASTIÁN TORÉS : puedes explicar el ejemplo de dos funciones A y B donde una llama a otra?
+14:11:01	 From  SEBASTIÁN TORÉS : la necesidad de declarar
+14:11:13	 From  Benjamín Aldana R. : no darle nombre a la variable de input de foo da lo mismo? en el primer cuadro, 2da línea
+14:11:19	 From  SEBASTIÁN TORÉS : ya perfecto
+14:11:51	 From  Teresita S : out_type y void son los tipos de funciones pero al definir funciones no son necesarios para definirlo?
+14:12:26	 From  Eduardo Oteiza : para que es out_type?
+14:12:26	 From  Arturo Sande : hay que definir y declarar cada función?
+14:12:43	 From  MARIO OGAZ : puedo decir void foo(int, int, int); para tres input?
+14:13:05	 From  Benjamín Álvarez : cuando se usa void?
+14:13:14	 From  Eduardo Oteiza : cuando no quieres retornar nada
+14:13:30	 From  Ronaldo Sosa : y el out_type es para retornar cualquier cosa?
+14:13:31	 From  Rosita Muñoz : void foo(int, int, int); para tres inputen ese caso cómo sabe cúal es cual al usar los ints dentro de la función?
+14:13:43	 From  Kyle : En ese caso tú lo declaraste
+14:13:51	 From  ALONSO ORTEGA LOYOLA : eso es para declarar no definir segun entiendo
+14:13:52	 From  Kyle : cuando lo defines especificas los nombres
+14:13:58	 From  Eduardo Oteiza : cuando definas la función voic foo() ahi dices los nombres de las variables
+14:13:59	 From  Juan Pablo Olivares : según el orden que tu les diste 
+14:14:07	 From  Rosita Muñoz : aah perfect!
+14:14:08	 From  Rosita Muñoz : gracias
+14:14:11	 From  Juan Pablo Olivares : y el nombre previo que usas al instanciarlo
+14:14:11	 From  Eduardo Oteiza : void foo(int a, int b, int c){}
+14:14:32	 From  AGUSTIN RIOS : sigue
+14:14:33	 From  Juan Pablo Olivares : delee
+14:14:34	 From  NICOLAS ORELLANA DRAGO : sigue
+14:14:34	 From  ALEXANDER GALLEGUILLOS VICENCIO : sigue
+14:14:37	 From  ALONSO ORTEGA LOYOLA : dele no más
+14:14:43	 From  Arturo Sande : hágale mi rey
+14:14:45	 From  Franco Berries : Echele pa lante rey
+14:16:42	 From  Eduardo Oteiza : C no va linea por linea?
+14:17:23	 From  Eduardo Oteiza : siempre debe existir una función main?
+14:17:27	 From  JACQUES HASARD RATICAS : si
+14:17:38	 From  Eduardo Oteiza : ya
+14:17:42	 From  JACQUES HASARD RATICAS : Se corren funciones, no corre lo que éster fuera de una fx
+14:17:50	 From  Eduardo Oteiza : esa es la que tiene que retornar 0 o 1?
+14:17:54	 From  Kyle : main sí
+14:18:01	 From  Kyle : 0 = todo bien, 1 = hay un error
+14:18:01	 From  Eduardo Oteiza : ya
+14:18:21	 From  Juan Pablo Olivares : 0 = bien cualquier otra cosa error
+14:18:49	 From  Felipe Guzmán : entre funciones no queda ningun espacio?
+14:19:00	 From  Kyle : no entiendo la pregunta Felipe :/
+14:19:20	 From  Eduardo Oteiza : las variables en el stack siempre usarán posiciones consecutivas en memoria?
+14:19:25	 From  Pablo Inzunza : el mismísimio stack overflow
+14:19:34	 From  Felipe Guzmán : en la memoria no quedan partes asignadas a otra cosa o no asignadas entre por ejemplo variables de main y r
+14:19:36	 From  Felipe Guzmán : ?
+14:20:01	 From  MOISES SAAVEDRA CACERES : A que llamas contexto? A lo que está entre { } ?
+14:20:03	 From  Rodrigo Alberto Gevert Weil : Se pueden modificar variables del main con alguna otra función?
+14:20:05	 From  PABLO ARANEDA : el 'p' puedo usar las variables del 'main' ?
+14:20:10	 From  PABLO ARANEDA : en*
+14:20:10	 From  Kyle : sí moises
+14:20:15	 From  Cristóbal Jones : contexto == scope
+14:20:17	 From  MOISES SAAVEDRA CACERES : gracias!
+14:20:40	 From  PABLO ARANEDA : gracias~
+14:21:09	 From  Benjamín Álvarez : pero si defino una variable en el contexto del main si la puedo usar dentro de una función o no?
+14:21:21	 From  JOAQUIN STROBL DIEZ : Si en p tengo una variable a, puedo en q usar a para definir una nueva variable?
+14:21:52	 From  AGUSTIN RIOS : la variable esta dentro siempre del contexto
+14:21:54	 From  Kyle : sí, porque son distintos scopes
+14:22:54	 From  Eduardo Oteiza : que significa el SP?
+14:22:58	 From  Kyle : Stack pointer
+14:23:06	 From  Eduardo Oteiza : aah gracias
+14:23:13	 From  Cristian Hinostroza : falta arqui en tu vida amigo
+14:23:23	 From  Eduardo Oteiza : Asies
+14:24:37	 From  NICOLAS PARRAGUEZ CRUZAT : como se elimina esa memoria
+14:24:40	 From  NICOLAS PARRAGUEZ CRUZAT : que ya no sirve?
+14:24:41	 From  Juan Pablo Olivares : cuando dices muere es que se borra o queda como en el limbo esperando a ser sobreescrito?
+14:24:49	 From  NICOLAS ORELLANA DRAGO : Como que se “libera” o no?
+14:24:59	 From  NICOLAS ORELLANA DRAGO : yaa
+14:25:04	 From  Eduardo Oteiza : como?
+14:25:11	 From  Felipe Guzmán : pero cuando finaliza el programa?
+14:25:42	 From  Eduardo Oteiza : ya
+14:25:43	 From  Pablo Rademacher : Cuando vuelva a llamar a la función, el valor de i se reinicia??
+14:25:43	 From  VICENTE VEGA ULLOA : Oea que se usa la palabra "return" se usa porque de devuelves con el sp? :O
+14:25:52	 From  VICENTE VEGA ULLOA : osea*
+14:26:13	 From  MARIO GOMEZ HERRERA : las variables dentro de un respectivo contexto también son únicas? o se pueden tener 2 for con variable i por ejemplo?
+14:26:21	 From  JOAQUIN ALLIENDE VACCARO : y si dentro del div_count redefino n? cuando se termine el llamado n va a tener el nuevo valor o el anterior? 
+14:26:22	 From  Kyle : La memoria que están en el stack cuando se finaliza el programa se libera
+14:26:27	 From  Kyle : A diferencia de memorias que alocas tú
+14:26:37	 From  Kyle : (sorry)
+14:26:38	 From  Cristóbal Jones : spoiler
+14:27:06	 From  JACQUES HASARD RATICAS : Se podrían tener dos for con variable i uno después de otro eso si, no uno dentro de otro
+14:27:15	 From  Kyle : sí
+14:27:47	 From  Cristóbal Jones : si porque estarán en distintos scopes
+14:27:49	 From  JOAQUIN ALLIENDE VACCARO : que respondio a mi pregunta? que justo se me fue el internet? 
+14:28:02	 From  VICENTE VEGA ULLOA : ruido porque el valor en memoria no se borra?
+14:28:28	 From  Juan Pablo Olivares : puede tener cualquier cosa
+14:28:35	 From  TAIRON GARRIDO CIFUENTES : entonces si llamas nuevamente la función div_count, esta ocupa las misma direcciones de memoria ??
+14:28:40	 From  Kyle : también puedes hacer un programa así:
+14:28:44	 From  Kyle : int main() {
+   // printf() displays the string inside quotation
+   test();                                                                  
+   int i = 4;
+   for (int i = 1; i<3; i++){
+           printf("Hello, World!");
+   }
+   return 0;                                                                
+}                                                                           
+~
+14:28:58	 From  Kyle : Ahí se define el i antes del for
+14:29:30	 From  Eduardo Oteiza : ahi en este caso se redefine el i a 1?
+14:29:59	 From  Eduardo Oteiza : o es otro i que irá a otra parte del stack
+14:30:16	 From  Cristóbal Jones : El principio del fin
+14:30:24	 From  Kyle : no, cuando salgas del scope el i queda como 4
+14:30:38	 From  Kyle : adentro del scope es 1 y 2
+14:30:56	 From  Kyle : int main() {
+   int i = 4;
+   for (int i = 1; i<3; i++){
+	   printf("Hello, World!\n");
+   }
+   printf("%i", i);
+   return 0;
+}
+14:30:57	 From  Kyle : entrega:
+14:31:06	 From  Kyle : Hello, World!
+14:31:06	 From  Kyle : Hello, World!
+14:31:08	 From  Kyle : 4
+14:31:19	 From  Eduardo Oteiza : aah ya perfecto
+14:31:51	 From  Eduardo Oteiza : si pusiera ese printf(“%i”,i); en el for, entregará 1 y 2
+14:32:01	 From  Kyle : sí
+14:32:05	 From  Eduardo Oteiza : ya caché, muchas gracias!
+14:32:21	 From  Kyle : 😊
+14:32:30	 From  Felipe Guzmán : el tipo en que parte se almacena
+14:32:32	 From  Felipe Guzmán : ?
+14:32:43	 From  Felipe Guzmán : en la misma celda?
+14:33:59	 From  Felipe Guzmán : aah
+14:34:04	 From  Felipe Guzmán : compilador sabe
+14:34:20	 From  MATIAS BEUCHAT BEROIZA : el compilador entonces también tiene su stack?
+14:35:00	 From  MATIAS BEUCHAT BEROIZA : pero para saber de que tipo es una variable tiene que guardar esa información en alguna parte
+14:35:03	 From  VICENTE VEGA ULLOA : por interpretar te refieres a ver como revisar los bbytes? cantidad por revisar en cada direccion en memoria?
+14:35:31	 From  Eduardo Oteiza : la cantidad de bytes/bits es la misma en cada celda?
+14:35:54	 From  Eduardo Oteiza : ah ya
+14:35:57	 From  Kyle : Interpretar es saber cómo traducirlo a instrucciones de máquina
+14:36:15	 From  VICENTE VEGA ULLOA : y si pongo char en vez de int revisa un byte en vez de 4?
+14:36:28	 From  Kyle : (Si están interesados en ese tema pueden ver el código de máquina mediante gcc -S <programa>)
+14:36:49	 From  VICENTE VEGA ULLOA : aaaah yaa bacaan gracias
+14:37:05	 From  Tomás C : gcc: warning: ./helloworld: linker input file unused because linking not done
+14:37:08	 From  Tomás C : -__-
+14:37:17	 From  Kyle : no el compilado
+14:37:19	 From  Felipe Guzmán : -_-
+14:37:20	 From  Tomás C : ah
+14:37:21	 From  Tomás C : f
+14:37:30	 From  Tomás C : gcc: error: ./helloworld.c: No such file or directorygcc: fatal error: no input filescompilation terminated.
+14:37:32	 From  VICENTE VEGA ULLOA : yaa jaja que alivio
+14:37:32	 From  Tomás C : lmao
+14:37:34	 From  Cristian Hinostroza : arqui cosas
+14:37:40	 From  Tomás C : skkskkskss
+14:40:12	 From  JADRINA DE ANDRADE E SILVA : puedo hacer void*?
+14:40:26	 From  Felipe Guzmán : ban
+14:40:28	 From  JADRINA DE ANDRADE E SILVA : ok gracias
+14:40:28	 From  Cristian Carrasco : tema sensible
+14:40:30	 From  Eduardo Oteiza : el símbolo & es para ver la dirección de memoria de una variable?
+14:40:46	 From  Benjamín Álvarez : %p?
+14:40:50	 From  Kyle : es para ver el valor
+14:41:01	 From  Kyle : lo siento
+14:41:07	 From  Kyle : es la dirección de memoria
+14:41:09	 From  Kyle : (sorry)
+14:41:12	 From  Eduardo Oteiza : jajaja ya
+14:41:13	 From  Benjamín Álvarez : gracias!
+14:41:21	 From  NICOLAS ORELLANA DRAGO : Pero no entiendo para que queremos usar punteros, para que el programa sea mas eficiente?
+14:41:36	 From  Felipe Guzmán : array
+14:41:40	 From  NICOLAS ORELLANA DRAGO : ahhhhh
+14:41:41	 From  Eduardo Oteiza : y como accedo a la variable que está en una dirección de memoria?
+14:41:42	 From  NICOLAS ORELLANA DRAGO : Toda la razon
+14:41:45	 From  Eduardo Oteiza : aaaah ups me retiro
+14:42:12	 From  Eduardo Oteiza : en este ejemplo, f a secas es la dirección de memoria?
+14:42:20	 From  Kyle : sí
+14:42:23	 From  Juan Pablo Olivares : si tengo un puntero y aplico & me da la dirección del puntero o del objeto?
+14:42:29	 From  Eduardo Oteiza : osea si quisiera imprimir la dirección de memoria de f, escribo f o debo hacer &f
+14:42:54	 From  Felipe Guzmán : f creo
+14:42:59	 From  ALONSO ORTEGA LOYOLA : :O
+14:43:02	 From  ALONSO ORTEGA LOYOLA : :OO
+14:43:06	 From  Pablo Inzunza : QUE
+14:43:09	 From  Jose : f
+14:43:10	 From  José Ignacio Retamal : wow
+14:43:10	 From  Eduardo Oteiza : AAAAAAAAAA
+14:43:11	 From  Cristóbal Bofill : :0
+14:43:13	 From  Pablo Vejar : :o
+14:43:13	 From  Cristian Hinostroza : nani
+14:43:13	 From  Eduardo Oteiza : PANIK
+14:43:23	 From  ALONSO ORTEGA LOYOLA : QUEDÉ NEGRO
+14:43:30	 From  Pablo Rademacher : Y no podemos hacer f+=1?? jajajjaja
+14:43:30	 From  Felipe Rojas : f por mi no entendí nada 
+14:43:31	 From  Cristóbal Bofill : quede pa dentro
+14:43:40	 From  Eduardo Oteiza : f += 1 no, pq f es un puntero
+14:43:44	 From  JOSE MARQUEZ BISCHOFF : parece que prefiero python
+14:43:45	 From  Pablo Inzunza : Google como cambiar de major
+14:43:48	 From  Eduardo Oteiza : eso entendí
+14:43:50	 From  ANDRES PLASS CAUSSADE : entonces no podría hacer e += 1; ?
+14:44:01	 From  NICOLAS ORELLANA DRAGO : Es equivalence según yo
+14:44:06	 From  Eduardo Oteiza : creo que si, es lo mismo
+14:44:13	 From  ANDRES PLASS CAUSSADE : entonces porque hay que complicarse
+14:44:18	 From  Felipe Guzmán : te sirve en una funcion
+14:44:19	 From  Brayan Moreno : si puedes, pero es un ejemplo para ver como funcionan los punteros
+14:44:20	 From  ANDRES PLASS CAUSSADE : o hacer eso usa menos meoria?
+14:44:21	 From  SEBASTIÁN TORÉS : es un ejemplo
+14:44:22	 From  Felipe Guzmán : si le entregas el pointer
+14:44:23	 From  Eduardo Oteiza : because yes
+14:44:26	 From  ANDRES PLASS CAUSSADE : ahh yaya
+14:44:27	 From  Kyle : es para hacer estructuras de datos más complejas
+14:44:29	 From  ANDRES PLASS CAUSSADE : gracias
+14:44:31	 From  Felipe Guzmán : puedes modificar desde la function valores
+14:44:36	 From  ANDRES PLASS CAUSSADE : perfect
+14:44:37	 From  Kyle : Por ejemplo las que van a necesitar en la tarea <wink>
+14:44:46	 From  Cristóbal Jones : Es para trabajar con otras estructuras más adelante como arrays
+14:44:48	 From  Francisco Quintero : y por qué es necesario especificar el tipo de la variable a la que apunta?
+14:44:55	 From  Jose : Andres el problema de hace e+=1; es que si estan dentro de una funcion y e se define afuera, si modifico e dentro de la funcion a salir e no cambiarà
+14:44:56	 From  Kyle : o árboles, grafos, etc
+14:45:01	 From  Eduardo Oteiza : que paso si hago &f? siendo f un puntero
+14:45:05	 From  ROBERTO IZQUIERDO : porqu se ponia int* ???
+14:45:12	 From  ANDRES PLASS CAUSSADE : @Jose ahh yaya
+14:45:12	 From  Kyle : tendrías el puntero a f
+14:45:16	 From  Kyle : sería un int**
+14:45:27	 From  Eduardo Oteiza : aaah
+14:45:28	 From  LAURENCE GOLBORNE : para saber hasta donde llega
+14:45:33	 From  ALONSO ORTEGA LOYOLA : puedo asignar un puntero a una variable escribiendo la dirección en hexadecimal?
+14:45:34	 From  Eduardo Oteiza : osea
+14:45:43	 From  Eduardo Oteiza : puedo hacer la tremenda fila de punteros apuntando a punteros?
+14:45:45	 From  PABLO ARANEDA : que pasa si uno a un float le hace ++ ?
+14:45:52	 From  Kyle : sí, para hacer una matriz por ejemplo
+14:46:01	 From  Eduardo Oteiza : ya
+14:46:10	 From  Rodrigo Alberto Gevert Weil : o sea si e fuera un float habría que definir f como float*?
+14:46:21	 From  Cristóbal Jones : sip
+14:46:24	 From  ALONSO GOMEZ HERRERA : Se le puede sumar al puntero?
+14:46:33	 From  Kyle : sí
+14:46:39	 From  Felipe Guzmán : cambiarias a donde apunta si
+14:46:43	 From  Eduardo Oteiza : si tengo
+14:46:48	 From  Kyle : pero probablemente te lleve a errores si no sabes lo que estás haciendo alonso
+14:46:51	 From  ALONSO GOMEZ HERRERA : Y eso cambia la posición de e?
+14:46:55	 From  Kyle : porque tal vez ese lugar en memoria es inválido
+14:47:03	 From  ALONSO GOMEZ HERRERA : Ahh yap gracias
+14:47:06	 From  ALONSO ORTEGA LOYOLA : puedo asignar un puntero a una variable escribiendo la dirección en hexadecimal? 
+14:47:22	 From  Felipe Guzmán : rip
+14:47:24	 From  ALONSO ORTEGA LOYOLA : a toda la memoria para ocupar toda la ram
+14:47:27	 From  Agustin Caracci : lo que hace que se modifique "e" es el hecho que usamos un asterisco antes de "f"? 
+14:47:30	 From  Jose : error pal lol
+14:47:32	 From  Jose : gg
+14:47:35	 From  Brayan Moreno : no cambia la posición de e, solo su valor
+14:47:35	 From  Teresita S : Que es %d?
+14:47:35	 From  VICENTE VEGA ULLOA : me puedo echar un servidor haciendo eso? xd
+14:47:36	 From  ANDRES PLASS CAUSSADE : rip que cosa?
+14:47:39	 From  ANDRES PLASS CAUSSADE : D:
+14:47:40	 From  Felipe Guzmán : bugsplat
+14:47:43	 From  LAURENCE GOLBORNE : why though?
+14:47:47	 From  Maximiliano Narea : Pero podría ocupar variables de otros programas usando los punteros?
+14:47:49	 From  ANDRES PLASS CAUSSADE : ah ya
+14:47:50	 From  Eduardo Oteiza : si tengo 
+int e = 3;
+int* f=&e;
+int** g = &g;
+
+**g += 1;
+va a cambiar a e?
+14:47:51	 From  ALONSO ORTEGA LOYOLA : f
+14:47:54	 From  Felipe Guzmán : ni los unix?
+14:47:57	 From  Teresita S : Que es %d?
+14:48:05	 From  Kyle : sí eduardo
+14:48:07	 From  Benjamín Álvarez : voy a cambiar los bytes de todo mi pc
+14:48:14	 From  Jose : otra forma para numeros enteros
+14:48:17	 From  Maximiliano Narea : Pero y se podría hacer de manera deliberada?
+14:48:18	 From  Juan Pablo Olivares : Ubuntu no te deja
+14:48:22	 From  LAURENCE GOLBORNE : como se asigna cuanta memoria hay disponible para el stack?
+14:48:24	 From  Jose : para imprimir numero entero base decimal
+14:48:26	 From  VICENTE VEGA ULLOA : jajaja
+14:48:28	 From  VICENTE VEGA ULLOA : f
+14:48:32	 From  Eduardo Oteiza : en mi ejemplo, tiene que ser **g? que pasa si hago *g? creo que no funciona ahi
+14:49:20	 From  PABLO ARANEDA : hay un limite de punteros que son como *******...***bar ?
+14:49:24	 From  ALONSO ORTEGA LOYOLA : puedo un circulo de punteros que se apunten a si mismos y que no sirvan para nada :o
+14:49:32	 From  HUMBERTO ORTUZAR TORNERO : esta doble accediendo a lo kwargs?
+14:50:05	 From  MARIO OGAZ : hay puntero de puntero de punteros?
+14:50:19	 From  Eduardo Oteiza : puntero *stonks*
+14:50:41	 From  Teresita S : Que es %d?
+14:50:56	 From  Brayan Moreno : LAURENCE depende de tu computador, pero luego explicaran como poder trabajar con estructuras muy grandes (spoiler, hay que solicitar memoria)
+14:50:56	 From  PABLO ARANEDA : decimal, creo
+14:51:42	 From  Jose : hermoso
+14:51:42	 From  Cristian Carrasco : que era el %d, me perdí con eso
+14:51:54	 From  HUMBERTO ORTUZAR TORNERO : es para imprimir un numero entero en base 10
+14:51:59	 From  Agustin Caracci : printear en base decimal
+14:52:01	 From  Cristian Carrasco : ah ya
+14:52:14	 From  HUMBERTO ORTUZAR TORNERO : se reemplaza %d por el valor después de la coma
+14:52:46	 From  Felipe Guzmán : sad
+14:52:47	 From  ALONSO ORTEGA LOYOLA : y rip
+14:53:09	 From  Kyle : Sí, los %’s se reemplazan en orden de los ítems que están dsp de la coma
+14:53:12	 From  NICOLÁS RIERA OVALLE : la volaita
+14:53:20	 From  VICENTE VEGA ULLOA : osea se usan multiples asteriscos para arrays multidimensionales?
+14:53:25	 From  Kyle : siii
+14:53:36	 From  VICENTE VEGA ULLOA : yaa graciaas
+14:53:58	 From  ibaeza1@uc.cl :  -+
+14:56:46	 From  Eduardo Oteiza : int* a = int *a?
+14:57:00	 From  Kyle : pero si declaras a como:
+14:57:00	 From  PABLO ARANEDA : equivale a increase(int& a)  a++;?
+14:57:03	 From  Kyle : int *a
+14:57:11	 From  Kyle : es lo mismo que declararla como int* a
+14:57:16	 From  Eduardo Oteiza : ya
+14:57:22	 From  RAMIRO GALVEZ GARCIA : cual era el discord del curso?
+14:57:48	 From  ANDRES PLASS CAUSSADE : https://discord.gg/49vbyH
+14:57:53	 From  RAMIRO GALVEZ GARCIA : gracias
+15:00:19	 From  ALONSO GOMEZ HERRERA : no
+15:00:19	 From  TAIRON GARRIDO CIFUENTES : f8
+15:00:23	 From  ALONSO GOMEZ HERRERA : Se f8?
+15:00:35	 From  ALONSO GOMEZ HERRERA : Por que se le sumo u int
+15:00:36	 From  Benjamín Álvarez : es la siguiente dirección?
+15:00:36	 From  TAIRON GARRIDO CIFUENTES : por tipo int
+15:00:36	 From  ALONSO GOMEZ HERRERA : Y es un int
+15:00:39	 From  ALONSO ORTEGA LOYOLA : porque el puntero coupa 4 bytes
+15:00:39	 From  Jose : porque es de tipo int
+15:00:43	 From  Jose : y tiene 4 byte
+15:00:44	 From  ALONSO GOMEZ HERRERA : Esta pensando en forma de 4 bits
+15:00:55	 From  ALONSO GOMEZ HERRERA : Me imagino que si es float
+15:01:28	 From  ALONSO ORTEGA LOYOLA : y si le sumo 1/4
+15:01:29	 From  ALONSO ORTEGA LOYOLA : ?
+15:01:31	 From  ALONSO GOMEZ HERRERA : Y si el puntero es un float?
+15:01:35	 From  Benjamín Álvarez : que es esta magia negra
+15:01:36	 From  NICOLÁS RIERA OVALLE : arquicosas again
+15:01:36	 From  MARIO OGAZ : tiene utilidad sumarle números a punteros?
+15:01:36	 From  ALONSO ORTEGA LOYOLA : :c
+15:01:38	 From  NICOLÁS RIERA OVALLE : jajajaj
+15:01:43	 From  Felipe Guzmán : no haga trampa
+15:02:00	 From  Kyle : nunca lo he tenido que usar mario
+15:02:00	 From  Eduardo Oteiza : y si sumo int + 1.0? que sería float  y mas bytes
+15:02:08	 From  Kyle : tal vez exista una utilidad esotérica para eso
+15:02:29	 From  Tomás C : pero eso no cambio el valor de m ciuerto?
+15:02:34	 From  Cristian Carrasco : pero asume que después de l hay un int?
+15:02:53	 From  Tomás C : y que pasa si sumo a una direccion vac;ia?
+15:02:54	 From  Felipe Guzmán : se podria usar para acceder a distintas partes de un array o no?
+15:02:58	 From  ANDRES PLASS CAUSSADE : Pero no es que el +1 sea un +4 sino que solo apunta al puntero siguiente?
+15:03:17	 From  Arturo Sande : que pasa si a la dirección de memoria de m le sumo 2?
+15:03:48	 From  Kyle : se puede usar para recorrer un array, pero hay indexing para los arrays
+15:03:56	 From  Kyle : entonces es feo hacerlo
+15:04:11	 From  NICOLÁS RIERA OVALLE : 🤣🤣🤣🤣
+15:04:44	 From  ANDRES PLASS CAUSSADE : pero si yo tengo un puntero de char, y a ese puntero le hago += 1, como esos tienen 1 byte de largo, ahí si solo se sumaria 1??
+15:04:54	 From  ANDRES PLASS CAUSSADE : o igual 4 
+15:05:13	 From  Kyle : los chars tienen 8 bytes de largo
+15:05:19	 From  Kyle : bits*
+15:05:20	 From  Kyle : sorry
+15:05:24	 From  ANDRES PLASS CAUSSADE : en ese caso se le sumaria 8??
+15:05:34	 From  Kyle : No, lo siento tienes razón, debería sumarle 1
+15:05:37	 From  Kyle : déjame probarlo:
+15:05:39	 From  Tomás C : 👁👄👁
+15:06:12	 From  ANDRES PLASS CAUSSADE : osea al final sumar n es sumar la cantidad de bytes que habían en esos n en los punteros
+15:06:18	 From  ANDRES PLASS CAUSSADE : algo azi
+15:06:48	 From  Cristian Fazio : Al definir dos variables en dos líneas seguidas (en el código), necesariamente se guardan en dos espacios en memoria seguidos?
+15:07:14	 From  NICOLÁS RIERA OVALLE : ese era el "ruido"
+15:07:16	 From  NICOLÁS RIERA OVALLE : ksksjsskskak
+15:07:27	 From  Cristóbal Jones : Se imprime cualquier cosa que haya habido ahí antes
+15:07:31	 From  Kyle : sí, se suma solo 1 cuando sumas 1 al pointer de un char
+15:07:35	 From  NICOLÁS RIERA OVALLE : buerena
+15:07:40	 From  NICOLÁS RIERA OVALLE : que grande
+15:07:44	 From  ANDRES PLASS CAUSSADE : gracias Kyle
+15:07:47	 From  Kyle : de nada
+15:08:06	 From  MOISES SAAVEDRA CACERES : Cuando asigno memoria en C y corro el programa, cuando este termina, se limpia solo el espacio reservado?
+15:08:17	 From  Tomás C : solo dice que esta disponible
+15:08:26	 From  JOSE MARQUEZ BISCHOFF : nisiquiera cuando se apaga el computador?
+15:09:01	 From  TAIRON GARRIDO CIFUENTES : una función puede llamar un puntero dentro de su scope si este puntero no se paso como argumento de la función ??
+15:09:15	 From  Kyle : debería, voy a probarlo
+15:09:28	 From  TAIRON GARRIDO CIFUENTES : porfaa
+15:09:41	 From  NICOLÁS RIERA OVALLE : es como es eslabón anterior  
+15:09:56	 From  Pablo Rademacher : Es como un array de numpy??
+15:10:13	 From  Cristóbal Jones : Hay que tener cuidado cuando uno pierde un puntero, porque después no vas a poder liberar esa memoria
+15:10:21	 From  MARIO GOMEZ HERRERA : los arreglos de C sólo pueden contener elementos de un solo tipo?
+15:10:26	 From  AGUSTIN RIOS : f
+15:10:29	 From  NICOLÁS RIERA OVALLE : cómo hago un append?
+15:10:36	 From  Eduardo Oteiza : si pasa eso lo de cristobal, como puedo liberar la memoria=
+15:10:37	 From  Tomás C : se cayó?
+15:10:37	 From  Eduardo Oteiza : ?
+15:10:42	 From  Eduardo Oteiza : arreglando el código basicamente?
+15:10:43	 From  JOSE MARQUEZ BISCHOFF : si
+15:10:44	 From  PABLO ARANEDA : ta bien
+15:10:44	 From  Pablo Inzunza : no se ha caido
+15:10:44	 From  Benjamín Aldana R. : si
+15:10:44	 From  Arturo Sande : si
+15:10:45	 From  NICOLÁS RIERA OVALLE : 😐
+15:10:45	 From  MARIO GOMEZ HERRERA : si
+15:10:45	 From  Felipe Guzmán : si
+15:10:45	 From  Benjamín Aldana R. : perfect
+15:10:46	 From  Felipe Rojas : si
+15:10:46	 From  Jose : te escucho
+15:10:47	 From  VICENTE VEGA ULLOA : si
+15:10:47	 From  Tomás Andrés Dubost Orrico : sisi
+15:10:53	 From  NICOLÁS RIERA OVALLE : y hago una lista de largo +1
+15:10:58	 From  Benjamín Álvarez : un string es un array de chars?
+15:10:59	 From  NICOLÁS RIERA OVALLE : copio todo y agrego uno
+15:11:02	 From  NICOLÁS RIERA OVALLE : 🤣🤣
+15:11:08	 From  JOAQUIN STROBL DIEZ : Puedo hacer un array de arrays?
+15:11:18	 From  Juan Pablo Olivares : y si quiero hacer algo de un largo indefinido?
+15:11:41	 From  Eduardo Oteiza : Siento que como se me olvida todo, terminaré sin memoria en mi computador :(
+15:11:57	 From  Brayan Moreno : en ese caso debes crear array (con punteros!)
+15:12:08	 From  Brayan Moreno : porque los arreglos son de tamaño fijo
+15:12:28	 From  Tomás C : por eso tiene que delcarar el tipo del array?
+15:12:35	 From  María Jesús Tala : se me confundieron las ayudantias y se me pasó esta, donde van a subir la grabación? y cuando? como para tratar de verla hoy
+15:12:39	 From  Tomás C : un array de chars tendria otra separacion?
+15:12:49	 From  María Jesús Tala : gracias!
+15:14:02	 From  ALONSO ORTEGA LOYOLA : :O
+15:14:31	 From  Cristóbal Jones : Ahora es cuando uno se da cuenta lo lindo que era python
+15:14:36	 From  HUMBERTO ORTUZAR TORNERO : si hago un array de punteros tienen que tener todos datos del mismo tipo?
+15:14:36	 From  FELIPE WILLMER MINO : duro
+15:14:42	 From  PABLO ARANEDA : puedo hacer un for y salir de la lista?
+15:14:50	 From  Benjamín Álvarez : entonces no es necesario como un len(A) porque siempre sabemos su largo?
+15:14:53	 From  Kyle : sí humberto
+15:14:58	 From  VICENTE VEGA ULLOA : pythonlib xd
+15:15:00	 From  HUMBERTO ORTUZAR TORNERO : gracias kyle
+15:15:01	 From  Martín Ocqueteau : existe una especie de length(A)?
+15:15:17	 From  Kyle : eso si puedes crear una estructura de datos que tengan otros tipos
+15:16:09	 From  Pablo Rademacher : Por eso todos deben ser todos del mismo tipo??
+15:16:46	 From  Felipe Rojas : los diccionarios parece que son o ()
+15:16:49	 From  Felipe Rojas : o(1)
+15:17:18	 From  Kyle : sí, verán los hash tables al final del curso eso si
+15:17:46	 From  LAURENCE GOLBORNE : no sabiamos lo q teníamos hasta que lo perdimos :'(
+15:18:05	 From  Kyle : igual C es lindo :(
+15:18:08	 From  VICENTE VEGA ULLOA : jajaja
+15:18:10	 From  AGUSTIN RIOS : clave
+15:18:27	 From  NICOLÁS RIERA OVALLE : no entendí por qué son iguales :'(
+15:18:29	 From  NICOLÁS RIERA OVALLE : iba perfe
+15:18:35	 From  Jose : por la definicion
+15:18:37	 From  NICOLÁS RIERA OVALLE : #penita
+15:18:55	 From  NICOLÁS RIERA OVALLE : buena
+15:18:59	 From  NICOLÁS RIERA OVALLE : que buena xD
+15:19:01	 From  Kyle : pero no te preocupes de eso jajaja, siempre usa A[i]
+15:19:03	 From  NICOLÁS RIERA OVALLE : grande vicho
+15:19:05	 From  NICOLÁS RIERA OVALLE : ❤️
+15:20:15	 From  Felipe Guzmán : c obedece
+15:21:16	 From  Felipe Guzmán : que
+15:21:40	 From  Pablo Inzunza : pero la basura de uno es el tesoro de otro
+15:21:52	 From  Cristóbal Jones : *irony*
+15:21:52	 From  JOAQUIN ALLIENDE VACCARO : que hacia el  ++?
+15:21:58	 From  Tomás C : suma uno 
+15:22:05	 From  JOAQUIN ALLIENDE VACCARO : gracias
+15:22:06	 From  JOSE MARQUEZ BISCHOFF : hay len de array?
+15:22:10	 From  Benjamín Álvarez : ++i
+15:22:26	 From  Felipe Guzmán : ++i++
+15:22:36	 From  Kyle : igual siempre deberías tener el len del array José
+15:22:42	 From  Benjamín Álvarez : i++i
+15:22:45	 From  Fabián Sepúlveda : wey ya
+15:22:51	 From  Cristian Carrasco : tengo una duda
+15:22:55	 From  JOSE MARQUEZ BISCHOFF : como por construcción del array?
+15:22:58	 From  Cristian Carrasco : si hago int a = 1
+15:22:59	 From  Kyle : sí exacto
+15:23:00	 From  AGUSTIN RIOS : f
+15:23:03	 From  Cristian Carrasco : a = a + 1
+15:23:05	 From  Cristian Carrasco : esta malo?
+15:23:09	 From  Kyle : no, está bien
+15:23:11	 From  Cristian Carrasco : (me faltó el int)
+15:23:13	 From  JOSE MARQUEZ BISCHOFF : y que pasa por ejemplo con inputs potencialmente infinitos/no sabes que viene
+15:23:16	 From  Kyle : no necesariamente cristian
+15:23:20	 From  Cristian Carrasco : ahh
+15:23:22	 From  Kyle : puedes hacer int a = 1
+15:23:23	 From  JOAQUIN ALLIENDE VACCARO : cuando defino el arreglo puedo dejar espacios en blanco?
+15:23:26	 From  Kyle : a = 1 + a
+15:23:30	 From  Cristian Carrasco : ahh ya
+15:23:32	 From  JOAQUIN ALLIENDE VACCARO : aaah yaya perfecto 
+15:23:42	 From  Cristian Carrasco : entonces no siempre es necesario acceder a la memoria
+15:23:50	 From  AGUSTIN RIOS : se puede definir el largo del array sin definir su contenido?
+15:23:59	 From  AGUSTIN RIOS : y luego usarlo para almacenar?
+15:24:05	 From  Kyle : sí
+15:24:06	 From  Constanza Osorio : jajaja
+15:24:10	 From  Felipe Guzmán : :0
+15:24:16	 From  Pablo Rademacher : Nos saltamos eso uwu
+15:24:21	 From  Cristian Carrasco : jaja
+15:24:26	 From  Pablo : Yo no vi eso
+15:24:29	 From  Felipe Guzmán : que eso
+15:24:31	 From  Tomás C : avanzada y discretas se comieron eso el semestre pasado
+15:24:33	 From  Pablo : emo sido engañao
+15:24:43	 From  Cristian Carrasco : jajaja
+15:24:54	 From  Felipe Guzmán : rip
+15:24:57	 From  Felipe Guzmán : jui
+15:25:17	 From  LAURENCE GOLBORNE : lo que falta de estas diapos se ve la clase del lunes o se suben videos nomas?
+15:25:42	 From  MARIO OGAZ : a medida que esten listos
+15:25:43	 From  Juan Pablo Olivares : recién salidos del horno
+15:25:45	 From  AGUSTIN RIOS : subelo a medida que esten listos
+15:25:45	 From  ANDRES PLASS CAUSSADE : a medidaa
+15:25:45	 From  Diego : Si, mientras antes mejor
+15:25:45	 From  Benjamín Aldana R. : dale nomas pls
+15:25:54	 From  Jose : calentitos mi rey
+15:26:01	 From  PABLO ARANEDA : a medida y tal vez con anuncios en discord?
+15:26:15	 From  JOSE MARQUEZ BISCHOFF : y los powerpoints?
+15:26:16	 From  Benjamín Álvarez : @everyone !newvid
+15:26:19	 From  PABLO ARANEDA : arigatou~
+15:26:21	 From  JOSE MARQUEZ BISCHOFF : ya buenisimo
+15:26:28	 From  Felipe Guzmán : su spam
+15:26:33	 From  LAURENCE GOLBORNE : podrían decir igual cual es el orden tambien entonces? jejej
+15:26:34	 From  Juan Pablo Olivares : Su Fall Guys de por medio
+15:26:44	 From  Kyle : Estaban preguntando sobre un array sin declarar el contenido:
+15:26:48	 From  Kyle : #include <stdio.h>
+int main() {
+    int arreglo[5] ;
+    for (int i = 0; i < 5; i++){
+        printf("%d\n", arreglo[i]);
+    }
+    return 0;
+}
+15:26:51	 From  Kyle : Ahí hay un ejemplo
+15:27:16	 From  Jose : donde esta?
+15:27:34	 From  ANDRES PLASS CAUSSADE : gracias Kyle!
+15:27:44	 From  Jose : graciaas vicho
+15:28:11	 From  Cristóbal Jones : https://github.com/IIC2133-PUC/2020-2/tree/master/Ayudant%C3%ADas/Ayudant%C3%ADa%200%20-%20Intro%20a%20C
+15:28:21	 From  Cristóbal Jones : Ese es el link que hablaba vicho
+15:28:31	 From  Cristian Carrasco : si el de make xfa
+15:28:35	 From  Pablo Vejar : gracias vicho por la ayudantia!
+15:28:38	 From  Tomás Andrés Dubost Orrico : chaoooo

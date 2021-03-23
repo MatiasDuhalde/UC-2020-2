@@ -1,0 +1,406 @@
+14:07:20	 From  smbarraza : :SurprisedPikachu:
+14:07:20	 From  Fabi�n Esteban Sep�lveda Rivas : y un examen parece
+14:07:31	 From  Felipe Alberto Guzman Hernandez : el examen es i3 
+14:07:36	 From  Constanza Osorio : sii
+14:07:37	 From  Patrick Liedtke : si
+14:07:38	 From  PABLO ARANEDA : true
+14:07:39	 From  Alberto Assai Jara Valdenegro : sii
+14:07:39	 From  Javiera Ochoa Guin-Po : si
+14:07:39	 From  Felipe Alberto Guzman Hernandez : si
+14:07:39	 From  Tomás Andrés Dubost Orrico : si
+14:08:18	 From  José Tomás Márquez Bischoff : si
+14:08:21	 From  Pablo De Solminihac : yo
+14:08:23	 From  Julián Manuel García González : yo no me acuerdo como era
+14:08:25	 From  Francisco Ignacio Quintero Flores : yo no cacho
+14:08:25	 From  Benjamín Alejandro Lepe Maluenda : un pequeño repaso
+14:08:26	 From  Juan Jiménez : dele con la ayuda
+14:08:26	 From  ALONSO ORTEGA LOYOLA : Repaso
+14:08:28	 From  TOMÁS ÁLVAREZ : Yo
+14:08:28	 From  Benjamín Álvarez : un pequeño repasito no estaría mal
+14:08:34	 From  Javiera Ochoa Guin-Po : pequeño recordatorio porfis
+14:09:21	 From  Kyle : menores y mayores por índice
+14:09:32	 From  Fabi�n Esteban Sep�lveda Rivas : no por valor
+14:09:36	 From  Fabi�n Esteban Sep�lveda Rivas : no, por valor*
+14:09:48	 From  Fabi�n Esteban Sep�lveda Rivas : a sisi
+14:09:49	 From  Fabi�n Esteban Sep�lveda Rivas : ta bien
+14:09:54	 From  Felipe Alberto Guzman Hernandez : ta ben
+14:09:58	 From  Fabi�n Esteban Sep�lveda Rivas : o no es que me confundi con lo de la media
+14:10:04	 From  Fabi�n Esteban Sep�lveda Rivas : mediana*
+14:10:27	 From  Julián Manuel García González : deja el que usas para la particion en su indice correcto y retorna el indice
+14:10:30	 From  Fabi�n Esteban Sep�lveda Rivas : ah tonces era por valor
+14:10:34	 From  Kyle : sí, por valor
+14:10:35	 From  Kyle : sorry
+14:10:43	 From  Fabi�n Esteban Sep�lveda Rivas : jajaja ta bien
+14:12:38	 From  Fabi�n Esteban Sep�lveda Rivas : probabilidades ?
+14:12:49	 From  Fabi�n Esteban Sep�lveda Rivas : :c
+14:13:03	 From  Julián Manuel García González : EYP1113 parte 2
+14:13:03	 From  Felipe Alberto Guzman Hernandez : tenia que ver con los arreglillos que se la hacian o no?
+14:13:25	 From  Sol Covacic Palet : modificaciones o no?
+14:13:26	 From  Felipe Alberto Guzman Hernandez : por ejemplo no tomar un numero random
+14:13:27	 From  Fabi�n Esteban Sep�lveda Rivas : tamos asumiendo que el partition sigue distribuciuon uniforme tonces
+14:13:39	 From  Julián Manuel García González : no hay heurísticas?
+14:13:49	 From  Cristian Alonso Carrasco González : pero se podría distribuir una probabilidad a las distintas elecciones no y tendrías una probabilidad de la complejidad
+14:13:51	 From  Felipe Alberto Guzman Hernandez : ah ya
+14:15:57	 From  Tomás C : vicente: tengo frío
+14:15:57	 From  Tomás C :  also vicente: manga corta
+14:16:03	 From  Julián Manuel García González : |intercambios| <= |comparaciones|
+14:16:10	 From  Julián Manuel García González : aprox
+14:16:15	 From  Rosita Muñoz : yaa comprendo
+14:16:16	 From  Rosita Muñoz : gracias
+14:16:35	 From  Fabi�n Esteban Sep�lveda Rivas : teni que ver ut grabación en zoom po
+14:16:49	 From  Fabi�n Esteban Sep�lveda Rivas : asi puedes poner tu mejor cara
+14:16:58	 From  Fabi�n Esteban Sep�lveda Rivas : F
+14:18:20	 From  Fabi�n Esteban Sep�lveda Rivas : pero hay ya están ordenados?
+14:18:24	 From  Fabi�n Esteban Sep�lveda Rivas : en el a1...an?
+14:18:36	 From  Sol Covacic Palet : aaaahh
+14:18:37	 From  Fabi�n Esteban Sep�lveda Rivas : ahh ya
+14:18:41	 From  Fabi�n Esteban Sep�lveda Rivas : a ha
+14:19:00	 From  Kyle : como lista = [a_j, …a_k],  |lista| = n
+14:19:10	 From  Fabi�n Esteban Sep�lveda Rivas : como que se le quedo prendido el micrófono a alguien
+14:19:39	 From  PABLO ARANEDA : si alguno es pivote
+14:19:48	 From  Julián Manuel García González : y no siempre
+14:20:04	 From  Fabi�n Esteban Sep�lveda Rivas : si
+14:20:14	 From  Fabi�n Esteban Sep�lveda Rivas : niuno de los dos es pivote
+14:20:21	 From  Tomás C : si uno es el ultimo elemento que no es pivote?
+14:20:21	 From  Julián Manuel García González : cuando un pivote anterior los separo en sets distintos
+14:20:24	 From  PABLO ARANEDA : queden en partes separadas
+14:20:27	 From  Benjamín Álvarez : son de distintos lados de un pivote
+14:20:30	 From  Fabi�n Esteban Sep�lveda Rivas : ahh vdd
+14:20:30	 From  JADRINA DE ANDRADE E SILVA : tiene que quedar en arreglos distintos
+14:20:34	 From  Piero Tassara : Tienen que estar en su posicion
+14:21:02	 From  PABLO ARANEDA : no
+14:21:03	 From  Martín Ocqueteau : no
+14:21:03	 From  Fabi�n Esteban Sep�lveda Rivas : no
+14:21:03	 From  Benjamin Urrutia : no
+14:21:04	 From  Julián Manuel García González : nope
+14:21:07	 From  Benjamín Álvarez : nop
+14:22:11	 From  Antonio López : por que?
+14:22:23	 From  Antonio López : solo 0 o 1
+14:22:29	 From  Fabi�n Esteban Sep�lveda Rivas : lo respondimos denante uwu
+14:22:29	 From  Kyle : porque no puede ser 2
+14:22:30	 From  Julián Manuel García González : se compara o no se compara
+14:22:33	 From  Antonio López : ok
+14:22:36	 From  Kyle : porque no se compara 2 veces
+14:23:25	 From  JOAQUIN ALLIENDE VACCARO : los del medio
+14:23:25	 From  PABLO ARANEDA : los adyacentes tal vez
+14:23:26	 From  Benjamin Urrutia : si, los que estan mas cerca
+14:23:28	 From  Fabi�n Esteban Sep�lveda Rivas : si
+14:24:26	 From  Julián Manuel García González : y como dimensionamos numericamente eso?
+14:24:29	 From  Fabi�n Esteban Sep�lveda Rivas : profe con bajon
+14:24:43	 From  Fabi�n Esteban Sep�lveda Rivas : sii
+14:24:47	 From  Fabi�n Esteban Sep�lveda Rivas : hace sentido
+14:25:39	 From  ALONSO ORTEGA LOYOLA : Y si se repite un elemento? 
+14:25:52	 From  Kyle : por la definición de los datos no pueden haber repetidos
+14:25:57	 From  Kyle : porque los definimos con <
+14:26:04	 From  Cristian Alonso Carrasco González : ah
+14:26:51	 From  ALONSO ORTEGA LOYOLA : Gracias! 
+14:27:08	 From  Antonio López : es mas fácil ordenar cuando hay elementos repetidos
+14:27:14	 From  PABLO ARANEDA : en las pruebas también se asume?
+14:27:22	 From  Julián Manuel García González : si hay elementos repetidos la complejidad es menor no?
+14:27:23	 From  Kyle : en las pruebas se lo deberíamos decir
+14:27:55	 From  Felipe Alberto Guzman Hernandez : demuestre que la complejidad es O(n), asumo que la complejidad es O(n)
+14:27:57	 From  Antonio López : asumo que el grafo no tiene ciclos
+14:28:23	 From  Fabi�n Esteban Sep�lveda Rivas : esto se representa con un grafo?
+14:28:29	 From  Julián Manuel García González : oh no los caminos de los grafos
+14:28:31	 From  Fabi�n Esteban Sep�lveda Rivas : ahh
+14:28:41	 From  Pablo Inzunza : alguien dijo grafos
+14:28:47	 From  ALONSO ORTEGA LOYOLA : No vayamos por ese oscuro camino
+14:28:49	 From  Pablo Rademacher : 1/n
+14:28:51	 From  PABLO ARANEDA : distrubuye normal?
+14:28:51	 From  Fabi�n Esteban Sep�lveda Rivas : casosprobables = ?
+14:28:54	 From  Eduardo Oteiza : Flashbacks from vietnam
+14:28:57	 From  Julián Manuel García González : (j-i-1)/n ?
+14:29:16	 From  Fabi�n Esteban Sep�lveda Rivas : n-1
+14:29:50	 From  Julián Manuel García González : random.randing
+14:29:56	 From  Julián Manuel García González : random.randint
+14:30:16	 From  Fabi�n Esteban Sep�lveda Rivas : aaah
+14:30:21	 From  Fabi�n Esteban Sep�lveda Rivas : entonces pa saber cuando se comparan
+14:30:25	 From  Fabi�n Esteban Sep�lveda Rivas : calculamos 1 - no se comparan
+14:30:27	 From  Fabi�n Esteban Sep�lveda Rivas : ?
+14:30:39	 From  Fabi�n Esteban Sep�lveda Rivas : o se puede hjacer directo
+14:32:41	 From  Julián Manuel García González : aaaah
+14:33:17	 From  LAURENCE GOLBORNE : formal EYP stuff
+14:33:38	 From  Antonio López : en el fondo lo que pase antes define si se comparan o no
+14:33:47	 From  Julián Manuel García González : pero entonces la prob es una suma hasta que nos quedemos con un array de largo 1?
+14:33:51	 From  Felipe Alberto Guzman Hernandez : zi
+14:33:53	 From  Fabi�n Esteban Sep�lveda Rivas : pero con manzanitas
+14:33:58	 From  Rosita Muñoz : salimos hace AÑOS del colegio
+14:34:01	 From  Matias López : JAJJAJAJ
+14:34:01	 From  Cristian Alonso Carrasco González : yo no fui al colegio
+14:34:03	 From  Antonio López : eventualmente se elegira un pivote entre medio o I o j
+14:34:05	 From  MARIO GOMEZ HERRERA : yo lo conoci en el preu recien
+14:34:06	 From  Cristian Alonso Carrasco González : na mentira
+14:34:17	 From  Fabi�n Esteban Sep�lveda Rivas : oie esto fue vital en la historia
+14:34:21	 From  Fabi�n Esteban Sep�lveda Rivas : no es una idea menor
+14:34:23	 From  LAURENCE GOLBORNE : :O
+14:34:31	 From  PABLO ARANEDA : si, pero la unidad de probabilidad siempre se veía a fin de año y apurado en mi colegio
+14:34:32	 From  Andres Plass Caussade : naaaaaaaaaaa
+14:34:36	 From  Joaquín Muñoz : que tipo de magia es esta
+14:34:43	 From  LAURENCE GOLBORNE : compartenos tu sabiduría vicho
+14:35:15	 From  Kyle : les voy a dar un ejemplo:
+14:36:01	 From  LAURENCE GOLBORNE : Pero no van cambiando los casos totales?
+14:36:27	 From  Javiera Ochoa Guin-Po : los casos totales serian i-j
+14:36:35	 From  Javiera Ochoa Guin-Po : i-j+1
+14:36:38	 From  Javiera Ochoa Guin-Po : ?
+14:36:58	 From  PABLO ARANEDA : creo que hay casos neutros tambien
+14:37:13	 From  Kyle : hay un arreglo que tiene: [a5, a2, a1, a3, a4]. Si nos concentramos en a1 y a3, si es que no elegimos ni a1, a2 ni a3 siempre estarán juntos a1, a2 y a3.
+14:37:21	 From  Jorge Araneda : no entendi eso
+14:37:25	 From  Jorge Araneda : por que es +1 porque es +2?
+14:37:40	 From  Jorge Araneda : aaaaaaahhh
+14:37:44	 From  Jorge Araneda : gracias
+14:37:44	 From  Benjamin Urrutia : en caso de que no sea un caso desfavorable ni un caso favorable, la probabilidad en el futuro no cambiaria?
+14:37:58	 From  Felipe Alberto Guzman Hernandez : entonces los casos en que p > j o p< i no se toman en cuenta?
+14:37:59	 From  Benjamin Urrutia : dependendiendo del pivote que se escoja?
+14:38:28	 From  Felipe Alberto Guzman Hernandez : aaah
+14:38:30	 From  Kyle : por ejemplo, si elegimos a5 la segunda iteración tendría los arreglos [a2, a1, a3], [a5, a4]
+14:38:51	 From  Sol Covacic Palet : de donde sale el  -1 en j-i-1? no caché :/
+14:39:37	 From  Sol Covacic Palet : aaaaa ya entendí
+14:39:39	 From  PABLO ARANEDA : son los puntos entre medio sin contar extremos
+14:39:39	 From  Kyle : normalmente para sacar esos -1 te recomiendo ver ejemplos
+14:39:42	 From  Kyle : pequeños
+14:39:52	 From  Kyle : por ejemplo, a1 y a2.
+14:40:00	 From  Kyle : y acá hay 0 casos desfavorables
+14:40:09	 From  Kyle : y después ver más ejemplos para ver el patrón
+14:41:56	 From  Julián Manuel García González : si
+14:42:06	 From  Julián Manuel García González : comparaciones totales
+14:43:08	 From  Benjamín Álvarez : proba flashbacks
+14:43:22	 From  Fabi�n Esteban Sep�lveda Rivas : eso se justifica por que estas sacando la esperanza de una indicadora x si alguien tiene la duda
+14:44:15	 From  Julián Manuel García González : 2 * 1/2
+14:44:24	 From  Julián Manuel García González : esta bien
+14:44:31	 From  Benjamin Urrutia : se factorizo el 2
+14:44:34	 From  María Jesús Tala : esat bien
+14:44:34	 From  Franco Castillo : está factorizado
+14:44:40	 From  Fabi�n Esteban Sep�lveda Rivas : sendo 1
+14:44:46	 From  Fabi�n Esteban Sep�lveda Rivas : claro
+14:45:03	 From  Antonio López : se saca el 2 de arriba pa afuera
+14:46:10	 From  Antonio López : se suma por columnas
+14:46:14	 From  Kyle : exacto
+14:46:51	 From  Fabi�n Esteban Sep�lveda Rivas : a lo bruto
+14:47:08	 From  Kyle : Eso es lo lindo de usar notación asintótica
+14:47:11	 From  LAURENCE GOLBORNE : gracias por eso :)
+14:47:18	 From  Fabi�n Esteban Sep�lveda Rivas : jajjajja
+14:47:38	 From  Constanza Osorio : aguante acotar
+14:47:41	 From  Eduardo Oteiza : uff
+14:47:44	 From  Jorge Araneda : d:
+14:47:47	 From  Sebastian Zabala Martinez : acota3
+14:47:50	 From  LAURENCE GOLBORNE : calculo 2 flashbacks?
+14:47:58	 From  Fabi�n Esteban Sep�lveda Rivas : series flashback
+14:48:12	 From  Antonio López : pero el ancho deberia ser 1 siempre
+14:48:27	 From  Fabi�n Esteban Sep�lveda Rivas : que ancho?
+14:48:53	 From  smbarraza : pero aun asi funciona o no?
+14:48:57	 From  PABLO ARANEDA : creo que aprendi mas proba aquí que en proba
+14:49:18	 From  Felipe Alberto Guzman Hernandez : proba e un agujero en mi mente
+14:49:19	 From  Julián Manuel García González : los cuadraditos rojos deberian ser mas anchos no mas, el resto esta bien
+14:49:36	 From  Sebastian Zabala Martinez : ahh, el viejo truco de la integral que acota la sumatoria que acota la suma de terminos acotados
+14:49:42	 From  Kyle : jajaja
+14:49:57	 From  Jorge Araneda : no lo se rick
+14:50:00	 From  Benjamin Urrutia : porque se tiene que descontar el primer cuadrado?
+14:50:02	 From  Kyle : pero igual le podríamos pedir acotar por integral
+14:50:05	 From  Kyle : en alguna demostración
+14:50:25	 From  Benjamin Urrutia : perfect
+14:50:31	 From  Benjamín Álvarez : porque si no la integral divergeria o no?
+14:50:52	 From  Benjamín Álvarez : desde 0
+14:51:04	 From  Julián Manuel García González : diverge, confirmo
+14:51:04	 From  Antonio López : no importa
+14:51:06	 From  Matias López : Sigamos?
+14:51:13	 From  Antonio López : porque n no tiende a infinito
+14:51:46	 From  Fabi�n Esteban Sep�lveda Rivas : esta demostración es la misma del cormen?
+14:52:04	 From  Antonio López : es de arenas
+14:52:12	 From  Fabi�n Esteban Sep�lveda Rivas : ah ya
+14:52:12	 From  Antonio López : es la de su clase
+14:52:17	 From  Antonio López : no se si la creo el
+14:52:24	 From  Fabi�n Esteban Sep�lveda Rivas : probably not
+14:52:45	 From  Antonio López : no me sorprenderia
+14:53:04	 From  Fabi�n Esteban Sep�lveda Rivas : bueena
+14:53:12	 From  Felipe Alberto Guzman Hernandez : yaju
+14:53:26	 From  PABLO ARANEDA : hasta que hora es el recreo?
+14:53:30	 From  Teresita S : ??
+14:53:39	 From  PABLO ARANEDA : Kyle es el rayquaza oveja?
+14:53:43	 From  Sol Covacic Palet : la vida es eterna en 5 minutos
+14:53:45	 From  Fabi�n Esteban Sep�lveda Rivas : de que?
+14:54:07	 From  Fabi�n Esteban Sep�lveda Rivas : de quien es la demostración?
+14:54:23	 From  Constanza Osorio : agreed
+14:54:32	 From  Jorge Araneda : confirmo
+14:54:36	 From  Fabi�n Esteban Sep�lveda Rivas : paint
+14:54:54	 From  Felipe Alberto Guzman Hernandez : a veces me pierdo en pizarra
+14:54:56	 From  Antonio López : power + pizarra
+14:55:04	 From  Antonio López : + manos haciendo gestos
+14:55:11	 From  Felipe Alberto Guzman Hernandez : si eso
+14:55:23	 From  Sol Covacic Palet : <3<3<3<3
+14:55:28	 From  Constanza Osorio : Benguria <3<3
+14:55:38	 From  Felipe Alberto Guzman Hernandez : el avion
+14:55:41	 From  Felipe Alberto Guzman Hernandez : pasa volado
+14:55:53	 From  Julián Manuel García González : vanzi best
+14:56:03	 From  Jorge Araneda : aguante vanzi
+14:56:05	 From  Tomás C : fanzy vanzi == <3
+14:56:07	 From  Jorge Araneda : alumno 3
+14:56:18	 From  Sol Covacic Palet : bless benguria
+14:56:19	 From  Constanza Osorio : Benguria es macanudo <3
+14:56:21	 From  Julián Manuel García González : es un profe de iee
+14:56:23	 From  LAURENCE GOLBORNE : khee
+14:56:27	 From  HUMBERTO ORTUZAR TORNERO : es del electro de electrica
+14:56:29	 From  Julián Manuel García González : mejor profe del mundo
+14:56:29	 From  LAURENCE GOLBORNE : que falta de respeto con vanzi
+14:56:33	 From  Juan Jiménez : discrepo
+14:56:33	 From  Sebastian Zabala Martinez : es EL vanzi
+14:56:34	 From  Juan Jiménez : Jorge Baier
+14:56:36	 From  Juan Jiménez : Crack
+14:56:47	 From  Antonio López : Yadran <3
+14:56:48	 From  HUMBERTO ORTUZAR TORNERO : yadrian
+14:56:53	 From  Juan Jiménez : TodosSomosYadran
+14:57:03	 From  Julián Manuel García González : yadran <3
+14:57:09	 From  Fabi�n Esteban Sep�lveda Rivas : pq no se sabe quien da edd el otro semstre?
+14:57:17	 From  Julián Manuel García González : en el dcc hay puros profes bacanes
+14:57:26	 From  Constanza Osorio : :0
+14:57:28	 From  Antonio López : ufff
+14:57:31	 From  Julián Manuel García González : nooooooo compiladores :(
+14:57:32	 From  PABLO ARANEDA : VDominguez no va a volver a hacer el ramo?
+14:57:34	 From  Benjamín Álvarez : tremendo profe domagoj
+14:57:39	 From  Fabi�n Esteban Sep�lveda Rivas : y yadran xq no? uwu
+14:57:46	 From  Fabi�n Esteban Sep�lveda Rivas : yo ya lo estaba tomando con yadran el otro semestre
+14:57:49	 From  Constanza Osorio : pregúntenle al Vicho Domínguez :C 
+14:58:04	 From  Constanza Osorio : Domagoj ahora está en discord
+14:58:39	 From  Constanza Osorio : es una pregunta legitima jajajaja
+14:58:41	 From  Benjamín Álvarez : salio edd en ruso?
+14:58:54	 From  PABLO ARANEDA : su edd en otaku
+14:59:02	 From  Fabi�n Esteban Sep�lveda Rivas : kanji edd
+14:59:32	 From  PABLO ARANEDA : si, aun no me da confianza quick sort
+14:59:52	 From  Constanza Osorio : oh my
+14:59:53	 From  PABLO ARANEDA : vicente ha traicionado C
+14:59:57	 From  Sebastian Zabala Martinez : hereje
+14:59:58	 From  Benjamín Álvarez : ew python
+14:59:59	 From  Antonio López : si no es en C no vale
+14:59:59	 From  Ignacio Gonzalo Vergara Campusano : yeah python
+15:00:01	 From  Pablo Inzunza : imagina usar python
+15:00:05	 From  Fabi�n Esteban Sep�lveda Rivas : ahora podemos usar Python pa las tareas?
+15:00:10	 From  Kyle : python 🤢
+15:00:12	 From  PABLO ARANEDA : vicente, dejaste de ser mi ejemplo a seguir
+15:00:23	 From  Fabi�n Esteban Sep�lveda Rivas : edd en Python dicen?
+15:00:24	 From  Ignacio Gonzalo Vergara Campusano : se me ha caído un grande
+15:00:31	 From  Fabi�n Esteban Sep�lveda Rivas : su buena weibull
+15:01:37	 From  Julián Manuel García González : no entiendo bien el grafico :(
+15:01:50	 From  Antonio López : muestra el otro
+15:01:53	 From  Antonio López : con mas datos
+15:01:57	 From  Fabi�n Esteban Sep�lveda Rivas : dice uq ela mayora de las permutaciones toman aprox 40 comparaciones
+15:02:25	 From  Julián Manuel García González : wooooooooo
+15:02:32	 From  Benjamín Álvarez : mira ese skewness
+15:02:35	 From  Felipe Alberto Guzman Hernandez : me huele arreglado esto
+15:02:40	 From  Fabi�n Esteban Sep�lveda Rivas : pasate el scrpit vicho
+15:02:42	 From  Sol Covacic Palet : jajaja
+15:02:59	 From  Antonio López : no se su diria que a la derecha esta el n^2
+15:03:03	 From  PABLO ARANEDA : r\randomIA
+15:03:21	 From  Pablo Rademacher : es c*n^2
+15:03:36	 From  Pablo Rademacher : con c alguna constante
+15:03:56	 From  Fabi�n Esteban Sep�lveda Rivas : bello
+15:04:10	 From  Fabi�n Esteban Sep�lveda Rivas : esa ta gaussiana
+15:04:48	 From  JOAQUIN ALLIENDE VACCARO : y merge sort?
+15:04:49	 From  Antonio López : ojo con el eje x
+15:05:00	 From  Sol Covacic Palet : :0
+15:05:06	 From  Fabi�n Esteban Sep�lveda Rivas : y?
+15:05:21	 From  Fabi�n Esteban Sep�lveda Rivas : lo del eje x
+15:05:29	 From  Fabi�n Esteban Sep�lveda Rivas : como afecta eso a boca
+15:05:35	 From  Fabi�n Esteban Sep�lveda Rivas : jajaja
+15:06:09	 From  LAURENCE GOLBORNE : y como queda con las mejoras que dijo yadran la calse pasada?
+15:06:23	 From  Fabi�n Esteban Sep�lveda Rivas : sacate mas graficos asi en las prox clases xfa uwu
+15:06:37	 From  Antonio López : los peores tiempos en quicksort del sampleo que hizo vicho son mejores que los de quicksort
+15:08:01	 From  PABLO ARANEDA : el eje Y es la frecuencia?
+15:08:22	 From  Julián Manuel García González : aaaaaaah acabo de entender
+15:08:26	 From  Julián Manuel García González : super
+15:08:35	 From  Antonio López : nice
+15:08:50	 From  Josemaria Onetto Hernández : estamos?
+15:08:51	 From  Julián Manuel García González : que bonitos los graficos
+15:08:51	 From  Fabi�n Esteban Sep�lveda Rivas : cual es?
+15:09:26	 From  Benjamín Álvarez : si no se ve, la podrían subir igual?
+15:09:27	 From  LAURENCE GOLBORNE : spoiler alert
+15:10:09	 From  Felipe Alberto Guzman Hernandez : :0
+15:10:10	 From  Antonio López : en su peor caso
+15:10:13	 From  Felipe Alberto Guzman Hernandez : cualquiera?
+15:10:21	 From  Benjamin Urrutia : existe alguna forma de ordenar que no sea por intercambio?
+15:10:22	 From  Julián Manuel García González : ah pero si el arreglo está ordenado?
+15:10:22	 From  Felipe Alberto Guzman Hernandez : osea estamos perdidos?
+15:10:33	 From  Felipe Alberto Guzman Hernandez : aaaah
+15:10:37	 From  PABLO ARANEDA : raddish sort
+15:10:49	 From  Kyle : eso se demuestra por la cantidad máxima de inversiones?
+15:11:30	 From  JOAQUIN ALLIENDE VACCARO : vicho puedes  ahcer el mismo grafico que hiciste antes pero con merge sort? que también es O(n*log(N))
+15:11:47	 From  JOAQUIN ALLIENDE VACCARO : aaaaah 
+15:11:49	 From  JOAQUIN ALLIENDE VACCARO : perfecto
+15:11:55	 From  Felipe Alberto Guzman Hernandez : y hay sorts que no comparen?
+15:12:02	 From  Felipe Alberto Guzman Hernandez : :0
+15:12:04	 From  Antonio López : radix sort
+15:12:09	 From  Antonio López : bucket sort
+15:12:15	 From  Fabi�n Esteban Sep�lveda Rivas : y como se ordena sin comparar O:
+15:12:20	 From  Sebastian Zabala Martinez : bogo sort
+15:12:25	 From  Antonio López : no se comparan los datos entre ellos
+15:12:40	 From  Antonio López : pero se comparan con otras cosas
+15:12:44	 From  Felipe Alberto Guzman Hernandez : y que complejidad tienen esos
+15:12:44	 From  Felipe Alberto Guzman Hernandez : ?
+15:12:46	 From  Fabi�n Esteban Sep�lveda Rivas : ah entonces comparan igual
+15:12:51	 From  Fabi�n Esteban Sep�lveda Rivas : xq es impoisble ordenar sin comparar
+15:13:06	 From  Fabi�n Esteban Sep�lveda Rivas : compara otra cosa
+15:13:10	 From  Fabi�n Esteban Sep�lveda Rivas : pero comparan
+15:13:30	 From  PABLO ARANEDA : todo algoritmo de ordenación compara algo?
+15:13:35	 From  Antonio López : por ejemplo si tienes un arreglo con todos los numeros entres el 1 y el n
+15:14:02	 From  Kyle : eso sería un algoritmo también jajaja
+15:14:08	 From  Fabi�n Esteban Sep�lveda Rivas : pero trivial
+15:14:49	 From  Antonio López : que bacan
+15:14:57	 From  Julián Manuel García González : int multiply3(x){return x*3;}
+15:15:14	 From  Antonio López : hay algo mas en la clase?
+15:15:15	 From  Cristian Hinostroza : terminó la clase? 
+15:15:28	 From  Benjamín Álvarez : que eran la notación omega y theta?
+15:15:28	 From  Benjamin Urrutia : hoy dia en teoría se sube la T1 cierto?
+15:15:32	 From  Fabi�n Esteban Sep�lveda Rivas : mañana
+15:15:36	 From  Fabi�n Esteban Sep�lveda Rivas : de que va a ser?
+15:15:44	 From  LAURENCE GOLBORNE : y cuanto es el plazo de la tarea?
+15:16:57	 From  Cristian Alonso Carrasco González : xd
+15:16:58	 From  Kyle : f(x) \in Ω(g(x)) si existe c, y n_0 tal que c*f(x) <= Ω(g(x)) para cualquier x >= n_0
+15:17:26	 From  Kyle : oops, debería ser:
+15:17:38	 From  Kyle : f(x) \in Ω(g(x)) si existe c, y n_0 tal que c*f(x) <= g(x) para cualquier x >= n_0
+15:17:52	 From  Benjamín Álvarez : pero esa no es la notación O grande nomas?
+15:17:57	 From  PABLO ARANEDA : cuando se sabrán las notas de la tarea 0? (se darán parcialmente también?)
+15:18:01	 From  Kyle : f(x) \in O(g(x)) si existe c, y n_0 tal que c*f(x) >= g(x) para cualquier x >= n_0
+15:18:14	 From  HUMBERTO ORTUZAR TORNERO : son 2 semanas de plazo
+15:18:17	 From  HUMBERTO ORTUZAR TORNERO : lo tipico
+15:18:29	 From  Kyle : si f(x) \in O(g(x)) y f(x) \in Ω(g(x)) entonces f(x) \in Theta(g(x))
+15:18:39	 From  Benjamín Álvarez : aaah yaya me quedo claro
+15:18:46	 From  Benjamín Álvarez : muchas gracias!
+15:18:50	 From  Kyle : np
+15:18:52	 From  Maximiliano Narea : Una preguntaa, vamos viendo la materia en el orden que está en el libro? uwu
+15:18:59	 From  Kyle : ojo que hay temas de notación en esta notación
+15:19:12	 From  Kyle : cuando se dice f(x) = O(g(x))
+15:19:12	 From  Sebastian Zabala Martinez : https://github.com/IIC2133-PUC/2020-2/projects/1
+15:19:14	 From  Eduardo Oteiza : Gracias pr la clase !!
+15:19:16	 From  Maximiliano Narea : Pero conviene darle un ojo para las pruebas?
+15:19:22	 From  Kyle : significa f(x) \in O(g(x))
+15:19:36	 From  Kyle : cuando se dice algo como f(x) + O(x)
+15:19:42	 From  Maximiliano Narea : Ahh yaya supeer, gracias!
+15:20:09	 From  VICENTE ERRAZURIZ QUIROGA : https://github.com/IIC2133-PUC/2020-2#tareas
+15:20:19	 From  Kyle : significa que primero se asumió que existía una función g(x) \in O(x), y para esa función se aplica f(x) + g(x)
+15:20:26	 From  Pablo Vejar : gracias por la clase vicho!
+15:20:31	 From  PABLO ARANEDA : cual es la temática de la tarea?
+15:20:45	 From  PABLO ARANEDA : :o
+15:20:50	 From  PABLO ARANEDA : interfaz?
+15:20:54	 From  PABLO ARANEDA : cool
+15:21:04	 From  Sebastian Zabala Martinez : can it run DOOM?
+15:21:05	 From  Julián Manuel García González : es muy larga? respecto a la t0
+15:21:23	 From  Raúl Juan De Dios Del Río Jara : hay que tomarse las dos semanas para hacerla?
+15:21:29	 From  Diego Gazmuri : También vamos a tener que traducir python?
+15:21:30	 From  Javiera Ochoa Guin-Po :  las tareas son todas de largo similar?
+15:21:55	 From  Nupi - SEBASTIAN CAIRRASCO : Para todas las tareas hay que hacer informe?
+15:22:05	 From  PABLO ARANEDA : casi?
+15:22:20	 From  Felipe Alberto Guzman Hernandez : xd
+15:22:23	 From  Benjamín Álvarez : cuando estarían las notas de la tarea 0? para cachar como nos fue con el informe
+15:22:35	 From  PABLO ARANEDA : rayos
+15:22:37	 From  Benjamín Álvarez : ok
+15:23:05	 From  Sol Covacic Palet : caleta igual
+15:23:06	 From  Sol Covacic Palet : jajajja
+15:23:21	 From  PABLO ARANEDA : cual es la distribución de probabilidad de lo que vale el informe para la tarea?
+15:23:50	 From  PABLO ARANEDA : oh, gracias
+15:23:58	 From  PABLO ARANEDA : ojala no ataque el 40
+15:24:01	 From  Felipe Alberto Guzman Hernandez : yay
+15:24:16	 From  Julián Manuel García González : ~~misterio~~
+15:24:20	 From  Sol Covacic Palet : chaito
+15:24:22	 From  Piero Tassara : Chao gracias!!
+15:24:22	 From  Felipe Alberto Guzman Hernandez : 1% vale 70%
+15:24:23	 From  Sol Covacic Palet : gracias
+15:24:28	 From  Elías Sabja : chao gracias
+15:24:31	 From  Fernando Quintana : chaoo

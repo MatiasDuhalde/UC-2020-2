@@ -1,0 +1,136 @@
+00:30:11	PABLO ARANEDA:	si
+00:30:32	Constanza Osorio:	"Es que no puedo creerlo" jajaja
+00:30:52	Constanza Osorio:	ah pero esta vez fue demasiado maloooo, esa mano era clarisima
+00:32:25	Piero Tassara:	Funciones de hash
+00:32:25	HUMBERTO ORTUZAR TORNERO:	colisiones
+00:32:26	Sol Olivia Covacich Palet:	colisiones
+00:32:27	Sebastian Zabala Martinez:	colisiones
+00:32:28	LAURENCE GOLBORNE:	colisiones
+00:34:03	LAURENCE GOLBORNE:	sakjkasjka hola
+00:43:23	Araceli Rojas Vilaplana:	que pasa si en la casilla 5 había algo pero lo eliminaron? entonces el 10 esta mas alla
+00:43:31	Cristian Alonso Carrasco González:	pero tendíra como complejidad n
+00:43:35	Cristian Alonso Carrasco González:	xd
+00:43:47	Felipe Alberto Guzman Hernandez:	ese es el problema
+00:43:49	VICENTE ERRAZURIZ QUIROGA:	efectivamente, borrar cosas con este esquema te rompe la busqueda
+00:43:55	VICENTE ERRAZURIZ QUIROGA:	el cual es el problema 
+00:44:08	VICENTE ERRAZURIZ QUIROGA:	si, podría ser O(n) en el peor caso
+00:45:59	Felipe Alberto Guzman Hernandez:	la insercion en la primera implementacion es O(1)?
+00:46:06	Felipe Alberto Guzman Hernandez:	encadenamiento digo
+00:46:23	VICENTE ERRAZURIZ QUIROGA:	depende del largo de las listas
+00:46:30	VICENTE ERRAZURIZ QUIROGA:	en el peor caso están todos los elementos en una lista
+00:46:36	VICENTE ERRAZURIZ QUIROGA:	asique tambien es O(n)
+00:46:46	Felipe Alberto Guzman Hernandez:	ah claro
+00:47:04	Felipe Alberto Guzman Hernandez:	gracias
+00:58:34	JULIO ANDRADE GOMEZ:	el sondeo lineal a cual pertenece?
+00:58:59	JULIO ANDRADE GOMEZ:	entre encadenamiento o direccionamiento abierto
+00:59:16	JULIO ANDRADE GOMEZ:	aa perfecto
+00:59:39	Benjamin Urrutia:	direccionamiento abierto funciona mal pasado lambda > 0.5 sin importar la politica de sondeo?
+00:59:53	VICENTE ERRAZURIZ QUIROGA:	depende mucho de la función de hash
+01:00:02	Franco Nicolás Berríos Núñez:	perdón creo que lo dijeron, pero cuál es el direccionamiento cerrado?
+01:00:05	VICENTE ERRAZURIZ QUIROGA:	con una buena funcion de hash puede no importar el lambda
+01:00:15	VICENTE ERRAZURIZ QUIROGA:	cerrado = guardar las cosas en otra estructura
+01:00:22	Benjamin Urrutia:	entiendo, gracias!
+01:00:23	VICENTE ERRAZURIZ QUIROGA:	abierto = guardar las cosas en otras celdas de la misma tabla
+01:00:24	Franco Nicolás Berríos Núñez:	genial gracias
+01:00:46	VICENTE ERRAZURIZ QUIROGA:	pero sí, la política de sondeo si afecta el rendimiento
+01:01:57	Felipe Alberto Guzman Hernandez:	f = 0 ez
+01:02:46	PABLO ARANEDA:	nani?! yo no le tenía fe al dir abierto
+01:02:55	VICENTE ERRAZURIZ QUIROGA:	por algo lo vemos
+01:02:56	VICENTE ERRAZURIZ QUIROGA:	:3
+01:03:05	VICENTE ERRAZURIZ QUIROGA:	en la practica anda super bien
+01:03:13	VICENTE ERRAZURIZ QUIROGA:	si tomas las precauciones necesarias
+01:03:16	Alonso Rafael Gómez Herrera:	pero pregunta hoy en dia como la memoria no es problema
+01:03:22	Alonso Rafael Gómez Herrera:	con todas estas complejidades de hacerlo abierto
+01:03:28	Alonso Rafael Gómez Herrera:	no seria mejor hacerlo cerrado?
+01:03:33	Felipe Alberto Guzman Hernandez:	el cerrado se ve mas bonito en el dibujo
+01:03:33	Alonso Rafael Gómez Herrera:	a menos que haya una tercera opcion
+01:03:42	VICENTE ERRAZURIZ QUIROGA:	also recorrer un arreglo es mas eficiente que recorrer listas
+01:03:49	VICENTE ERRAZURIZ QUIROGA:	por la cache
+01:04:24	Constanza Osorio:	jajajaja
+01:04:56	VICENTE ERRAZURIZ QUIROGA:	yo por lo general recomiendo usar dir abierto pa las tareas pq es mas facil de implementar
+01:05:03	VICENTE ERRAZURIZ QUIROGA:	(no tienes que escribir una lista ligada)
+01:06:45	Felipe Alberto Guzman Hernandez:	la clave original se guarda en la casilla?
+01:07:06	VICENTE ERRAZURIZ QUIROGA:	si, para poder comparar que efectivamente es la clave que buscas
+01:07:16	Sol Olivia Covacich Palet:	por qué es O(n) y no O(m)?
+01:07:20	VICENTE ERRAZURIZ QUIROGA:	porque no puedes confiar con que los hashes sean iguales
+01:07:31	VICENTE ERRAZURIZ QUIROGA:	debería ser O(m)
+01:07:33	VICENTE ERRAZURIZ QUIROGA:	PERO
+01:07:48	VICENTE ERRAZURIZ QUIROGA:	recuerda que esto lo hacemos cuando n esta cerca de m
+01:07:54	Sol Olivia Covacich Palet:	aaaa, ok
+01:12:19	VICENTE ERRAZURIZ QUIROGA:	numeros aleatorios uniformes*
+01:13:28	Cristian Alonso Carrasco González:	van a subir esta clase?
+01:13:35	VICENTE ERRAZURIZ QUIROGA:	las diapos?
+01:13:36	Cristian Alonso Carrasco González:	la grabación?
+01:13:40	VICENTE ERRAZURIZ QUIROGA:	si
+01:13:43	VICENTE ERRAZURIZ QUIROGA:	como todas las otras
+01:13:48	Cristian Alonso Carrasco González:	ah, gracias
+01:14:03	VICENTE ERRAZURIZ QUIROGA:	estas diapos estan en la clase del miércoles
+01:19:01	Tomás C:	es una representacion de float
+01:19:57	Felipe Alberto Guzman Hernandez:	xd
+01:20:13	Alonso Rafael Gómez Herrera:	Nintendo 64
+01:20:26	LAURENCE GOLBORNE:	el float de python es de 64
+01:20:44	Constanza Osorio:	el float de Python en realidad es un doublé :'v
+01:20:45	Alonso Rafael Gómez Herrera:	Modo crack o modo estafa de parte de nintendo
+01:20:48	Sol Olivia Covacich Palet:	nintendo 32+32 no suena tan bien
+01:20:52	VICENTE ERRAZURIZ QUIROGA:	es un truco publicitario
+01:20:53	VICENTE ERRAZURIZ QUIROGA:	xd
+01:21:12	VICENTE ERRAZURIZ QUIROGA:	los numeros de python no tienen limite de precision
+01:23:54	PABLO ARANEDA:	(int) string
+01:24:54	VICENTE ERRAZURIZ QUIROGA:	eso NO funciona
+01:25:22	Alonso Rafael Gómez Herrera:	pero en este caso
+01:25:25	PABLO ARANEDA:	(int) char entonces?
+01:25:35	Alonso Rafael Gómez Herrera:	la inserscion Tambien dependeria del largo del input?
+01:25:38	VICENTE ERRAZURIZ QUIROGA:	si!
+01:25:44	VICENTE ERRAZURIZ QUIROGA:	el hash tiene su propia complejidad
+01:25:54	Alonso Rafael Gómez Herrera:	Ahh gracias
+01:26:28	PABLO ARANEDA:	chao profe~
+01:26:29	Alonso Rafael Gómez Herrera:	Chao profesor buen fin de semana
+01:26:32	Constanza Osorio:	que tenga un buen fin de semana largo :)
+01:26:59	BARBARA IRARRAZAVAL MONTES:	Chao profe! Que tenga buen fin de semana
+01:27:03	Felipe Alberto Guzman Hernandez:	hola don vicente
+01:27:26	PABLO ARANEDA:	no mutees a yadran vicente
+01:27:29	Constanza Osorio:	wat
+01:28:16	PABLO ARANEDA:	por cierto, parece que hoy es el fin de la encuesta de medio semestre
+01:28:41	Constanza Osorio:	en siding
+01:28:43	HUMBERTO ORTUZAR TORNERO:	en el siding
+01:28:49	HUMBERTO ORTUZAR TORNERO:	uno entra y aparece altiro
+01:28:51	Constanza Osorio:	docencia
+01:28:53	PABLO ARANEDA:	te aparece un anuncio cuando entras al siding
+01:28:53	HUMBERTO ORTUZAR TORNERO:	CONTESTA LA ENCUESTA
+01:29:20	Alonso Rafael Gómez Herrera:	Una pregunta, (quizas lo dijeron en la clase  pasada) pero por que en python todo tiene su valor hash, python guarda todas las variables como en diccionario/ tabla de hash?
+01:29:45	Alonso Rafael Gómez Herrera:	por que en python pasa eso
+01:29:46	Alonso Rafael Gómez Herrera:	jajaja
+01:31:19	PABLO ARANEDA:	en C podemos hacer el hash del puntero?
+01:31:42	PABLO ARANEDA:	rayos
+01:32:32	PABLO ARANEDA:	su sonick speedrun hasta el fin de la clase
+01:32:51	Constanza Osorio:	alt+h
+01:32:56	Constanza Osorio:	?
+01:34:36	PABLO ARANEDA:	Rolling hashing
+01:37:52	Pablo Gallardo Woldarsky:	Si
+01:40:24	Sol Olivia Covacich Palet:	definitivamente mas que 12
+01:40:38	PABLO ARANEDA:	1461501637330902918203684832716283019655932542976
+01:41:54	PABLO ARANEDA:	3^largo
+01:42:15	PABLO ARANEDA:	true
+01:42:20	PABLO ARANEDA:	seria 333333
+01:42:48	VICENTE ERRAZURIZ QUIROGA:	b^L - 1
+01:42:58	VICENTE ERRAZURIZ QUIROGA:	b^n - 1
+01:46:00	Sol Olivia Covacich Palet:	sisi
+01:46:00	Pablo Rademacher:	siii
+01:46:03	LAURENCE GOLBORNE:	yep
+01:47:29	Sol Olivia Covacich Palet:	yis
+01:47:32	PABLO ARANEDA:	si
+01:48:16	Felipe Alberto Guzman Hernandez:	xd
+01:49:38	PABLO ARANEDA:	*base
+01:50:49	Sol Olivia Covacich Palet:	:0
+01:53:23	JADRINA DE ANDRADE E SILVA:	yo me tengo que ir, gracias por la clase! feliz finde largo
+01:54:25	Sebastian Zabala Martinez:	Vicho, con lo que vimos hoy ya sabemos lo necesario para hacer la T2? y otra duda, probing = sondeo no?
+01:55:33	VICENTE ERRAZURIZ QUIROGA:	Rolling hashing
+01:55:48	Felipe Alberto Guzman Hernandez:	gracias, me tengo que ir chaito
+01:55:51	JULIO ANDRADE GOMEZ:	gracias
+01:55:52	Benjamín Alejandro Lepe Maluenda:	gracias!
+01:55:53	Araceli Rojas Vilaplana:	gracias!
+01:56:46	Benjamin Urrutia:	chao gracias!
+01:56:51	Sol Olivia Covacich Palet:	duda rapida, al final en el segundo paso del rolling hashing hiciste (27-64*0)*b + 0*1?
+01:57:02	Sergio Alberto Gazali Allen:	chao gracias!
+01:57:23	Constanza Osorio:	chao muchs gracias :)
+02:00:01	HUMBERTO ORTUZAR TORNERO:	chao

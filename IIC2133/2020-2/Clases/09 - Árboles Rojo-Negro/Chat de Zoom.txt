@@ -1,0 +1,264 @@
+00:24:58	Julián Manuel García González:	arboles binarios balanceados? nanii
+00:25:16	Constanza Osorio:	zhi
+00:25:18	PABLO ARANEDA:	si,  fuerte y claro
+00:25:23	Felipe Alberto Guzman Hernandez:	recibo
+00:25:27	PABLO ARANEDA:	10-4
+00:26:25	HUMBERTO ORTUZAR TORNERO:	cual es su serie favorita profe?
+00:31:42	Julián Manuel García González:	es un avl?
+00:31:53	VICENTE ERRAZURIZ QUIROGA:	> es un avl?no
+00:31:59	Julián Manuel García González:	caasi
+00:32:11	Julián Manuel García González:	igual así, lo parece
+00:36:13	Benjamin Urrutia:	con el e no se cumple eso
+00:36:22	Benjamin Urrutia:	o si?
+00:36:34	Julián Manuel García González:	nodos hoja
+00:36:38	Julián Manuel García González:	los ultimos
+00:36:43	VICENTE ERRAZURIZ QUIROGA:	sip
+00:36:46	VICENTE ERRAZURIZ QUIROGA:	E + A = 2
+00:37:16	Benjamin Urrutia:	ahh ya cache, perfecto
+00:38:04	Julián Manuel García González:	supongo que si tomas cualquier nodo negro, define un subarbol rojo-negro
+00:38:32	VICENTE ERRAZURIZ QUIROGA:	kinda, porque la propiedad de que la raiz es negra no se cumple recursivamente
+00:38:51	VICENTE ERRAZURIZ QUIROGA:	pero todas las demas propiedades si son recursivas
+00:39:16	Cristian Alonso Carrasco González:	 cuando se pinta roja?
+00:39:27	Felipe Alberto Guzman Hernandez:	cuando viene de una doble
+00:39:32	Cristian Alonso Carrasco González:	ah
+00:39:40	VICENTE ERRAZURIZ QUIROGA:	piensa como es la inserción en 2-3
+00:39:46	PABLO ARANEDA:	ABB-balanceado?
+00:40:30	Julián Manuel García González:	al final las comparaciones en un arbol rojo-negro son las mismas que en un arbol 2,3 parece
+00:40:38	VICENTE ERRAZURIZ QUIROGA:	si
+00:40:44	Julián Manuel García González:	que bacan eso
+00:40:51	Julián Manuel García González:	ahi no hay espacios muertos de memoria
+00:40:53	VICENTE ERRAZURIZ QUIROGA:	pero no tiene el overhead de ir cambiando el tipo de nodo constantemente
+00:41:00	Cristian Alonso Carrasco González:	vaia
+00:41:00	VICENTE ERRAZURIZ QUIROGA:	ni memoria que no se este usando
+00:41:17	Sol Olivia Covacich Palet:	aumentar el numero de negros en el camino
+00:42:02	Felipe Alberto Guzman Hernandez:	todo bien
+00:42:03	Sol Olivia Covacich Palet:	no se puede
+00:42:04	PABLO ARANEDA:	violas la 3
+00:42:06	Julián Manuel García González:	violamos la 3
+00:42:09	Sol Olivia Covacich Palet:	rojo tiene hijos negros
+00:42:10	Felipe Alberto Guzman Hernandez:	ah verda
+00:42:11	JADRINA DE ANDRADE E SILVA:	  violo la propiedad 3
+00:46:49	Felipe Alberto Guzman Hernandez:	fuiste bueno 2-3 :(
+00:47:01	Cristian Alonso Carrasco González:	vuela alto
+00:50:08	PABLO ARANEDA:	inventemos el árbol 2-314
+00:51:42	VICENTE ERRAZURIZ QUIROGA:	Año de invención:- Árbol AVL: 1962- Árbol 2-3: 1970- Árbol R-N: 1972
+00:51:56	Sol Olivia Covacich Palet:	profe se me cayó el internet, que pasó estos ultimos 5 minutos? :((((
+00:51:59	VICENTE ERRAZURIZ QUIROGA:	(according to wikipedia)
+00:52:15	Cristian Alonso Carrasco González:	nice info bro
+00:52:34	VICENTE ERRAZURIZ QUIROGA:	> profe se me cayó el internet, que pasó estos ultimos 5 minutos? :((((vimos la equivalencia entre rojo negro y 2-4 (extensión de 2-3 que admite nodos 4)
+00:53:17	Constanza Osorio:	:0
+00:53:29	VICENTE ERRAZURIZ QUIROGA:	(Esos árboles 2-3 generalizados se llaman árboles B)
+00:53:48	VICENTE ERRAZURIZ QUIROGA:	(Y para bases de datos se usa una extensión de esos llamada árboles B+)
+00:55:36	PABLO ARANEDA:	EDDiscretas
+00:55:49	VICENTE ERRAZURIZ QUIROGA:	si
+00:56:02	VICENTE ERRAZURIZ QUIROGA:	van a haber muchas demostraciones en la prueba
+00:56:05	Felipe Alberto Guzman Hernandez:	hora de sacar la induccion
+00:56:11	Felipe Alberto Guzman Hernandez:	de bajo la manga
+00:56:27	PABLO ARANEDA:	hagan un árbol 2-4
+00:56:31	MATEO FANTONI PRIETO:	podemos ver un ejercicio tipo prueba?
+00:57:17	Sebastian Zabala Martinez:	se biene la semana de estudio
+00:57:20	Sebastian Zabala Martinez:	digo descanso
+00:57:23	PABLO ARANEDA:	profe, ha visto anime?
+00:57:24	Sol Olivia Covacich Palet:	:c
+00:57:35	Constanza Osorio:	uwu
+00:57:44	Constanza Osorio:	alguna serie de Netflix?
+00:57:49	Constanza Osorio:	:0
+00:57:53	Felipe Alberto Guzman Hernandez:	los arboles 2-3 fueron derrotados pero se reinventaron y volvieron mas fuertes que nunca
+00:57:57	Constanza Osorio:	jajajaja
+00:58:01	HUMBERTO ORTUZAR TORNERO:	la 96.5
+00:58:08	Constanza Osorio:	alguna pelcula favorita profe?
+00:58:18	PABLO ARANEDA:	confieso que la única serie no-japonesa que veo es The Mentalist
+00:58:26	Felipe Alberto Guzman Hernandez:	cual es su novela favorita
+00:58:27	VICENTE ERRAZURIZ QUIROGA:	clasicón
+00:58:28	Cristian Alonso Carrasco González:	JAJAJA
+00:58:38	Constanza Osorio:	ohh las novels policiales son tan bknes <3
+00:58:51	Alonso Rafael Gómez Herrera:	dr house es una serie policial donde los criminales son enfermedades
+00:58:54	Cristian Alonso Carrasco González:	momento weeb
+00:58:56	Alonso Rafael Gómez Herrera:	que no los enganen!
+00:58:56	Constanza Osorio:	XD
+00:58:58	Felipe Alberto Guzman Hernandez:	jajajaj
+00:59:08	Constanza Osorio:	era buenarda
+00:59:17	Felipe Alberto Guzman Hernandez:	nunca la vi
+00:59:18	Felipe Alberto Guzman Hernandez:	xd
+00:59:18	Constanza Osorio:	Hugh Laurie haciendo una serie seria igual era gracioso
+00:59:24	Alonso Rafael Gómez Herrera:	incluso se metian a recolectar evidencia metiendose a la casa de las personas
+00:59:33	Pablo Inzunza:	el asesino nunca es lupus
+00:59:40	Constanza Osorio:	hasta que si lo es o.o
+00:59:41	Sol Olivia Covacich Palet:	o sarcoidosis
+00:59:45	PABLO ARANEDA:	el asecino es el abogado
+00:59:57	LUCAS VAN SINT JAN CAMPOS:	Que el profe vea Death Note
+01:00:04	Sol Olivia Covacich Palet:	uf
+01:00:14	PABLO ARANEDA:	que el profe vea Cells At Work
+01:00:20	Sol Olivia Covacich Palet:	AJJAJ
+01:00:22	Constanza Osorio:	Cells at Work, 10/10
+01:00:22	Felipe Alberto Guzman Hernandez:	pero es mas bacan ver como funcionan las personas
+01:00:37	PABLO ARANEDA:	Cell At work es como funcionan las personas
+01:00:38	LUCAS VAN SINT JAN CAMPOS:	Moulds At Work
+01:00:43	Alonso Rafael Gómez Herrera:	una serie para buscar el algoritmo
+01:00:53	Alonso Rafael Gómez Herrera:	el primer capitulo el asesino era random sort
+01:00:54	Felipe Alberto Guzman Hernandez:	mystery best genre
+01:01:02	Cristian Alonso Carrasco González:	pero las de house son como mega improbables
+01:01:02	Felipe Alberto Guzman Hernandez:	osea quizas es mas util
+01:01:06	Sol Olivia Covacich Palet:	profe puede explicar rapido de nuevo la insercion de los rn? q justo se me cayó el internet y me perdí todo :(
+01:01:08	Felipe Alberto Guzman Hernandez:	pero no voy por utilidad xd
+01:01:20	PABLO ARANEDA:	vicho, puedes decir tu enfermedad?
+01:01:24	Constanza Osorio:	nanai vicho :C
+01:01:31	Felipe Alberto Guzman Hernandez:	uwu para vicho
+01:01:31	VICENTE ERRAZURIZ QUIROGA:	Ehlers Danlos Syndrome
+01:01:46	PABLO ARANEDA:	vicho, haz visto hataraku saibou?
+01:02:03	Alonso Rafael Gómez Herrera:	pero es como ser hiperlaxo?
+01:02:06	Constanza Osorio:	brigi3
+01:02:28	VICENTE ERRAZURIZ QUIROGA:	> vicho, haz visto hataraku saibou?seeh
+01:02:43	PABLO ARANEDA:	se viene la segunda temporada pronto
+01:02:50	VICENTE ERRAZURIZ QUIROGA:	> pero es como ser hiperlaxo?tiene relacion, pero no es lo único
+01:04:04	Julián Manuel García González:	suena una lata
+01:04:31	Benjamín Alejandro Lepe Maluenda:	Subieron la grabación de la clase del lunes?
+01:04:55	Felipe Alberto Guzman Hernandez:	tabla
+01:07:22	VICENTE ERRAZURIZ QUIROGA:	es la diferencia entre orden total y orden parcial
+01:07:43	VICENTE ERRAZURIZ QUIROGA:	los abb tienen orden total porque permiten, como dijo el profe, recorrerlo en orden
+01:08:16	Julián Manuel García González:	recorrer un arbol ordenado es O(n)?
+01:08:20	VICENTE ERRAZURIZ QUIROGA:	si
+01:08:31	Julián Manuel García González:	o sea, arboles son lo mejor y punto
+01:08:42	Julián Manuel García González:	xd
+01:08:57	VICENTE ERRAZURIZ QUIROGA:	los heaps tienen un orden parcial ya que no se puede hacer esto
+01:09:27	PABLO ARANEDA:	bajo V
+01:09:34	Rosita Muñoz:	o lado V
+01:09:35	Constanza Osorio:	con v?
+01:09:38	Felipe Alberto Guzman Hernandez:	desúes de v
+01:09:38	PABLO ARANEDA:	derecha
+01:09:39	Sol Olivia Covacich Palet:	o junto a v, en un nodo 4
+01:09:51	Felipe Alberto Guzman Hernandez:	al lado
+01:09:54	Felipe Alberto Guzman Hernandez:	de v
+01:09:55	PABLO ARANEDA:	se pone directo a la derecha
+01:10:07	Constanza Osorio:	cual estaba preguntando primero? me perdi
+01:10:16	VICENTE ERRAZURIZ QUIROGA:	pregunto ambos a la v3ez
+01:10:20	Constanza Osorio:	oh
+01:10:23	Constanza Osorio:	XD
+01:10:23	Julián Manuel García González:	en el segundo, se pondria bajo V y se rotaría S con V?
+01:10:52	VICENTE ERRAZURIZ QUIROGA:	yup
+01:11:56	PABLO ARANEDA:	rotemos S y V
+01:12:13	VICENTE ERRAZURIZ QUIROGA:	tiene un paso adicional esto
+01:12:30	Julián Manuel García González:	y si S tuviera un hijo izquierdo?
+01:12:35	VICENTE ERRAZURIZ QUIROGA:	EXACTO
+01:12:44	Constanza Osorio:	me spoilee viendo las slides :C
+01:12:54	Julián Manuel García González:	un 1
+01:13:07	Felipe Alberto Guzman Hernandez:	te leiste el manga muy luego
+01:13:44	Constanza Osorio:	fallé
+01:14:11	Alonso Rafael Gómez Herrera:	pero si el tio fuera negro no se romperia la propiedad?
+01:14:24	VICENTE ERRAZURIZ QUIROGA:	en este árbol si
+01:14:29	Rosita Muñoz:	se pueden cambiar los colores de los nodos que ya están en el árbol?
+01:14:32	VICENTE ERRAZURIZ QUIROGA:	pero puede ocurrir en otro lado
+01:14:43	VICENTE ERRAZURIZ QUIROGA:	> se pueden cambiar los colores de los nodos que ya están en el árbol?si :)
+01:14:52	Alonso Rafael Gómez Herrera:	Entonces por que se define en este caso que el tio es negro ?
+01:15:13	Julián Manuel García González:	habria que cambiar los colores de todos los nodos del otro lado en caso que S tuviera dos hijos rojos?
+01:15:42	VICENTE ERRAZURIZ QUIROGA:	> Entonces por que se define en este caso que el tio es negro ?porque si fuera rojo, significa que estamos formando un nodo 5 que es inválido y habria que hacer split.
+01:15:51	VICENTE ERRAZURIZ QUIROGA:	asique el otro caso es que sea negro
+01:16:19	PABLO ARANEDA:	si
+01:16:29	VICENTE ERRAZURIZ QUIROGA:	> habria que cambiar los colores de todos los nodos del otro lado en caso que S tuviera dos hijos rojos?no los del otro lado, solo los de este lado
+01:16:57	Julián Manuel García González:	pero no podria haber un desbalance entre los dos subarboles?
+01:17:16	Julián Manuel García González:	o hay que rotar?
+01:17:17	VICENTE ERRAZURIZ QUIROGA:	no, por como funcionan los 2-4
+01:17:35	VICENTE ERRAZURIZ QUIROGA:	todos los problemas son locales del nodo
+01:17:53	VICENTE ERRAZURIZ QUIROGA:	(nodo del 2-4, es decir hasta 3 claves)
+01:18:05	VICENTE ERRAZURIZ QUIROGA:	peor caso hay que hacer split y propagar el problema hacia arriba
+01:18:13	VICENTE ERRAZURIZ QUIROGA:	pero nunca con los hermanos
+01:18:38	Julián Manuel García González:	dale
+01:18:55	Benjamin Urrutia:	hijo izquierdo de v
+01:18:59	Julián Manuel García González:	entre S y V
+01:19:01	PABLO ARANEDA:	entre S y V
+01:20:28	PABLO ARANEDA:	U a S, S a NULL
+01:20:35	Julián Manuel García González:	rotar u y v
+01:20:48	Julián Manuel García González:	despues tenemos el caso anterior
+01:20:48	JADRINA DE ANDRADE E SILVA:	rotar u y v y luego s y u
+01:20:50	Constanza Osorio:	hacer V hijo derecho de U
+01:20:56	Constanza Osorio:	y de ahí hacer rotación con S?
+01:21:06	PABLO ARANEDA:	el caso de antes
+01:21:09	Felipe Alberto Guzman Hernandez:	el mismo problema anterior
+01:21:10	Sol Olivia Covacich Palet:	lo mismode antes
+01:23:37	Julián Manuel García González:	if left child and red then...
+01:23:58	Julián Manuel García González:	O(log(n))
+01:24:01	PABLO ARANEDA:	constante?
+01:24:04	Matías Patricio Duhalde:	O(1)?
+01:24:15	Julián Manuel García González:	no depende de la profundidad?
+01:26:09	VICENTE ERRAZURIZ QUIROGA:	este caso es la inserción en una hoja del 2-4
+01:26:13	VICENTE ERRAZURIZ QUIROGA:	que no causa un split
+01:26:52	VICENTE ERRAZURIZ QUIROGA:	yadran preguntó cual era la complejidad del rebalance de ESTE caso
+01:26:55	VICENTE ERRAZURIZ QUIROGA:	(por si las dudas)
+01:27:13	Julián Manuel García González:	aah bueno
+01:27:25	PABLO ARANEDA:	hijo de entre JL
+01:27:31	Constanza Osorio:	yes
+01:28:13	PABLO ARANEDA:	rotar es malo
+01:28:14	Benjamin Urrutia:	no se puede rotar
+01:28:16	PABLO ARANEDA:	no soluciona
+01:28:17	Matías Patricio Duhalde:	el tío ahora es rojo
+01:28:34	Felipe Alberto Guzman Hernandez:	es de la ussr
+01:28:46	Constanza Osorio:	x)
+01:28:52	Matías Patricio Duhalde:	lul
+01:29:12	Felipe Alberto Guzman Hernandez:	esta lleno el nivel
+01:29:14	Benjamín Alejandro Lepe Maluenda:	hay 4 nodos juntos
+01:29:17	PABLO ARANEDA:	hijo de JL
+01:29:33	Felipe Alberto Guzman Hernandez:	hjl inicialmente
+01:29:35	Julián Manuel García González:	en el nodo-5 HJKL
+01:30:48	PABLO ARANEDA:	alguien sube
+01:30:49	Julián Manuel García González:	subimos k o l
+01:30:57	Julián Manuel García González:	digo, j o k
+01:31:37	VICENTE ERRAZURIZ QUIROGA:	(fijense que subir j simplemente cambió los colores
+01:31:39	VICENTE ERRAZURIZ QUIROGA:	)
+01:31:41	Felipe Alberto Guzman Hernandez:	error arriba
+01:31:44	Sol Olivia Covacich Palet:	nodo 5
+01:35:33	Julián Manuel García González:	porque hay altura finita
+01:35:35	Sol Olivia Covacich Palet:	pq eventualmente llegas a la raiz
+01:35:36	PABLO ARANEDA:	porque vas a terminar
+01:37:03	Julián Manuel García González:	raíz roja :(
+01:37:04	PABLO ARANEDA:	M ha ascendido
+01:37:15	Julián Manuel García González:	a s c e n d e d
+01:37:20	Constanza Osorio:	pero hay q cambiar el color no?
+01:37:22	Felipe Alberto Guzman Hernandez:	agradecido
+01:37:32	Constanza Osorio:	:0
+01:37:38	Felipe Alberto Guzman Hernandez:	puedo cambiar todo de color?
+01:37:39	PABLO ARANEDA:	porque no viola la regla 2
+01:37:50	Felipe Alberto Guzman Hernandez:	ah verda
+01:37:51	Rosita Muñoz:	:0
+01:37:54	Julián Manuel García González:	podemos cambiar el color de todo el arbol y estamos bien
+01:37:54	Constanza Osorio:	chale
+01:38:12	Felipe Alberto Guzman Hernandez:	changos
+01:38:42	Rosita Muñoz:	o sea que la cantidad de nodos negros en un camino es igual a la altura del árbol 2-4? :0
+01:38:52	VICENTE ERRAZURIZ QUIROGA:	EXACTO
+01:38:58	Rosita Muñoz:	kul
+01:39:10	VICENTE ERRAZURIZ QUIROGA:	precisamente ese es el significado de esa propiedad
+01:39:10	Felipe Alberto Guzman Hernandez:	:0
+01:39:34	Julián Manuel García González:	pero hay un problema si hay mas de 15 nodos en el arbol izquierdo no?
+01:39:44	VICENTE ERRAZURIZ QUIROGA:	what
+01:39:46	VICENTE ERRAZURIZ QUIROGA:	pq 15
+01:39:47	VICENTE ERRAZURIZ QUIROGA:	?
+01:40:19	Julián Manuel García González:	o sea, si insertamos infinitos nodos al lado izquierdo entonces eventualmente tendremos una rama con mas nodos negros
+01:40:25	VICENTE ERRAZURIZ QUIROGA:	nop
+01:40:31	VICENTE ERRAZURIZ QUIROGA:	pq vas a llegar al caso de la rotacion
+01:40:32	VICENTE ERRAZURIZ QUIROGA:	en la raiz
+01:40:37	Julián Manuel García González:	oooh
+01:40:41	VICENTE ERRAZURIZ QUIROGA:	prueba i
+01:40:41	Julián Manuel García González:	que bacan
+01:40:46	VICENTE ERRAZURIZ QUIROGA:	insertar los numeros del 1 al 15
+01:40:48	VICENTE ERRAZURIZ QUIROGA:	en orden
+01:40:56	VICENTE ERRAZURIZ QUIROGA:	y vas a ver que se va a balancear todo
+01:41:07	Julián Manuel García González:	dale, bacan
+01:43:20	Constanza Osorio:	a que se refiere que rebalsa?
+01:43:33	Rosita Muñoz:	que se genera un nodo 5 ,creo
+01:43:41	PABLO ARANEDA:	pero encontrar el valor no se tarda mas ya que son mas comparaciones por nodo?
+01:44:13	VICENTE ERRAZURIZ QUIROGA:	en el arbol binario es una comparacion por nodo
+01:45:07	Matías Patricio Duhalde:	para el ejercicio propuesto no basta con argumentar que siempre existe un equivalente 2-4 para los árboles rojo-negros?
+01:45:09	Sol Olivia Covacich Palet:	profe y es imposible q un arbol rn tenga forma de lista ligada?
+01:45:27	VICENTE ERRAZURIZ QUIROGA:	si, es imposible
+01:45:30	VICENTE ERRAZURIZ QUIROGA:	haz la prueba
+01:45:35	VICENTE ERRAZURIZ QUIROGA:	de insertar los numeros del 1 al 15
+01:45:38	Constanza Osorio:	exmen oral?! D:
+01:45:38	VICENTE ERRAZURIZ QUIROGA:	en orden
+01:45:43	Felipe Alberto Guzman Hernandez:	uf
+01:45:44	Julián Manuel García González:	de titulo?
+01:45:44	VICENTE ERRAZURIZ QUIROGA:	tal como haciamos en el ABB
+01:45:47	PABLO ARANEDA:	con minmax unido a una lista ligada creo que se podria
+01:46:35	Cristian Alonso Carrasco González:	como es el experimento?
+01:46:46	VICENTE ERRAZURIZ QUIROGA:	insertar los numeros del 1 al 15 en orden
+01:46:53	VICENTE ERRAZURIZ QUIROGA:	en un árbol rojo negro vacío
+01:46:57	Cristian Alonso Carrasco González:	ah
+01:50:15	Sol Olivia Covacich Palet:	graciass

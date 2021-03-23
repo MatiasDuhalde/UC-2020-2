@@ -1,0 +1,333 @@
+00:40:26	Eduardo Oteiza:	csp
+00:40:31	Eduardo Oteiza:	cps*
+00:40:37	PABLO ARANEDA:	tiempo
+00:40:46	Eduardo Oteiza:	alguno es mas fácil de recorrer que otro?
+00:40:47	PABLO ARANEDA:	complejidad
+00:40:49	Agustin Rios Letelier:	la complejidad
+00:40:52	Tomás C:	tiempo de busqueda
+00:41:06	Tomás C:	caso promedio (?)
+00:41:11	LAURENCE GOLBORNE:	bien balanceado es logn y en el otro n
+00:43:45	María Jesús Tala:	???
+00:43:46	María Luisa Claro:	Al numero de niveles?
+00:43:48	Benjamín Álvarez:	a la profundidad del árbol?
+00:44:28	Juan Jiménez:	La gracia entonces es maximizar la cantidad de niveles?
+00:44:51	VICENTE ERRAZURIZ QUIROGA:	el tiempo es proporcional a la cantidad de niveles
+00:44:52	VICENTE ERRAZURIZ QUIROGA:	asique
+00:44:56	Juan Jiménez:	minmizar**
+00:44:58	VICENTE ERRAZURIZ QUIROGA:	si queremos que tome lo más posible, si
+00:45:05	VICENTE ERRAZURIZ QUIROGA:	pero en general queremos que algo sea mas rapido
+00:45:11	Juan Jiménez:	jaaja falle falle
+00:45:13	VICENTE ERRAZURIZ QUIROGA:	asique vamos a querer minimizar :)
+00:45:21	Juan Jiménez:	xd
+00:47:53	Alonso Rafael Gómez Herrera:	Hay que tener un criterio para la elegir la raiz
+00:48:22	JADRINA DE ANDRADE E SILVA:	la raíz debe ser la mediana
+00:48:24	Felipe Alberto Guzman Hernandez:	encontrar la mitad
+00:48:31	VICENTE ERRAZURIZ QUIROGA:	recuerda que los árboles van recibiendo inserciones una a la vez, asi que no sabemos que datos vamos a tener
+00:48:38	VICENTE ERRAZURIZ QUIROGA:	(asi que no podemos computar la raiz)
+00:48:46	HUMBERTO ORTUZAR TORNERO:	que tenga una cantidad de hijos parecida entra las dos ramas?
+00:48:51	MATEO FANTONI PRIETO:	ir llenando los niveles
+00:49:47	Alonso Rafael Gómez Herrera:	Entonces que ante de bajar de nivel asegurar que se encuentren todas las ceulas (?)
+00:49:53	Alonso Rafael Gómez Herrera:	Algo parecido a lo que se hace en el heap
+00:50:23	HUMBERTO ORTUZAR TORNERO:	pero que se cumpla para cada sub-árbol tambien
+00:50:25	María Luisa Claro:	ir llenando los niveles
+00:50:29	María Luisa Claro:	Como el heap
+00:50:41	PABLO ARANEDA:	si tenemos los valores ordenados, solo necesitaríamos poner la mediana mas arriba
+00:50:43	VICENTE ERRAZURIZ QUIROGA:	el problema con hacer lo mismo que con el heap
+00:50:50	VICENTE ERRAZURIZ QUIROGA:	es que el orden del árbol es total
+00:51:00	VICENTE ERRAZURIZ QUIROGA:	asique no podemos llegar e insertar nodos al lado que más nos conviene
+00:51:19	VICENTE ERRAZURIZ QUIROGA:	porque cada elemento tiene un unico lugar correcto en el que se tiene que insertar
+00:51:54	María Luisa Claro:	no
+00:51:55	Josefina Fernández:	ir desplazando todas las posiciones?
+00:51:55	Tomás C:	bo
+00:51:56	PABLO ARANEDA:	no
+00:51:56	Sol Olivia Covacich Palet:	no
+00:51:58	Felipe Alberto Guzman Hernandez:	nu
+00:52:03	Eduardo Oteiza:	si
+00:52:04	Piero Tassara:	si
+00:52:05	MACARENA MUÑOZ:	si
+00:52:07	Felipe Alberto Guzman Hernandez:	ta bonito
+00:52:07	Alonso Rafael Gómez Herrera:	Hmmm pero podríamos ir construyendo el árbol completamente desde 0 cada vez con el dato nuevo o no?
+00:52:12	Benjamín Álvarez:	si t1 y t2 están balanceados entonces si
+00:52:25	VICENTE ERRAZURIZ QUIROGA:	> Hmmm pero podríamos ir construyendo el árbol completamente desde 0 cada vez con el dato nuevo o no?buena idea pero cual es el costo de eso?
+00:52:33	Eduardo Oteiza:	gun yo es costoso hacer un árbol nuevo cada vez
+00:52:37	Eduardo Oteiza:	segun*
+00:52:48	Alonso Rafael Gómez Herrera:	> buena idea pero cual es el costo de eso?
+00:52:50	Alonso Rafael Gómez Herrera:	everything
+00:53:04	Alonso Rafael Gómez Herrera:	Jajajja pero solo lo tendría que hacer una vez para mi programa
+00:53:27	Tomás C:	tenemos a mr codigo no mantenible aca
+00:53:32	VICENTE ERRAZURIZ QUIROGA:	JAJAJ
+00:53:34	VICENTE ERRAZURIZ QUIROGA:	pero
+00:53:34	Felipe Alberto Guzman Hernandez:	xd
+00:53:36	Alonso Rafael Gómez Herrera:	jajajajajajjaja
+00:53:46	Felipe Alberto Guzman Hernandez:	viviendo en el presente
+00:53:48	LAURENCE GOLBORNE:	comentarios? que es eso?
+00:53:52	LAURENCE GOLBORNE:	se come?
+00:53:55	VICENTE ERRAZURIZ QUIROGA:	> Jajajja pero solo lo tendría que hacer una vez para mi programala estructura que estamos diseñando queremos que permita ir insertando elementos uno por uno
+00:54:01	VICENTE ERRAZURIZ QUIROGA:	sin conocerlos de antemano
+00:54:04	VICENTE ERRAZURIZ QUIROGA:	:)
+00:59:46	LAURENCE GOLBORNE:	pero la lista ligada también esta avl balanceado o no?
+01:00:04	VICENTE ERRAZURIZ QUIROGA:	no pq la altura del hijo izquierdo es 0
+01:00:06	Tomás C:	esta definición tiene más sentido para árboles mucho más grandes o no? como que en un arbol de 3 niveles se ve raro pero en uno de 1000 1 nivel de diferencia es como "menos"?
+01:00:09	VICENTE ERRAZURIZ QUIROGA:	y la del hijo derecho es n-1
+01:00:50	VICENTE ERRAZURIZ QUIROGA:	> esta definición tiene más sentido para árboles mucho más grandes o no? como que en un arbol de 3 niveles se ve raro pero en uno de 1000 1 nivel de diferencia es como "menos"?para arboles mas grandes va a pasar algo parecido a esto. va a haber hojas mucho mas profundas que otras
+01:01:06	Tomás C:	(っ °Д °;)っ
+01:01:55	Sebastian Zabala Martinez:	restore the balance
+01:05:01	Juan Jiménez:	si k solamente tuviera el hijo F y no el N
+01:05:06	Juan Jiménez:	tambien estaria desbalanceado?
+01:05:18	VICENTE ERRAZURIZ QUIROGA:	antes de la inserción?
+01:05:21	Juan Jiménez:	yes
+01:05:24	VICENTE ERRAZURIZ QUIROGA:	si
+01:05:29	VICENTE ERRAZURIZ QUIROGA:	porque F + hijos tiene altura 2
+01:05:41	VICENTE ERRAZURIZ QUIROGA:	y "hijo derecho inexistente" tiene altura 0
+01:05:44	Juan Jiménez:	pero no tiene hermanos para comparar o no?
+01:05:47	Juan Jiménez:	aah
+01:05:48	Juan Jiménez:	ok
+01:05:54	VICENTE ERRAZURIZ QUIROGA:	un árbol nulo tiene altura 0
+01:05:55	VICENTE ERRAZURIZ QUIROGA:	:)
+01:05:57	Juan Jiménez:	ok
+01:05:59	Juan Jiménez:	graciass
+01:06:01	VICENTE ERRAZURIZ QUIROGA:	por eso las hojas estan trivialmente balanceadas
+01:06:02	PABLO ARANEDA:	si K tuviese como hijo a T, y T tuviese al hijo derecho de K a la izquierda de T, se baleanzaria?
+01:06:12	VICENTE ERRAZURIZ QUIROGA:	si!
+01:11:28	Pablo Rademacher:	Perfectly balanced, as all things should be
+01:11:55	Miguel Ignacio Ortiz Arellano:	no es lo mismo que cambiar t3 con t1?
+01:12:05	LUCAS VAN SINT JAN CAMPOS:	Jsjsjs momento Thanos
+01:12:18	ALONSO ORTEGA LOYOLA:	segun yo no porque t3 es mayor que t1
+01:12:24	ALONSO ORTEGA LOYOLA:	entonces no puede estar a la izquierda
+01:12:25	Felipe Alberto Guzman Hernandez:	ahi pierdes orden 
+01:12:38	Tomás C:	la rotacion siempre garantiza que se mantiene la jerarquia del arbol?
+01:12:53	VICENTE ERRAZURIZ QUIROGA:	> no es lo mismo que cambiar t3 con t1?no porque los t1 son los menores a Y 
+01:12:57	Felipe Alberto Guzman Hernandez:	creo que si porque practicamente no mueves nada
+01:13:05	VICENTE ERRAZURIZ QUIROGA:	asique tienen que quedar a la izquierda !
+01:13:25	Felipe Alberto Guzman Hernandez:	si
+01:13:27	PABLO ARANEDA:	si, ya que Y < T2 < X en ambos
+01:13:29	Julián Manuel García González:	si, porque t2 esta entre 'y' y 'x'
+01:13:33	Eduardo Oteiza:	esa rotación siempre se hace entre raíz e hijo izquierdo?
+01:13:45	Eduardo Oteiza:	digo, se puede hacer en un subarbol por ejemplo?
+01:13:53	VICENTE ERRAZURIZ QUIROGA:	va a depender de como fue la ruta de la inserción
+01:13:58	VICENTE ERRAZURIZ QUIROGA:	ya vamos a ver los casos que hay
+01:14:06	Eduardo Oteiza:	ya
+01:14:09	Felipe Alberto Guzman Hernandez:	menor
+01:14:10	María Luisa Claro:	Y<X
+01:14:13	ALONSO ORTEGA LOYOLA:	y<x
+01:14:13	Sol Olivia Covacich Palet:	y es menorq x
+01:14:55	Eduardo Oteiza:	si
+01:15:04	Eduardo Oteiza:	pq sigue siendo menor que x
+01:15:07	Ignacio Méndez:	Esta a la izq de 3
+01:15:09	María Luisa Claro:	menor a x mayor a Y
+01:15:11	Juan Jiménez:	proque ya estaba a la izq
+01:16:21	Jean-Paul Balazs Thenot:	hay arboles avl que no puedan ser rebalanceados?
+01:16:28	PABLO ARANEDA:	pero actualizar las alturas de los nodos no se vuelve complejo?
+01:16:48	ALONSO ORTEGA LOYOLA:	es solo cambio de punteros
+01:16:52	ALONSO ORTEGA LOYOLA:	asi que no creo
+01:17:04	VICENTE ERRAZURIZ QUIROGA:	acrtualizar los contadores pa arriba
+01:17:07	VICENTE ERRAZURIZ QUIROGA:	es log n
+01:17:27	Benjamín Álvarez:	impresionante
+01:17:29	Piero Tassara:	Epic
+01:17:42	Felipe Alberto Guzman Hernandez:	macanudo
+01:18:12	María Luisa Claro:	No entiendo muy bien a quien hay que cambiarle el padre y a quien no
+01:18:14	Benjamín Álvarez:	no seria como un cambio en un par de punteros nomas?
+01:18:38	VICENTE ERRAZURIZ QUIROGA:	todo lo que es Tx queda intacto
+01:18:58	VICENTE ERRAZURIZ QUIROGA:	se mueve completo
+01:19:20	VICENTE ERRAZURIZ QUIROGA:	al mover el puntero a su raiz
+01:19:54	Felipe Alberto Guzman Hernandez:	y la rotación se hace para cada nodo con el problema desde abajo hacia arriba?
+01:20:12	VICENTE ERRAZURIZ QUIROGA:	basta con una sola rotacion
+01:20:24	VICENTE ERRAZURIZ QUIROGA:	!
+01:20:30	Felipe Alberto Guzman Hernandez:	:0
+01:21:16	PABLO ARANEDA:	si uno empieza del nodo de mas arriba que haya quedado desbalanceado hay problemas?
+01:21:40	VICENTE ERRAZURIZ QUIROGA:	al menos en este ejemplo no
+01:21:54	VICENTE ERRAZURIZ QUIROGA:	deja pensar un ejemplo en el que se rompa algo
+01:22:07	VICENTE ERRAZURIZ QUIROGA:	ah
+01:22:08	VICENTE ERRAZURIZ QUIROGA:	perdon
+01:22:09	VICENTE ERRAZURIZ QUIROGA:	mentira
+01:23:38	Ricardo Benjamín Meza Aránguiz:	-1
+01:23:39	HUMBERTO ORTUZAR TORNERO:	-1
+01:23:39	Josefina Fernández:	-1
+01:23:40	Sol Olivia Covacich Palet:	-1
+01:23:45	VICENTE ERRAZURIZ QUIROGA:	(efectivamente en este ejemplo se puede hacer rotacion con el de más arriba y funciona)
+01:23:45	HUMBERTO ORTUZAR TORNERO:	-1
+01:23:46	Pablo Vejar:	-1
+01:23:54	HUMBERTO ORTUZAR TORNERO:	-1
+01:23:58	Josefina Fernández:	-2?
+01:23:59	Benjamín Álvarez:	-2
+01:24:03	Ignacio Méndez:	-1
+01:27:58	Piero Tassara:	En conce
+01:33:54	María Jesús Tala:	ya volvimos? jajajja
+01:34:00	Denisse Vaitiare Ogaz Herrera:	si
+01:34:29	María Jesús Tala:	graias jajja
+01:36:08	Ignacio Méndez:	El recopilado de preguntas donde esta?
+01:36:39	Javiera Ochoa Guin-Po:	El recopilado de preguntas donde esta?>https://iic2133-puc.github.io/
+01:36:51	Liat Israel:	Al final van a dar más plazo?
+01:36:52	Javiera Ochoa Guin-Po:	de nada!
+01:37:50	VICENTE ERRAZURIZ QUIROGA:	> Al final van a dar más plazo?si! ya les va a llegar un correo
+01:38:10	HUMBERTO ORTUZAR TORNERO:	graciaas
+01:38:15	Eduardo Oteiza:	<3
+01:38:24	LAURENCE GOLBORNE:	<3
+01:38:30	PABLO ARANEDA:	(*´ω｀)
+01:38:36	LAURENCE GOLBORNE:	maldita semana de receso jajsja
+01:38:38	Felipe Alberto Guzman Hernandez:	:sticker_de_gatito:
+01:38:46	VICENTE ERRAZURIZ QUIROGA:	> maldita semana de receso jajsjatotalmente de acuerdo
+01:38:58	PABLO ARANEDA:	su deceso antes del receso
+01:39:00	VICENTE ERRAZURIZ QUIROGA:	vamos a pasar como 2 semanas en nada
+01:39:15	VICENTE ERRAZURIZ QUIROGA:	las tareas van a salir con muy mal timing :c
+01:39:18	Cristian Alonso Carrasco González:	>su deceso antes del recesoterrible
+01:39:35	Juan Jiménez:	solo pensar que
+01:39:36	VICENTE ERRAZURIZ QUIROGA:	"vamos a darles una razon para descansar en la semana de descanso"
+01:39:44	Felipe Alberto Guzman Hernandez:	jajaj
+01:39:45	Juan Jiménez:	podriamos programar en ese tiempo y adelantar aglo
+01:39:46	Juan Jiménez:	y no se puede
+01:39:50	VICENTE ERRAZURIZ QUIROGA:	:'c
+01:39:51	Cristian Alonso Carrasco González:	si
+01:39:54	Cristian Alonso Carrasco González:	un desastre
+01:39:55	VICENTE ERRAZURIZ QUIROGA:	pero 
+01:39:57	Juan Jiménez:	ripç
+01:40:02	VICENTE ERRAZURIZ QUIROGA:	es tiempo que van a poder usar para su IQ
+01:40:04	VICENTE ERRAZURIZ QUIROGA:	I1 ***
+01:40:20	Sebastian Zabala Martinez:	entra poca materia en esa
+01:40:22	Sebastian Zabala Martinez:	kappa
+01:40:34	VICENTE ERRAZURIZ QUIROGA:	ordenacion y árboles
+01:40:37	Cristian Alonso Carrasco González:	tengo entregas de 4 ramos  en 5 días 
+01:40:51	Juan Jiménez:	:)
+01:41:05	VICENTE ERRAZURIZ QUIROGA:	:                                       )
+01:41:22	Pablo Inzunza:	:^)
+01:41:24	Felipe Alberto Guzman Hernandez:	a smile hides a million tears
+01:41:31	Julián Manuel García González:	4 ramos y 5 entregas
+01:41:52	LAURENCE GOLBORNE:	5 ramos y 6 entregas*
+01:42:09	Julián Manuel García González:	quien da mas?
+01:43:44	Roberto Benjamín Izquierdo Pfingsthorn:	tengo 3 pruebas o controles y 4 tareas en 4 dias...
+01:44:17	Felipe Alberto Guzman Hernandez:	entonces hay 2 casos y sus contrapartes al lado derecho?
+01:44:23	VICENTE ERRAZURIZ QUIROGA:	si!
+01:44:25	Felipe Alberto Guzman Hernandez:	o las del lado derecho Tambien son distintas
+01:44:27	Felipe Alberto Guzman Hernandez:	ah ya
+01:44:46	Felipe Alberto Guzman Hernandez:	gracias
+01:49:38	Alonso Rafael Gómez Herrera:	Como cuesta balancear el árbol, cada cuantas inserciones debería volver a balancear el arbol?
+01:49:50	Alonso Rafael Gómez Herrera:	Me parece muy costoso balancear el árbol cada ves que inserto un elemento o no?
+01:50:19	Alonso Rafael Gómez Herrera:	Sip eso mismo
+01:50:31	VICENTE ERRAZURIZ QUIROGA:	es igual de costoso que la inserción
+01:50:33	PABLO ARANEDA:	su árbol lazy
+01:50:37	VICENTE ERRAZURIZ QUIROGA:	log n + log n = log n
+01:50:52	María Luisa Claro:	En el primer caso q vimos, balancear K también hizo que se balanceara T o no?
+01:50:52	VICENTE ERRAZURIZ QUIROGA:	O(de)
+01:50:58	Felipe Alberto Guzman Hernandez:	dolor matematico
+01:51:00	Pablo Vejar:	Se me corto la señal y no alcancé a escuchar cuanto era el orden de las cantidades de rotaciones en el peor caso, cuanto era?
+01:51:00	VICENTE ERRAZURIZ QUIROGA:	sip!
+01:51:06	VICENTE ERRAZURIZ QUIROGA:	solo es necesario balancear el de más abajo
+01:51:06	VICENTE ERRAZURIZ QUIROGA:	!
+01:51:14	VICENTE ERRAZURIZ QUIROGA:	y se arregla todo pa arriba
+01:52:02	LAURENCE GOLBORNE:	peor caso era log n
+01:52:14	Pablo Vejar:	gracias!
+01:55:15	Miguel Ignacio Ortiz Arellano:	a que hora?
+01:55:16	Cristian Alonso Carrasco González:	holi
+01:55:19	Sebastian Andres Veliz Hertling:	Muchas gracias!
+01:55:19	Agustin Rios Letelier:	buena
+01:55:24	Denisse Vaitiare Ogaz Herrera:	Graciaas :)
+01:55:25	Agustin Rios Letelier:	gracias!!!
+01:55:32	Javiera Ochoa Guin-Po:	🥰
+01:55:34	María Jesús Tala:	chao muchas gracias!!!!! 
+01:55:38	Cristian Alonso Carrasco González:	que va a pasar con la nota de la T0?
+01:55:38	Pablo Vejar:	Muchas graciaaas!
+01:55:39	Florencia Valdivia:	Chaoo gracias!
+01:55:40	Alonso Rafael Gómez Herrera:	Muchísimas gracias
+01:55:41	ALONSO ORTEGA LOYOLA:	qué dia es la entrega?
+01:55:42	Piero Tassara:	Chao muchas gracias!!
+01:55:44	JADRINA DE ANDRADE E SILVA:	Chao gracias!
+01:55:46	Alonso Rafael Gómez Herrera:	El cuerpo docente con la 10
+01:55:47	Alonso Rafael Gómez Herrera:	Como siempre
+01:55:56	PABLO ARANEDA:	donde están las notas preliminares del código?
+01:55:58	Cristian Alonso Carrasco González:	pero reemplaza algo?
+01:56:00	Karl Mathias Haller Wiesner:	Que hay a las 5?
+01:56:04	Cristian Alonso Carrasco González:	como va al promedio
+01:56:10	Araceli Rojas Vilaplana:	cuanto?
+01:56:11	Sol Olivia Covacich Palet:	:0
+01:56:16	Piero Tassara:	Mil gracias!!
+01:56:16	ALONSO ORTEGA LOYOLA:	maravilloso
+01:56:16	Denisse Vaitiare Ogaz Herrera:	<3
+01:56:17	Carlos Daniel Paredes Robles:	NANI!                                                   
+01:56:19	Carlos Daniel Paredes Robles:	<3
+01:56:19	Pablo Vejar:	Genial
+01:56:20	ALONSO ORTEGA LOYOLA:	los amo
+01:56:21	Felipe Alberto Guzman Hernandez:	yaju
+01:56:22	Juan Jiménez:	excelente
+01:56:24	Sol Olivia Covacich Palet:	les amo tanto
+01:56:27	FELIPE CARRASCO:	graciaaas 
+01:56:29	Pablo Rademacher:	<3
+01:56:30	Felipe Alberto Guzman Hernandez:	gracias
+01:56:32	Javiera Ochoa Guin-Po:	gracias! chao
+01:56:32	Benjamín Álvarez:	<3
+01:56:35	Sol Olivia Covacich Palet:	habiamus prueba el dia de la entrega jajaja
+01:56:35	Ignacio Gonzalo Vergara Campusano:	cracks
+01:56:35	Felipe Alberto Guzman Hernandez:	uwu
+01:56:37	HUMBERTO ORTUZAR TORNERO:	lunes 28 entonces
+01:56:38	Sol Olivia Covacich Palet:	ajjaja
+01:56:39	HUMBERTO ORTUZAR TORNERO:	nada que hacerle
+01:56:39	Cristian Alonso Carrasco González:	unu
+01:56:43	Elías Sabja:	11/10
+01:56:49	Javiera Ochoa Guin-Po:	❤❤❤
+01:56:53	PABLO ARANEDA:	17/9
+01:57:04	Josefina Fernández:	Gracias!!!!
+01:57:05	Jean-Paul Balazs Thenot:	gracias!
+01:57:09	Alonso Rafael Gómez Herrera:	Chao profe y vicho
+01:57:11	Fernando Quintana:	chao gracias!
+01:57:12	Sol Olivia Covacich Palet:	gracias profe
+01:57:13	Sol Olivia Covacich Palet:	<3
+01:57:19	AMI USTILOVSKY:	chaao
+01:57:22	Karl Mathias Haller Wiesner:	vicho dijo que había algo a las 5?
+01:57:23	Pablo Vejar:	chao profe!
+01:57:27	Felipe Alberto Guzman Hernandez:	._.
+01:57:30	HUMBERTO ORTUZAR TORNERO:	a ver cuales vicente
+01:57:31	Sol Olivia Covacich Palet:	epale
+01:57:33	Felipe Alberto Guzman Hernandez:	no le de ideas
+01:57:41	Karl Mathias Haller Wiesner:	Ok jaja
+01:57:52	Felipe Alberto Guzman Hernandez:	._.
+01:58:18	Elías Sabja:	chao gracias
+01:58:19	Cristian Alonso Carrasco González:	oooo
+01:58:21	PABLO ARANEDA:	hay una guía para estudiar para la prueba, o su búsqueda de pruebas pasadas?
+01:58:26	Cristian Alonso Carrasco González:	acabo de cachar que es de la tarea 0 a la 4
+01:58:28	Cristian Alonso Carrasco González:	xdddd
+01:58:38	HUMBERTO ORTUZAR TORNERO:	cual es la diferencia entre hacer el bvh top down y bottom up?
+01:58:41	PABLO ARANEDA:	se parte de 0
+01:58:43	Cristian Alonso Carrasco González:	pensé que era de la 0 a la 5
+01:58:52	Cristian Alonso Carrasco González:	y estaba confundido
+01:59:12	Josefina Fernández:	para cuando quedó esta tarea? perdón lo perdida
+01:59:14	PABLO ARANEDA:	demostrar la complejudad del algoritmo es aprender C?
+01:59:20	Felipe Alberto Guzman Hernandez:	xd
+01:59:24	HUMBERTO ORTUZAR TORNERO:	la acaban de mover al jueves 17
+01:59:29	HUMBERTO ORTUZAR TORNERO:	hasta la 13:00
+01:59:46	Josefina Fernández:	gracias!!
+01:59:48	PABLO ARANEDA:	su 30% de la nota
+01:59:56	Felipe Alberto Guzman Hernandez:	piensa en esas personas sin discretas
+02:00:05	Felipe Alberto Guzman Hernandez:	jajaj
+02:00:15	Felipe Alberto Guzman Hernandez:	pero habias dicho que lo tomaban
+02:00:19	Julián Manuel García González:	0.0 el certificado academico
+02:00:33	Felipe Alberto Guzman Hernandez:	igual se vio segun yo complejidad
+02:00:39	PABLO ARANEDA:	si se vio algo
+02:00:42	Nico Benítez:	cuando di discretas tampoco se vio mucho de complejidad y algoritmos, 2019-1
+02:00:48	Nico Benítez:	es con suerte una clase
+02:00:49	PABLO ARANEDA:	pero el recursivo creo que no se vio mucho
+02:00:55	Felipe Alberto Guzman Hernandez:	si recursivo no
+02:00:58	HUMBERTO ORTUZAR TORNERO:	si vimos, pero nada recursivo
+02:01:00	Felipe Alberto Guzman Hernandez:	y teorema del maestro
+02:01:20	PABLO ARANEDA:	el del semestre pasado creo que no es el de ahora
+02:01:35	HUMBERTO ORTUZAR TORNERO:	igual los dos semestres son bastante distintos
+02:01:38	Felipe Alberto Guzman Hernandez:	ahora me enteré que en intro a la program no se pasa backtracking
+02:01:40	Felipe Alberto Guzman Hernandez:	:0
+02:01:48	HUMBERTO ORTUZAR TORNERO:	probablemente no lo vimos porque no alcanzamos a pasar grafos
+02:02:04	HUMBERTO ORTUZAR TORNERO:	como el semestre pasado se tuvo que recortar clases
+02:02:05	Cristian Alonso Carrasco González:	backtracking es bakan
+02:02:27	Cristian Alonso Carrasco González:	xd
+02:02:28	PABLO ARANEDA:	si no hubiese visto backtracking en intro con tranquilidad, hubiese muerto
+02:02:29	Felipe Alberto Guzman Hernandez:	con practica
+02:02:31	Felipe Alberto Guzman Hernandez:	entra
+02:02:38	Cristian Alonso Carrasco González:	me voy a cambiar a ing forestal
+02:03:08	PABLO ARANEDA:	en intro le daban una gran cantidad de tiempo de backtracking, por lo que creo que era bueno tenerlo ahi
+02:03:15	Felipe Alberto Guzman Hernandez:	cuando yo di intro no entendi recursion porque era muy tarde en el semestre
+02:03:29	Felipe Alberto Guzman Hernandez:	pero en algun momento en el futuro me quedó claro
+02:03:56	PABLO ARANEDA:	asi que reses mas iterativo que recursivo, vicho?
+02:04:02	Tomás C:	oh vaya
+02:04:07	Felipe Alberto Guzman Hernandez:	:o
+02:04:10	Tomás C:	~(>_<。)＼
+02:04:20	Nico Benítez:	F
+02:04:38	Felipe Alberto Guzman Hernandez:	si siempre pasa eso
+02:04:38	HUMBERTO ORTUZAR TORNERO:	en el "laboratorio"
+02:04:45	Felipe Alberto Guzman Hernandez:	manos a la obra
+02:04:49	Felipe Alberto Guzman Hernandez:	en una sola maniobra

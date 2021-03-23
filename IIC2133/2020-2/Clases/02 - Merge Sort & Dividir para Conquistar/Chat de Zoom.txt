@@ -1,0 +1,326 @@
+00:14:31	N:	Si
+00:14:32	Constanza Osorio:	sip
+00:14:33	José Ignacio Retamal:	si
+00:14:34	Rolf Sommer:	si
+00:14:35	Benjamín Álvarez Stevenson:	sii
+00:14:37	Piero Tassara:	Si
+00:14:38	Juan Pablo:	yes
+00:22:19	Benjamin Urrutia:	pero al intercambiar el 34 con el 21 no se estarían generando nuevos intercambios tambien?
+00:22:23	Benjamin Urrutia:	como el 21 con el 8
+00:22:52	VICENTE ERRAZURIZ QUIROGA:	(64,34)
+00:23:00	VICENTE ERRAZURIZ QUIROGA:	y (51, 34)
+00:23:01	HUMBERTO ORTUZAR TORNERO:	(51,34)
+00:23:15	Juan Jiménez:	pero insertion sort es ciego en este sentido cierto?
+00:23:33	VICENTE ERRAZURIZ QUIROGA:	insertion sort no puede generar nuevas inversiones
+00:24:15	VICENTE ERRAZURIZ QUIROGA:	la posicion relativa del par que invertiste con todos los otros numeros se mantiene
+00:26:00	Ricardo Benjamín Meza Aránguiz:	comparar los minimos de cada secuencia
+00:27:29	Constanza Osorio:	yes
+00:27:38	Franco Castillo:	Este algoritmo no es in place entonces ?
+00:27:45	Nicolás Bravo de la Cruz:	A y B tienen mismo largo?
+00:27:49	VICENTE ERRAZURIZ QUIROGA:	efectivamente, no es in place
+00:28:06	VICENTE ERRAZURIZ QUIROGA:	para lo que estamos haciendo ahora, no necesariamente tienen el mismo largo
+00:28:40	Juan Jiménez:	una vez que se acaba el largo de una, que algoritmo de ordenacion se usa para el segmento restante?
+00:28:55	VICENTE ERRAZURIZ QUIROGA:	el segment restante ya está ordenado
+00:29:02	Juan Jiménez:	ahhh
+00:29:06	Juan Jiménez:	ok gracias jajajajaja
+00:29:36	Cristian Alonso Carrasco:	esta bueno
+00:29:42	Matías Patricio Duhalde:	se cacha
+00:32:01	PABLO ARANEDA:	termina y funciona
+00:32:01	Benjamín Álvarez Stevenson:	termina y hace lo que se le pide
+00:32:01	Martín Ocqueteau:	termina y cumple
+00:32:02	Juan Jiménez:	finito y cumple proposito
+00:32:04	N:	que termina y cumple
+00:32:04	ALONSO ORTEGA LOYOLA:	que termina y que efectivamente ordena
+00:32:05	Rolf Sommer:	que termina y cumple su obj
+00:32:06	Sol Covacic Palet:	que termina y que entrega el resultado
+00:32:07	RAMIRO GALVEZ GARCIA:	que ordena y es finito
+00:32:27	PABLO ARANEDA:	finitud y funca
+00:33:27	Benjamín Álvarez Stevenson:	es como O(n)?
+00:33:30	N:	complejidad es o(n) pero solo asumiendo que hay 2 sublistas y que ya estan ordenadas
+00:33:33	PABLO ARANEDA:	n+n -> O(n)
+00:33:34	Nicolás Bravo de la Cruz:	n
+00:34:26	Jorge Araneda:	no entendi, eran n elementos entre a y b? o cada uno tiene n elementos
+00:34:35	Felipe Guzmán:	n entre los 2
+00:36:55	Sol Covacic Palet:	esto solo funcionaría para dos subsecuencias?
+00:37:13	N:	La solucion actual segun yo necesita dos subsecuencias ordenadas
+00:37:20	N:	Pero hay una que no necesita eso, con mayor complejidad
+00:38:04	Vicho:	se puede hacer con mas, pero ahi tendrias que comparar entre mas cabezas
+00:39:13	Felipe Guzmán:	se compara 2 veces o no?
+00:39:35	Benjamín Pardo Bravo:	Con n números en total hay a lo más n comparaciones, porque cada comparación siempre tiene un elemento nuevo
+00:40:27	VICENTE ERRAZURIZ QUIROGA:	creo que lo que importa ahi es que por cada element de C se hace como máximo una comparación
+00:40:41	VICENTE ERRAZURIZ QUIROGA:	y algunos pasan a C sin compararse (cuando ya no quedan elementos en la otra)
+00:41:24	Felipe Guzmán:	se saca min entre a y b y esa es "la" comparacion-?
+00:41:27	VICENTE ERRAZURIZ QUIROGA:	sip
+00:43:51	N:	N
+00:43:52	Tomás C:	n
+00:43:57	PABLO ARANEDA:	2n
+00:44:10	N:	con 2 pointers
+00:44:26	JADRINA DE ANDRADE E SILVA:	Se perdería un número no?
+00:44:37	PABLO ARANEDA:	se tardaría mas in-place?
+00:44:58	Julián Manuel García González:	no se puede porque habria que mever todos los numeros en a cada vez
+00:45:03	VICENTE ERRAZURIZ QUIROGA:	es mucho más dificil de implementar
+00:45:19	VICENTE ERRAZURIZ QUIROGA:	y puede que tome mas tiempo
+00:45:56	PABLO ARANEDA:	inplace son O(1) ?
+00:46:03	PABLO ARANEDA:	(en espacio)
+00:46:09	N:	si
+00:46:11	VICENTE ERRAZURIZ QUIROGA:	si pq acuerdate que la memoria que tomamos
+00:46:14	VICENTE ERRAZURIZ QUIROGA:	es memoria ADICIONAL
+00:46:35	PABLO ARANEDA:	:o
+00:46:49	Felipe Guzmán:	no se podria usar un array auxiliar y copiar los datos en el array original solo cuando el numero que se saca es de la primera lista?
+00:46:53	VICENTE ERRAZURIZ QUIROGA:	lo importante es cuanta memoria usa tu algoritmo
+00:47:11	VICENTE ERRAZURIZ QUIROGA:	> no se podria usar un array auxiliar y copiar los datos en el array original solo cuando el numero que se saca es de la primera lista?chuta, quizas, no se si sea suficiente. tendrías que probarlo :P
+00:47:20	PABLO ARANEDA:	pero si tenemos los datos en listas, puede ser O(1) ?
+00:47:22	Carlos Daniel Paredes Robles:	en una linked seria inplace o no? onda al momento de comparar remplazar el puntero del elemento anterior hacia el nuevo chico
+00:47:37	VICENTE ERRAZURIZ QUIROGA:	no pq no estamos desplazando elementos dentro del arreglo
+00:47:40	VICENTE ERRAZURIZ QUIROGA:	pasamos al siguiente indice
+00:47:47	VICENTE ERRAZURIZ QUIROGA:	cada paso es O(1)
+00:48:14	N:	si se puede pero tenemos que hacer mas subsequencias
+00:48:15	Carlos Daniel Paredes Robles:	iterar merge y finalmente terminaría ordenado
+00:48:21	VICENTE ERRAZURIZ QUIROGA:	> en una linked seria inplace o no? onda al momento de comparar remplazar el puntero del elemento anterior hacia el nuevo chicotan inplace como lo que estamos hacienda con los arreglos
+00:48:23	Benjamín Álvarez Stevenson:	podemos separar un arreglo en n subarreglos jajaj
+00:48:26	N:	subsecuencias de tamaño 2
+00:48:27	LAURENCE GOLBORNE:	separando el arreglo
+00:48:30	Tomás C:	hacer parejas e ir ordenando eso?
+00:48:35	N:	hacer muchas subsecuencias de tamaño 2*
+00:48:48	Tomás C:	con cada iteracion duplicas el largo de tu lsita
+00:48:58	Julián Manuel García González:	podriamos encontrar la mayor cantidad de numeros ordenados seguidos 2 veces y hacer merge entre ellos
+00:49:02	VICENTE ERRAZURIZ QUIROGA:	> en una linked seria inplace o no? onda al momento de comparar remplazar el puntero del elemento anterior hacia el nuevo chicoperdón era lista ligada, si, eso no usaria memoria adicional :)
+00:49:19	VICENTE ERRAZURIZ QUIROGA:	pero ir saltando de nodo en nodo es mas lento que recorrer un arreglo
+00:49:57	Carlos Daniel Paredes Robles:	grac
+00:50:28	VICENTE ERRAZURIZ QUIROGA:	en general estos algoritmos de ordenación que vamos a ver son muy faciles de implementar en listas ligadas
+00:50:38	VICENTE ERRAZURIZ QUIROGA:	pero mucho menos eficientes que en arreglos
+00:50:57	Benjamín Álvarez Stevenson:	se entiende
+00:51:00	PABLO ARANEDA:	si
+00:51:23	PABLO ARANEDA:	sigue O(n) en memoria ? (se usarían siempre dos arreglos?)
+00:51:35	VICENTE ERRAZURIZ QUIROGA:	claro, pasas todo a este arreglo auxiliar
+00:51:41	VICENTE ERRAZURIZ QUIROGA:	y de ahi lo puedes pasar de Vuelta al original
+00:51:59	Jorge Araneda:	no entiendo por qué en el tercer paso se puede usar sort con las mitades de A, no debían estar ordenadas las dos listas?
+00:52:26	Benjamín Álvarez Stevenson:	creo que merge != mergeSort
+00:53:31	Teresita S:	Que pasa si son impares?
+00:53:34	VICENTE ERRAZURIZ QUIROGA:	> no entiendo por qué en el tercer paso se puede usar sort con las mitades de A, no debían estar ordenadas las dos listas?Por eso mismo, para hacerles merge tienen que estar ordenadas. Sabemos que mergesort efectivamente ordena para N=1
+00:53:43	JOAQUIN ALLIENDE VACCARO:	profe no se le ve la cara
+00:53:47	Teresita S:	No se si tiene sentido mi pregunta
+00:54:04	Teresita S:	Que pasa si son impares?
+00:54:09	VICENTE ERRAZURIZ QUIROGA:	si, si son impares uno queda con un element más que el otro
+00:54:14	Teresita S:	Numero de datos impares
+00:54:17	ALONSO ORTEGA LOYOLA:	por qué el caso base es 1 dato y no 2?
+00:54:17	Felipe Guzmán:	por que se llega a tamaño 1 si se trabaja con los pares?
+00:54:38	VICENTE ERRAZURIZ QUIROGA:	más que pares, potencias de 2
+00:54:40	PABLO ARANEDA:	es esto dividir para conquistar?
+00:54:49	VICENTE ERRAZURIZ QUIROGA:	si… jaja aun no hemos llegado a esa parte
+00:54:49	N:	si
+00:55:02	VICENTE ERRAZURIZ QUIROGA:	el caso base es 1 dato
+00:55:07	VICENTE ERRAZURIZ QUIROGA:	porque una secuencia de un solo dato
+00:55:11	VICENTE ERRAZURIZ QUIROGA:	está trivialmente ordenada
+00:55:28	VICENTE ERRAZURIZ QUIROGA:	una secuencia de 2 datos podría estar desordenada o.o
+00:56:06	Rosita Muñoz:	una duda, este algoritmo requiere otro arreglo al igual que merge?
+00:56:20	VICENTE ERRAZURIZ QUIROGA:	este algoritmo usa merge por det´ras
+00:56:21	VICENTE ERRAZURIZ QUIROGA:	asique si
+00:56:33	VICENTE ERRAZURIZ QUIROGA:	lo que se hace por lo general es tener un gran arreglo auxiliar
+00:56:38	VICENTE ERRAZURIZ QUIROGA:	que se usa para cada merge
+00:56:55	VICENTE ERRAZURIZ QUIROGA:	y cada merge opera sobre la posición que le corresponde en el arreglo original
+00:57:14	ALONSO ORTEGA LOYOLA:	que el arreglo de la derecha de la penúltima fila esté desordenado es un error?
+00:57:25	VICENTE ERRAZURIZ QUIROGA:	SI
+00:57:28	ALONSO ORTEGA LOYOLA:	:o
+00:57:50	VICENTE ERRAZURIZ QUIROGA:	estos dibujos se hacen a mano :(
+00:58:25	María Jesús Tala:	duro jajaj
+00:58:33	VICENTE ERRAZURIZ QUIROGA:	ahi lo arreglé en las diapos
+00:58:43	VICENTE ERRAZURIZ QUIROGA:	las voy a resubir al final de la clase por si hay algo más que cambiar
+00:59:08	Sebastián Elsaca Merino:	De que orden es el paso 2??
+00:59:17	VICENTE ERRAZURIZ QUIROGA:	orden?
+00:59:37	Sebastián Elsaca Merino:	Nivel de complejidaddd me refiero
+00:59:52	VICENTE ERRAZURIZ QUIROGA:	dividrla en mitades es llegar y decir mitad = n/2
+00:59:58	Agustin Caracci:	se puede transformar algoritmo con una recursion a uno con for loop somehow? y que haga lo mismo obvii
+01:00:12	VICENTE ERRAZURIZ QUIROGA:	y despues al llamar recursive dices ordenar(0, mitad) y ordenar(mitad+1, n-1)
+01:00:23	VICENTE ERRAZURIZ QUIROGA:	si, todos los algoritmos recursivos se pueden hacer iterativos
+01:00:28	Agustin Caracci:	asi cm el que calcula factorial
+01:00:35	Agustin Caracci:	ya wena
+01:00:38	VICENTE ERRAZURIZ QUIROGA:	pero para eso necesitas hacer el stack manualmente
+01:00:44	VICENTE ERRAZURIZ QUIROGA:	en una estructura de datos llamada stack
+01:00:44	VICENTE ERRAZURIZ QUIROGA:	xD
+01:00:50	Agustin Caracci:	nice
+01:00:58	Agustin Caracci:	yes
+01:00:58	Cristian Alonso Carrasco:	si
+01:01:00	LAURENCE GOLBORNE:	si
+01:01:01	PABLO ARANEDA:	si
+01:01:01	VICENTE ERRAZURIZ QUIROGA:	recursivamente, es el compilador el que hace este stack en la memoria
+01:01:02	Agustin Caracci:	muy lindo
+01:01:03	ALONSO ORTEGA LOYOLA:	bien
+01:01:07	PABLO ARANEDA:	tranca
+01:01:08	Christian Carstens:	Sii se ve bien
+01:01:10	Julián Manuel García González:	comodo mientras no haya teorema del maestro
+01:01:11	Cristian Alonso Carrasco:	somos maquinas de la recursión
+01:01:26	VICENTE ERRAZURIZ QUIROGA:	va a haber teorema maestro
+01:01:27	VICENTE ERRAZURIZ QUIROGA:	xd
+01:01:31	Eduardo Oteiza:	F
+01:01:41	Carlos Daniel Paredes Robles:	T(n) = n * T(n/2) si es recursivo?
+01:01:46	VICENTE ERRAZURIZ QUIROGA:	pero se assume como visto y demostrado en discretas
+01:01:51	VICENTE ERRAZURIZ QUIROGA:	asique aca es llegar y usar
+01:01:53	Eduardo Oteiza:	Nunca lo vi en discretas xd
+01:01:56	Jorge Araneda:	x2
+01:01:57	Felipe Guzmán:	io tampoco
+01:01:58	FELIPE WILLMER MINO:	x3
+01:01:59	Eduardo Oteiza:	el buen riveros no lo pasó
+01:02:02	Jorge Araneda:	nunca habia escuchado de eso
+01:02:03	VICENTE ERRAZURIZ QUIROGA:	puchita
+01:02:06	VICENTE ERRAZURIZ QUIROGA:	busquenlo
+01:02:08	PABLO ARANEDA:	ese "ok" sonó a que la tarea 2 será recursion
+01:02:12	Constanza Osorio:	no recuerdo haberlo visto xd
+01:02:14	Benjamín Álvarez Stevenson:	profe ahora en memoria seria O(n*log(n))?
+01:02:25	Christian Carstens:	El algoritmo a priori parece que siempre tendría la misma complejidad? Tipo si está totalmente ordenado o desordenado hace la misma pega (?)
+01:02:29	Eduardo Oteiza:	tarea 2? no sera la 1?
+01:02:41	Eduardo Oteiza:	:o
+01:02:42	N:	si es nlogn
+01:02:47	Jorge Araneda:	por que log D:
+01:02:58	Agustin Rios Letelier:	D:
+01:03:09	PABLO ARANEDA:	ya me confundo que ramos del dcc parten con tarea 1 y cuales con tarea 0
+01:03:23	N:	aah en memoria xd, no en memroia sigue siendo n
+01:03:28	Moisés Matías Saavedra Cáceres:	Con respecto a la tarea, como debemos explicar el tema de las complejidades en el informe?
+01:03:42	JOAQUIN ALLIENDE VACCARO:	pero en la tarea 0 yo igual ocupe recursion
+01:03:45	JOAQUIN ALLIENDE VACCARO:	esta bien eso?
+01:03:53	Moisés Matías Saavedra Cáceres:	Explicamos peor y mejor caso?
+01:03:54	Agustin Caracci:	bruh
+01:03:54	ALONSO GOMEZ HERRERA:	en la t0 tenemos que explicar bud, grow, crossover...
+01:03:59	ALONSO GOMEZ HERRERA:	los comandos de los txt?
+01:04:03	Constanza Osorio:	okeh
+01:04:05	ALONSO GOMEZ HERRERA:	no por ejemplo el copy cell
+01:04:07	ALONSO GOMEZ HERRERA:	add cell
+01:04:21	Sebastián Andrés Torés Suárez:	la fecha limite es el sábado 23.59?
+01:04:22	FELIPE WILLMER MINO:	como van con la tarea?
+01:04:34	Agustin Rios Letelier:	se puede hacer un t(n) in O(n) in f(n) para la complejidad de metodos?
+01:04:54	Cristian Alonso Carrasco:	absorb
+01:04:56	Felipe Guzmán:	absorb
+01:05:07	Sol Covacic Palet:	mega drain
+01:05:17	Felipe Guzmán:	hoja navaja
+01:05:53	JADRINA DE ANDRADE E SILVA:	Y allocar memoria tiene complejidad?
+01:05:58	Agustin Rios Letelier:	osea que en kill_cell debo calcular como si las hijas de cada celula tuviera 10 hijas?
+01:06:33	Martín Ocqueteau:	yo si la cuento
+01:07:48	Felipe Guzmán:	igual se necesitan
+01:07:49	Constanza Osorio:	pero el copy_cell igual hay q calcularlo xq se usan
+01:07:51	Carlos Daniel Paredes Robles:	que igual son dependientes entre si
+01:08:53	Jorge Araneda:	no entendí lo del input, sería como O(n) con n cantidad de células del mould o qué?
+01:09:43	VICENTE ERRAZURIZ QUIROGA:	> no entendí lo del input, sería como O(n) con n cantidad de células del mould o qué?n la cantidad de celulas sobre las que opera tu función
+01:10:28	Jorge Araneda:	gracias :)
+01:10:53	VICENTE ERRAZURIZ QUIROGA:	cualquier otra tuda de la T1, pregunten en el discord
+01:10:54	VICENTE ERRAZURIZ QUIROGA:	:)
+01:15:28	VICENTE ERRAZURIZ QUIROGA:	De hecho podemos definer las complejidades de insertion y selection sort con T(n) = T(n-1) + n
+01:15:37	SOFIA REBOLLEDO VALDIVIA:	no :c
+01:16:21	VICENTE ERRAZURIZ QUIROGA:	no que
+01:16:22	VICENTE ERRAZURIZ QUIROGA:	?
+01:16:35	SOFIA REBOLLEDO VALDIVIA:	Que no vimos eso en discretas
+01:16:48	PABLO ARANEDA:	dividio por 'n' en ambos lados
+01:17:29	VICENTE ERRAZURIZ QUIROGA:	de hecho hay otras 2 formas de resolver esta recurrencia
+01:17:49	RAMIRO GALVEZ GARCIA:	como llego a t(2)/2? entiendo los pasos anteriores de dividir por n, pero no entiendo como se llega a eso último
+01:18:13	VICENTE ERRAZURIZ QUIROGA:	estamos asumiendo que n es potencia de 2
+01:18:18	VICENTE ERRAZURIZ QUIROGA:	asique eventualmente al divider por 2
+01:18:20	N:	log n filas
+01:18:21	VICENTE ERRAZURIZ QUIROGA:	vas a llegar a un 2
+01:18:22	JOAQUIN STROBL DIEZ:	Log n
+01:18:22	Tomás C:	log(n)
+01:18:33	JOAQUIN ALLIENDE VACCARO:	no entiendo de donde aparece el T(2)
+01:18:42	JOAQUIN ALLIENDE VACCARO:	la misma duda que ramiro yo jajja
+01:18:44	VICENTE ERRAZURIZ QUIROGA:	n = 2^k
+01:18:56	VICENTE ERRAZURIZ QUIROGA:	n/2 = 2^k-1
+01:19:01	VICENTE ERRAZURIZ QUIROGA:	n/4 = 2^k-2
+01:19:08	Teresita S:	Yo tambien tengo la duda de Joaquin
+01:19:15	ALONSO GOMEZ HERRERA:	x4
+01:19:18	VICENTE ERRAZURIZ QUIROGA:	hasta que eventualmente n/2^k-1 = 2
+01:19:24	Teresita S:	Y como saben que el log (n)
+01:19:32	VICENTE ERRAZURIZ QUIROGA:	es porque
+01:19:36	VICENTE ERRAZURIZ QUIROGA:	k = log2(n)
+01:20:16	ALONSO GOMEZ HERRERA:	aa cero que comprendi
+01:20:26	JOAQUIN ALLIENDE VACCARO:	gracias
+01:20:34	ALONSO GOMEZ HERRERA:	igual eso implica que el arreglo se par?
+01:21:09	ALONSO GOMEZ HERRERA:	osea todo el analisis asume que la secuencia es par?
+01:21:15	ALONSO GOMEZ HERRERA:	array*
+01:21:46	Teresita S:	Siii!
+01:21:50	Teresita S:	Ahi esta clarisimo
+01:21:54	Teresita S:	Gracias
+01:22:31	VICENTE ERRAZURIZ QUIROGA:	les voy a subir una version más formal de este análisis
+01:22:35	VICENTE ERRAZURIZ QUIROGA:	ojo que son varias paginas más
+01:22:36	VICENTE ERRAZURIZ QUIROGA:	jaja
+01:22:47	Benjamín Pardo Bravo:	de la columna izquierda se cancelan todos los términos menos el primero, y de la derecha todos menos el último? si es asi de donde salía el log?
+01:23:01	SOFIA REBOLLEDO VALDIVIA:	Ese log es en base 2?
+01:23:03	PABLO ARANEDA:	hay log veces el '+1'
+01:23:03	VICENTE ERRAZURIZ QUIROGA:	es porque
+01:23:11	VICENTE ERRAZURIZ QUIROGA:	es 1 +1 +1 +1 +1 (log n veces)
+01:23:14	VICENTE ERRAZURIZ QUIROGA:	si, es log en base 2
+01:23:22	VICENTE ERRAZURIZ QUIROGA:	porque n = 2^k
+01:23:27	VICENTE ERRAZURIZ QUIROGA:	-> k = log2(n)
+01:23:34	VICENTE ERRAZURIZ QUIROGA:	k = cantidad de lineas
+01:23:42	VICENTE ERRAZURIZ QUIROGA:	cantidad de veces que Podemos dividir el n para llegar a 1
+01:24:07	Agustin Caracci:	telescopica de precalc gang
+01:24:09	JOAQUIN ALLIENDE VACCARO:	como cuando se sube la clase grabada? para poder repasarla xd jajaj
+01:24:18	VICENTE ERRAZURIZ QUIROGA:	hoy antes de las 18:00
+01:24:21	VICENTE ERRAZURIZ QUIROGA:	si zoom no nos falla
+01:24:28	VICENTE ERRAZURIZ QUIROGA:	están en el github
+01:24:35	VICENTE ERRAZURIZ QUIROGA:	en la carpeta Clases/README.md
+01:24:37	Benjamin Urrutia:	O(nlogn)
+01:24:40	Elías Sabja:	complejidad: nlogn
+01:25:21	JOAQUIN ALLIENDE VACCARO:	graciaas
+01:26:46	Teresita S:	Porque T(1)*n= log(n)*n?
+01:26:53	Carlos Daniel Paredes Robles:	en el peor caso serian 2^n diferentes divisiones o no?
+01:27:05	Carlos Daniel Paredes Robles:	y quedaría O(n^2)
+01:27:20	N:	el peor caso es nlogn
+01:28:43	Teresita S:	Pero porque?
+01:29:01	VICENTE ERRAZURIZ QUIROGA:	> T(1)*n= log(n)*n?donde sale eso o.O
+01:29:30	Teresita S:	En las dos ultimas lineas
+01:29:32	Franco Castillo:	T(n) = O(n) ?
+01:29:43	VICENTE ERRAZURIZ QUIROGA:	estoy subiendo ahora mismo una ayudantía del semester pasado
+01:29:47	VICENTE ERRAZURIZ QUIROGA:	donde se calcula por completo
+01:29:50	VICENTE ERRAZURIZ QUIROGA:	y formalmente
+01:29:53	VICENTE ERRAZURIZ QUIROGA:	la complejidad de mergesort
+01:29:56	Felipe Guzmán:	es mas como O(T(n)) creo
+01:29:57	VICENTE ERRAZURIZ QUIROGA:	sin aproximaciones raras
+01:29:57	MARIO GOMEZ HERRERA:	bueena
+01:30:10	VICENTE ERRAZURIZ QUIROGA:	la estoy subiendo el la misma carpeta de la clase
+01:31:06	Teresita S:	T(n)/n = T(1)/1 + log n
+01:31:08	Teresita S:	T(n) = n log (n) + n
+01:31:15	Teresita S:	No entiendo ese paso
+01:31:20	PABLO ARANEDA:	T(1) = 1
+01:31:28	PABLO ARANEDA:	1/1 = 1
+01:31:35	PABLO ARANEDA:	n*1 = n
+01:31:37	Rosita Muñoz:	el n pasa multiplicando
+01:31:37	Javiera Ochoa Guin-Po:	multiplico la ecuacion por n
+01:31:38	Sol Covacic Palet:	gracias profe
+01:31:38	Rolf Sommer:	gracias profe
+01:31:38	Victoria Matthews:	gracias profe, chao :)
+01:31:40	Pablo Vejar:	Gracias profe!
+01:31:42	Rolf Sommer:	chau
+01:31:43	VICENTE ERRAZURIZ QUIROGA:	y pasa multipliacando el n
+01:31:44	VICENTE ERRAZURIZ QUIROGA:	:)
+01:31:45	Eduardo Oteiza:	Gracias profe!
+01:31:45	Fernando Quintana:	chao profee
+01:31:46	NICOLAS ORELLANA DRAGO:	Gracias profe
+01:31:46	Felipe Guzmán:	gracias profe
+01:31:47	N:	gracias profe
+01:31:48	Piero Tassara:	Gracias profe, chaoo
+01:31:49	Florencia Valdivia:	Gracias!
+01:31:49	JADRINA DE ANDRADE E SILVA:	Chao profe, que le vaya bien!
+01:31:49	Elías Sabja:	gracias profe
+01:31:56	Javiera Ochoa Guin-Po:	gracias!
+01:31:57	PABLO ARANEDA:	chao profe, arigatou~
+01:31:58	Benjamin Urrutia:	chao profe, gracias!
+01:31:58	Rocio Hernandez:	gracias :)
+01:32:01	Teresita S:	> T(1) = 1
+01:32:04	Teresita S:	graciasss
+01:32:11	Constanza Osorio:	gracias! chao profe, chao Vicho
+01:34:02	Benjamín Alejandro Lepe Maluenda:	Chao profee que esté bien!
+01:34:05	CRISTIAN OBERPAUR KOHLER:	nose, yo si lo vi el año pasado en discreras
+01:34:06	Tomás C:	es que las dos discretas son distintas
+01:34:21	SEBASTIAN ZABALA MARTINEZ:	ehhhh
+01:34:26	SOFIA REBOLLEDO VALDIVIA:	Ahh puede que sea por el otro profe
+01:34:31	Matías Iván López López:	Que es eso?
+01:34:34	Fernando Ignacio Balladares Conejeros:	ecuaciones de recurrencia no las vimos el semestre pasado si no me equivoco
+01:34:42	SEBASTIÁN CARRASCO:	Es que el semestre pasado no alcanzaron a ver toda la materia en discretas
+01:34:46	PABLO ARANEDA:	yo di las discretas de este año, y creo que no vimos complejidad con recurrencia, pero si con iteracion
+01:35:04	Fernando Ignacio Balladares Conejeros:	Sí, lo mismo que Pablo
+01:35:19	Sebastián Andrés Torés Suárez:	a q se refería cuando decía q el mergeSort no se limita a comparar elementos adyacentes (respecto a los dos anteriores)?
+01:35:24	Julián Manuel García González:	*veia en intro
+01:36:20	Sebastián Andrés Torés Suárez:	pero los algoritmos también tienen esa propiedad, salvo q los compara con prácticamente todos verdad?
+01:36:26	Sebastián Andrés Torés Suárez:	los otros**
+01:36:51	Sebastián Andrés Torés Suárez:	ah perfecto gracias
+01:37:06	PABLO ARANEDA:	si en la prueba digo "dividir para conquistar" en vez de "dividir para reinar" no hay problema?
+01:37:17	PABLO ARANEDA:	gracias
+01:37:21	Jorge Araneda:	divide et impera
+01:38:03	Julián Manuel García González:	sun tzu

@@ -1,0 +1,131 @@
+00:06:40	PABLO ARANEDA:	el vicho ve el vaso medio lleno
+00:06:57	Agustin Rios Letelier:	xd
+00:07:21	Pablo Vejar:	Hola profe :)
+00:08:28	Agustin Rios Letelier:	como sera la modalidad de la prueba?
+00:09:38	María Jesús Tala Abudinen:	hola! nose si lo dijeron pero dónde subimos el informe de la tarea 1? pq en siding esta cerrado el fomr
+00:09:53	VICENTE ERRAZURIZ QUIROGA:	lee el correo que enviamos avisando el plazo 
+00:22:35	Julián Manuel García González:	selection sort y bubble sort son el mismo algoritmo pero al reves?
+00:23:00	Constanza Osorio:	zhi
+00:23:29	Julián Manuel García González:	pero igual en selection tiene que recorrer todo el arreglo
+00:24:16	Julián Manuel García González:	pero llega al elemento n-i en la iteracion i
+00:24:33	Julián Manuel García González:	ew
+00:24:38	Felipe Alberto Guzman Hernandez:	:0
+00:24:45	Constanza Osorio:	piola
+00:24:48	Felipe Alberto Guzman Hernandez:	pop the bubble
+00:25:10	Felipe Alberto Guzman Hernandez:	nunca lo habia visto la verdad
+00:27:39	Bernardo Agustín Valdivieso Osekowska:	cómo es el formato de la prueba? es en horario de clases?
+00:28:45	VICENTE ERRAZURIZ QUIROGA:	hola, para los que tienen dudas de como funciona la prueba pueden revisar la clase de introducción al curso, ahi explicamos como funciona la prueba (minuto ~19)
+00:29:05	Bernardo Agustín Valdivieso Osekowska:	ok, gracias
+00:30:56	Agustin Rios Letelier:	me tira error si quiero ver esa clase
+00:31:12	VICENTE ERRAZURIZ QUIROGA:	:o
+00:31:24	Julián Manuel García González:	zoom elimina los videos dps de 14 dias creo
+00:31:36	Eduardo Oteiza:	Debería estar en Youtube
+00:31:38	VICENTE ERRAZURIZ QUIROGA:	pero
+00:31:41	VICENTE ERRAZURIZ QUIROGA:	no los tenemos en zoom
+00:31:45	Julián Manuel García González:	ah lol
+00:31:51	Agustin Rios Letelier:	lol?
+00:32:10	Agustin Rios Letelier:	yo estaba haciendo en el recording de zoom jajaja
+00:32:13	Eduardo Oteiza:	https://youtu.be/UT2z0kRnWV0
+00:32:16	Eduardo Oteiza:	La primera clase
+00:32:30	VICENTE ERRAZURIZ QUIROGA:	https://github.com/IIC2133-PUC/2020-2/tree/master/Clases
+00:32:39	VICENTE ERRAZURIZ QUIROGA:	ahi estan los links pa los videos de todas las clases
+00:42:35	TOMÁS ÁLVAREZ:	la mezcla como se hace?
+00:42:44	TOMÁS ÁLVAREZ:	inserion?
+00:42:52	TOMÁS ÁLVAREZ:	insertion?*
+00:42:52	VICENTE ERRAZURIZ QUIROGA:	la mezcla es merge
+00:42:55	VICENTE ERRAZURIZ QUIROGA:	tienes
+00:43:00	VICENTE ERRAZURIZ QUIROGA:	dos arreglos separados
+00:43:09	VICENTE ERRAZURIZ QUIROGA:	y los vas pasando dato por dato, ordenadamente, a un tercer arreglo
+00:43:23	TOMÁS ÁLVAREZ:	aaa verdad
+00:43:24	TOMÁS ÁLVAREZ:	gracias
+00:46:03	Julián Manuel García González:	la complejidad en memoria de quicksort es O(n)? No me acuerdo
+00:46:11	VICENTE ERRAZURIZ QUIROGA:	es O(1), se hace todo inplace
+00:46:32	Alonso Rafael Gómez Herrera:	La diferencia entonces seria como que en quciksort la mezcla es, juntame estas dos sub arrays en merge sort para hacer esa mezcla habría que ver que elemento es mas grande que el otro elemento?
+00:46:33	Alonso Rafael Gómez Herrera:	Algo asi?
+00:46:48	VICENTE ERRAZURIZ QUIROGA:	en quicksort no hay mezcla 
+00:46:58	VICENTE ERRAZURIZ QUIROGA:	🤔
+00:47:08	VICENTE ERRAZURIZ QUIROGA:	asique
+00:47:11	VICENTE ERRAZURIZ QUIROGA:	no entiendo tu pregunta
+00:47:39	Alonso Rafael Gómez Herrera:	Si ahi cache jajaja
+00:47:45	VICENTE ERRAZURIZ QUIROGA:	o.o
+00:47:51	VICENTE ERRAZURIZ QUIROGA:	yo no pero ok
+00:48:07	Alonso Rafael Gómez Herrera:	Jajaja era que pensaba que en quicksort se hacia una mezcla
+00:48:09	Alonso Rafael Gómez Herrera:	Pero no
+00:48:32	VICENTE ERRAZURIZ QUIROGA:	ah dale
+00:48:39	Carlos Daniel Paredes Robles:	hay alguna implementación de Quicksort que sea consciente del orden?
+00:49:19	VICENTE ERRAZURIZ QUIROGA:	busca en google quicksort + median of medians
+00:49:30	Carlos Daniel Paredes Robles:	grac
+00:54:31	LAURENCE GOLBORNE:	esta bien decir que en memoria es O(1) un algoritmo recurisvo? por que al final el entrar en una subrutina también ocupa memoria
+00:54:49	LAURENCE GOLBORNE:	y se hace log n veces en profundidad
+00:55:00	LUCAS VALENZUELA:	Que es el overhead?
+00:55:36	PABLO ARANEDA:	declarar el i del for?
+00:55:37	LUCAS VALENZUELA:	Como partition?
+00:55:50	LAURENCE GOLBORNE:	lo entiendo, pero siento q es medio "trampa" finalmente decir O(1)
+00:56:21	LUCAS VALENZUELA:	okaaa gracias
+00:56:43	Alonso Rafael Gómez Herrera:	Podían hacer un repasito corto de partition ?
+00:56:46	LAURENCE GOLBORNE:	jajajaj perfecto
+00:58:24	Constanza Osorio:	raios
+00:59:26	Alonso Rafael Gómez Herrera:	Sii gracias
+00:59:30	Alonso Rafael Gómez Herrera:	Entendi perfecto
+00:59:56	Alonso Rafael Gómez Herrera:	Me pasa que no me acordaba bien de la implementación de las slides
+01:00:27	LUCAS VAN SINT JAN CAMPOS:	Confirmo
+01:00:29	Pablo Inzunza:	ooh he visto caleta de esos
+01:00:33	Sebastian Zabala Martinez:	folk dance algorithms?
+01:00:47	Constanza Osorio:	:( los de la gente bailando es de pana
+01:01:00	Constanza Osorio:	hasta mi viejo entendió los algoritmos
+01:01:11	PABLO ARANEDA:	selection sort for seach algorythm video
+01:02:03	PABLO ARANEDA:	esas como las que ordenan los colores?
+01:08:31	Rosita Muñoz:	Duda muy x, cuál es el libro/libros guía o que recomiendan para el curso?
+01:08:42	VICENTE ERRAZURIZ QUIROGA:	cormen
+01:08:53	Rosita Muñoz:	yapp gracias!
+01:12:45	María Luisa Claro:	No entiendo por qué cuando pasamos a árboles empezamos a hablar de diccionarios
+01:12:53	María Luisa Claro:	Por alguna razón en especial?
+01:13:07	Carlos Daniel Paredes Robles:	los nodos no son los datos en si, si no que son la clave para acceder a ellos
+01:17:36	VICENTE ERRAZURIZ QUIROGA:	los diccionarios son una estructura de datos general
+01:17:41	VICENTE ERRAZURIZ QUIROGA:	que asocia una clave con un valor
+01:17:51	VICENTE ERRAZURIZ QUIROGA:	los árboles de busqueda son un tipo de diccionario (no el único)
+01:18:08	VICENTE ERRAZURIZ QUIROGA:	recuerda que cuando hablamos de los datos en un árbol siempre estamos hablando de las "claves"
+01:18:23	VICENTE ERRAZURIZ QUIROGA:	y es por esto
+01:18:39	Alonso Rafael Gómez Herrera:	Entonces la búsqueda en un diccionario no es directa verdad?
+01:19:17	Alonso Rafael Gómez Herrera:	Ósea, pyhthon dic[key] encontrar el valor para key no es O(1) ?
+01:20:27	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:20:53	VICENTE ERRAZURIZ QUIROGA:	una de las múltiples cosas que python te oculta
+01:20:57	Alonso Rafael Gómez Herrera:	Creo que me han mentido en los otros ramos >:O.
+01:21:05	VICENTE ERRAZURIZ QUIROGA:	aunque vamos a ver como hacer diccionarios O(1) en el caso promedio
+01:21:10	VICENTE ERRAZURIZ QUIROGA:	pero jamás garantizado
+01:21:30	PABLO ARANEDA:	Rolling hashing?
+01:21:56	Alonso Rafael Gómez Herrera:	Osea creo haber escuchado que los diccionarios su gracia era que al buscar un valor se encontraba inmediato
+01:22:04	Alonso Rafael Gómez Herrera:	Y eso me hacia pensar que era O(1)
+01:24:07	Josefina Fernández:	cuando vamos a ver bien lo de los diccionarios?
+01:25:10	VICENTE ERRAZURIZ QUIROGA:	todo lo que es un diccionario ya lo vimos ahora, pero el proximo miercoles vamos a ver como hacerlos O(1) en caso promedio
+01:25:52	Josefina Fernández:	gracias!
+01:29:35	Constanza Osorio:	grande vicho
+01:29:45	Alonso Rafael Gómez Herrera:	Muchas gracias profesor y vicho
+01:29:53	Felipe Alberto Guzman Hernandez:	graciass
+01:29:55	JOAQUIN ALLIENDE VACCARO:	gracias por la clase
+01:29:55	Fernando Quintana:	gracias, chao!
+01:29:56	BARBARA IRARRAZAVAL MONTES:	Muchas gracias!
+01:29:58	Elisa Fernández:	chao graciass!
+01:30:10	Sergio Alberto Gazali Allen:	chao muchas gracias!
+01:30:14	Rocio Belen Hernandez Roman:	chao gracias!
+01:30:14	Josefina Fernández:	muchas gracias!!
+01:30:16	Javiera Ignacia Ochoa Guin-Po:	gracias!
+01:30:23	Teresita S:	Chao gracias
+01:30:23	PABLO ARANEDA:	Si
+01:30:25	Constanza Osorio:	si, un poquito.
+01:30:29	Felipe Alberto Guzman Hernandez:	mas o menos
+01:30:30	Agustin Rios Letelier:	a medias
+01:30:32	HUMBERTO ORTUZAR TORNERO:	chao muchas gracias!
+01:30:36	Agustin Rios Letelier:	habia tarea
+01:30:36	PABLO ARANEDA:	Aproveche de jugar un juego nuevo
+01:30:42	Felipe Alberto Guzman Hernandez:	yo igual jugué
+01:30:52	Javiera Bartolome Villalobos:	Muy reponedora!!
+01:31:15	Felipe Alberto Guzman Hernandez:	si igual ahora estoy con mas ganas
+01:31:22	mathias haller:	El informe con que esté en el repositorio estaba bien cierto?
+01:31:30	LUCAS VALENZUELA:	Profe, una duda! una rotación no necesariamente tiene que ser en el nodo inicial del árbol?
+01:34:32	Felipe Alberto Guzman Hernandez:	profe calcular complejidad para funciones recursivas es relativamente similar de una a otra?
+01:35:31	Felipe Alberto Guzman Hernandez:	las que he hecho me han resultado con pasos muy parecidos y me parece algo raro
+01:37:23	PABLO ARANEDA:	chao profe, muchas gracias~
+01:37:29	Matías Patricio Duhalde:	gracias profe!!
+01:37:38	Felipe Alberto Guzman Hernandez:	gracias profe chao
+01:37:44	mathias haller:	El informe con que esté en el repositorio estaba bien cierto?

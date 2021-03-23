@@ -1,0 +1,428 @@
+14:08:33	 From  Florencia Ferrer : https://github.com/IIC2133-PUC/2020-2/tree/master/Ayudant%C3%ADas/Ayudant%C3%ADa%200%20-%20Intro%20a%20C/Slides
+14:08:41	 From  Hernán Sazo : gracias!
+14:08:47	 From  Cristian Carrasco : gracias
+14:09:19	 From  Fabián Sepúlveda : que hace ./ ?
+14:09:33	 From  Christian Eilers Gonzalez : ejecuta un archivo
+14:09:37	 From  BERNARDO VALDIVIESO OSEKOWSKA : hay diferencia entre gcc y make?
+14:09:37	 From  Felipe Guzmán : par indicar que esta en la capreta actual
+14:09:42	 From  JACQUES HASARD RATICAS : Indica que esta en la carpeta
+14:09:44	 From  JACQUES HASARD RATICAS : exacto
+14:09:48	 From  JACQUES HASARD RATICAS : Eso significa el .
+14:09:58	 From  Julián Manuel García González : . . es la carpeta actual, ./ es algo en la carpeta
+14:10:06	 From  Fabián Sepúlveda : wena
+14:10:50	 From  Joaquin Terreros : Eso quiere decir que para Mac no tenemos que instalar nada?
+14:11:06	 From  Eduardo Oteiza : en mac había algo de Xcode creo
+14:11:15	 From  Eduardo Oteiza : Está en el git
+14:11:17	 From  Joaquin Terreros : Vale :D
+14:11:19	 From  Pablo Hernán Araneda : :o
+14:11:55	 From  Kyle : Si escribes gcc en la terminal y te sale algo, estás bien :)
+14:12:16	 From  Kyle : Te debería aparecer clang: error: no input files
+14:12:32	 From  Tomás C : gcc: fatal error: no input filescompilation terminated.
+14:12:34	 From  Tomás C : eso
+14:12:40	 From  Julián Manuel García González : si usamos cpython es mas eficiente no?
+14:12:48	 From  Ronaldo Sosa : si sale eso entonces estamos listos ?
+14:12:53	 From  Juan Jiménez : Si
+14:12:56	 From  Ronaldo Sosa : oks 
+14:13:00	 From  Ronaldo Sosa : gracias
+14:13:10	 From  Kyle : Sí, ojo que necesitarás valgrind de todas formas
+14:13:13	 From  mr.pepo877(raul) : por que no se usa c++
+14:13:13	 From  agustincaracci : Real coders code in assembler
+14:13:18	 From  BERNARDO VALDIVIESO OSEKOWSKA : gcc t make es lo mismo?
+14:13:27	 From  Kyle : Make usa gcc por detrás
+14:13:34	 From  BERNARDO VALDIVIESO OSEKOWSKA : ok gracias
+14:13:36	 From  Kyle : Si tienes el makefile ahí se específica todo
+14:13:50	 From  Julián Manuel García González : se me olvido, c tiene punteros?
+14:13:55	 From  Kyle : Sí, tiene
+14:13:56	 From  Carlos Daniel Paredes Robles : C# = C++++
+14:13:59	 From  Julián Manuel García González : a dale
+14:14:08	 From  Fabián Sepúlveda : se usa C en el futuro como en la pega?
+14:14:09	 From  Kyle : Son muy importantes (No podrás hacer la tarea sin ellos)
+14:14:10	 From  Cristian Carrasco : aguante C#
+14:14:21	 From  JACQUES HASARD RATICAS : Depnde de que hagas Fabian
+14:14:26	 From  JACQUES HASARD RATICAS : jajajaja
+14:15:15	 From  Fabián Sepúlveda : y por que sale int antes del main?
+14:15:16	 From  MATIAS QUEZADA LOYOLA : C se usa mucho en sistemas embebidos para programar microcontroladores.
+14:15:17	 From  Benjamin Urrutia : el int del principio de la función indica que tipo de variable se retorna?
+14:15:23	 From  Eduardo Garrido : Fabian, depende de la pega jaja, C se utiliza cuando quieres eficiencia.
+14:15:24	 From  Felipe Guzmán : porque retorna un int
+14:15:24	 From  JACQUES HASARD RATICAS : Es lo que retorna la funcion
+14:15:28	 From  N : """ int argc, char** argv """" no es necesario verdad?
+14:15:29	 From  Kyle : Sí, exacto. El return 0 significa que todo resultó bien
+14:15:32	 From  Eduardo Oteiza : Donde estará la clase grabada?
+14:15:34	 From  Kyle : Si retornara 1 significa que algo está mal
+14:16:00	 From  Felipe Guzmán : vamos a quedar con esa notacion? 0=bueno, 1= error?
+14:16:04	 From  Eduardo Oteiza : si
+14:16:11	 From  Kyle : Es una notación standard
+14:16:20	 From  Eduardo Oteiza : es lo que se usa típicamente en C
+14:16:21	 From  Carlos Daniel Paredes Robles : Python tmb tiene tipado estatico actualmente
+14:16:46	 From  ALONSO GOMEZ HERRERA : siempre tiene que retornar algo?
+14:16:51	 From  Pablo Hernán Araneda : si se me olvida el return 0;, el compilador cacha y lo agrega?
+14:16:59	 From  Cristian Carrasco : pregunten por voz
+14:17:19	 From  Pablo Hernán Araneda : estoy en el living de mi casa con mucho ruido ;(
+14:17:22	 From  Carlos Daniel Paredes Robles : no, el compilador hace solo que le dices explicitamente
+14:18:23	 From  Fabián Sepúlveda : no entendí lo del argc y argv
+14:18:33	 From  JOSE MARQUEZ BISCHOFF : yo tampoco
+14:18:36	 From  Carlos Daniel Paredes Robles : si es otra función, no la main(), puedes hacer que su tipo de retorno sea void y asi no nescesitas retornar
+14:18:38	 From  Kyle : Interesante, si no pones el return 0 igual hace el hello world. Probablemente afecte el entorno en el cual se ejecuta el programa
+14:19:00	 From  Julián Manuel García González : argv son los inputs que le das al programa cuando ejecutas, por ejemplo cuando haces python file.py arg1 arg2 hola etc
+14:19:12	 From  Julián Manuel García González : ahi arg1, arg2, hola, etc son los argv
+14:19:19	 From  Julián Manuel García González : argc es |argv|
+14:19:24	 From  Carlos Daniel Paredes Robles : creo que en c11 arreglaron varias cosas en el compilador, como solución a errores comunes
+14:20:02	 From  Felipe Guzmán : c diferencia "" y '' o no?
+14:20:05	 From  Fabián Sepúlveda : y donde se establece lo que es argv?
+14:20:22	 From  Kyle : Sí, “” es para strings ‘’ para char
+14:20:23	 From  Pablo Hernán Araneda : "string",  'c': char
+14:20:41	 From  Julián Manuel García González : pero se puede hacer un char con "" no?
+14:20:52	 From  FELIPE WILLMER MINO : F
+14:21:01	 From  Tomás C : droidcam uwu
+14:21:04	 From  Constanza Osorio : si pero se escriben a mano creo
+14:21:16	 From  Christian Eilers Gonzalez : droidcam! OwO
+14:21:22	 From  juan.jimenez@uc.cl : Pero entonces, no hay exception handling en C?
+14:21:35	 From  Kyle : Es distinto a un char. Un string es char*, un puntero a un char, si hases “” vas a tener un puntero a un char en vez de tener el objeto char
+14:21:56	 From  VICENTE VEGA ULLOA : Que significan los ** en char**?
+14:22:11	 From  Kyle : Que es un puntero de punteros
+14:22:17	 From  Kyle : Porque tiene varios strings
+14:22:22	 From  Kyle : En vez de solo 1
+14:22:22	 From  Cristian Carrasco : break uwu
+14:22:26	 From  Patrick Liedtke : https://support.zoom.us/hc/en-us/articles/207279736-Closed-Captioning
+14:22:27	 From  AGUSTIN RIOS : que era el punter?
+14:22:28	 From  DANIELA VILLARROEL NAVARRO : Break mejor
+14:22:28	 From  Pablo Vejar : está bien jajaj
+14:22:34	 From  VICENTE VEGA ULLOA : aaah yaa, gracias!
+14:22:48	 From  Kyle : Aun no hemos visto punteros, pero un puntero es como almacenar la dirección donde está el valor
+14:22:54	 From  María Jesús Tala : como se agregan los subtitulos a zoom?? 
+14:23:01	 From  javiera navarrete : si
+14:23:07	 From  Cristóbal Tomás González Vergara : Con el celular tienes que poner el audio ahí, para q te vean hablando
+14:23:11	 From  VICENTE VEGA ULLOA : en el github hay un archivo en guias donde hablan de punteros
+14:23:21	 From  JADRINA DE ANDRADE E SILVA : El return se guarda en algún lugar o hay que hacer un print para ver el resultado?
+14:23:24	 From  Kyle : Los punteros van a ser más claros cuando los veamos 😊
+14:23:57	 From  javiera navarrete : quizas hay q ser premium
+14:23:58	 From  Kyle : El return de main no es muy práctico verlo
+14:24:07	 From  Felipe Guzmán : punteros premium
+14:24:12	 From  Kyle : Pero si haces una función distinta ahí sí puedes hacer printf para ver ese output
+14:24:19	 From  JADRINA DE ANDRADE E SILVA : Ok, gracias!
+14:24:22	 From  LAURENCE GOLBORNE : quizás tiene  actualizar zoom
+14:24:36	 From  Constanza Osorio : igual esos subtitulos se escriben a manito :(
+14:24:48	 From  María Jesús Tala : hay unos q son automaticos
+14:24:51	 From  María Jesús Tala : yo los he usado
+14:25:01	 From  Constanza Osorio : :0
+14:25:13	 From  María Jesús Tala : no son 100% igual pero igual son buenos
+14:25:14	 From  ERICK ROMERO SANTIBANEZ : si estas
+14:25:20	 From  Felipe Guzmán : no veo :0
+14:25:35	 From  Constanza Osorio : deben ser como los de youtube
+14:25:40	 From  Felipe Guzmán : ahi ta
+14:25:50	 From  Eduardo Oteiza : Donde?
+14:25:54	 From  Pablo Hernán Araneda : el ayudante spawneo no al inicio de las personas
+14:26:01	 From  Pablo Hernán Araneda : hay que scrollear un poco
+14:26:12	 From  HUMBERTO ORTUZAR TORNERO : o hide non video participants
+14:26:16	 From  Juan Jiménez : ponganle hide non video
+14:26:16	 From  Juan Jiménez : eso
+14:26:19	 From  Beatriz Acuña : sii
+14:26:19	 From  Pablo Hernán Araneda : ahora se movio al inicio
+14:26:19	 From  JOAQUIN ALLIENDE VACCARO : sisi
+14:26:20	 From  Javiera Ochoa Guin-Po : sii
+14:26:21	 From  Cristóbal Bofill : sii
+14:26:24	 From  Pablo Vejar : si!
+14:28:28	 From  Carlos Daniel Paredes Robles : siempre existirá un parámetro, que es el mismo main.c
+14:28:29	 From  Kyle : #include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+14:28:38	 From  Kyle : Ese código es igual de válido para hacer hello world
+14:29:55	 From  Nico Benítez : a qué hora se sube la tarea?
+14:29:57	 From  Felipe Guzmán : creo que se refieren a variables nomas tipo int a = 5
+14:30:04	 From  Nico Benítez : gracias
+14:30:23	 From  Cristóbal Tomás González Vergara : se va a subir esto?
+14:30:39	 From  Cristóbal Tomás González Vergara : De lujo, gracias
+14:30:52	 From  Patrick Liedtke : y los videos tmbn se suben ;)
+14:32:16	 From  Fabián Sepúlveda : 0b es lo mismo que 00 ?
+14:32:24	 From  Joaquin Muñoz : que es 0b?
+14:33:36	 From  Carlos Daniel Paredes Robles : un header, es equivalente a 0x en hexadecimal
+14:36:16	 From  Pablo Andrés Inzunza Méndez : pero entonces en el ejemplo de C no debería quedar comoHelloWord!
+14:36:18	 From  Pablo Andrés Inzunza Méndez : ?
+14:36:34	 From  Andres Plass Caussade : nopo
+14:36:34	 From  Kyle : No, porque no hay un \n entre Hello y World
+14:36:36	 From  Benjamín Álvarez : nop, porque el %s esta antes del salto
+14:36:38	 From  Agustin Ruiz-Tagle : intercalo texto con texto no mas en el ejemplo
+14:36:40	 From  Pablo De Solminihac : pero se podría poner printf("Hello World")
+14:36:45	 From  Constanza Osorio : si te das cuenta, el \n v después de %s (que es donde irá el "World")
+14:37:07	 From  Pablo Andrés Inzunza Méndez : aaah
+14:37:22	 From  Eduardo Oteiza : que significa zu?
+14:37:27	 From  NICOLAS PARRAGUEZ CRUZAT : por que es zu
+14:37:30	 From  RAMIRO GALVEZ GARCIA : %zu?
+14:37:48	 From  Eduardo Oteiza : Todos los ints siempre serán de 4 bytes?
+14:37:50	 From  NICOLAS PARRAGUEZ CRUZAT : como que para otros tipos de buscar en google 
+14:38:01	 From  NICOLAS PARRAGUEZ CRUZAT : cual es el % de este tipo?
+14:38:06	 From  NICOLAS PARRAGUEZ CRUZAT : ahhh ya
+14:38:11	 From  Kyle : Normalmente te tira un error si pusiste el tipo mal
+14:38:25	 From  Kyle : Y es un debug fácil
+14:38:29	 From  Kyle : Entonces no se preocupen tanto por eso
+14:38:46	 From  Kyle : Y siempre lo pueden encontrar en google después, en el error te dice el tipo
+14:39:08	 From  Felipe Guzmán : char* izi
+14:39:42	 From  Arturo Sande : cuál es la diferencia entre character y string?
+14:40:07	 From  Eduardo Oteiza : char es de largo 1 y string esta formado por varios char (2 o mas)
+14:40:09	 From  Eduardo Oteiza : eso entiendo
+14:40:21	 From  Kyle : El error que te tira es algo como esto:
+14:40:34	 From  Felipe Guzmán : string es un array de char segun entiendo
+14:40:35	 From  Kyle : test.c:4:31: warning: format specifies type 'int' but the argument has type 'char *'
+      [-Wformat]
+   printf("Hello, World! %c", "test");
+                         ~~   ^~~~~~
+                         %s
+1 warning generated.
+14:41:34	 From  Carlos Daniel Paredes Robles : el %c es para char debes usar %s
+14:41:36	 From  Eduardo Oteiza : Da igual que ponga entre parentesis la tercera linea?
+14:41:37	 From  Pablo Hernán Araneda : usa $s
+14:41:40	 From  Pablo Hernán Araneda : %s
+14:41:50	 From  Eduardo Oteiza : char f = (char) g
+14:41:50	 From  Kyle : Sí, es un ejemplo del error que te tira si pones mal el %
+14:42:09	 From  Kyle : Para que no se preocupen tanto de saberse todos las formas de formatearlos  el print
+14:42:11	 From  Ian Fieldhouse Becerra : casting requiere los paréntesis alrededor del tipo
+14:42:21	 From  Eduardo Oteiza : aah ya gracias
+14:42:35	 From  María Jesús Tala : que era doublé? decimal
+14:42:37	 From  María Jesús Tala : ?
+14:42:40	 From  AGUSTIN RIOS : que era double?
+14:42:41	 From  Eduardo Oteiza : si
+14:42:42	 From  María Jesús Tala : osea para decimales
+14:42:47	 From  Felipe Guzmán : float con mas decimales creo
+14:42:48	 From  Alonso Ortega : float de doble precisión
+14:42:49	 From  María Jesús Tala : yaa buena gracias
+14:42:49	 From  Ian Fieldhouse Becerra : un float de mayor tamaño
+14:42:49	 From  agustincaracci : Un float xl
+14:42:52	 From  Eduardo Oteiza : decimal mas largo que float
+14:42:56	 From  RAMIRO GALVEZ GARCIA : %lf es para double?
+14:42:58	 From  Pablo Hernán Araneda : puedo usarint h=5, i=2;?
+14:42:59	 From  Alonso Ortega : si
+14:43:00	 From  Eduardo Oteiza : si
+14:44:37	 From  Cristian Hinostroza : al hacer un cast de un doublé a un char, agarra el primer byte de los 8?
+14:44:55	 From  Felipe Rojas : un ejemplo de un tipo muy largo? 
+14:45:02	 From  ALONSO GOMEZ HERRERA : es que igual no deberia ser necesario typeof
+14:45:11	 From  ALONSO GOMEZ HERRERA : por que uno mismo le da los atributos a todo
+14:46:27	 From  Pablo Hernán Araneda : se puede declarar una variable mas de una (con el mismo tipo) vez sin que te tire error?
+14:46:54	 From  Pablo Hernán Araneda : int& b = a;  ?
+14:46:54	 From  Julián Manuel García González : b = &a xd
+14:48:42	 From  N : la variable queda definida para siempre entonces?
+14:48:56	 From  Kyle : Hasta que salgas del sope de la variable
+14:48:59	 From  Kyle : scope*
+14:49:10	 From  Juan Pablo Olivares : pero se puede liberar el espacio de la variable cierto?
+14:49:23	 From  Kyle : Si está en una función, cuando salgas de la función va a eliminarse
+14:49:32	 From  N : perfect
+14:50:19	 From  Pablo Hernán Araneda : float f = (float) 3/2;Da 1.5 o 1 ?
+14:50:20	 From  Kyle : Ojo que esto es si tú no alocaste la memoria a la variable, es decir, que la declaraste mediante int, char etc
+14:50:41	 From  Kyle : 1.5
+14:50:45	 From  Pablo Hernán Araneda : gracias
+14:51:30	 From  Martín Ocqueteau : contexto = scope?
+14:51:45	 From  Martín Ocqueteau : oka
+14:52:19	 From  Fabián Sepúlveda : chaotic evil
+14:52:24	 From  Kyle : Sii, pésimo estilo jajaja
+14:52:31	 From  Tomás C :  >:c
+14:52:32	 From  Felipe Guzmán : yiu
+14:52:35	 From  N : epico
+14:52:37	 From  Tomás C : son bonitos los one liners
+14:52:39	 From  Eduardo Oteiza : Importa la ideación?
+14:52:40	 From  Kyle : En Python tmb se puede hacer cosas así
+14:52:44	 From  Eduardo Oteiza : identacion**
+14:52:45	 From  Sebastian Zabala Martinez : oof
+14:52:50	 From  Pablo Hernán Araneda : salud mental del ayudante corrector también?
+14:52:51	 From  yerko : @Eduardo nope, no afecta en nada
+14:52:54	 From  AGUSTIN RIOS : que es scope?
+14:52:56	 From  Martín Ocqueteau : Existe como un PEP8 en C?
+14:52:57	 From  Felipe Guzmán : 3 lineas de 1000 char
+14:52:59	 From  Cristian Carrasco : la salud mental esta sobrevalorada
+14:53:01	 From  Constanza Osorio : yo uso autoformat de vscode para poder leer el código sin morir
+14:53:04	 From  Eduardo Oteiza : gracias
+14:53:05	 From  Kyle : No hay pep8 para C
+14:53:09	 From  Sebastian Zabala Martinez : programacion horizontal
+14:53:10	 From  Carlos Daniel Paredes Robles : en vi y sin indentar
+14:53:25	 From  Kyle : Si estás en una empresa que usa C cada empresa tiene sus propias reglas de estilo
+14:53:28	 From  yerko : @Martín, no hay un pep8, pero hay guías de estilo, como la del GNU source code
+14:53:58	 From  Julián Manuel García González : pero vicho los corchetes son omisibles
+14:54:08	 From  Christian Carstens : Cómo se podría pasar el valor de una variable int a una nueva variable string? Tipo lo que hace a = string(número) en python
+14:54:40	 From  Pablo Hernán Araneda : :o
+14:54:44	 From  Pablo Hernán Araneda : plot twist
+14:54:54	 From  Juan Pablo Olivares : quedara filete
+14:55:00	 From  NICOLÁS RIERA OVALLE : la volaita
+14:55:01	 From  NICOLÁS RIERA OVALLE : xd
+14:55:35	 From  Felipe Guzmán : switch lo mejor de c
+14:55:52	 From  Andrés Pincheira : Definitivamente
+14:56:02	 From  Fabián Sepúlveda : que es switch?
+14:56:05	 From  Pablo Hernán Araneda : el operador ternario esta underrated
+14:56:16	 From  Carlos Daniel Paredes Robles : si hay algo que yanderedev enseño, es que a puros if se puede hacer lo que sea
+14:56:23	 From  Felipe Guzmán : oof
+14:56:40	 From  Fabián Sepúlveda : if else es Turing completo?
+14:56:40	 From  yerko : @Fabian en vez de hacer muchos if else, haces un switch que dependiendo del valor de una variable va por una ruta u otra
+14:57:05	 From  Pablo Hernán Araneda : es verdad que un if (3 < x < 5) se lee distinto que a Python?
+14:57:06	 From  Fabián Sepúlveda : hmm wena 
+14:57:06	 From  Julián Manuel García González : while i:= 0 < 5:
+14:57:14	 From  Julián Manuel García González : *walrus*
+14:57:34	 From  Felipe Guzmán : en c se podia hacer i++ para aumentar 1 a I no?
+14:57:38	 From  Kyle : sí
+14:57:39	 From  Pablo Hernán Araneda : si
+14:57:40	 From  Eduardo Oteiza : En el for no se puede declarar el int i antes?
+14:57:45	 From  Pablo Hernán Araneda : ++i tambien
+14:57:53	 From  Pablo Hernán Araneda : pero es distinto
+14:58:03	 From  Constanza Osorio : y tb puedes hacer i-- 
+14:58:06	 From  Felipe Guzmán : pensé que me lo habia imaginado 
+14:59:12	 From  Fabián Sepúlveda : igual que python
+14:59:41	 From  Fabián Sepúlveda : el i <=n; i+=1 seria como el for i in range(n) ?
+14:59:42	 From  MIGUEL ORTIZ ARELLANO : no que no se podía hacer lo de algo += algo? o que era lo que no se podía hacer?
+15:00:01	 From  Kyle : Cuando defines el incremento puedes hacer cualquier cosa
+15:00:09	 From  Felipe Guzmán : no se puede cambiar el tipo de una variable creo
+15:00:16	 From  Julián Manuel García González : no hay for i in [] en c
+15:00:24	 From  AGUSTIN RIOS : cual es la diferencia entre i++, i+= y ++i?
+15:00:34	 From  Felipe Guzmán : i++ te suma 1
+15:00:39	 From  Kyle : ++I se hace antes de la operación
+15:00:44	 From  Kyle : I++ después
+15:00:44	 From  Felipe Guzmán : i+= algo te suma algo
+15:01:27	 From  Fabián Sepúlveda : scope local entonces
+15:01:38	 From  N : i+=1 es lo mismo que i++?
+15:02:17	 From  Sol Covacic Palet : si n % i fuese una variable, de que tipo seria? si es q ambos n e i son int
+15:02:30	 From  Fabián Sepúlveda : debería ser int
+15:02:44	 From  Kyle : Para notar el comportamiento de i++ e ++i:
+15:02:46	 From  Kyle : #include <stdio.h>
+int main() {
+   int var1 = 0, var2 = 0, i=0, j=0;
+   var1 = i++;
+   var2 = ++j;
+   printf("Var1 is: %i, Var2 is: %i", var1, var2);
+   return 0;
+}
+15:02:55	 From  Kyle : El print da: Var1 is: 0, Var2 is: 1
+15:02:59	 From  yerko : @Sol int
+15:03:21	 From  Kyle : Si pones el ++i o el i++ o i+=1 en la misma línea es lo mismo
+15:03:36	 From  Kyle : En una línea sola*
+15:04:10	 From  Eduardo Oteiza : que es %d?
+15:04:23	 From  Kyle : Es otra forma de imprimir un int
+15:04:26	 From  SOFIA REBOLLEDO VALDIVIA : doublé?
+15:04:37	 From  yerko : que se va a reemplazar por un int  (d = DIGIT)
+15:04:40	 From  Fabián Sepúlveda : pero ese continue igual entra al scope del if o no
+15:04:45	 From  Eduardo Oteiza : Tiene alguna diferencia con %i?
+15:04:49	 From  Kyle : No
+15:04:54	 From  Eduardo Oteiza : double es %lf
+15:04:58	 From  Eduardo Oteiza : ya
+15:04:59	 From  SOFIA REBOLLEDO VALDIVIA : verdad
+15:05:05	 From  Kyle : Tal vez exista alguna diferencia esotérica
+15:05:13	 From  Eduardo Oteiza : Osea, al final usar %i o %d va mas por gusto de uno?
+15:05:22	 From  Benjamín Álvarez : es lo mismo que el continue de python o no?
+15:05:23	 From  Kyle : Exacto
+15:05:52	 From  Eduardo Oteiza : gracias
+15:05:59	 From  AGUSTIN RIOS : osea que el continuo Evita que pase por el print?
+15:06:04	 From  Kyle : sip
+15:06:13	 From  Pablo Hernán Araneda : un for(;;)
+15:09:09	 From  Eduardo Oteiza : si quisiera recorrer un array, como lo haría? sé que puedo empezar en int i = 0, pero hay algún equivalente len(array) o similar?
+15:09:28	 From  yerko : @Eduardo, no hay :( tienes que saber el largo a priori
+15:09:42	 From  Eduardo Oteiza : ahh ya
+15:09:47	 From  Julián Manuel García González : sizeof(char_array)*sizeof(char[]) no?
+15:09:53	 From  ALONSO GOMEZ HERRERA : ingenieria electrica gang
+15:10:00	 From  ALONSO GOMEZ HERRERA : basys3 gang
+15:10:09	 From  Felipe Guzmán : switch es mi señor
+15:10:16	 From  Kyle : más como size_t n = sizeof(a)/sizeof(a[0]);
+15:10:35	 From  Kyle : pero creo que es mal estilo
+15:10:36	 From  Julián Manuel García González : That's true
+15:10:38	 From  yerko : @Julián yes, puedes hacerlo dividiendo el tamaño del array por el tamaño del primer element... pero dado el contexto, aún no
+15:10:40	 From  Kyle : es mejor almacenar la variable
+15:10:46	 From  Kyle : de tamaño
+15:10:55	 From  Kyle : que la vas a tener cuando crees el array
+15:10:55	 From  Pablo Hernán Araneda : que pasa si el default no tiene break?
+15:11:11	 From  Kyle : pasa a la siguiente condición
+15:11:18	 From  Juan Jiménez : loopea?
+15:11:19	 From  Kyle : sin revisar la condición
+15:11:20	 From  Pablo Hernán Araneda : y si es la ultima?
+15:11:29	 From  Julián Manuel García González : haría como vas segundo vas primero asi no se juega
+15:11:32	 From  Ian Fieldhouse Becerra : Pablo, si default no tiene break no pasa nada
+15:11:34	 From  Julián Manuel García González : todo junto
+15:11:44	 From  Pablo Hernán Araneda : ok, gracias
+15:12:14	 From  yerko : no hay diferencia entre if y switch compilan a lo mismo iirc... el uso de switch es major en términos de estilo
+15:12:18	 From  Ian Fieldhouse Becerra : el break es para saltarse al final del switch; si estás al final, no hace mucho
+15:12:19	 From  Kyle : switch es útil para cosas como arduinos
+15:12:24	 From  ALONSO GOMEZ HERRERA : sirve mucho cuando uno trabaja con numeros binarios
+15:12:25	 From  Felipe Guzmán : switch es mas bonito
+15:12:28	 From  Benjamin Urrutia : en este caso si no hubiese breaks, entonces imprimiría el default?
+15:12:30	 From  Felipe Guzmán : y ordenado
+15:12:31	 From  Kyle : porque usa menor memoria
+15:12:37	 From  ALONSO GOMEZ HERRERA : por que es super automatico el cambio de casos
+15:12:57	 From  Kyle : porque se traduce directo a assembly
+15:13:00	 From  Kyle : con jmp
+15:13:08	 From  Julián Manuel García González : uwu que bien
+15:13:12	 From  Constanza Osorio : <3
+15:13:21	 From  yerko : No es tan directo que uno es mejor que otro  :(
+15:13:31	 From  Fabián Sepúlveda : pero ke
+15:13:36	 From  Kyle : igual hay muchas cosas que no puedes hacer con switch que sí puedes hacer con if
+15:13:44	 From  Kyle : por ejemplo, no puedes hacer switch con un *car
+15:13:48	 From  Kyle : *char
+15:14:10	 From  Carlos Daniel Paredes Robles : TRUE + TRUE = 2
+15:14:18	 From  Fabián Sepúlveda : lol
+15:14:25	 From  Felipe Guzmán : la verdad no existe
+15:14:25	 From  Pablo Hernán Araneda : char vacio es true?
+15:14:26	 From  Felipe Guzmán : :(
+15:14:36	 From  Fabián Sepúlveda : que es define?
+15:14:39	 From  LAURENCE GOLBORNE : que hace el #?
+15:14:48	 From  Pablo Rademacher : TRUE * FALSE = FALSE
+15:14:49	 From  Fabián Sepúlveda : es como decir a = 2?
+15:14:51	 From  Julián Manuel García González : se puede hacer constraint a typedef para que solo acepte true y false?
+15:15:00	 From  Juan Pablo Olivares : #define true 0
+15:15:39	 From  Eduardo Oteiza : Es necesario asociar una variable al bool?
+15:15:50	 From  Kyle : lo puedes asociar a int
+15:15:51	 From  Eduardo Oteiza : no puedo, por ejemplo, usar if(true)
+15:15:52	 From  Kyle : en vez de bool
+15:16:09	 From  Eduardo Oteiza : o debe ser
+15:16:15	 From  Eduardo Oteiza : bool a = true;
+15:16:20	 From  Eduardo Oteiza : if(a)
+15:16:24	 From  Constanza Osorio : operadores bitwise
+15:16:44	 From  Kyle : Se puede hacer if (true)
+15:17:02	 From  Benjamin Urrutia : pq int p=17 es true?
+15:17:03	 From  Kyle : ojo que tienes que definirlo antes, o importar stdbool.h
+15:17:16	 From  Benjamin Urrutia : buena gracias
+15:17:18	 From  Benjamín Álvarez : // es para los comentarios?
+15:17:19	 From  ALONSO GOMEZ HERRERA : you speak the true true
+15:17:21	 From  Francisco Ignacio Quintero Flores : 8 && 5 = 1?
+15:17:26	 From  Tomás C : entoences puedo hacer true + false = true???
+15:17:28	 From  Tomás C : lmao
+15:17:34	 From  Kyle : sí // es para comentarios
+15:17:36	 From  Kyle : tmb puedes hacer:
+15:17:44	 From  Kyle : /* comentario */
+15:17:44	 From  Eduardo Oteiza : true/false chaotic
+15:17:51	 From  Benjamín Álvarez : gracias!
+15:17:55	 From  Roberto Simon Negrin Bentjerodt : donde van a esatar los videos?
+15:18:04	 From  ERICK ROMERO SANTIBANEZ : la tarea para cuando se entrega?
+15:18:08	 From  Kyle : true + false = true tiene sintaxis incorrecto jajaja
+15:18:16	 From  Eduardo Oteiza : los videos estarán en el git
+15:18:21	 From  Ronaldo Sosa : duda se debe clonar el repositorio del GitHub ???
+15:18:40	 From  Kyle : Claro, y tienen que aceptar la invitación
+15:18:54	 From  Fabián Sepúlveda : ya manbdaron la invitación?
+15:18:58	 From  Kyle : aun no
+15:19:02	 From  Fabián Sepúlveda : ok
+15:19:05	 From  Kyle : recuerden responder la encuesta
+15:19:11	 From  Kyle : para saber sus usuarios de github
+15:19:19	 From  N : estamos?
+15:19:19	 From  Fabián Sepúlveda : oie el usuario se mandaba con @ o no
+15:19:22	 From  Roberto Simon Negrin Bentjerodt : donde esta la encuesta?
+15:19:26	 From  Fabián Sepúlveda : ah ya
+15:19:27	 From  Tomás C : oh no
+15:19:29	 From  Kyle : Creo que en siding
+15:19:29	 From  HUMBERTO ORTUZAR TORNERO : siding
+15:19:31	 From  Fabián Sepúlveda : y como se que me agregaron?
+15:19:37	 From  Ronaldo Sosa : entonces aun no podríamos hacer lo de ayudantía 0
+15:19:38	 From  JOAQUIN ALLIENDE VACCARO : gracias por la clase
+15:19:48	 From  Eduardo Oteiza : gracias por la clase vicho
+15:19:50	 From  Christian Carstens : Buenísimo el material, graciaas!
+15:19:52	 From  NICOLAS ORELLANA DRAGO : Gracias!
+15:19:55	 From  Pablo Vejar : Gracias vicho!
+15:19:57	 From  TOMÁS CONCHA : grande vicho
+15:20:04	 From  FELIPE WILLMER MINO : la bienvenida del curso
+15:20:08	 From  Nicolas Venegas : Gracias
+15:20:09	 From  Francisco Ignacio Quintero Flores : gracias x la clase
+15:20:14	 From  HUMBERTO ORTUZAR TORNERO : esta en guias del repositorio
+15:20:17	 From  Ami Iosef Ustilovsky Stifel : gracias!
+15:20:28	 From  Benjamin Lepe : la tarea es con nota?
+15:20:28	 From  NICOLAS ORELLANA DRAGO : Hay horario de discord?
+15:20:31	 From  Tomás C : https://discord.gg/YdF5uX
+15:20:38	 From  NICOLAS ORELLANA DRAGO : Jajajaja obvio
+15:20:41	 From  FELIPE WILLMER MINO : jaja
+15:20:44	 From  Benjamin Urrutia : no me quedo algo claro de lo que dijeron de c en mac, en la guía sale que igual hay que setup un virtual box para ocupar valgrind, pero antes dijeron que si corrías un comando estabas bien
+15:20:45	 From  yerko : (igual contestamos a las 4am a veces)
+15:20:52	 From  Maximiliano Corvalán : donde está el form del github?
+15:20:54	 From  Francisco Ignacio Quintero Flores : veo preguntas a las 4 am y pasa esto..
+15:20:58	 From  NICOLAS PARRAGUEZ CRUZAT : Chau 

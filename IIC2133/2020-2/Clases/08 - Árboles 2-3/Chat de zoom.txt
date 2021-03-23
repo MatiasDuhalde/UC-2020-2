@@ -1,0 +1,267 @@
+00:27:36	Constanza Osorio:	Mauricio Bozzo le manda saludos
+00:28:05	Constanza Osorio:	jajajaja
+00:28:19	Pablo Inzunza:	holi
+00:28:20	PABLO ARANEDA:	profe, va a ir a la fonda del jueves?
+00:28:29	Constanza Osorio:	Fonda Don Yadran sin Yadran no serí fonda
+00:28:31	Constanza Osorio:	Will do
+00:28:44	Constanza Osorio:	un mail
+00:28:57	Constanza Osorio:	zhi
+00:29:00	Pablo Inzunza:	yo me enteré por uno de los grupos de telegram del DCC
+00:29:20	PABLO ARANEDA:	Subimos la tarea, y pa' la fonda
+00:29:21	Constanza Osorio:	:0
+00:29:31	Constanza Osorio:	vi que iban a sortear gift cards
+00:29:39	PABLO ARANEDA:	sus git cards
+00:29:54	Constanza Osorio:	el año pasado estaba LLENO
+00:30:06	PABLO ARANEDA:	el año pasado era un montón, apenas se podía caminar allí
+00:30:09	Constanza Osorio:	uwu
+00:30:22	Carlos Daniel Paredes Robles:	recuerden que se esta grabando
+00:30:23	Liat Israel:	Están las diapos?
+00:30:32	Alonso Rafael Gómez Herrera:	En eléctrica para este tipo de eventos usan las canchas de san joaquin
+00:30:44	Alonso Rafael Gómez Herrera:	Donde hay unas parrillas creo
+00:30:47	Constanza Osorio:	Electrica <3 y sus ruletas de capacitores
+00:31:16	Agustin Rios Letelier:	ese tipo de eventos que dan ganas de volver a sj
+00:31:22	VICENTE ERRAZURIZ QUIROGA:	DCZOOM
+00:31:27	Alonso Rafael Gómez Herrera:	DCCelebracion
+00:31:28	Constanza Osorio:	x)
+00:31:31	Constanza Osorio:	:0
+00:31:44	Constanza Osorio:	grabaron EL lab que tiene el dcc?
+00:32:53	Constanza Osorio:	pensé que ese era el lab
+00:33:11	Agustin Rios Letelier:	lab?
+00:33:16	Felipe Alberto Guzman Hernandez:	no nos podemos perder de la conversa
+00:33:24	VICENTE ERRAZURIZ QUIROGA:	laboratorio de computación 
+00:33:26	VICENTE ERRAZURIZ QUIROGA:	para intro
+00:33:37	Agustin Rios Letelier:	aaaa xd
+00:37:43	Tomás C:	max es 2^h y min h?
+00:37:57	TOMÁS ÁLVAREZ:	log n+1
+00:38:04	VICENTE ERRAZURIZ QUIROGA:	vimos este caso para los heaps
+00:38:14	VICENTE ERRAZURIZ QUIROGA:	cuando es nodos en funcion de la altura
+00:38:15	Carlos Daniel Paredes Robles:	h^2 +1
+00:38:16	VICENTE ERRAZURIZ QUIROGA:	?
+00:38:18	Benjamín Alejandro Lepe Maluenda:	2^h ?
+00:38:19	Rosita Muñoz:	2^(n) -1
+00:38:21	N N:	numero de particiones ^ h?
+00:38:29	PABLO ARANEDA:	min = h*(h-1)/2 ?
+00:38:41	VICENTE ERRAZURIZ QUIROGA:	aver quien da mas (?)
+00:38:47	Rosita Muñoz:	era h jahj
+00:39:57	Alonso Rafael Gómez Herrera:	Y que paso con el caso del árbol perfectamente desblanaceado?
+00:40:02	VICENTE ERRAZURIZ QUIROGA:	ahora lo vamos a ver
+00:40:14	Tomás C:	h
+00:40:23	PABLO ARANEDA:	 h*(h-1)/2
+00:43:26	María Luisa Claro:	No entiendo de donde sale el h-2
+00:43:54	Carlos Daniel Paredes Robles:	de que como es avl la máxima diferencia de altura es de 1
+00:44:00	VICENTE ERRAZURIZ QUIROGA:	exacto
+00:46:21	PABLO ARANEDA:	fib?
+00:46:24	Felipe Alberto Guzman Hernandez:	fibo
+00:48:54	Cristian Alonso Carrasco González:	inferior?
+00:49:09	VICENTE ERRAZURIZ QUIROGA:	F(h) es menor a m(h)
+00:49:15	VICENTE ERRAZURIZ QUIROGA:	F acota por debajo a m
+00:49:19	Cristian Alonso Carrasco González:	mmm
+00:49:39	Felipe Alberto Guzman Hernandez:	por que 2^h es cota inferior de Fibonacci?
+00:49:45	Cristian Alonso Carrasco González:	eso
+00:49:56	VICENTE ERRAZURIZ QUIROGA:	fibonacci es theta de 2^h
+00:50:06	Cristian Alonso Carrasco González:	porque es exponencial (1.5...)^h
+00:50:11	Carlos Daniel Paredes Robles:	porque la constante es menor a 2, asi que se puede intuir una cota
+00:50:15	VICENTE ERRAZURIZ QUIROGA:	exacto
+00:50:30	Cristian Alonso Carrasco González:	y eso no se si se puede acotar por abajo por 2^h * cte
+00:50:53	Felipe Alberto Guzman Hernandez:	si yo igual entiendo que sea superior pero no veo porque es inferior
+00:51:13	Pablo Rademacher:	pero 1,5^h no esta en teta(2^h) según yo
+00:51:17	VICENTE ERRAZURIZ QUIROGA:	ponle cte = 0.5
+00:51:21	VICENTE ERRAZURIZ QUIROGA:	y se cumple
+00:51:22	Cristian Alonso Carrasco González:	de acuerdo con pablo
+00:51:24	Cristian Alonso Carrasco González:	no po
+00:51:25	Pablo Rademacher:	solo en O(2^h)
+00:51:41	Cristian Alonso Carrasco González:	aumento un poco el h y se muere la cota
+00:51:43	VICENTE ERRAZURIZ QUIROGA:	deja calcularla
+00:52:50	Pablo Rademacher:	de hecho en discretas demostramos que 2^(h+eps) no esta en O(2^h)
+00:53:19	Pablo Rademacher:	entonces menos va a estar 2^h en O1,5^h)
+00:53:26	María Luisa Claro:	Que significaba el omega? La cota inferior?
+00:53:32	Constanza Osorio:	zhi
+00:54:30	VICENTE ERRAZURIZ QUIROGA:	toda la razon
+00:54:46	VICENTE ERRAZURIZ QUIROGA:	lo que nos importa si es que es O de
+00:55:00	VICENTE ERRAZURIZ QUIROGA:	voy a arreglar las diapos
+00:56:01	Felipe Alberto Guzman Hernandez:	entendido
+00:56:09	Cristian Alonso Carrasco González:	tiene sentido
+01:01:37	Constanza Osorio:	yo ya le hice F al informe uwu
+01:01:45	Elías Sabja:	x2
+01:01:50	Pablo Inzunza:	x3
+01:01:56	Agustin Rios Letelier:	same
+01:02:10	Sol Olivia Covacich Palet:	wa llorar
+01:02:20	Ignacio Méndez:	Jueves a las 23:59?
+01:02:21	Diego Fluxá:	Vicente dijo que si se estaba quemando chile o algo asi se podía eliminar el informe
+01:02:33	Diego Fluxá:	creo que esta semana es equivalente a que chile se este quemando
+01:02:41	Felipe Alberto Guzman Hernandez:	xd
+01:02:46	Agustin Rios Letelier:	se quema el mundo
+01:02:51	Sol Olivia Covacich Palet:	era una motivacion a quemar chile
+01:02:55	VICENTE ERRAZURIZ QUIROGA:	dije que habian tareas sin informe
+01:03:04	VICENTE ERRAZURIZ QUIROGA:	no que se iba a eliminar el informe de una tarea con informe
+01:03:08	Agustin Rios Letelier:	que lleguen pa la tarea 2
+01:03:19	Cristian Hinostroza:	q nota máxima puedo aspirar sin informe? xD
+01:03:25	Agustin Rios Letelier:	4.9
+01:03:29	Felipe Alberto Guzman Hernandez:	52
+01:03:30	Agustin Rios Letelier:	5 creo
+01:03:35	Felipe Alberto Guzman Hernandez:	1 * 0,3
+01:03:35	Sol Olivia Covacich Palet:	oh baia
+01:03:49	Agustin Rios Letelier:	yes
+01:03:50	Felipe Alberto Guzman Hernandez:	a menos que pongan su 0
+01:03:52	Felipe Alberto Guzman Hernandez:	:0
+01:03:53	Elías Sabja:	hora de almuerzo? F
+01:04:38	Agustin Rios Letelier:	ctr+c codigo GitHub ctr+v en al carpeta
+01:04:42	Agustin Rios Letelier:	para asegurar
+01:04:44	Agustin Rios Letelier:	xddd
+01:05:42	Felipe Alberto Guzman Hernandez:	yo me tuve que crear otro repo local porque deje todo muerto con merge
+01:05:43	Felipe Alberto Guzman Hernandez:	._.
+01:05:47	Sebastian Zabala Martinez:	puedes ver el historial de commits en git sino
+01:05:53	PABLO ARANEDA:	particle_bounce_against_segment ?
+01:06:12	Carlos Daniel Paredes Robles:	pueden subir el código naive en otro lado, para las comparaciones y asi no tener que buscar entre tantos commit
+01:07:44	VICENTE ERRAZURIZ QUIROGA:	ok
+01:08:12	Julián Manuel García González:	árboles 2,3? :(
+01:08:36	VICENTE ERRAZURIZ QUIROGA:	si. pq la carita triste?
+01:08:39	Julián Manuel García González:	un amigo me dice que sufrió mucho programando árboles 2,3
+01:08:50	VICENTE ERRAZURIZ QUIROGA:	no vamos a programar arboles 2,3
+01:08:56	Julián Manuel García González:	ufff
+01:09:54	Julián Manuel García González:	igual, como se programa en c, si la cantidad de hijos es variable?
+01:10:04	VICENTE ERRAZURIZ QUIROGA:	arreglo de hijos
+01:10:24	Julián Manuel García González:	con espacios vacíos y un label que indique cuantos hijos tiene?
+01:10:29	VICENTE ERRAZURIZ QUIROGA:	sip
+01:10:33	Julián Manuel García González:	bacan
+01:10:36	VICENTE ERRAZURIZ QUIROGA:	parecido a como se hacia el mould
+01:10:36	Felipe Alberto Guzman Hernandez:	como en la tarea 0 o no?
+01:10:41	Felipe Alberto Guzman Hernandez:	eso
+01:10:43	Felipe Alberto Guzman Hernandez:	xd
+01:10:56	Julián Manuel García González:	solo que en vez de 10 son 3
+01:11:15	VICENTE ERRAZURIZ QUIROGA:	sip
+01:11:28	VICENTE ERRAZURIZ QUIROGA:	pero ojo que en este caso un nodo tambien contiene múltiples claves
+01:12:29	Julián Manuel García González:	me da un poco de lata dejar esos espacios vacíos porque si
+01:12:41	Julián Manuel García González:	no se puede usar un union?
+01:12:44	VICENTE ERRAZURIZ QUIROGA:	puedes hacer una lista ligada
+01:12:46	VICENTE ERRAZURIZ QUIROGA:	:)
+01:12:48	Julián Manuel García González:	o igual se pierden datos?
+01:12:53	VICENTE ERRAZURIZ QUIROGA:	no recomiendo usar union bajo ninguna circunstancia
+01:13:03	VICENTE ERRAZURIZ QUIROGA:	ya que no tienes forma de saber cual de los 2 tipos está activo
+01:13:15	Julián Manuel García González:	a menos que haya otro label que lo indique
+01:13:44	VICENTE ERRAZURIZ QUIROGA:	... pero pa eso deja el espacio vacío en el arreglo
+01:13:49	Julián Manuel García González:	true
+01:15:10	Julián Manuel García González:	dos arboles 2-3 con los mismos elementos son iguales siempre?
+01:15:20	VICENTE ERRAZURIZ QUIROGA:	nop
+01:15:28	VICENTE ERRAZURIZ QUIROGA:	al igual que en un ABB
+01:15:38	Julián Manuel García González:	pucha
+01:16:32	Carlos Daniel Paredes Robles:	esta balanceado porque los nodos tienen que tener exactamente 2-3 hijos?
+01:17:31	Alonso Rafael Gómez Herrera:	No hay nada entremedio de log(n) y n verdad?
+01:17:52	Felipe Alberto Guzman Hernandez:	log_3
+01:18:00	Julián Manuel García González:	hay que comparar con todas las claves
+01:18:06	Sol Olivia Covacich Palet:	log base 3?
+01:18:25	VICENTE ERRAZURIZ QUIROGA:	> No hay nada entremedio de log(n) y n verdad?log(n) + 1 (?)
+01:18:26	Cristian Alonso Carrasco González:	claro
+01:18:53	VICENTE ERRAZURIZ QUIROGA:	hay algoritmos que toman log^2(n)
+01:18:59	Cristian Alonso Carrasco González:	claro
+01:19:08	Cristian Alonso Carrasco González:	ahh ya
+01:19:19	Cristian Alonso Carrasco González:	si
+01:29:26	Sol Olivia Covacich Palet:	no
+01:29:26	PABLO ARANEDA:	SI
+01:29:29	Felipe Alberto Guzman Hernandez:	no porque es mayor a d
+01:29:33	PABLO ARANEDA:	si
+01:29:34	Sol Olivia Covacich Palet:	pq tiene solo 2 hijos
+01:31:37	PABLO ARANEDA:	pasa a DE, sube E
+01:31:40	Felipe Alberto Guzman Hernandez:	 lo que pasaba antes con a c y d
+01:31:50	Sol Olivia Covacich Palet:	la c se queda con la A, y la E es la nueva raiz ajjaja
+01:32:21	Sol Olivia Covacich Palet:	o la D?
+01:32:25	Sol Olivia Covacich Palet:	:0
+01:32:51	Sol Olivia Covacich Palet:	aaaahh
+01:32:56	Constanza Osorio:	NANi
+01:33:05	Cristian Alonso Carrasco González:	jajajaja
+01:33:05	Sebastian Zabala Martinez:	switcheroo
+01:33:07	Felipe Alberto Guzman Hernandez:	owo
+01:33:19	Constanza Osorio:	ohhh
+01:33:32	VICENTE ERRAZURIZ QUIROGA:	play(glup.wav)
+01:33:34	Felipe Alberto Guzman Hernandez:	era la carta trampa
+01:33:59	Sol Olivia Covacich Palet:	switcheroo two, electric boogaloo
+01:35:47	Felipe Alberto Guzman Hernandez:	e para arriba
+01:35:47	PABLO ARANEDA:	sube E
+01:36:59	Sol Olivia Covacich Palet:	el E tiene q tener dos hijos
+01:41:28	Pablo Rademacher:	eliminar
+01:41:35	Sol Olivia Covacich Palet:	el reajuste?
+01:42:00	Cristian Alonso Carrasco González:	algunas ramas pueden ser mas costosas de acceder
+01:42:03	Denisse Vaitiare Ogaz Herrera:	que siempre hay que revisar la validez del nodo
+01:44:15	Sol Olivia Covacich Palet:	a que se refiere exactamente con overhead?
+01:44:23	VICENTE ERRAZURIZ QUIROGA:	costo adicional de las operaciones
+01:44:33	VICENTE ERRAZURIZ QUIROGA:	se refiere a la constante asociada al O de
+01:44:42	Felipe Alberto Guzman Hernandez:	O me ha engañado
+01:44:44	VICENTE ERRAZURIZ QUIROGA:	+ los terminos de menor grado que se descartan
+01:44:46	Felipe Alberto Guzman Hernandez:	:(
+01:46:42	Julián Manuel García González:	*el que invento los arboles 2-3* Que tal si los arboles tuviesen una superposición de estados en sus nodos
+01:46:51	Felipe Alberto Guzman Hernandez:	se parece a avl
+01:47:55	Pablo Rademacher:	Pero nos podría quedar desbalanceado o no??
+01:48:05	VICENTE ERRAZURIZ QUIROGA:	el miercoles vamos a ver que no
+01:48:07	VICENTE ERRAZURIZ QUIROGA:	:)
+01:48:14	Pablo Rademacher:	Niice
+01:48:31	Felipe Alberto Guzman Hernandez:	si lo vamos a convertir
+01:48:38	Felipe Alberto Guzman Hernandez:	por que usamos 2-3 en primer lugar?
+01:48:50	VICENTE ERRAZURIZ QUIROGA:	para entender el árbol rojo-negro
+01:48:59	PABLO ARANEDA:	ABB-balanceado
+01:49:01	VICENTE ERRAZURIZ QUIROGA:	porque sino las reglas son absolutamente arbitrarias
+01:49:10	Rosita Muñoz:	estará balanceado tambien
+01:49:12	Felipe Alberto Guzman Hernandez:	ah yap
+01:49:12	Sol Olivia Covacich Palet:	es avl?
+01:49:14	Rosita Muñoz:	por lo menos según abb
+01:49:18	Josefina Fernández:	diferencia 1? avl
+01:49:54	Pablo Vejar:	gracias profe!
+01:49:55	Sol Olivia Covacich Palet:	gracias profe
+01:49:58	Sol Olivia Covacich Palet:	<3
+01:49:59	Felipe Alberto Guzman Hernandez:	gracias
+01:50:03	Josefina Fernández:	muchas gracias!!
+01:50:05	Felipe Alberto Guzman Hernandez:	me gustaron los arboles 2-3
+01:50:07	Rosita Muñoz:	gracias profe!
+01:50:08	Constanza Osorio:	chao gracias!
+01:50:09	Sol Olivia Covacich Palet:	jajaja
+01:50:11	Fernando Quintana:	chao!
+01:50:11	Sol Olivia Covacich Palet:	son lindos
+01:50:12	BARBARA IRARRAZAVAL MONTES:	Muchas gracias!
+01:50:29	Benjamin Urrutia:	gracias vicho y profe!
+01:50:34	Rosita Muñoz:	su mini edición antes....
+01:50:35	Rosita Muñoz:	jahaja
+01:50:41	Sol Olivia Covacich Palet:	no edit
+01:50:44	Sol Olivia Covacich Palet:	no filter
+01:50:48	Felipe Alberto Guzman Hernandez:	asi tal cual
+01:50:48	Rosita Muñoz:	igual uno puede adelantar el video nomas
+01:51:07	PABLO ARANEDA:	editar un video es omega(n)
+01:51:19	HUMBERTO ORTUZAR TORNERO:	que va a hacer pal 18 profe?
+01:51:39	HUMBERTO ORTUZAR TORNERO:	el DieCioCho
+01:51:45	Felipe Alberto Guzman Hernandez:	no me ha llegado na :(
+01:51:52	Rosita Muñoz:	a mi tampoco:(
+01:51:59	HUMBERTO ORTUZAR TORNERO:	por donde llega la invitación?
+01:52:13	PABLO ARANEDA:	Nos vamos a juntar en el DCC?
+01:52:20	PABLO ARANEDA:	quería ir :c
+01:52:20	Felipe Alberto Guzman Hernandez:	:o
+01:52:34	Felipe Alberto Guzman Hernandez:	uf
+01:52:58	Felipe Alberto Guzman Hernandez:	hace un arbol binario para decidir
+01:53:11	HUMBERTO ORTUZAR TORNERO:	cuanto es el tiempo ideal que debería tomar los tests de la tarea?
+01:53:16	HUMBERTO ORTUZAR TORNERO:	el record de los ayudantes
+01:53:22	PABLO ARANEDA:	cuidado con hacer publico el repo de la solución vicho
+01:53:27	VICENTE ERRAZURIZ QUIROGA:	0.01s para el mas dificil
+01:53:39	HUMBERTO ORTUZAR TORNERO:	jajaja
+01:53:41	HUMBERTO ORTUZAR TORNERO:	en serio?
+01:53:47	Felipe Alberto Guzman Hernandez:	el mas dificil es el 13?
+01:53:52	VICENTE ERRAZURIZ QUIROGA:	el 14
+01:53:52	Felipe Alberto Guzman Hernandez:	que mal
+01:53:54	Felipe Alberto Guzman Hernandez:	:(
+01:53:59	VICENTE ERRAZURIZ QUIROGA:	https://github.com/IIC2133-PUC/Base-T1-2020-2
+01:54:02	PABLO ARANEDA:	para mi fue el 14
+01:54:02	HUMBERTO ORTUZAR TORNERO:	de verdad 0.01?
+01:54:08	Felipe Alberto Guzman Hernandez:	a mi el 14 se me demora menos
+01:54:11	Felipe Alberto Guzman Hernandez:	que el 12 y 13
+01:54:12	Felipe Alberto Guzman Hernandez:	xd
+01:54:27	Felipe Alberto Guzman Hernandez:	estuvieron 2 semanas
+01:54:28	Felipe Alberto Guzman Hernandez:	o 1
+01:54:34	Felipe Alberto Guzman Hernandez:	nada
+01:54:36	Felipe Alberto Guzman Hernandez:	:0
+01:54:44	PABLO ARANEDA:	A mi hermana le pasó eso de entrar a un U virtual, no cacha a nadie de su generacion
+01:54:45	HUMBERTO ORTUZAR TORNERO:	las matriculas eran como el 12
+01:54:51	Felipe Alberto Guzman Hernandez:	oh verdad
+01:55:00	HUMBERTO ORTUZAR TORNERO:	los NACE entraron antes
+01:55:04	HUMBERTO ORTUZAR TORNERO:	por campamento de verano
+01:55:27	Felipe Alberto Guzman Hernandez:	no se como se sentirá eso
+01:55:58	PABLO ARANEDA:	Me recuerda al cuento de las sombras en la caverna
+01:56:11	PABLO ARANEDA:	todo lo que ven de la U es 2D
+01:56:17	Felipe Alberto Guzman Hernandez:	jajaj
+01:56:36	PABLO ARANEDA:	y cuando salgan de la cuarentena conocerán la tercera dimensión de la U
+01:57:18	PABLO ARANEDA:	Ojalá que cuando volvamos, vuelvan los domos

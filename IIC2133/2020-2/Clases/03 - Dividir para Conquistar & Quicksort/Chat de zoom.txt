@@ -1,0 +1,272 @@
+00:14:36	-:	Porfa suban la clase al GitHub :)
+00:14:49	VICENTE ERRAZURIZ QUIROGA:	en eso estamos
+00:14:58	-:	Nicee
+00:15:13	Constanza Osorio:	si
+00:15:24	María Jesús Tala:	vicho subiste la clase??
+00:15:34	María Jesús Tala:	el power de hoy*
+00:17:32	VICENTE ERRAZURIZ QUIROGA:	ahi la subi
+00:17:33	VICENTE ERRAZURIZ QUIROGA:	:)
+00:18:02	Matías Patricio Duhalde:	graciass
+00:19:28	Sol Covacic Palet:	se van descartando mitades
+00:19:32	Josemaria Onetto Hernández:	tengo que comparar solo con la mitad de los datos
+00:24:13	Carlos Daniel Paredes Robles:	hacer rectángulos individuales y dsp juntar
+00:24:18	María Luisa Claro:	Por la mediana?
+00:24:19	PABLO ARANEDA:	sweep line bidimensional?
+00:24:20	Sol Covacic Palet:	la mediana de x
+00:24:22	Sol Covacic Palet:	o de y
+00:24:23	Sol Covacic Palet:	?
+00:24:26	VICENTE ERRAZURIZ QUIROGA:	el centro de maza no garantiza que quede la misma cantidad de elementos a cada lado
+00:25:22	Ricardo Benjamín Meza Aránguiz:	no
+00:25:37	JOAQUIN ALLIENDE VACCARO:	si se puede
+00:25:47	Tomás Andrés Dubost Orrico:	si 
+00:25:51	JOAQUIN ALLIENDE VACCARO:	oredenar la mitad
+00:25:53	Tomás Andrés Dubost Orrico:	ordenar la mitad
+00:26:35	VICENTE ERRAZURIZ QUIROGA:	la caja verde
+00:26:41	Fabi�n Esteban Sep�lveda Rivas:	xd
+00:27:14	Juan Jiménez:	los menores pq hay mas ?
+00:27:17	PABLO ARANEDA:	el mas grande
+00:27:17	TOMÁS ÁLVAREZ:	menores
+00:27:17	PIERO TASSARA BORDAGARAY:	Menores
+00:27:21	PIERO TASSARA BORDAGARAY:	Son más
+00:27:45	Eduardo Oteiza:	pero depende si es par o impar, no?
+00:27:56	Eduardo Oteiza:	(la cantidad de datos que hay)
+00:28:07	VICENTE ERRAZURIZ QUIROGA:	en el caso de que sea par, habria que encontrar los dos datos de al medio
+00:28:28	VICENTE ERRAZURIZ QUIROGA:	y promediarlos
+00:28:30	Eduardo Oteiza:	Entiendo
+00:28:36	Eduardo Oteiza:	El pivote es aleatorio?
+00:28:41	VICENTE ERRAZURIZ QUIROGA:	si
+00:29:20	Juan Jiménez:	pero esto implica que se tienen que revisar todos los datos multiples veces o no? para determinar menores y menores todas las veces
+00:29:28	Cristian Alonso Carrasco González:	no
+00:29:32	VICENTE ERRAZURIZ QUIROGA:	no todos
+00:29:35	Cristian Alonso Carrasco González:	porque se van descartando grupos
+00:29:36	VICENTE ERRAZURIZ QUIROGA:	la primera pasada si
+00:29:40	Pablo Vejar:	como hubiese dividido si es que hubiera otro 6? u otro 2?
+00:29:41	PABLO ARANEDA:	me suena a que esto es O(n*n)
+00:29:42	VICENTE ERRAZURIZ QUIROGA:	pero las siguientes son cada vez más baratas
+00:29:48	Juan Jiménez:	Toda la razon
+00:30:00	VICENTE ERRAZURIZ QUIROGA:	pero
+00:30:17	VICENTE ERRAZURIZ QUIROGA:	este algoritmo puede tener un mal caso
+00:30:21	VICENTE ERRAZURIZ QUIROGA:	si elige mal los pivotes
+00:30:32	Juan Jiménez:	claro si eliges un extremo?
+00:30:36	Fabi�n Esteban Sep�lveda Rivas:	y se puede evitar eso?
+00:30:40	Fabi�n Esteban Sep�lveda Rivas:	cuales son malos pivotes?
+00:30:49	PABLO ARANEDA:	los extremos
+00:30:53	Juan Jiménez:	si eliges extremos todo el rato fuiste bueno
+00:30:54	Joaquín Muñoz:	si en el paso anterior se hubiese elegido el 4
+00:31:00	Joaquín Muñoz:	hubiese fallado no?
+00:31:18	VICENTE ERRAZURIZ QUIROGA:	> como hubiese dividido si es que hubiera otro 6? u otro 2?vamos a analizarlo sin elementos repetidos primero
+00:31:54	Eduardo Oteiza:	Si los pivotes se elige aleatoriamente, no hay forma de asegurarse que sea uno bueno?
+00:31:59	VICENTE ERRAZURIZ QUIROGA:	nop
+00:32:05	VICENTE ERRAZURIZ QUIROGA:	es suerte
+00:32:07	VICENTE ERRAZURIZ QUIROGA:	jaja
+00:32:09	Eduardo Oteiza:	jajaja
+00:32:09	Tomás Andrés Dubost Orrico:	xd
+00:32:23	PABLO ARANEDA:	mi nota en la tarea dependerá de mi suerte?
+00:32:24	Juan Jiménez:	luckSort
+00:32:24	VICENTE ERRAZURIZ QUIROGA:	pero es altamente improbable elegir todo el rato malos pivotes
+00:32:29	Julián Manuel García González:	Si la lista esta ordenada, esto es O(n) o O(log(n))?
+00:32:36	Eduardo Oteiza:	Aunque que salga un pivote extremo (primero y ultimo elemento por ejemplo) es poco probable en comparación con el “centro” de los datos
+00:32:44	VICENTE ERRAZURIZ QUIROGA:	esto es O(1) en el mejor caso 
+00:32:53	VICENTE ERRAZURIZ QUIROGA:	(si la mediana es tu primer pivote)
+00:32:58	Eduardo Oteiza:	Alguien que sea yeta puede tener malos pivotes todo el rato :(
+00:33:00	Julián Manuel García González:	Pero igual hay que hacer n comparaciones 
+00:33:11	Julián Manuel García González:	Para ver la cantidad de elementos a la derecha y a la izquierda
+00:33:11	VICENTE ERRAZURIZ QUIROGA:	PERDON
+00:33:12	VICENTE ERRAZURIZ QUIROGA:	si
+00:33:23	VICENTE ERRAZURIZ QUIROGA:	es O(n) aunque elijas el mejor pivote posible
+00:33:49	VICENTE ERRAZURIZ QUIROGA:	> Si la lista esta ordenada, esto es O(n) o O(log(n))?el orden en el que están los datos no le importa al algoritmo
+00:34:01	PABLO ARANEDA:	1 a n veces
+00:34:34	Cristobal Vargas:	n veces en el peor de los casos
+00:35:05	Sebasti�n Andr�s Tor�s Su�rez:	n/2 en el peor caso?
+00:35:15	VICENTE ERRAZURIZ QUIROGA:	> Alguien que sea yeta puede tener malos pivotes todo el rato :(Ya vamos a calcular la probabilidad de esto
+00:35:25	Fabi�n Esteban Sep�lveda Rivas:	debe ser rechica 
+00:35:38	PABLO ARANEDA:	pero si te pasa en la tarea...
+00:35:54	Fabi�n Esteban Sep�lveda Rivas:	jajaja es que si eliges con una distribución uniforme es muy imrpobable que te pase
+00:36:23	Fabi�n Esteban Sep�lveda Rivas:	pero me imagino que se puede chequear si tuviste mala pata?
+00:37:48	Eduardo Oteiza:	osea redefinir el arreglo
+00:37:59	VICENTE ERRAZURIZ QUIROGA:	esto es pseudocódigo eso sí
+00:39:38	VICENTE ERRAZURIZ QUIROGA:	> pero me imagino que se puede chequear si tuviste mala pata?Creo que si. En la práctica segun entiendo no se chequea, se usa nomás
+00:41:49	VICENTE ERRAZURIZ QUIROGA:	partición es el dividir
+00:41:52	VICENTE ERRAZURIZ QUIROGA:	falta el conquistar xd
+00:42:34	Agustin Rios Letelier:	cual era el pivote?
+00:42:54	VICENTE ERRAZURIZ QUIROGA:	el elemento contra el que comparamos los datos
+00:43:04	VICENTE ERRAZURIZ QUIROGA:	para decidir cuales son menores y cuales son mayores
+00:43:12	VICENTE ERRAZURIZ QUIROGA:	partition escoje un pivote aleatoriamente
+00:43:21	Agustin Rios Letelier:	buena 
+00:43:23	Agustin Rios Letelier:	gracias
+00:43:31	VICENTE ERRAZURIZ QUIROGA:	y devuelve cuantos elementos de A son menores al pivote
+00:43:31	JOAQUIN ALLIENDE VACCARO:	pero A[n/2] no es la mediana
+00:43:40	JOAQUIN ALLIENDE VACCARO:	entonces por que A[x] seria la mediana?
+00:43:57	SEBASTIAN ZABALA MARTINEZ:	eso mismo, x no era una cantidad? mas que una posicion
+00:44:10	Eduardo Oteiza:	Pero A está desordenado, no?
+00:44:15	VICENTE ERRAZURIZ QUIROGA:	A = [0,1,2,3,4,5,6] (largo 7)7/2 = 3.5 -> 3
+00:44:24	PABLO ARANEDA:	pero A se va ordenando a trozos
+00:44:43	JOAQUIN ALLIENDE VACCARO:	aaah perfecto, A se edita en el partition
+00:44:45	VICENTE ERRAZURIZ QUIROGA:	al ser x la cantidad de elementos menores al pivote
+00:44:58	VICENTE ERRAZURIZ QUIROGA:	x es la posicion final del pivote en el arreglo
+00:45:01	VICENTE ERRAZURIZ QUIROGA:	si estuviera ordenado
+00:45:26	PABLO ARANEDA:	al hacer partition, se ordena un poco, y el valor del pivote queda en una posición correcta
+00:45:33	VICENTE ERRAZURIZ QUIROGA:	exacto :)
+00:45:38	JOAQUIN ALLIENDE VACCARO:	gracias
+00:45:43	Montserrat Cuturrufo Inostroza:	Esto es suponiendo que no hay datos repetidos?
+00:45:48	VICENTE ERRAZURIZ QUIROGA:	si :)
+00:45:53	Montserrat Cuturrufo Inostroza:	gracias!
+00:46:04	Matías Patricio Duhalde:	Función de Ackermann :eyes:
+00:46:05	VICENTE ERRAZURIZ QUIROGA:	siempre vamos a sumir que no hay elementos repetidos para efectos de los análisis
+00:46:15	Teresita S:	Entonces por cada vuelta del while compara un dato menos del arreglo?
+00:46:42	Teresita S:	Como que deja de considerar un extremo?
+00:46:48	VICENTE ERRAZURIZ QUIROGA:	osea, AL MENOS uno menos, pero si nuestro pivote fue muy bueno, podriamos reducir la cantidad de datos en la mitad
+00:47:08	VICENTE ERRAZURIZ QUIROGA:	pero si, peor caso vamos a tener un elemento menos
+00:47:57	Teresita S:	Perfect! Ya entendi el codigo
+00:49:30	PABLO ARANEDA:	n^2
+00:49:33	Pablo Vejar:	n^2
+00:49:41	Ricardo Benjamín Meza Aránguiz:	elegir los extremos?
+00:49:59	VICENTE ERRAZURIZ QUIROGA:	efectivamente
+00:50:33	Fabi�n Esteban Sep�lveda Rivas:	no cache de donde sale el cuadrado
+00:50:40	JOAQUIN ALLIENDE VACCARO:	el informe da la tarea se puede mandar mas de una vez?
+00:50:40	PABLO ARANEDA:	n
+00:50:41	Teresita S:	n
+00:50:41	Nicolás Bravo de la Cruz:	n
+00:51:08	Fabi�n Esteban Sep�lveda Rivas:	sii
+00:52:09	Benjamín Pardo Bravo:	¿por qué se pasa por todos los datos para elegir un pivote al azar?
+00:52:14	VICENTE ERRAZURIZ QUIROGA:	> no cache de donde sale el cuadradoSi cada vez eliges un extremo, las comparaciones te salen n, n-1, n-2, n-3 .... y la suma de todos estos pasos te sale O(n^2) 
+00:52:33	VICENTE ERRAZURIZ QUIROGA:	> ¿por qué se pasa por todos los datos para elegir un pivote al azar?No, se pasa por todos los datos para separarlos en mayores y menores al pivote
+00:53:31	Sebasti�n Andr�s Tor�s Su�rez:	en el peor caso cuantos pivotes se eligen ?
+00:53:48	VICENTE ERRAZURIZ QUIROGA:	> en el peor caso cuantos pivotes se eligen ?Todos los elementos van a ser pivote, por lo que n
+00:53:52	Benjamín Pardo Bravo:	si
+00:53:52	Rosita Muñoz:	n(?
+00:54:45	Rodrigo Alberto Gevert Weil:	n comparaciones n veces?
+00:55:14	Rodrigo Alberto Gevert Weil:	o(n) comparaciones o(n) veces
+00:55:17	Felipe Guzmán:	seria como sum n - k con k de 0 a n-1 o no?
+00:55:37	VICENTE ERRAZURIZ QUIROGA:	sip
+00:56:12	PABLO ARANEDA:	ojala sea nlogn
+00:57:10	Constanza Osorio:	jajaja
+00:57:18	María Luisa Claro:	El mejor de los casos es si el primer pivote es la mediana?
+00:57:19	Constanza Osorio:	xD
+00:57:20	Pablo Vejar:	jajjjajas
+00:57:26	PABLO ARANEDA:	su raddish sort
+00:57:29	Cristian Alonso Carrasco González:	finally
+00:57:30	Benjamín Álvarez:	el sueño 
+00:57:32	Benjamín Álvarez:	bogo sort
+00:57:44	Julián Manuel García González:	badsort
+00:59:23	HUMBERTO ORTUZAR TORNERO:	el ombligo
+00:59:32	María Jesús Tala:	cual era el peor caso de partition?
+01:00:18	LAURENCE GOLBORNE:	en ese caso la cantidad de elementos abajo sigue siendo n/2
+01:00:25	LAURENCE GOLBORNE:	cuando se toma el promedio
+01:03:10	Sol Covacic Palet:	sería como elegir pivotes 9,8,7,6,1,2,3,4,5?
+01:06:05	VICENTE ERRAZURIZ QUIROGA:	ojo: el promedio de INSERTION SORT sigue siendo O(n^2)
+01:06:06	PABLO ARANEDA:	si
+01:06:19	SEBASTIAN ZABALA MARTINEZ:	inesperada respuesta
+01:06:23	PABLO ARANEDA:	yo creo en partition
+01:07:46	Fabi�n Esteban Sep�lveda Rivas:	partition + merge?
+01:07:47	Juan Jiménez:	pero ahi podria ocupar selection sort  o no?
+01:07:50	Juan Jiménez:	o merge?
+01:07:52	PIERO TASSARA BORDAGARAY:	Buscamos la mediana de cada subconjunto también?
+01:07:55	PIERO TASSARA BORDAGARAY:	Y hacemos merge
+01:08:04	Juan Jiménez:	porque ya estaria relativamente ordenado
+01:08:10	VICENTE ERRAZURIZ QUIROGA:	merge no porque no están ordenados los subarreglos
+01:08:19	VICENTE ERRAZURIZ QUIROGA:	insertionsort podria servir ya que estan semi-ordenados
+01:08:48	PABLO ARANEDA:	partitions, + ordenar mitades -> binary sort
+01:09:01	PABLO ARANEDA:	maybe
+01:09:15	VICENTE ERRAZURIZ QUIROGA:	y con qué algoritmo los ordenas
+01:09:18	VICENTE ERRAZURIZ QUIROGA:	?
+01:09:30	PABLO ARANEDA:	con el que dice el profe
+01:09:41	VICENTE ERRAZURIZ QUIROGA:	ese que estamos buscando?
+01:10:07	PABLO ARANEDA:	creo
+01:10:20	PABLO ARANEDA:	queda ordenado
+01:10:21	Benjamín Álvarez:	esta en la posición correcta
+01:10:21	Eduardo Oteiza:	queda en su posición?
+01:10:44	Eduardo Oteiza:	Asi que hay que hacer partition usando cada elemento como pivote para que la lista quede ordenado
+01:10:48	Fabi�n Esteban Sep�lveda Rivas:	entonces ordenar con partitions toma O(n) en el peor caso?
+01:10:52	Carlos Daniel Paredes Robles:	al hace eso reduciría igual en harto el numero de inversiones o no?
+01:11:05	Carlos Daniel Paredes Robles:	asi como para aplicar insertion dsp
+01:11:20	VICENTE ERRAZURIZ QUIROGA:	va a reducir las inversiones entre los mayores y los menores
+01:11:41	VICENTE ERRAZURIZ QUIROGA:	pero dentro de los elementos de un mismo subset sigue habiendo la misma cantidad de inversiones
+01:12:29	Eduardo Oteiza:	dividir la lista hasta que quede 1 elemento y ahí ordenarlos usando partition (?)
+01:13:47	SEBASTIAN ZABALA MARTINEZ:	entonces es como la alternativa in place de merge no?
+01:14:00	PIERO TASSARA BORDAGARAY:	Se puede hacer inplace?
+01:14:04	VICENTE ERRAZURIZ QUIROGA:	efectivamente
+01:14:07	VICENTE ERRAZURIZ QUIROGA:	es inplace
+01:14:11	PABLO ARANEDA:	pero quick sort sigue teniendo peor caso O(n^2)
+01:14:13	PIERO TASSARA BORDAGARAY:	Nice
+01:14:24	VICENTE ERRAZURIZ QUIROGA:	pero efectivamente su complejidad es O(n^2) en el peor caso
+01:14:32	VICENTE ERRAZURIZ QUIROGA:	ya que sigue dependiendo de la elección de los pivotes
+01:14:45	SEBASTIAN ZABALA MARTINEZ:	igual?
+01:14:46	Cristian Stefan Oberpaur Kohler:	nlogn
+01:14:46	PABLO ARANEDA:	high risk high reward
+01:14:47	Felipe Guzmán:	nlogn?
+01:14:48	Sol Covacic Palet:	nlogn?
+01:14:48	Pablo Rademacher:	nlog(n)
+01:14:59	VICENTE ERRAZURIZ QUIROGA:	> high risk high rewardthis
+01:15:05	VICENTE ERRAZURIZ QUIROGA:	efectivamente en el mejor caso es mejor que MS
+01:15:11	VICENTE ERRAZURIZ QUIROGA:	porque no tiene que combinar nada
+01:15:20	VICENTE ERRAZURIZ QUIROGA:	+ no usa memoria adicional
+01:15:35	Felipe Guzmán:	gambler sort
+01:15:49	Fabi�n Esteban Sep�lveda Rivas:	nlogn
+01:15:57	Sol Covacic Palet:	:0
+01:15:57	VICENTE ERRAZURIZ QUIROGA:	> gambler sortque buen nombre :)
+01:16:15	Felipe Guzmán:	n^2?
+01:16:52	Fabi�n Esteban Sep�lveda Rivas:	es rapidin
+01:17:18	Franco Nicolás Berríos Núñez:	KuchauSort
+01:18:15	PABLO ARANEDA:	si siempre escoges un extremo y la cosa esta ordenada, es O(n^2) garantizado?
+01:18:21	VICENTE ERRAZURIZ QUIROGA:	si!
+01:18:25	VICENTE ERRAZURIZ QUIROGA:	es terrible
+01:18:35	VICENTE ERRAZURIZ QUIROGA:	pero por eso mismo es tan importante que el pivote sea aleatorio
+01:18:51	VICENTE ERRAZURIZ QUIROGA:	asi no te pueden pasar un peor caso a proposito
+01:21:07	Matías Patricio Duhalde:	m^2
+01:21:08	Felipe Guzmán:	n^2
+01:21:34	Tomás C:	pero si yo se mas o menos como vienen los datos le puedo dar un peso a la eleccion del pivote?
+01:22:33	VICENTE ERRAZURIZ QUIROGA:	claro, pero en general
+01:22:38	VICENTE ERRAZURIZ QUIROGA:	no vas a tener esa información
+01:23:02	Tomás C:	ty
+01:24:59	Felipe Guzmán:	el sort mas rapido del oeste
+01:25:15	Fabi�n Esteban Sep�lveda Rivas:	esa demostración estará en el cormen?
+01:25:18	VICENTE ERRAZURIZ QUIROGA:	si
+01:25:19	Fabi�n Esteban Sep�lveda Rivas:	está*
+01:25:21	Fabi�n Esteban Sep�lveda Rivas:	wena
+01:26:51	JOAQUIN ALLIENDE VACCARO:	pero el otro dia encontramos uno que era nlog(n) o no? no me acuerdo del nombre eso si jajaj 
+01:26:59	JOAQUIN ALLIENDE VACCARO:	el que tenia ecuación de recurrecncia
+01:27:01	Felipe Guzmán:	el merge
+01:27:36	VICENTE ERRAZURIZ QUIROGA:	mergesort es nlogn en todos los casos (mejor, peor, promedio)
+01:27:54	JOAQUIN ALLIENDE VACCARO:	entonces por que se prefiere quicsort a mergesort?
+01:28:01	Felipe Guzmán:	mergesort es el seguro cuando se aplica de forma simple?
+01:28:01	María Jesús Tala:	cual era el peor caso y el caso promedio de Quicksort?
+01:28:06	Juan Jiménez:	pq no tienen que estar ordenados supongo
+01:28:19	JOAQUIN ALLIENDE VACCARO:	pero en merge sort tampoco
+01:28:22	JOAQUIN ALLIENDE VACCARO:	en merge si
+01:28:28	Pablo Rademacher:	ocuoa menos memoria sg yo
+01:28:41	VICENTE ERRAZURIZ QUIROGA:	porque quicksort no usa memoria adicional, no tiene que combinar los datos, y (tema de arquitectura de computadores) aprovecha al 100% la caché del computador pq va recorreiendo el arreglo en orden
+01:28:47	Ricardo Benjamín Meza Aránguiz:	dijo que no se necesitaba memoria adicional
+01:28:51	Fabi�n Esteban Sep�lveda Rivas:	Quicksort creo que el mejor era O(n) promedio nlog(n) y peor O(n**2)
+01:29:01	VICENTE ERRAZURIZ QUIROGA:	quicksrot es nlogn en el mejor caso
+01:29:08	VICENTE ERRAZURIZ QUIROGA:	se produce la misma recurrencia que en mergesort
+01:29:15	VICENTE ERRAZURIZ QUIROGA:	donde cada pivote cae justo en la mitad
+01:30:08	JOAQUIN ALLIENDE VACCARO:	graciaas
+01:31:35	SEBASTIAN ZABALA MARTINEZ:	hagamosla en clases o ayudantia pls xd
+01:31:39	Sol Covacic Palet:	porfis
+01:31:40	VICENTE ERRAZURIZ QUIROGA:	oki
+01:31:42	José Tomás Márquez Bischoff:	pls
+01:31:43	María Luisa Claro:	+1
+01:31:47	Joaquín Muñoz:	x2
+01:31:53	Teresita S:	x3
+01:31:54	VICENTE ERRAZURIZ QUIROGA:	pa la clase queda entonces
+01:32:14	Victoria Matthews:	chao, gracias
+01:32:21	Pablo Vejar:	gracias!
+01:32:22	Cristian Hinostroza:	chao profe, chao vicho
+01:32:23	Elías Sabja:	chao profe gracias
+01:32:24	VICENTE ERRAZURIZ QUIROGA:	el viernes vamos a ver más ejemplos de D&C
+01:32:26	Fernando Quintana:	chaoo
+01:32:28	Benjamin Urrutia:	Chao, gracias!
+01:32:28	Felipe Guzmán:	gracias profe
+01:32:28	HUMBERTO ORTUZAR TORNERO:	chao profe!
+01:32:28	Rocio Hernandez:	chao gracias
+01:32:31	PIERO TASSARA BORDAGARAY:	Chao profe graias!!
+01:32:31	Constanza Osorio:	chao profe
+01:32:32	Eduardo Oteiza:	Gracias profe!
+01:32:33	VICENTE ERRAZURIZ QUIROGA:	con demostraciones y calculos de complejidad
+01:32:34	VICENTE ERRAZURIZ QUIROGA:	:)
+01:32:36	Josefina Fernández:	chao muchas gracias!!
+01:32:39	Rodrigo Rubio:	Chao muchas gracias!
+01:33:01	BARBARA IRARRAZAVAL MONTES:	Chao muchas gracias!
+01:35:53	PABLO ARANEDA:	entonces preferenciar iterativo en vez de recursión?
+01:36:52	Benjamín Álvarez:	chao muchas gracias!

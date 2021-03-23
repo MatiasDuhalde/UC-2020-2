@@ -1,0 +1,248 @@
+00:20:06	Matías Patricio Duhalde:	Holaa
+00:20:06	Pablo Inzunza:	hola profe
+00:20:09	PABLO ARANEDA:	si profe, lo recibo
+00:20:18	Tomás C:	la ultima tarea deberia tener algo que ver con  yggdrasil
+00:20:42	Cristian Alonso Carrasco González:	hola
+00:20:57	Eduardo Oteiza:	Holaa, subirán una propuesta de solución de T1 o similar?
+00:21:08	VICENTE ERRAZURIZ QUIROGA:	sisi
+00:21:10	VICENTE ERRAZURIZ QUIROGA:	:)
+00:21:13	Matías Patricio Duhalde:	pueden subir las diapos de hoy? uwu
+00:21:16	VICENTE ERRAZURIZ QUIROGA:	haremos un video al igual que con la T0
+00:21:23	VICENTE ERRAZURIZ QUIROGA:	estoy subiendo las diapos
+00:21:31	Matías Patricio Duhalde:	buena
+00:21:51	LUCAS VALENZUELA:	Vicho vas a subir la clase?
+00:22:02	Eduardo Oteiza:	Gracias vicho!
+00:26:18	VICENTE ERRAZURIZ QUIROGA:	ya están subidas las diapos!
+00:26:42	Matías Patricio Duhalde:	gracias!
+00:30:04	Matías Patricio Duhalde:	log(n)
+00:30:07	Franco Nicolás Berríos Núñez:	logn
+00:30:16	PABLO ARANEDA:	1
+00:30:17	Sol Olivia Covacich Palet:	1
+00:30:19	Matías Patricio Duhalde:	1
+00:30:19	Cristian Alonso Carrasco González:	o(1)
+00:31:11	Julián Manuel García González:	Pero, si tengo 100 claves posibles y solo una entrada del diccionario, entonces tengo 99 espacios vacios y ocupando espacio?
+00:31:42	VICENTE ERRAZURIZ QUIROGA:	exacto
+00:32:05	PABLO ARANEDA:	memoria
+00:32:19	Araceli Rojas Vilaplana:	no sabemos cuantos espacios se necesitan
+00:32:22	Piero Tassara:	Insertar en arreglo lleno
+00:32:23	Julián Manuel García González:	Y si consideramos claves como strings de largo 10, entonces tengo 256^10 bytes para mi arreglo?
+00:32:55	Julián Manuel García González:	Eso no tiene sentido
+00:32:56	PABLO ARANEDA:	almacenar floats
+00:33:15	PABLO ARANEDA:	necesitaría muchas casillas
+00:33:28	HUMBERTO ORTUZAR TORNERO:	puedo poner un puntero a otra tabla al final de mi tabla si se me va a llenar?
+00:34:52	PABLO ARANEDA:	20
+00:34:52	Constanza Osorio:	18 millones
+00:34:53	Felipe Guzmán:	19
+00:34:53	Piero Tassara:	20019457
+00:34:54	Julián Manuel García González:	20 millones
+00:34:54	Tomás C:	20 millones
+00:34:59	Sebastian Zabala Martinez:	21
+00:35:00	Constanza Osorio:	;-;
+00:35:02	Piero Tassara:	Je
+00:35:05	Felipe Guzmán:	gente joven
+00:35:07	Arturo Sande:	24500-03
+00:36:11	PABLO ARANEDA:	además de que el rango va cambiando
+00:38:23	LAURENCE GOLBORNE:	incluso la k del rut molesta en ese caso o no?
+00:38:35	VICENTE ERRAZURIZ QUIROGA:	el digito verificador del rut no deberia ser necesario
+00:38:43	LAURENCE GOLBORNE:	ahh verdad
+00:38:56	PABLO ARANEDA:	pero si el string se hace en árbol, se podría buscar con cada char para avanzar un nodo
+00:39:21	VICENTE ERRAZURIZ QUIROGA:	claro, para strings puedes hacer eso
+00:40:30	VICENTE ERRAZURIZ QUIROGA:	la gracia de las tablas de hash significa que pueden operar con CUALQUIER dominio (ya vamos a ver como)
+00:40:38	Julián Manuel García González:	clarisimo
+00:42:10	Julián Manuel García González:	pero por principio del palomar, deberian haber 2 ruts que vayan al mismo indice no?
+00:42:41	VICENTE ERRAZURIZ QUIROGA:	efectivamente
+00:42:44	Constanza Osorio:	uhhhh
+00:42:49	VICENTE ERRAZURIZ QUIROGA:	... si hay mas de m ruts
+00:42:57	Arturo Sande:	Se tuvo que decir y se dijo!
+00:43:15	Julián Manuel García González:	y hacemos un arbolito en cada espacio de la lista y hacemos busqueda binaria?
+00:43:18	VICENTE ERRAZURIZ QUIROGA:	(el ayudante no participó en la elaboración de estas diapositivas)
+00:43:29	VICENTE ERRAZURIZ QUIROGA:	>y hacemos un arbolito en cada espacio de la lista y hacemos busqueda binaria?esa es una opcion!!!
+00:43:50	Julián Manuel García González:	y vamos a ver otra opcion?
+00:43:58	VICENTE ERRAZURIZ QUIROGA:	si, una mas simple xd
+00:44:02	Julián Manuel García González:	ah jajajajaja
+00:44:15	Julián Manuel García González:	una mas facil de analizar complejidad
+00:44:18	Julián Manuel García González:	supongo
+00:44:19	VICENTE ERRAZURIZ QUIROGA:	como los hash-browns que son como papas picadas y fritas
+00:44:21	VICENTE ERRAZURIZ QUIROGA:	yes
+00:44:46	VICENTE ERRAZURIZ QUIROGA:	(mentira no son papas, no me se la receta)
+00:44:53	Constanza Osorio:	hash browns si son papas
+00:44:58	VICENTE ERRAZURIZ QUIROGA:	:o
+00:44:59	Constanza Osorio:	papa rayada
+00:45:17	Julián Manuel García González:	papas ralladas y fritas, que cosa mas rica
+00:45:33	María Luisa Claro:	Y buscar en T es O(1)?
+00:45:49	VICENTE ERRAZURIZ QUIROGA:	depende de la complejidad de h
+00:46:07	VICENTE ERRAZURIZ QUIROGA:	+ algo que veremos ahora
+00:46:11	Sol Olivia Covacich Palet:	esto requiere q conozcamos m de antemano?
+00:46:23	VICENTE ERRAZURIZ QUIROGA:	esa es una opcion
+00:46:52	MATEO FANTONI PRIETO:	Entonces la función de hash entrega el índice y crea el arreglo?
+00:46:54	VICENTE ERRAZURIZ QUIROGA:	pero si queremos guardar m claves en una tabla de tamaño m
+00:47:01	VICENTE ERRAZURIZ QUIROGA:	no, la funcion de hash recibe una clave
+00:47:07	VICENTE ERRAZURIZ QUIROGA:	y retorna un indice del arreglo
+00:47:21	PABLO ARANEDA:	pero con ruts el tamaño de m es variable
+00:47:31	VICENTE ERRAZURIZ QUIROGA:	la tabla es un arreglo
+00:47:31	Piero Tassara:	Cómo agrandamos la tabla?
+00:47:36	VICENTE ERRAZURIZ QUIROGA:	y m es el tamaño de ese arreglo
+00:47:39	VICENTE ERRAZURIZ QUIROGA:	el cual es fijo
+00:47:40	VICENTE ERRAZURIZ QUIROGA:	o.O
+00:47:43	Piero Tassara:	Dado que es un arreglo
+00:47:47	Julián Manuel García González:	este formato de hashing disminuye el tamaño del input, y existe otro que lo aumenta no?
+00:48:02	Constanza Osorio:	pero ahí tendría q ser el nombre completo xq o si no se puede repetir no?
+00:48:47	Julián Manuel García González:	y si nos pasamos hacemos de nuevo el arreglo?
+00:48:51	VICENTE ERRAZURIZ QUIROGA:	o podrias guardar el rut adentro de la tabla
+00:49:01	VICENTE ERRAZURIZ QUIROGA:	pq el rut si o si es unico
+00:49:10	VICENTE ERRAZURIZ QUIROGA:	asique no te va a pasar que hayan nombres repetidos
+00:49:51	VICENTE ERRAZURIZ QUIROGA:	> este formato de hashing disminuye el tamaño del input, y existe otro que lo aumenta no?qué?
+00:50:19	PABLO ARANEDA:	en volaa recuperar el valor original?
+00:50:26	Julián Manuel García González:	digo, por ejemplo este hash puede ser sumar todos los digitos de un numero hasta llegar a un numero de un digito
+00:50:30	LAURENCE GOLBORNE:	h^-1?
+00:50:33	VICENTE ERRAZURIZ QUIROGA:	las funciones de hash normalmente no van a ser invertibles
+00:50:39	VICENTE ERRAZURIZ QUIROGA:	como dijiste antes
+00:50:41	VICENTE ERRAZURIZ QUIROGA:	por palomar
+00:51:00	VICENTE ERRAZURIZ QUIROGA:	al menos no en el contexto de las tablas de hash
+00:51:05	Tomás C:	es como la gracia de los hashes o no?
+00:51:07	Julián Manuel García González:	Pero hay hashes que son unicos, y se usan en criptografia?
+00:51:11	Julián Manuel García González:	O es mi idea
+00:51:14	VICENTE ERRAZURIZ QUIROGA:	si
+00:51:16	MATEO FANTONI PRIETO:	Pero entonces la tabla de hash está creada de antes?
+00:51:18	VICENTE ERRAZURIZ QUIROGA:	pero no son realmente unicos
+00:51:27	Julián Manuel García González:	raios
+00:51:35	VICENTE ERRAZURIZ QUIROGA:	es posible que dos cosas distintas tengan el mismo hash
+00:51:36	JOAQUIN ALLIENDE VACCARO:	cuando la clave no esta en la tabla que retorna la función de hash?
+00:51:41	VICENTE ERRAZURIZ QUIROGA:	pero que la probabilidad es BAJISIMA
+00:52:53	Julián Manuel García González:	Por que las listas no son hasheables?
+00:53:08	PABLO ARANEDA:	:o
+00:53:13	PABLO ARANEDA:	ahora todo calza
+00:53:28	LAURENCE GOLBORNE:	osea se podría usar una lista como llave?
+00:53:33	PABLO ARANEDA:	no
+00:53:33	Matías Patricio Duhalde:	python permite implementar __hash__
+00:53:47	PABLO ARANEDA:	porque al crecer, Python puede reubicar la lista en memoria
+00:53:59	Constanza Osorio:	creo que nunca he hecho eso
+00:54:30	LAURENCE GOLBORNE:	jajaj no se pq uno lo intentaría pero gracias python <3
+00:54:44	VICENTE ERRAZURIZ QUIROGA:	es importante saber como python te puede meter goles
+00:54:52	PABLO ARANEDA:	yo lo he intentado en el pasado
+00:55:10	JOAQUIN ALLIENDE VACCARO:	cuando la clave no esta en la tabla que retorna la función de hash?
+00:55:37	PABLO ARANEDA:	null pointer asumo
+00:55:51	PABLO ARANEDA:	ahh, lafuncion
+00:59:33	LAURENCE GOLBORNE:	esto exige que los valores sean del mismo tipo?
+00:59:40	VICENTE ERRAZURIZ QUIROGA:	si
+01:00:30	VICENTE ERRAZURIZ QUIROGA:	pero aun no vemos por qué
+01:01:07	María Luisa Claro:	Que significa la frase “no son operaciones de diccionario”?
+01:02:45	Felipe Guzmán:	esa function tiene que ser tal que si f(x_1) != f(x_2) -> x_1 ! x_2?
+01:03:30	Felipe Guzmán:	no recuerdo cual yectiva era esa
+01:03:58	Felipe Guzmán:	ah ya
+01:04:31	Felipe Guzmán:	claro
+01:04:45	PABLO ARANEDA:	si dos inputs dan lo mismo, se crea otra tabla de hash dentro de la celda?
+01:04:54	LUCAS VAN SINT JAN CAMPOS:	Proximamente en EDD.... 
+01:04:55	VICENTE ERRAZURIZ QUIROGA:	vamos a ver como resolver ese caso
+01:04:59	LAURENCE GOLBORNE:	hashception?
+01:05:02	VICENTE ERRAZURIZ QUIROGA:	agradezco lo motivados que están
+01:05:08	VICENTE ERRAZURIZ QUIROGA:	pero vamos en orden jaja
+01:05:24	PABLO ARANEDA:	hash and roll
+01:05:57	Constanza Osorio:	el mejor canal que tengo en mi discord, buenos memes
+01:06:05	Moisés Matías Saavedra Cáceres:	No sé si hablaron al comienzo, pero la tarea 2 cuando se libera?
+01:06:19	Pablo Inzunza:	dijeron que al final de la clase
+01:06:24	VICENTE ERRAZURIZ QUIROGA:	al terminar la clase
+01:06:28	Moisés Matías Saavedra Cáceres:	genial, gracias!
+01:08:34	PABLO ARANEDA:	si
+01:08:35	Matías Patricio Duhalde:	sii
+01:08:40	LUCAS VAN SINT JAN CAMPOS:	Si
+01:08:41	Felipe Guzmán:	si
+01:09:14	Benjamin Urrutia:	que pasa con h(k) que se repiten?
+01:09:35	VICENTE ERRAZURIZ QUIROGA:	ya lo vamos a ver
+01:10:27	Franco Nicolás Berríos Núñez:	la vieja confiable
+01:10:32	Piero Tassara:	Repetidos
+01:10:34	PABLO ARANEDA:	repeticiones
+01:10:40	LUCAS VAN SINT JAN CAMPOS:	Repetidos
+01:10:43	Matías Patricio Duhalde:	colisiones
+01:11:05	ALONSO ORTEGA LOYOLA:	*Vietnam flashbacks*
+01:11:31	JADRINA DE ANDRADE E SILVA:	cada 100 numeros se repite
+01:11:38	Felipe Guzmán:	se elimina la primera cifrsa
+01:11:40	SEBASTIÁN TORÉS:	las decenas y unidades
+01:11:40	Julián Manuel García González:	Los dos ultimos numeros
+01:11:41	Piero Tassara:	Los 12 ultimos digitos
+01:11:42	LAURENCE GOLBORNE:	se sacan los dos digitos menos significativos
+01:11:44	Piero Tassara:	2
+01:11:45	Matías Patricio Duhalde:	212%100 = 612 % 100
+01:11:45	María Luisa Claro:	Decena y centena
+01:12:12	HUMBERTO ORTUZAR TORNERO:	si es primo
+01:12:12	Jean-Paul Balazs Thenot:	si es primo
+01:12:21	Julián Manuel García González:	pero igual es lo mismo, por ej 97 y 194
+01:14:07	Matías Patricio Duhalde:	usando mod 999
+01:14:08	LUCAS VAN SINT JAN CAMPOS:	No
+01:14:10	Sol Olivia Covacich Palet:	no, pq m tiene q ser mucho menor que D
+01:14:13	Julián Manuel García González:	no podemos si m << D
+01:14:17	PABLO ARANEDA:	los números primos son buenos para evitar colisiones?
+01:14:19	Julián Manuel García González:	solo si m > D
+01:14:40	Felipe Guzmán:	generar más de una clave?
+01:14:54	VICENTE ERRAZURIZ QUIROGA:	>los números primos son buenos para evitar colisiones?ya lo vamos a ver xd
+01:15:09	Julián Manuel García González:	no deberian serlo en todo caso
+01:15:25	Pablo Rademacher:	Al menos con mod no jajajja
+01:15:33	PABLO ARANEDA:	creo que su fuerza está si juntas varios
+01:15:47	Julián Manuel García González:	amodbmodc?
+01:18:22	PABLO ARANEDA:	otra tabla
+01:19:41	Julián Manuel García González:	arbol rojo-negro ftw
+01:19:46	LAURENCE GOLBORNE:	pero como sabemos cual esta asociada con cual clave? hay que definir una nueva función?
+01:20:02	PABLO ARANEDA:	si, podría ser mod 17
+01:20:48	VICENTE ERRAZURIZ QUIROGA:	para eso guardamos la clave Y el valor en la celda
+01:20:52	VICENTE ERRAZURIZ QUIROGA:	cosa de poder comparar las claves
+01:20:59	VICENTE ERRAZURIZ QUIROGA:	para ver si el elemento es el que andamos buscando
+01:21:01	Sebastian Zabala Martinez:	osea eso es una lista ligada
+01:21:16	VICENTE ERRAZURIZ QUIROGA:	es una lista ligada... de tuplas (k,v)
+01:22:06	Julián Manuel García González:	pero, aca fue trampa porque justo tocaron numeros que daban en los mismos lugares
+01:22:07	LUCAS VAN SINT JAN CAMPOS:	Con este metodo, como puedo encontrar mi valor con una clave que genera colision? Como se el indice de la lista ligada? 
+01:22:25	VICENTE ERRAZURIZ QUIROGA:	primero vas a la celda en la tabla que te corresponde segun h(k)
+01:22:32	Piero Tassara:	Misma duda
+01:22:46	LUCAS VAN SINT JAN CAMPOS:	Aaa perfect
+01:23:52	JULIO ANDRADE GOMEZ:	esas casillas tienen distintos hash?
+01:24:12	VICENTE ERRAZURIZ QUIROGA:	las casillas no tienen hashes
+01:24:13	Julián Manuel García González:	37, 51 y 58 tienen el mismo hash
+01:24:14	LUCAS VAN SINT JAN CAMPOS:	Y si em vez de listas ligadas usamos tablas de hash? 
+01:24:21	LUCAS VAN SINT JAN CAMPOS:	No seria mas rapida la budqueda? 
+01:24:28	LUCAS VAN SINT JAN CAMPOS:	Busqueda*
+01:24:30	VICENTE ERRAZURIZ QUIROGA:	si, pero es overkill
+01:24:40	Sol Olivia Covacich Palet:	hashception
+01:24:44	VICENTE ERRAZURIZ QUIROGA:	tus listas deberian tener del orden de 2~3 elementos
+01:24:53	Julián Manuel García González:	en el mejor caso jajaja
+01:25:02	VICENTE ERRAZURIZ QUIROGA:	depende de tu funcion de hash
+01:25:10	LUCAS VAN SINT JAN CAMPOS:	A osea q si tienen mas, es pq mi funcion de hash esta mal imolementada
+01:25:14	LUCAS VAN SINT JAN CAMPOS:	Buena gracias
+01:25:18	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:25:24	VICENTE ERRAZURIZ QUIROGA:	que la funcion de hash sea buena
+01:25:36	VICENTE ERRAZURIZ QUIROGA:	es crucial para que la estructura funcione bien
+01:26:04	Julián Manuel García González:	Entonces asumimos que van a haber muchas casillas vacias?
+01:26:11	Julián Manuel García González:	Si no es O(n)
+01:26:31	Julián Manuel García González:	Y por lo tanto, si hay mas de m datos entonces morimos
+01:26:43	Maco:	y si después hay uno que debería estar en la casilla 4?
+01:27:03	Maco:	van a quedar todos desordenados?
+01:27:09	VICENTE ERRAZURIZ QUIROGA:	algo asi
+01:28:08	Felipe Guzmán:	en este caso el arreglo se recorre tanto para insercion como busqueda?
+01:28:23	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:28:56	VICENTE ERRAZURIZ QUIROGA:	en ambos casos la busqueda / insercion puede degenerarse y volverse lineal
+01:29:45	Julián Manuel García González:	se puede hacer un bvh con hashes?
+01:29:51	Julián Manuel García González:	Eso seria super eficiente
+01:30:17	VICENTE ERRAZURIZ QUIROGA:	la gracia de los bvh es que son una estructura recursiva
+01:30:36	VICENTE ERRAZURIZ QUIROGA:	pero si hay aplicaciones de hash para problemas de ese estilo
+01:30:37	Julián Manuel García González:	ah true, me referia mas bien a resolver el problema de las colisiones
+01:31:18	VICENTE ERRAZURIZ QUIROGA:	no me acuerdo como se hacia pero se puede
+01:31:27	VICENTE ERRAZURIZ QUIROGA:	pero .... ese tipo de dudas, al discord
+01:33:47	Julián Manuel García González:	si
+01:33:49	LUCAS VAN SINT JAN CAMPOS:	Si
+01:34:00	PABLO ARANEDA:	si tengo la tabla llena, buscar será O(n) ?
+01:34:04	VICENTE ERRAZURIZ QUIROGA:	sip
+01:35:29	Piero Tassara:	No está el 10
+01:35:30	LAURENCE GOLBORNE:	que no esta
+01:35:31	Felipe Guzmán:	no está
+01:37:56	Piero Tassara:	Chao profe, gracias!
+01:38:15	PABLO ARANEDA:	cabros, se subio ta tarea
+01:38:19	Felipe Guzmán:	gracias
+01:38:25	Felipe Guzmán:	ciao
+01:38:28	Araceli Rojas Vilaplana:	llego un mail
+01:38:32	Felipe Guzmán:	me llego la invitacion al repo
+01:38:38	Julián Manuel García González:	es de hashes?
+01:38:49	PABLO ARANEDA:	el mail llegó hace 25 minutos
+01:38:55	VICENTE ERRAZURIZ QUIROGA:	:o
+01:39:02	VICENTE ERRAZURIZ QUIROGA:	yo subi el enunciado
+01:39:04	VICENTE ERRAZURIZ QUIROGA:	literalmente ahora
+01:39:09	Julián Manuel García González:	hay una particion que no está buena si no me equivoco, porque no deja el pivote a la mitad
+01:42:16	HUMBERTO ORTUZAR TORNERO:	chao gracias!
+01:43:33	PABLO ARANEDA:	deberían dar bonus si uno queda clasificado en el Sonic bonus

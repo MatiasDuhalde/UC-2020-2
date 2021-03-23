@@ -1,0 +1,572 @@
+00:17:18	Juan Agustin Caracci Vera:	Oh god oh duck
+00:22:02	VICENTE ERRAZURIZ QUIROGA:	las diapos están subidas aquí https://github.com/IIC2133-PUC/2020-2/tree/master/Clases
+00:24:00	Carlos Daniel Paredes Robles:	que el SO sea x32 o x64 nada que ver cierto?
+00:24:19	Franco Berries:	¿Cuál es la diferencia entre la memoria Ram y la flash? ¿Hacen lo mismo? o ¿Podrían hacerlo?
+00:24:33	Fabi�n Esteban Sep�lveda Rivas:	el bit es físico o simbolico?
+00:24:40	VICENTE ERRAZURIZ QUIROGA:	el bit es fisico
+00:24:41	Max:	Es mejor tener una arquitectura de 64?
+00:25:08	VICENTE ERRAZURIZ QUIROGA:	no soy ayudante de arqui asique no manejo lo que es memoria flash :c sorry
+00:25:16	Cristian Alonso Carrasco González:	un computador de 64 bits va al doble de velocidad que una de 32?
+00:25:18	ANDRES PLASS CAUSSADE:	creo que que sea de 32 al final si quieres guardar algo de tamaño 64, tendrías que guardarlo en 2 de 32 y esos pueden mezclarse en orden, el de 64 no pasaría eso
+00:25:25	VICENTE ERRAZURIZ QUIROGA:	la arquitectura de 64 bits te permite tener mas ram
+00:25:30	VICENTE ERRAZURIZ QUIROGA:	no, no es el doble de rapido
+00:26:03	Cristian Alonso Carrasco González:	pero si es mas rápido?
+00:26:17	Max:	Pero y por qué no conviene tener siempre arquitecturas de 64 en vez de 32? uwu
+00:26:28	Carlos Daniel Paredes Robles:	la flash es como la RAM pero se puede guardar como si fuera ROM
+00:26:48	Tomás C:	la limitacion de 3 gb de ram en 32b es porque son process x86, no porque sean 32 bits
+00:26:48	Carlos Daniel Paredes Robles:	no muere al cortarle el supply
+00:27:15	VICENTE ERRAZURIZ QUIROGA:	yo creo que van a lograr mas preguntando esas diferencias de arquitectura a google
+00:27:16	Joaquin Muñoz:	el "valor" depende de como se compile?
+00:27:20	VICENTE ERRAZURIZ QUIROGA:	yo no me las se
+00:27:24	VICENTE ERRAZURIZ QUIROGA:	el valor depende del tipo
+00:27:33	VICENTE ERRAZURIZ QUIROGA:	de como se interpreta un set de bytes
+00:28:10	VICENTE ERRAZURIZ QUIROGA:	"hola mundo" = 11 bytes (10 + el null terminator)
+00:28:33	Fabi�n Esteban Sep�lveda Rivas:	y el esapacio?
+00:28:41	Felipe Guzmán:	con ese son 10
+00:28:43	Franco Berries:	Ese programa que interpreta los valores como int o como char ¿También se encuentra en la ram?
+00:28:46	Fabi�n Esteban Sep�lveda Rivas:	ah si xd
+00:28:57	VICENTE ERRAZURIZ QUIROGA:	que programa?
+00:29:18	Fabi�n Esteban Sep�lveda Rivas:	y el tipo de dato se almacena en memoria igual?
+00:29:21	MATIAS BEUCHAT BEROIZA:	el compilador
+00:29:32	PABLO ARANEDA:	ok\0
+00:29:33	VICENTE ERRAZURIZ QUIROGA:	el compilador Tambien se carga en memoria para ejecutar
+00:29:40	Franco Berries:	eso, el compilador
+00:29:43	Franco Berries:	vale
+00:29:46	VICENTE ERRAZURIZ QUIROGA:	y procesa todas estas cosas desde antes
+00:29:51	VICENTE ERRAZURIZ QUIROGA:	ya que primero corre el compilador
+00:29:55	VICENTE ERRAZURIZ QUIROGA:	y luego termina
+00:30:00	VICENTE ERRAZURIZ QUIROGA:	tu cuando corres tu programa
+00:30:04	VICENTE ERRAZURIZ QUIROGA:	el compilador ya no está corriendo
+00:30:07	VICENTE ERRAZURIZ QUIROGA:	puede haber corrido hace dias
+00:30:12	MATIAS BEUCHAT BEROIZA:	osea el compilador guarda igual en memoria como interpretar las variables del programa que se esta ejecutando
+00:30:22	VICENTE ERRAZURIZ QUIROGA:	no, no se guardan esas cosas en memoria
+00:30:31	Fabi�n Esteban Sep�lveda Rivas:	ok
+00:30:32	MATIAS BEUCHAT BEROIZA:	donde se guarda?
+00:30:34	VICENTE ERRAZURIZ QUIROGA:	el compilador mismo hace las interpretaciones en tu programa
+00:30:47	VICENTE ERRAZURIZ QUIROGA:	segun las instrucciones que hayan en tu codigo
+00:30:51	Roberto Negrin:	El tamaño máximo de un array depende del computador o es estándar?
+00:31:12	VICENTE ERRAZURIZ QUIROGA:	pero cuando tu programa está corriendo lo unico que hace es mover numeros pa arriba y  pa abajo y hacer operaciones numéricas
+00:31:23	VICENTE ERRAZURIZ QUIROGA:	el tamaño máximo de un array depende del computador
+00:31:29	VICENTE ERRAZURIZ QUIROGA:	y de cuanta memoria contigua haya libre
+00:31:39	Fabi�n Esteban Sep�lveda Rivas:	eso es una característica de C o de todos los programas?
+00:31:55	VICENTE ERRAZURIZ QUIROGA:	todos los programas
+00:31:58	VICENTE ERRAZURIZ QUIROGA:	para ejecutar
+00:32:01	Roberto Negrin:	Osea que un programa que funciona en uj computador  puede no funcionar en otro porque no soporta el tamaño de arreglos ? Como se estandariza eso para que funcione en todos? 
+00:32:02	VICENTE ERRAZURIZ QUIROGA:	se pasan a lenguaje de máquina
+00:32:08	Fabi�n Esteban Sep�lveda Rivas:	todos los array son O(1) entonces? en cualquier lenguaje?
+00:32:15	Fabi�n Esteban Sep�lveda Rivas:	o sea el acceso al array
+00:32:18	VICENTE ERRAZURIZ QUIROGA:	si
+00:32:22	Rodrigo Alberto Gevert Weil:	pero eso es considerando que las variables están en la cache?
+00:32:25	VICENTE ERRAZURIZ QUIROGA:	pero ojo que no todos los lenguajes tienen arrays
+00:32:25	Fabi�n Esteban Sep�lveda Rivas:	:0
+00:32:29	Carlos Daniel Paredes Robles:	depende de que operación, si es búsqueda por índice si
+00:32:31	VICENTE ERRAZURIZ QUIROGA:	en este curso no consideramos cache
+00:32:33	VICENTE ERRAZURIZ QUIROGA:	pero
+00:32:36	MATIAS BEUCHAT BEROIZA:	osea cuando el compilador interpreta una variable nunca guarda que tipo de variable es, sino que revisa directamente en el código que tipo es?
+00:32:41	VICENTE ERRAZURIZ QUIROGA:	la cache hace que recorrer un arreglo en orden sea aun mas rapido
+00:32:55	VICENTE ERRAZURIZ QUIROGA:	el compilador cuando está compilando sabe el tipo de cada variable
+00:32:58	Rodrigo Alberto Gevert Weil:	oka gracias!
+00:33:06	VICENTE ERRAZURIZ QUIROGA:	pero una vez que tiene claro cómo se interpreta qué
+00:33:21	VICENTE ERRAZURIZ QUIROGA:	esa información no está presente en el programa final
+00:33:31	Carlos Daniel Paredes Robles:	Sistemas digitales flashbacks
+00:33:59	Tomás C:	laughs in amd threadripper
+00:34:25	VICENTE ERRAZURIZ QUIROGA:	"Osea que un programa que funciona en uj computador  puede no funcionar en otro porque no soporta el tamaño de arreglos ? Como se estandariza eso para que funcione en todos? "Efectivamente. pero en general un arreglo de tamaño 10M (10.000.000) cabe en cualquier computador
+00:34:47	VICENTE ERRAZURIZ QUIROGA:	mas alla de eso el tema no es que no haya memoria, sino que no hay tanta memoria CONTIGUA
+00:35:01	VICENTE ERRAZURIZ QUIROGA:	y ahi ya no tiene mucho que ver cuanta memoria tiene el computador
+00:35:53	Benjamin Urrutia:	seria un puntero esa parte del final cierto?
+00:36:30	Carlos Daniel Paredes Robles:	yep
+00:36:31	VICENTE ERRAZURIZ QUIROGA:	si, es un puntero
+00:36:35	PABLO ARANEDA:	forward_list = lista ligada?
+00:36:40	Fabi�n Esteban Sep�lveda Rivas:	esas serian las listas de Python?
+00:36:48	ALONSO GOMEZ HERRERA:	En muy resumidas cuentas que es una lista ligada?
+00:36:48	N:	no
+00:36:49	VICENTE ERRAZURIZ QUIROGA:	las listas de python son array_lists
+00:37:05	ALONSO GOMEZ HERRERA:	Que nunca lo pase en ni uno de los dos progres :c
+00:37:12	Carlos Daniel Paredes Robles:	python lo borra y lo vuelve a crear con 1 espacio mas creo
+00:37:16	VICENTE ERRAZURIZ QUIROGA:	no
+00:37:20	Eduardo Oteiza:	En progra avanzada, creo que se vio en POO la implementación de listas ligadas
+00:37:33	Fabi�n Esteban Sep�lveda Rivas:	el semestre pasado no
+00:37:40	Eduardo Oteiza:	(al menos yo lo vi)
+00:37:43	VICENTE ERRAZURIZ QUIROGA:	en C no existen las listas
+00:37:45	FELIPE WILLMER MINO:	x2
+00:37:52	VICENTE ERRAZURIZ QUIROGA:	solo va a existir una estructura lista definida por ti
+00:39:35	Matías Patricio Duhalde:	Los accesos en una lista ligada tendrían complejidad lineal?
+00:39:47	Alonso Ortega:	:o
+00:39:54	VICENTE ERRAZURIZ QUIROGA:	"std::forward_list is a container that supports fast insertion and removal of elements from anywhere in the container. Fast random access is not supported. It is implemented as a singly-linked list"
+00:40:02	Ronaldo Sosa:	u.u
+00:40:06	VICENTE ERRAZURIZ QUIROGA:	si, el acceso en una lista sería lineal
+00:40:25	Matías Patricio Duhalde:	thx
+00:41:08	Carlos Daniel Paredes Robles:	al final es un tradeoff entre memoria y velocidad, perfectamente se podría hacer un Dynamic array pero se usaría mas memo
+00:41:09	Juan Jiménez:	¿Que ventaja tiene usar listas ligadas?
+00:41:19	PABLO ARANEDA:	tamaño variable
+00:41:31	VICENTE ERRAZURIZ QUIROGA:	hay aplicaciones que no usan acceso aleatorio
+00:41:31	Fabi�n Esteban Sep�lveda Rivas:	el acceso en la lista ligada seria O(n)
+00:41:34	Fabi�n Esteban Sep�lveda Rivas:	?
+00:41:39	VICENTE ERRAZURIZ QUIROGA:	sí, es O(n)
+00:41:47	VICENTE ERRAZURIZ QUIROGA:	la ventaja que tienen es que tienen largo variable
+00:41:59	VICENTE ERRAZURIZ QUIROGA:	en los arreglos necesitas saber de antemano cuantos elementos vas a almacenar
+00:42:01	Fabi�n Esteban Sep�lveda Rivas:	que significa variable? que es modificable?
+00:42:04	Juan Jiménez:	ah perfecto
+00:42:07	VICENTE ERRAZURIZ QUIROGA:	exacto
+00:42:09	Juan Jiménez:	el cual se tiene que definir a priori
+00:42:09	Fabi�n Esteban Sep�lveda Rivas:	okok
+00:42:12	VICENTE ERRAZURIZ QUIROGA:	el largo de los arreglos es FIJO
+00:42:15	Sebastian Montoya:	el link al video de esta clase lo van a subir al mismo Readme que la anterior?
+00:42:17	FELIPE WILLMER MINO:	para volver en la lista ligada habría que agregar la dirección raíz?
+00:42:19	VICENTE ERRAZURIZ QUIROGA:	si quieres "hacer crecer" un arreglo
+00:42:30	VICENTE ERRAZURIZ QUIROGA:	tienes que hace otro arreglo mas grande, en otro lugar de la memoria
+00:42:35	VICENTE ERRAZURIZ QUIROGA:	y mover todos los elementos pa allá
+00:42:35	Roberto Negrin:	vamos a ver diccionarios?
+00:42:36	Tomás C:	tiene sentido hacer una lsita ligada de arreglos?
+00:42:54	VICENTE ERRAZURIZ QUIROGA:	todo va a depender de tu aplicación
+00:43:00	VICENTE ERRAZURIZ QUIROGA:	si, veremos diccionarios
+00:43:09	VICENTE ERRAZURIZ QUIROGA:	ojo que un diccionario no es una estructura
+00:43:15	VICENTE ERRAZURIZ QUIROGA:	sino un TIPO de estructura
+00:43:33	Carlos Daniel Paredes Robles:	es un DynamicArray
+00:43:34	LAURENCE GOLBORNE:	Las listas ligadas pueden tener elementos de distintos tipos?
+00:43:35	LUCAS VAN SINT JAN CAMPOS:	Tablas de hash incoming.... 
+00:44:10	VICENTE ERRAZURIZ QUIROGA:	la pregunta entonces es… qué es un DynamicArray
+00:44:12	Carlos Daniel Paredes Robles:	arrayList es de java
+00:44:20	VICENTE ERRAZURIZ QUIROGA:	array list no es una clase
+00:44:22	VICENTE ERRAZURIZ QUIROGA:	es una estructura de datos
+00:44:36	Ronaldo Sosa:	en el O(n) del acceso a la lista ligada , el n seria el elemento que busco?
+00:44:36	VICENTE ERRAZURIZ QUIROGA:	arrayList en java es una implementacion de una array list
+00:44:46	Carlos Daniel Paredes Robles:	ahh, entiendos
+00:44:47	N:	El index del elemento que buscas
+00:44:50	VICENTE ERRAZURIZ QUIROGA:	si, efectivamente, ya que tienes que recorrer desde el principio
+00:45:00	Ronaldo Sosa:	yaaaa grx
+00:45:23	VICENTE ERRAZURIZ QUIROGA:	"Las listas ligadas pueden tener elementos de distintos tipos?"en C, la lista ligada hay que definirla como un struct
+00:45:27	VICENTE ERRAZURIZ QUIROGA:	los cuales tienen tipos fijos
+00:45:36	VICENTE ERRAZURIZ QUIROGA:	asique el dato es del mismo tipo en cada celda
+00:46:10	VICENTE ERRAZURIZ QUIROGA:	hay unas listas ligadas que permiten acceso aleatorio en log(n)
+00:46:16	Alonso Ortega:	pero se podría implementar manualmente una lista ligada con diferentes tipos cierto?
+00:46:19	VICENTE ERRAZURIZ QUIROGA:	se llaman skip-lists
+00:46:57	VICENTE ERRAZURIZ QUIROGA:	"pero se podría implementar manualmente una lista ligada con diferentes tipos cierto?"lo máximo que puedes logar en C es usar un puntero sin tipo void*
+00:47:19	VICENTE ERRAZURIZ QUIROGA:	pero significa que para cada dato tienes que tenerlo guardado en alguna otra parte de la memoria
+00:47:56	VICENTE ERRAZURIZ QUIROGA:	y no tienes como saber cual es el tipo real del dato
+00:48:38	VICENTE ERRAZURIZ QUIROGA:	asique es totalmente no recomendado
+00:49:30	Fabi�n Esteban Sep�lveda Rivas:	el cormen esta en C?
+00:49:41	VICENTE ERRAZURIZ QUIROGA:	el cormen no está en ningun lenguaje de programación
+00:49:55	Fabi�n Esteban Sep�lveda Rivas:	y alguna recomendación de alguno que este con C?
+00:49:58	VICENTE ERRAZURIZ QUIROGA:	(si mal no recuerdo)
+00:50:01	VICENTE ERRAZURIZ QUIROGA:	usa pseudocódigo
+00:50:12	Constanza Osorio:	:)
+00:50:21	VICENTE ERRAZURIZ QUIROGA:	para analizar teorica y matemáticamente los algoritmos
+00:51:11	Constanza Osorio:	cancele la subcripcion profe
+00:51:21	ALBERTO JARA VALDENEGRO:	No veo Sin Límites, por qué no está Sin Límites 
+00:51:25	Juan Pablo Olivares:	5600 correos esperan ser leidos
+00:51:30	VICENTE ERRAZURIZ QUIROGA:	jajaajaj
+00:51:47	Joaquin Muñoz:	vi mi issue sin abrir F jajajaja
+00:51:59	VICENTE ERRAZURIZ QUIROGA:	el profe no revisa las issues
+00:51:59	N:	La pequeña ovejeria
+00:52:09	Constanza Osorio:	siiii las ovejitas!
+00:52:26	Tomás C:	porque le pdf de introduccion al ramo se abre como "den ideas"??
+00:52:33	Cristian Alonso Carrasco González:	las obejas :,(
+00:52:42	Cristian Alonso Carrasco González:	ovejas***
+00:52:51	Constanza Osorio:	F por las ovejas
+00:53:11	VICENTE ERRAZURIZ QUIROGA:	porque powerpoint elige un titulo totalmente random pa darle al pdf
+00:53:17	Tomás C:	ahhaha
+00:53:17	VICENTE ERRAZURIZ QUIROGA:	independiente del nombre del archivo
+00:53:17	Tomás C:	oka
+00:53:32	VICENTE ERRAZURIZ QUIROGA:	(una diapo en la clase introductoria se llamaba den ideas)
+00:53:59	Constanza Osorio:	jajajaja
+00:54:00	Maximiliano Corvalán:	Cuando van a subir la clase del miércoles pasado?
+00:54:14	Maximiliano Corvalán:	Ups jajajjaja gracias
+00:54:15	Rolf Sommer:	en git estan los vids no?
+00:54:39	Benjamin Urrutia:	el link de zoom va a seguir cambiando clase a clase?
+00:54:41	Joaquín Terreros:	Pueden dejar un link exclusivo para las clases y/o ayudantías?
+00:55:00	Fabi�n Esteban Sep�lveda Rivas:	pero en el canvas se entra altok
+00:55:03	Constanza Osorio:	Hay que armar un recurring meeting
+00:55:10	VICENTE ERRAZURIZ QUIROGA:	si pero en este curso somos anti-canvas
+00:55:13	VICENTE ERRAZURIZ QUIROGA:	!
+00:55:17	Fabi�n Esteban Sep�lveda Rivas:	porquee
+00:55:22	VICENTE ERRAZURIZ QUIROGA:	jajaja
+00:55:24	Constanza Osorio:	canvas es horrible
+00:55:24	Joaquín Terreros:	Déjela para todos los días no más jajaja entramos solo lunes y miércoles
+00:55:33	PABLO ARANEDA:	bdd era anti-canvas
+00:55:38	Constanza Osorio:	jajajaja
+00:55:44	Felipe Guzmán:	en el dcc estan bien anticanvas
+00:56:03	Alonso Ortega:	en algunas facultades tienen todo repartido
+00:56:06	HUMBERTO ORTUZAR TORNERO:	le llegaría un mail al profe de que hay gente esperando si alguien se mete
+00:56:11	Tomás C:	es que siding programado en tabas que obligaron a aprtir el logo uc en dos es irremplazable
+00:56:12	Alonso Ortega:	este semestre uso piazza, siding, canvas y github
+00:56:21	VICENTE ERRAZURIZ QUIROGA:	tratamos de mantener todo en un solo lugar
+00:56:23	Fabi�n Esteban Sep�lveda Rivas:	XDD
+00:56:25	VICENTE ERRAZURIZ QUIROGA:	= github
+00:56:44	VICENTE ERRAZURIZ QUIROGA:	siding lo usamos solo pq nos garantiza que le va a llegar un correo a todos
+00:56:54	Fabi�n Esteban Sep�lveda Rivas:	yadran vegano?
+00:57:00	VICENTE ERRAZURIZ QUIROGA:	no jaja
+00:57:06	Fabi�n Esteban Sep�lveda Rivas:	jajaj ksi
+00:57:10	Eduardo Oteiza:	puro aguante git
+00:57:33	VICENTE ERRAZURIZ QUIROGA:	podríamos decir que …. están al lote
+00:57:39	Felipe Guzmán:	xd
+00:57:44	Franco Castillo:	xd
+00:57:46	LAURENCE GOLBORNE:	aguante webcursos ajsjajs
+00:57:49	Alonso Ortega:	*slow clap*
+00:58:01	Felipe Guzmán:	webcursos vuela alto
+00:58:11	PABLO ARANEDA:	sakai
+00:58:23	Alonso Ortega:	salas de clases
+00:58:28	Felipe Guzmán:	somos ovejas
+00:58:29	Ronaldo Sosa:	xd
+00:58:32	NICOLAS ORELLANA DRAGO:	1984
+00:58:34	VICENTE ERRAZURIZ QUIROGA:	wake up sheeple
+00:58:38	Maximiliano Corvalán:	iba a decir lo mismo xd
+00:58:47	Fabi�n Esteban Sep�lveda Rivas:	somo ovejas :c
+00:58:50	Franco Berries:	Se parece a la gente del mall chino hoy
+00:58:51	Felipe Rojas:	vivimos en una sociedad
+00:58:54	Fabi�n Esteban Sep�lveda Rivas:	bibimos
+00:59:04	Rolf Sommer:	ve el numero y busca en la tabla?
+00:59:21	PABLO ARANEDA:	que la oreja tenga el lote
+00:59:21	LAURENCE GOLBORNE:	pone el numero en un programa de python
+00:59:22	Fabi�n Esteban Sep�lveda Rivas:	le pongo un puntero
+00:59:30	Tomás C:	ovejas laser
+00:59:42	MATIAS BEUCHAT BEROIZA:	la tabla tiene que estar ordenanda
+00:59:50	PABLO ARANEDA:	tabla ordenada por id de oveja
+01:00:28	Carlos Daniel Paredes Robles:	 bogosort en el corazon
+01:01:04	Rolf Sommer:	por la decena o centena
+01:01:05	Fabi�n Esteban Sep�lveda Rivas:	por que podemos ir comparando
+01:01:05	PABLO ARANEDA:	bin search?
+01:01:06	Felipe Guzmán:	se puede ir dividiendo
+01:01:12	Fabi�n Esteban Sep�lveda Rivas:	binary search
+01:01:29	VICENTE ERRAZURIZ QUIROGA:	(por decena o centena es menos eficiente pero es una manera mucho mas natural de buscar)
+01:01:34	Juan Agustin Caracci Vera:	Búsqueda aleatoria gang
+01:01:36	Fabi�n Esteban Sep�lveda Rivas:	subo o bajo
+01:01:37	VICENTE ERRAZURIZ QUIROGA:	(y muy efectiva)
+01:01:39	Benjamín Álvarez:	la oveja esta en la primera mitad
+01:01:42	Piero Tassara:	Primera mitad
+01:01:49	Alonso Ortega:	random sort
+01:01:53	Rolf Sommer:	osea, pense que aun estabamos en la tabla de papel
+01:01:55	Joaquin Muñoz:	y la primera mitad dividirla de nuevo
+01:02:05	Carlos Daniel Paredes Robles:	while not ordered: suffle()
+01:02:13	Juan Agustin Caracci Vera:	jajaajja
+01:02:25	N:	log n
+01:02:32	Fabi�n Esteban Sep�lveda Rivas:	o(n) ?
+01:02:33	Benjamin Urrutia:	O(log(n))
+01:02:33	Carlos Daniel Paredes Robles:	nlogn?
+01:02:34	LAURENCE GOLBORNE:	log(n)
+01:02:36	Alonso Ortega:	log2(n)?
+01:02:39	Fabi�n Esteban Sep�lveda Rivas:	uwu
+01:03:01	Pablo Rademacher:	cursed
+01:03:01	Julian:	igual se multiplica por un c jajaja
+01:03:08	VICENTE ERRAZURIZ QUIROGA:	dijiste C?!
+01:03:10	Alonso Ortega:	blursed
+01:03:19	VICENTE ERRAZURIZ QUIROGA:	(ya perdón)
+01:03:32	Alonso Ortega:	no C
+01:03:40	Arturo Sande:	Yapo vicho estay tirando tallas muy al lote
+01:04:02	LAURENCE GOLBORNE:	xD
+01:04:04	VICENTE ERRAZURIZ QUIROGA:	si cache
+01:04:10	VICENTE ERRAZURIZ QUIROGA:	me voy a aguantar pa las tallas buenas nomás
+01:04:13	Alonso Ortega:	si ram
+01:04:22	Carlos Daniel Paredes Robles:	xd
+01:04:24	Felipe Guzmán:	xd
+01:04:59	Julian:	que complejidad tiene random search?
+01:04:59	Alonso Ortega:	con random sort
+01:05:14	VICENTE ERRAZURIZ QUIROGA:	qué es random search y como funciona?
+01:05:18	Pablo Rademacher:	n!?
+01:05:21	Julian:	no se llama
+01:05:24	Ricardo Benjamín Meza Aránguiz:	ram ajjaja
+01:05:29	PABLO ARANEDA:	es correcto, pero n! ?
+01:05:30	N:	random search suena N!
+01:05:44	Alonso Ortega:	username checks out
+01:05:46	Fabi�n Esteban Sep�lveda Rivas:	random search me suena a montecarlo
+01:06:05	ALONSO GOMEZ HERRERA:	Su !
+01:06:05	VICENTE ERRAZURIZ QUIROGA:	no puedo ayudarte con la complejidad si no se qué hace al algoritmo
+01:06:22	ALONSO GOMEZ HERRERA:	El de don juan suena a ! *
+01:06:27	Pablo Rademacher:	ordenar al azar, chequear, repetir
+01:06:29	Alonso Ortega:	sacar valores aleatorios hasta encontrar el que uno quiere
+01:06:36	Alonso Ortega:	eso seria random search
+01:06:43	Rolf Sommer:	se desordena entonces
+01:06:44	VICENTE ERRAZURIZ QUIROGA:	si los sacas 
+01:06:44	Carlos Daniel Paredes Robles:	while not orderer: randomize() basicamente
+01:06:45	VICENTE ERRAZURIZ QUIROGA:	entonces
+01:06:46	VICENTE ERRAZURIZ QUIROGA:	no los repites?
+01:06:51	Eduardo Oteiza:	En serio random search es n?
+01:06:59	N:	no es n
+01:07:30	Fabi�n Esteban Sep�lveda Rivas:	por inducción?
+01:07:31	Eduardo Oteiza:	ah n! xd
+01:07:33	ALONSO GOMEZ HERRERA:	Es correcto pero quizás no sea lo mas rápido
+01:07:35	Constanza Osorio:	oh boi, acbo de entender el algoritmo jajajaja
+01:07:57	Eduardo Oteiza:	induction?
+01:08:04	Eduardo Oteiza:	inducción*
+01:08:18	VICENTE ERRAZURIZ QUIROGA:	ya, muy entretenido bogosort y bogosearch pero pls enfoquemosnos en lo que estamos viendoasi uds mismo podrán demostrar las bogo-propiedades de sus algoritmos
+01:08:20	N:	complejidad N^2 y espacio N para el pana don juan 
+01:08:56	Fabi�n Esteban Sep�lveda Rivas:	es fácil ver que termina
+01:08:57	Alonso Ortega:	y quantum bogosort?
+01:08:58	Felipe Guzmán:	encontrar el peor caso
+01:08:59	Felipe Guzmán:	?
+01:09:01	Tomás C:	eventualmente va a atchar todo
+01:09:01	Eduardo Oteiza:	como estas ordenando una lista finita, tiene finitos pasos?
+01:09:04	Martín Ocqueteau:	Se van sacando elementos de una lista finita
+01:09:05	Tomás C:	y son finitas ovejas
+01:09:05	Fabi�n Esteban Sep�lveda Rivas:	de la finitud de las obejas
+01:09:08	Rolf Sommer:	que las ovejas son finitas
+01:09:08	Ricardo Benjamín Meza Aránguiz:	que las ovejas son finitas
+01:09:08	Pablo Rademacher:	encontrar una cota superior
+01:09:11	Liat Israel:	Que la cantidad de numeros en la hoja  original es finito
+01:09:21	PABLO ARANEDA:	cota superior de tiempo?
+01:09:24	LAURENCE GOLBORNE:	que don juan no es el magnate de las ovejas ifnitias
+01:09:34	JOAQUIN ALLIENDE VACCARO:	que la condición de termino es que no queden números sin tacahr
+01:09:37	Cristian Alonso Carrasco González:	jaja
+01:09:48	Tomás C:	no naces ovejas mientras ejecuta su algoritmo
+01:09:53	PABLO ARANEDA:	el tamaño de cosas se reduce?
+01:09:53	Fabi�n Esteban Sep�lveda Rivas:	pq va a tachar todos
+01:10:01	Benjamín Álvarez:	numero finito de ovejas a tachar
+01:10:03	JOAQUIN ALLIENDE VACCARO:	y tacha hasta que se cumple la condicion
+01:10:11	Juan Jiménez:	Por inducción, si son finitas y va tachando eventualmente no van a quedar
+01:10:31	LAURENCE GOLBORNE:	Igual se podría demorar tanto que se muere una oveja
+01:10:48	Tomás C:	o nace una
+01:10:52	VICENTE ERRAZURIZ QUIROGA:	las ovejas viven unos 5 años
+01:10:55	VICENTE ERRAZURIZ QUIROGA:	asique tienes tiempo de sobra
+01:11:03	Fabi�n Esteban Sep�lveda Rivas:	tan poco viven?
+01:11:09	Felipe Guzmán:	:0
+01:11:10	Eduardo Oteiza:	y si un lobo se comen las ovejas?
+01:11:14	Felipe Guzmán:	pensaba que Vivian mas
+01:11:26	Maximiliano Corvalán:	vive en la guata del lobo
+01:11:30	VICENTE ERRAZURIZ QUIROGA:	… si las estas criando para Ganado no te conviene tener la ove-geriatría 
+01:11:34	Ronaldo Sosa:	xd
+01:11:43	Juan Pablo Olivares:	jajaja mi oveja no va a alcanzar a verme titulado
+01:11:52	Fabi�n Esteban Sep�lveda Rivas:	entonces viven mas pero las matan a los 5 años
+01:11:55	Cristian Alonso Carrasco González:	super F
+01:11:56	Maximiliano Corvalán:	F
+01:12:00	VICENTE ERRAZURIZ QUIROGA:	básicamente :c
+01:12:04	Roberto Benjamín Izquierdo Pfingsthorn:	jajajajjaaja
+01:12:10	Eduardo Oteiza:	F
+01:12:12	SEBASTIAN ZABALA MARTINEZ:	lo podemos hacer por induccion?
+01:12:22	Fabi�n Esteban Sep�lveda Rivas:	se dañaran ovejas en este curso?
+01:12:45	VICENTE ERRAZURIZ QUIROGA:	no :)
+01:12:48	Maximiliano Corvalán:	Cruelty Free
+01:12:54	Ricardo Benjamín Meza Aránguiz:	no está siendo un aporte el chat:/
+01:13:04	FELIPE WILLMER MINO:	x2
+01:13:06	Jorge Araneda:	cierralo
+01:13:14	Rosita Muñoz:	sii eso, despista demasiado, podrían hacer preguntas nomas y no hablar
+01:13:18	Juan Pablo Olivares:	El chat es la razón por la que vengo a clases
+01:13:19	Tomás Andrés Dubost Orrico:	salta la notificacion
+01:13:20	LAURENCE GOLBORNE:	nuu :(
+01:13:21	VICENTE ERRAZURIZ QUIROGA:	yo estoy respondiendo las preguntas que me hacen
+01:13:23	Tomás Andrés Dubost Orrico:	banco eso pls 
+01:13:27	VICENTE ERRAZURIZ QUIROGA:	pero si dije
+01:13:31	VICENTE ERRAZURIZ QUIROGA:	plis usemoslo pa dudas
+01:13:50	Matías Patricio Duhalde:	sh*tpost goes in discord
+01:13:58	VICENTE ERRAZURIZ QUIROGA:	-> en random
+01:14:09	Cristian Alonso Carrasco González:	si
+01:14:09	Rocio Hernandez:	si
+01:14:10	Pablo Vejar:	si!
+01:14:11	Rolf Sommer:	denuevo prfavor
+01:14:11	Felipe Rojas:	si
+01:14:12	Fabi�n Esteban Sep�lveda Rivas:	sii
+01:14:12	ALBERTO JARA VALDENEGRO:	sii
+01:14:13	Cristian Alonso Carrasco González:	si
+01:14:14	Christian Eilers Gonzalez:	Si
+01:14:15	Christian Carstens:	SÍ
+01:14:17	Cristian Alonso Carrasco González:	si
+01:14:20	Ronaldo Sosa:	si
+01:14:21	Diego Calderon:	si
+01:14:26	Constanza Osorio:	tantos Cristian hablando seguido
+01:14:31	LAURENCE GOLBORNE:	From Rolf Sommer to Everyone:  02:59 PMdenuevo prfavor
+01:14:31	Cristian Fazio:	Si
+01:14:36	LAURENCE GOLBORNE:	olvidado por el mundo
+01:14:36	MARIO GOMEZ HERRERA:	XD
+01:14:38	Cristóbal Tomás González Vergara:	Estas demostraciones se pueden hacer así? Solo en palabras?
+01:14:42	Eduardo Oteiza:	no
+01:14:47	Eduardo Oteiza:	Creo que no
+01:14:57	VICENTE ERRAZURIZ QUIROGA:	Estas demostraciones se pueden hacer así? Solo en palabras?sí, mientras esté bien argumentado
+01:15:05	Eduardo Oteiza:	:o
+01:15:06	VICENTE ERRAZURIZ QUIROGA:	si quieres hacerlo con notación matemática Tambien sirve
+01:15:18	VICENTE ERRAZURIZ QUIROGA:	va a haber notación matemática entremedio
+01:15:26	VICENTE ERRAZURIZ QUIROGA:	para demostrar el paso inductivo
+01:15:37	VICENTE ERRAZURIZ QUIROGA:	hay que usar la definición de "ordenado"
+01:15:43	Felipe Guzmán:	yo creo que sirve mientras palabras!= chamullar
+01:15:50	VICENTE ERRAZURIZ QUIROGA:	exacto!
+01:16:07	N:	la demstracion en verde es aceptable en la prueba entonces o no?
+01:16:12	ALONSO GOMEZ HERRERA:	Igual que en discretas
+01:16:41	VICENTE ERRAZURIZ QUIROGA:	si aunque hay que explicar que significa esa flecha 
+01:17:25	Fabi�n Esteban Sep�lveda Rivas:	no es un entonces?
+01:18:00	VICENTE ERRAZURIZ QUIROGA:	ah si
+01:18:18	VICENTE ERRAZURIZ QUIROGA:	pero Tambien puedes reemplaar la primera flecha con un "es"
+01:18:22	VICENTE ERRAZURIZ QUIROGA:	y la segunda como un "entonces"
+01:19:26	ALONSO GOMEZ HERRERA:	El segundo párrafo es para explicar el primero
+01:19:34	ALONSO GOMEZ HERRERA:	Con el primero basta o no?
+01:19:46	ALONSO GOMEZ HERRERA:	El primer párrafo verde digo
+01:20:36	ALONSO GOMEZ HERRERA:	Ya comprendo
+01:20:47	ALONSO GOMEZ HERRERA:	En el primero se le agrega el numero
+01:20:57	ALONSO GOMEZ HERRERA:	Y en el segundo se mantiene el orden
+01:21:01	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:21:16	ALONSO GOMEZ HERRERA:	Sip muchas gracias
+01:22:24	Christian Carstens:	Igual para demostrar podía ponerme en el peor caso nomás? Tipo que están exactamente al revés ordenados y ahí puedo calcular directo en términos de n
+01:22:44	VICENTE ERRAZURIZ QUIROGA:	estas hablando del cálculo de complejidad?
+01:22:56	Fabi�n Esteban Sep�lveda Rivas:	pero eso seria caso equivalente,.. ell peor caso seria desorden total
+01:22:57	N:	Una pregunta, selection sort no se hace directamente en el mismo array?
+01:23:00	VICENTE ERRAZURIZ QUIROGA:	es eso el peor caso?
+01:23:05	VICENTE ERRAZURIZ QUIROGA:	qué es desorden total?
+01:23:08	Fabi�n Esteban Sep�lveda Rivas:	entropía max
+01:23:13	PABLO ARANEDA:	usaremos selection sort en este curso?
+01:23:16	Christian Carstens:	Claro, pero para demostrar tambien
+01:23:17	VICENTE ERRAZURIZ QUIROGA:	y por qué eso sería el peor caso?
+01:23:25	Fabi�n Esteban Sep�lveda Rivas:	porque necesitarías la mayor cantidad de pasos?
+01:23:29	VICENTE ERRAZURIZ QUIROGA:	y como calculas la entropia de un arreglo?
+01:23:33	N:	Selection sort no se hace directamente en el mismo array?
+01:23:37	Christian Carstens:	El peor caso es que tenga que ir hasta el ultimo de la lista cada vez que voy a buscar
+01:23:38	Fabi�n Esteban Sep�lveda Rivas:	buena pregunta... hay algunos métodos estadisticos
+01:23:40	Fabi�n Esteban Sep�lveda Rivas:	test de rachas
+01:24:01	VICENTE ERRAZURIZ QUIROGA:	el peor caso depende del algoritmo
+01:24:02	N:	n^2 tiempo, n complejidad si se usa un array B
+01:24:04	Felipe Guzmán:	no sería el orden al reves el peor caso porque siempre se pasa por el largo total de la lista para cada paso?
+01:24:08	Christian Carstens:	Sería tipo n + (n-1) + … +1 = n*(n+1)/2
+01:24:09	PABLO ARANEDA:	n! ?
+01:24:21	VICENTE ERRAZURIZ QUIROGA:	veamos la clase
+01:24:24	N:	n^2 tiempo, n complejidad si se usa un array B 
+01:24:25	Christian Carstens:	Ósea O(n^2)
+01:24:28	Carlos Daniel Paredes Robles:	n^2
+01:24:35	Juan Agustin Caracci Vera:	sin(x)?
+01:24:35	SEBASTIAN ZABALA MARTINEZ:	al menos 1
+01:24:54	Cristian Alonso Carrasco González:	al menos n
+01:25:09	Cristian Alonso Carrasco González:	pero creo que es más
+01:25:11	PABLO ARANEDA:	uno siempre ve todos, y siempre se reduce en uno después de ver todos... n! ?
+01:25:17	Cristian Alonso Carrasco González:	si
+01:25:31	CLEMENTE ROSS MORENO:	O(n^2)
+01:25:31	JULIO ANDRADE GOMEZ:	n!
+01:25:34	NICOLAS ORELLANA DRAGO:	La cota mas grande debe ser n!
+01:25:35	Tomás C:	en el peor caso seria n!
+01:25:36	N:	el paso 4 se ejecuta minimo n veces, y el paso 1 de buscar un minimo, tambien puede terminar recorriendo n veces el array
+01:25:36	NICOLAS ORELLANA DRAGO:	o no?
+01:25:37	Sebastián Elsaca Merino:	n*n?
+01:25:39	N:	por lo que es n^2
+01:25:40	NICOLAS ORELLANA DRAGO:	como el peor caso
+01:25:42	Raimundo Loeser Achondo:	n!?
+01:25:47	PABLO ARANEDA:	espera, uno ve los tachados ?
+01:25:48	Cristian Alonso Carrasco González:	n! es demasiado
+01:25:49	Jorge Araneda:	estoy perdido con la forma en que lo calculan
+01:25:50	LAURENCE GOLBORNE:	Para revisar el menor seria sumatoria de 1 a n?
+01:25:52	Jorge Araneda:	no entiendo
+01:26:00	N:	n
+01:26:02	Eduardo Oteiza:	n^2?
+01:26:02	NICOLAS ORELLANA DRAGO:	a lo mas N
+01:26:04	CLEMENTE ROSS MORENO:	n
+01:26:04	Carlos Daniel Paredes Robles:	peor caso n
+01:26:04	Tomás C:	en el peor caso n
+01:26:05	Juan Jiménez:	a lo mas n
+01:26:05	Felipe Guzmán:	a lo mas n
+01:26:05	Fabi�n Esteban Sep�lveda Rivas:	claro
+01:26:07	Maximiliano Corvalán:	todos
+01:26:09	Ronaldo Sosa:	n
+01:26:13	Juan Jiménez:	n! 
+01:26:20	Juan Jiménez:	n! es entero entonces supongo
+01:26:26	Benjamín Pardo Bravo:	siempre n
+01:26:29	PABLO ARANEDA:	n*n, si es que no te saltas los tachados?
+01:26:47	ALONSO GOMEZ HERRERA:	N! ? por que cada vez se va a recorriendo la secuencia
+01:26:48	Felipe Guzmán:	pero hay que saltarlos o no?
+01:26:52	N:	pablo, si te los saltas igual queda n*n, porque en el peor caso tienes que vertodos los n
+01:26:56	ALONSO GOMEZ HERRERA:	Pero cada vez con uno menos
+01:27:00	VICENTE ERRAZURIZ QUIROGA:	pero tienes que verlos para saber que te los tienes que saltar
+01:27:03	Juan Agustin Caracci Vera:	n^2/2
+01:27:04	Fabi�n Esteban Sep�lveda Rivas:	n cuadrado
+01:27:09	Rolf Sommer:	en que este inversamente ordenado
+01:27:10	Sol Covacic Palet:	orden decreciente
+01:27:10	Maximiliano Corvalán:	sort invertido
+01:27:10	ERICK ROMERO SANTIBANEZ:	cuando estan ordenados
+01:27:11	Cristian Alonso Carrasco González:	esten todo invertidos
+01:27:11	Benjamín Álvarez:	si la lista esta ordenada al reves
+01:27:12	Fabi�n Esteban Sep�lveda Rivas:	iuna lista decreciente
+01:27:13	NICOLAS ORELLANA DRAGO:	En el que estan ordenados al revez
+01:27:13	ALONSO GOMEZ HERRERA:	Que este ordenando
+01:27:14	Tomás Andrés Dubost Orrico:	decreciente
+01:27:15	ALONSO GOMEZ HERRERA:	De mayor a menor
+01:27:15	Benjamín Pardo Bravo:	ordenadas mayor a menor
+01:27:18	MARIA SUBIABRE ZAMBRANO:	sea decreciente 
+01:28:19	Felipe Guzmán:	es como un * 2
+01:28:23	Felipe Guzmán:	asi que da lo mismo
+01:29:32	LAURENCE GOLBORNE:	Pero que es computacionalmente el sacar de A? 
+01:29:43	LAURENCE GOLBORNE:	hay que correr todos los otros datos para que sigan juntos?
+01:29:45	VICENTE ERRAZURIZ QUIROGA:	-> puedes tacharlo
+01:29:46	N:	pop(index) creo
+01:29:56	VICENTE ERRAZURIZ QUIROGA:	o puedes correr todos los otros datos
+01:30:03	Jorge Araneda:	n-1
+01:30:04	Tomás C:	n-1
+01:30:05	Matías Patricio Duhalde:	n-1
+01:30:05	Ronaldo Sosa:	n-1
+01:30:11	VICENTE ERRAZURIZ QUIROGA:	si lo tachas, todas las operaciones siguientes van a tomar n
+01:30:44	VICENTE ERRAZURIZ QUIROGA:	si mueves todo
+01:30:48	Eduardo Oteiza:	entonces al final da igual si estas tachándolo o no
+01:30:50	VICENTE ERRAZURIZ QUIROGA:	cada paso te va a tomar 2N
+01:30:59	VICENTE ERRAZURIZ QUIROGA:	y los siguientes 2 (N-1)
+01:31:01	VICENTE ERRAZURIZ QUIROGA:	y así
+01:31:07	PABLO ARANEDA:	si es una lista ligada, seria n*(n-1)/2 si se saca x de A?
+01:31:12	VICENTE ERRAZURIZ QUIROGA:	al final da la misma complejidad
+01:31:18	VICENTE ERRAZURIZ QUIROGA:	en lista ligada sería O(1) el pop
+01:31:34	VICENTE ERRAZURIZ QUIROGA:	asique queda lo que dijiste
+01:32:02	Felipe Guzmán:	por que hasta n-1?
+01:32:05	Felipe Guzmán:	y no n
+01:32:22	VICENTE ERRAZURIZ QUIROGA:	porque tomas el primer elemento
+01:32:22	Elisa Fernandez:	porque la primera vez haces n-1 comparaciones
+01:32:28	VICENTE ERRAZURIZ QUIROGA:	y lo comparas con todos los demas
+01:32:32	VICENTE ERRAZURIZ QUIROGA:	pero nunca consigo mismo
+01:32:43	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:32:44	Felipe Guzmán:	ah claro
+01:32:54	Fabi�n Esteban Sep�lveda Rivas:	sii
+01:33:47	Joaquin Muñoz:	pero vicente, puede costar mas que n-1, por ejemplo si el que estoy comparando no es el minimo, y el segundo que paso a comparar si seria (n-1)*2, como es que se generaliza esto?
+01:34:02	Benjamín Pardo Bravo:	No entendí en la manera no explîcita, por qué se  busca una vez por cada elemento?
+01:34:04	VICENTE ERRAZURIZ QUIROGA:	lo que contamos van a ser las comparaciones
+01:34:16	VICENTE ERRAZURIZ QUIROGA:	ya que van a ser siempre mayores o iguales a la cantidad de asignaciones
+01:34:23	VICENTE ERRAZURIZ QUIROGA:	(en este caso)
+01:34:51	Joaquin Muñoz:	osea no le tomo importancia a la cantidad de posibles veces que haga esas comparaciones hasta llegar al minimo?
+01:34:57	VICENTE ERRAZURIZ QUIROGA:	> "No entendí en la manera no explîcita, por qué se  busca una vez por cada elemento?"No entiendo a que te refieres
+01:35:28	VICENTE ERRAZURIZ QUIROGA:	> "osea no le tomo importancia a la cantidad de posibles veces que haga esas comparaciones hasta llegar al minimo?"Las comparaciones son precisamente lo que tienes que contar.
+01:35:30	Cristóbal Tomás González Vergara:	se puede hacer un nuevo arreglo y dsp libero la memoria del arreglo anterior?
+01:35:31	Fabi�n Esteban Sep�lveda Rivas:	 creo que con la no explicita se refiere a la diapo antes de ver que T(n) = n2 - n / 2
+01:35:43	N:	gracias profe
+01:35:45	NICOLAS ORELLANA DRAGO:	Gracias profe!
+01:35:48	Sol Covacic Palet:	gracias profe
+01:35:48	Pablo Vejar:	gracias profesor!
+01:35:50	Elías Sabja:	gracias profe
+01:35:50	Piero Tassara:	Gracias profe
+01:35:52	Florencia Valdivia:	Chao profe gracias!
+01:35:53	Victoria Matthews:	gracias, chao profe!
+01:35:53	Alonso Ortega:	programé un random sort en python :v
+01:35:54	Rolf Sommer:	gracias profesor
+01:35:55	JOAQUIN ALLIENDE VACCARO:	chao profe, gracias
+01:35:56	Elisa Fernandez:	chao profesor gracias!
+01:35:57	Maximiliano Corvalán:	gracias profe!
+01:35:57	Maite Filomena Madalosso Guzmán:	Gracias profe!
+01:35:59	Ronaldo Sosa:	gracias profe
+01:36:05	Benjamín Pardo Bravo:	El argumento detrás de el factor n, en “O(n) * n” no lo entendí
+01:36:14	JADRINA DE ANDRADE E SILVA:	chao profe! gracias
+01:36:15	Tomás C:	puedes mover cosas de una punta a otra del arreglo
+01:36:18	VICENTE ERRAZURIZ QUIROGA:	buscar el minimo es O(n)
+01:36:22	Cristian Alonso Carrasco González:	shao shao
+01:36:23	VICENTE ERRAZURIZ QUIROGA:	y tienes que buscar el minimo n veces
+01:36:24	VICENTE VEGA ULLOA:	chao profe! gracias!
+01:36:25	Maximiliano Corvalán:	Los videos de las clases no están en el link:(
+01:36:25	ALBERTO JARA VALDENEGRO:	Gracia Profe! Chao 
+01:36:32	VICENTE ERRAZURIZ QUIROGA:	por lo tanto n * O(n)
+01:36:33	Maximiliano Corvalán:	O sea hay uno
+01:36:39	Maximiliano Corvalán:	El de la primera clase
+01:36:48	Benjamín Álvarez:	vamos a ver quicksort en el curso?
+01:36:55	Eduardo Oteiza:	pq los otros están en ayudantía creo
+01:36:59	VICENTE ERRAZURIZ QUIROGA:	> "vamos a ver quicksort en el curso?"
+01:37:14	VICENTE ERRAZURIZ QUIROGA:	> "pq los otros están en ayudantía creo"si, lo puse en el correo. léanlo
+01:37:23	VICENTE ERRAZURIZ QUIROGA:	> "vamos a ver quicksort en el curso?" si
+01:37:28	Benjamín Álvarez:	gracias!
+01:37:40	Maximiliano Corvalán:	Aah ok sorry, gracias!
+01:37:42	Eduardo Oteiza:	gracias profe!
+01:37:52	Fabi�n Esteban Sep�lveda Rivas:	el binary es terriblem,ente mas eficiente que este
+01:38:03	Matías Francisco Masjuan Delgeon:	No entendi porqie es O(n2). No debería ser O(n!) ya que al final el experimento lo repites n veces de n * (y haces la busqueda cada vez con un numero menos) quedando n* n-1*n-2*...1 = O(n!)?
+01:38:17	VICENTE ERRAZURIZ QUIROGA:	no
+01:38:20	Felipe Guzmán:	nono se suman
+01:38:23	VICENTE ERRAZURIZ QUIROGA:	es n + n-1 + n-2 + n-3
+01:38:25	VICENTE ERRAZURIZ QUIROGA:	se suman
+01:38:27	VICENTE ERRAZURIZ QUIROGA:	no se multiplican
+01:38:30	VICENTE ERRAZURIZ QUIROGA:	tienes
+01:38:34	VICENTE ERRAZURIZ QUIROGA:	paso 1: n comparaciones
+01:38:39	VICENTE ERRAZURIZ QUIROGA:	paso 2: n-1 comparaciones
+01:38:45	VICENTE ERRAZURIZ QUIROGA:	paso 3: n-2 comparaciones
+01:38:53	SEBASTIÁN TORÉS:	cual era la excepción en la q se necesita memoria adicional ?
+01:39:01	Matías Francisco Masjuan Delgeon:	ah yaya perfcto gracias!
+01:39:03	VICENTE ERRAZURIZ QUIROGA:	es que el algoritmo igual va a usar memoria
+01:39:06	VICENTE ERRAZURIZ QUIROGA:	para 
+01:39:07	VICENTE ERRAZURIZ QUIROGA:	contadores
+01:39:14	VICENTE ERRAZURIZ QUIROGA:	que van a ser como 2 o 3 variables
+01:39:17	VICENTE ERRAZURIZ QUIROGA:	pero no dependen del N
+01:39:18	SEBASTIÁN TORÉS:	ah dale grax
+01:39:44	Felipe Guzmán:	:0
+01:39:52	Christian Carstens:	jajaja
+01:39:58	Christian Carstens:	Gracias profe, buena clase!

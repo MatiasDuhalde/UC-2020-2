@@ -1,0 +1,311 @@
+00:19:01	Constanza Osorio:	jajajaja
+00:19:34	HUMBERTO ORTUZAR TORNERO:	se cuenta el milagro pero no el santo
+00:19:56	Constanza Osorio:	sip
+00:20:04	Pablo Inzunza:	hola
+00:20:12	Constanza Osorio:	holi
+00:20:15	Tomás C:	hola
+00:20:21	Constanza Osorio:	oh the technology
+00:20:21	PABLO ARANEDA:	saludos.
+00:20:43	Matías Patricio Duhalde:	graciass
+00:20:47	PABLO ARANEDA:	si, somos pocos ya
+00:20:48	Felipe Andres Willmer Miño:	nice
+00:21:31	Constanza Osorio:	si
+00:21:33	Teresita S:	Sii
+00:21:33	Cristian Alonso Carrasco González:	no
+00:21:35	Pablo Inzunza:	yo xd
+00:21:36	Agustin Rios Letelier:	si
+00:21:36	Sol Olivia Covacich Palet:	sueeeeeññoooooooooo
+00:21:37	Piero Tassara:	Sii
+00:21:38	Tomás C:	tuve que cambiar el servidor ntp de mi celular
+00:21:39	Constanza Osorio:	me falta una hora >:C
+00:21:40	PABLO ARANEDA:	tuve control en la mañana y estaba cansado
+00:21:40	Piero Tassara:	Mucho sueño jajaj
+00:21:41	Tomás C:	a manito
+00:21:42	Cristian Alonso Carrasco González:	el celular me hizo todo
+00:21:48	Teresita S:	El sueeeeño
+00:21:48	Pablo Inzunza:	quiero que me devuelvan mi hora
+00:21:54	Sebastian Zabala Martinez:	la hora es un constructo social
+00:22:00	PABLO ARANEDA:	a mi me la cambia solo y mal
+00:22:10	Cristian Alonso Carrasco González:	la opresión de la hora
+00:22:11	Constanza Osorio:	que dejen de cambiar la hora
+00:22:15	PABLO ARANEDA:	^
+00:22:32	PABLO ARANEDA:	si, voto por empezar usando la hora de japon
+00:22:34	Tomás C:	adb shell settings put global ntp_server ntp.shoa.cl << ese comando arregla la hora en android
+00:22:37	Pablo Rademacher:	Este horario es lo mejor <3
+00:22:46	Constanza Osorio:	te creo pa Punta Arenas, pero pal resto no hay mucho cambio xd
+00:23:02	Constanza Osorio:	horaoficial.cl
+00:23:06	Constanza Osorio:	jajaja
+00:23:26	PABLO ARANEDA:	no, mi celular igual me traiciona
+00:23:30	Constanza Osorio:	yes, pero como  veces el gobierno cambia la fecha...
+00:23:32	HUMBERTO ORTUZAR TORNERO:	trust nobody
+00:23:53	PABLO ARANEDA:	borrar la evidencia
+00:24:02	Constanza Osorio:	pero se debe terminar la reunion primero
+00:24:02	Cristian Alonso Carrasco González:	se juntan
+00:24:07	Tomás C:	se juntan
+00:24:07	Constanza Osorio:	o no?
+00:24:07	Cristian Alonso Carrasco González:	yo lo he hecho
+00:24:08	LUCAS VALENZUELA:	Si se pausa si
+00:24:10	AMI USTILOVSKY:	se graban separados
+00:24:16	LUCAS VALENZUELA:	Si se detiene se hacen separados
+00:24:28	Constanza Osorio:	ohh
+00:25:54	Cristian Hinostroza:	subieron solución del taller?
+00:26:00	VICENTE ERRAZURIZ QUIROGA:	no, aun no
+00:30:03	PABLO ARANEDA:	un árbol binario, pero con la media en el primer nodo, y luego sus hijos son un árbol de minimo y otro de máximo?
+00:30:31	VICENTE ERRAZURIZ QUIROGA:	> un árbol binario, pero con la media en el primer nodo, y luego sus hijos son un árbol de minimo y otro de máximo?te refieres a menores y mayores?
+00:30:48	PABLO ARANEDA:	si, y ordenados como heap
+00:31:11	VICENTE ERRAZURIZ QUIROGA:	la gracia del heap es que solo nos interesa el "mas prioritario"
+00:31:18	VICENTE ERRAZURIZ QUIROGA:	pero buscar un elemento en el heap significa recorrerlo entero
+00:31:29	VICENTE ERRAZURIZ QUIROGA:	porque el orden parcial hace que no podamos saber pa donde ir
+00:31:47	PABLO ARANEDA:	ok, gracias~
+00:32:34	ALONSO ORTEGA LOYOLA:	array
+00:32:38	Liat Israel:	Lista ligada
+00:42:11	Alonso Rafael Gómez Herrera:	Alguien dijo kd tree?
+00:42:24	Julián Manuel García González:	0.0
+00:42:31	VICENTE ERRAZURIZ QUIROGA:	el kd-tree es un tipo de árbol binario de busqueda :)
+00:43:19	VICENTE ERRAZURIZ QUIROGA:	al menos para el caso de los puntos donde más que las cajas te interesan los cuadrantes definidos por los ejes de división
+00:44:06	María Luisa Claro:	Que significa que sea binario?
+00:44:17	PABLO ARANEDA:	dos hijos a lo mas
+00:44:24	VICENTE ERRAZURIZ QUIROGA:	sip
+00:44:29	VICENTE ERRAZURIZ QUIROGA:	binario = máximo de 2 hijos
+00:44:33	María Luisa Claro:	graxxxxx
+00:44:45	VICENTE ERRAZURIZ QUIROGA:	hay un juego de palabras aqui
+00:44:48	VICENTE ERRAZURIZ QUIROGA:	en ingles
+00:44:53	VICENTE ERRAZURIZ QUIROGA:	se llaman binary search trees
+00:45:01	VICENTE ERRAZURIZ QUIROGA:	y se puede interpretar como (binary search) trees
+00:45:10	VICENTE ERRAZURIZ QUIROGA:	o como binary (search trees)
+00:45:59	VICENTE ERRAZURIZ QUIROGA:	asique lo puedes ver como que el arbol es binario
+00:46:07	VICENTE ERRAZURIZ QUIROGA:	o el arbol es una estructura para poder hacer busqueda binaria
+00:47:41	Julián Manuel García González:	los bstree se pueden usar para hacer diccionarios?
+00:47:51	VICENTE ERRAZURIZ QUIROGA:	B-Tree? o bstree
+00:47:51	VICENTE ERRAZURIZ QUIROGA:	?
+00:47:58	Julián Manuel García González:	jajaja binary search tree
+00:48:00	Julián Manuel García González:	es que es muy largo
+00:48:02	Julián Manuel García González:	abb en vola
+00:48:04	VICENTE ERRAZURIZ QUIROGA:	BTS
+00:48:08	VICENTE ERRAZURIZ QUIROGA:	BST* 
+00:48:13	VICENTE ERRAZURIZ QUIROGA:	o ABB
+00:48:15	Julián Manuel García González:	dale
+00:48:18	VICENTE ERRAZURIZ QUIROGA:	si
+00:48:25	Julián Manuel García González:	pero es la mejor opcion?
+00:48:26	VICENTE ERRAZURIZ QUIROGA:	son un tipo de diccionario
+00:48:27	VICENTE ERRAZURIZ QUIROGA:	no
+00:48:32	VICENTE ERRAZURIZ QUIROGA:	osea
+00:48:36	Julián Manuel García González:	habia escuchado de hash tables
+00:48:39	VICENTE ERRAZURIZ QUIROGA:	depende para que necesitas ese diccionario
+00:48:47	VICENTE ERRAZURIZ QUIROGA:	si, veremos hash despues de los árbole
+00:48:52	Julián Manuel García González:	ah super
+00:49:55	VICENTE ERRAZURIZ QUIROGA:	en este curso se estudian árboles porque tienen propiedades muy importantes que se exitenden a "otros árboles" que no vemos en clases
+00:50:55	Cristian Alonso Carrasco González:	el triangulo de abajo tiene un <3
+00:51:02	Sol Olivia Covacich Palet:	<3
+00:51:21	Constanza Osorio:	<3
+00:51:38	VICENTE ERRAZURIZ QUIROGA:	<3
+00:51:48	PABLO ARANEDA:	♡
+00:52:04	Pablo Inzunza:	>3
+00:52:15	LAURENCE GOLBORNE:	momento uwu
+00:55:16	Julián Manuel García González:	las bases de datos usan de estos arboles?
+00:56:29	NICOLÁS MC INTYRE:	usan B+ Trees en general
+00:56:35	VICENTE ERRAZURIZ QUIROGA:	> las bases de datos usan de estos arboles?ocupan una extension de estos árboles
+00:56:55	VICENTE ERRAZURIZ QUIROGA:	B+ extiende B extiende ABB
+00:57:00	Julián Manuel García González:	aah esos eran los arboles-arreglos?
+00:57:04	VICENTE ERRAZURIZ QUIROGA:	sip
+00:57:11	Julián Manuel García González:	y estan ordenados no?
+00:57:15	VICENTE ERRAZURIZ QUIROGA:	si!
+00:57:16	Julián Manuel García González:	como el heap array
+00:57:20	Julián Manuel García González:	que bacan
+00:57:23	VICENTE ERRAZURIZ QUIROGA:	cumplen todas las propiedades del ABB
+00:57:39	Julián Manuel García González:	debe ser una lata insertar datos en un b+tree
+00:57:58	VICENTE ERRAZURIZ QUIROGA:	> debe ser una lata insertar datos en un b+treenot really
+00:58:13	Sebastian Zabala Martinez:	no es lo mismo que buscar un dato?
+00:58:15	Julián Manuel García González:	no hay que correr todo como en los arrays ordenados?
+00:58:55	VICENTE ERRAZURIZ QUIROGA:	> no hay que correr todo como en los arrays ordenados?ah si, pero por el uso que se les da ese costo es negligible
+00:59:04	Julián Manuel García González:	excelente
+00:59:38	Julián Manuel García González:	pero entonces un b+tree es simplemente un arreglo con busqueda binaria no?
+00:59:45	VICENTE ERRAZURIZ QUIROGA:	en bases de datos la unica complejidad que te importa es la cantidad de operaciones de IO de Disco. todo lo que hagas en RAM, aunque sea terriblemente lento, va a ser negligible en comparacion con lo lento que el disco
+01:00:07	VICENTE ERRAZURIZ QUIROGA:	> pero entonces un b+tree es simplemente un arreglo con busqueda binaria no?dejemos esto pal discord. concentremonos en las dudas de la clase
+01:00:14	Julián Manuel García González:	ok sorry
+01:00:21	VICENTE ERRAZURIZ QUIROGA:	tranki
+01:01:21	Teresita S:	Que es especificamente el A en el pseudo código?
+01:02:15	VICENTE ERRAZURIZ QUIROGA:	A es el árbol
+01:02:22	VICENTE ERRAZURIZ QUIROGA:	A de Tree
+01:02:23	VICENTE ERRAZURIZ QUIROGA:	:)
+01:02:48	María Luisa Claro:	A es el árbol o a la raiz?
+01:03:14	VICENTE ERRAZURIZ QUIROGA:	A es el puntero a la raiz del árbol
+01:03:20	Constanza Osorio:	que era k?
+01:03:26	VICENTE ERRAZURIZ QUIROGA:	k es la clave que queremos buscar
+01:03:34	Constanza Osorio:	ahh perfect :3
+01:03:38	VICENTE ERRAZURIZ QUIROGA:	"k" de "key" o "klave"
+01:08:08	Eduardo Oteiza:	su among us?
+01:08:24	Cristian Alonso Carrasco González:	sadasdda
+01:08:25	LAURENCE GOLBORNE:	jaajaj apaño
+01:08:46	Cristian Alonso Carrasco González:	north america?
+01:09:04	Cristian Alonso Carrasco González:	XDNY
+01:09:17	Alonso Rafael Gómez Herrera:	jajjaja
+01:09:23	Alonso Rafael Gómez Herrera:	Re bueno el among us
+01:09:49	Teresita S:	Donde esta ese video?
+01:09:52	Benjamín Pardo Bravo:	porq "mover los demás" era O(n) ? O eso es el peor de los casos nomas?
+01:09:55	PABLO ARANEDA:	nani?!
+01:10:15	Cristian Stefan Oberpaur Kohler:	Yo pensaba que los diccionarios funcionaban con hashes. vamos a ver eso en algun momento ?
+01:10:23	Julián Manuel García González:	y ese cambio deja compilar sin errores en arch?
+01:10:46	Julián Manuel García González:	jajajaja gracias
+01:11:32	PABLO ARANEDA:	están los resultados de ejecucion de código de la T0?
+01:11:41	LAURENCE GOLBORNE:	no existe la sala XDNY :( 
+01:11:52	Cristian Alonso Carrasco González:	asajahsaja
+01:11:57	Cristian Alonso Carrasco González:	fui a otra
+01:12:01	Eduardo Oteiza:	F
+01:12:03	Ignacio Méndez:	La solución del taller la suben hoy?
+01:12:06	LAURENCE GOLBORNE:	jajsjasj pa q po
+01:12:19	Cristian Alonso Carrasco González:	wait
+01:12:23	Cristian Alonso Carrasco González:	IGPD
+01:13:07	Cristian Alonso Carrasco González:	F
+01:13:21	LAURENCE GOLBORNE:	no la encontro
+01:13:22	LAURENCE GOLBORNE:	f
+01:13:54	VICENTE ERRAZURIZ QUIROGA:	volvamos a la clase o.O
+01:14:56	Tomás C:	nada
+01:14:59	PABLO ARANEDA:	no se necesita hacer mas
+01:15:04	JOAQUIN ALLIENDE VACCARO:	no
+01:15:09	JOAQUIN ALLIENDE VACCARO:	por que el 9 esta a la derecha
+01:15:09	Liat Israel:	Sii, sigue siendo ABB
+01:15:09	PABLO ARANEDA:	si la mantiene
+01:15:10	Piero Tassara:	Si
+01:16:18	PABLO ARANEDA:	pegas el 4 al 3
+01:16:43	Julián Manuel García González:	subir el 4
+01:16:43	Juan Jiménez:	cambiar los punteros
+01:16:44	Cristian Alonso Carrasco González:	pongo el 4
+01:16:45	Sol Olivia Covacich Palet:	subir el 4
+01:16:46	Benjamín Álvarez:	poner el 4 donde estaba el 5
+01:16:47	JADRINA DE ANDRADE E SILVA:	Lo reemplazo con un hijo
+01:16:48	Matías Patricio Duhalde:	colocar el 4 como hijo de 3
+01:16:49	Piero Tassara:	Cambiar el 4 por el 5
+01:17:07	Juan Jiménez:	ABSORB vibes
+01:17:11	VICENTE ERRAZURIZ QUIROGA:	ojo que esto no es cambio de valores
+01:17:36	VICENTE ERRAZURIZ QUIROGA:	literalmente se mueve el hijo con toda su descendencia
+01:17:42	Julián Manuel García González:	pero no es mas facil cambiar valores (en el caso que hayan mas hijos dps del hijo)
+01:17:42	PABLO ARANEDA:	cuando tiene dos hijos no es simple ;c
+01:17:44	VICENTE ERRAZURIZ QUIROGA:	sip, absorb jaja
+01:17:56	Pablo Vejar:	dentro de estos nodos puede haber cualquier cosa cierto? tipo, un segmento 👀?
+01:18:23	Julián Manuel García González:	subir el hijo mayor
+01:18:24	VICENTE ERRAZURIZ QUIROGA:	querrás decir una caja 👀
+01:18:29	PABLO ARANEDA:	se escoge alguno de los hijos para reemplazar al 8
+01:18:29	Elías Sabja:	se sube el 9
+01:18:38	Pablo Vejar:	omg
+01:18:54	Constanza Osorio:	una rama tendría que ir subiendo
+01:18:59	Eduardo Oteiza:	spoiler
+01:19:02	Julián Manuel García González:	woooooooo
+01:19:10	VICENTE ERRAZURIZ QUIROGA:	(ojo que un BVH no es un árbol de búsqueda)
+01:19:19	Julián Manuel García González:	pero si el 9 tiene 2 hijos, entonces hay un problema para subir la rama
+01:19:29	VICENTE ERRAZURIZ QUIROGA:	> pero si el 9 tiene 2 hijos, entonces hay un problema para subir la ramaexacto
+01:19:43	Constanza Osorio:	se tendría que hacer de forma recursiva entonces
+01:20:08	PABLO ARANEDA:	su cambio del puntero que apuntaba al 8 ahora apunta al 9
+01:20:25	PABLO ARANEDA:	oh, pero el 7 moriria
+01:20:55	Sol Olivia Covacich Palet:	se puede cambiar por cualquiera de sus hijos, y la “arista” que queda se mantiene?
+01:21:06	PABLO ARANEDA:	su swap de algun hijo mas profundo del 8, y luego equilibrar?
+01:21:16	Benjamín Alejandro Lepe Maluenda:	se remplaza por el 7
+01:21:18	JOAQUIN ALLIENDE VACCARO:	se peuden subir todos los derechos o todos los izquierdos o no?
+01:21:20	VICENTE ERRAZURIZ QUIROGA:	la idea es no tener que "equilibrar"
+01:21:20	Sol Olivia Covacich Palet:	si se sube el 9 el 7 sigue estando a la izquierda, y si se sube el 7 el 9 sigue estando a la derecha
+01:21:29	María Luisa Claro:	eliminemos los hijos nomas
+01:21:40	LAURENCE GOLBORNE:	pero si el 7 y el 9 ambos tienen dos hijos no se puede
+01:21:51	PABLO ARANEDA:	recursivamente se reemplaza un nodo por su hijo?
+01:22:44	Julián Manuel García González:	yes
+01:23:07	Julián Manuel García González:	(respuesta al profe, no a pablo)
+01:23:11	VICENTE ERRAZURIZ QUIROGA:	xd
+01:23:55	PABLO ARANEDA:	se reemplazaria el nodo por su hijo, y se repetiría recursivamente con el hijo hasta que hayan menos de 2 hijos?
+01:24:26	VICENTE ERRAZURIZ QUIROGA:	> se reemplazaria el nodo por su hijo, y se repetiría recursivamente con el hijo hasta que hayan menos de 2 hijos?no pq si pones al 8 como raiz el 7 te debería quedar en el subarbol izquierdo
+01:24:54	PABLO ARANEDA:	oh, gracias
+01:25:36	Julián Manuel García González:	7
+01:25:37	PABLO ARANEDA:	7
+01:25:45	LAURENCE GOLBORNE:	ir a la derecha y después siempre a la izquierda
+01:25:53	LAURENCE GOLBORNE:	hasta que no tenga hijos
+01:25:55	PABLO ARANEDA:	primero ir a mayor a 6, y luego siempre menor
+01:26:19	Julián Manuel García González:	straight down
+01:26:23	Pablo Vejar:	:O
+01:27:25	PABLO ARANEDA:	si, se puede
+01:27:29	Julián Manuel García González:	depende de si tiene un hijo derecho
+01:27:44	Benjamín Álvarez:	en el caso de que tuviera hijos habría que repetir el mismo proceso recursivamente?
+01:27:59	Matías Patricio Duhalde:	si tuviera hijos solo podría tener uno, entonces en ese caso habría que hacer lo de antes (?)
+01:28:04	VICENTE ERRAZURIZ QUIROGA:	exacto
+01:28:18	VICENTE ERRAZURIZ QUIROGA:	el antecesor o el sucesor siempre va a tener como máximo 1 hijo
+01:28:27	VICENTE ERRAZURIZ QUIROGA:	asique sale el caso simple de eliminacion
+01:29:51	Alonso Rafael Gómez Herrera:	T0 vibes (?)
+01:29:57	Gustavo Toro:	Recorrer todo es O(n) porque es posible que quede como lista ligada?
+01:30:06	VICENTE ERRAZURIZ QUIROGA:	si!
+01:30:14	VICENTE ERRAZURIZ QUIROGA:	en el peor caso la busqueda es O(n)
+01:30:22	VICENTE ERRAZURIZ QUIROGA:	y por lo tanto la insercion y eliminacion tambien
+01:30:39	Alonso Rafael Gómez Herrera:	Pero es o(n)por que no hay un criterio para la raid verdad?
+01:30:43	Alonso Rafael Gómez Herrera:	Si fuera por ejemplo si o si la mediana
+01:30:49	VICENTE ERRAZURIZ QUIROGA:	claro
+01:30:51	VICENTE ERRAZURIZ QUIROGA:	en ese caso
+01:30:54	VICENTE ERRAZURIZ QUIROGA:	ultra-log n
+01:30:58	Alonso Rafael Gómez Herrera:	ssip
+01:31:01	Alonso Rafael Gómez Herrera:	Eso
+01:31:01	VICENTE ERRAZURIZ QUIROGA:	pero
+01:31:02	PABLO ARANEDA:	5
+01:31:03	Alonso Rafael Gómez Herrera:	Gracias
+01:31:13	LAURENCE GOLBORNE:	a la izquierda y después derecha siempre
+01:31:14	VICENTE ERRAZURIZ QUIROGA:	no sabemos cuales son los datos que nos van a llegar
+01:31:17	PABLO ARANEDA:	izquierda y luego siempre derecha
+01:31:19	VICENTE ERRAZURIZ QUIROGA:	asique no podemos saber cual va a ser la mediana
+01:31:27	Gustavo Toro:	entiendo gracias
+01:32:21	PABLO ARANEDA:	pero el hijo esta a la izquierda
+01:32:26	PABLO ARANEDA:	y es solo uno
+01:32:38	Julián Manuel García González:	si ponemos el 4 y todos sus hijos en lugar del 5 no hay problema
+01:32:47	PABLO ARANEDA:	pegar el 4 al 3
+01:35:23	Jean-Paul Balazs Thenot:	Estos arboles funcionan con datos repetidos?
+01:35:40	VICENTE ERRAZURIZ QUIROGA:	por definicion de diccionario, las claves deberían ser únicas
+01:35:58	Jean-Paul Balazs Thenot:	perfect
+01:36:05	HUMBERTO ORTUZAR TORNERO:	7
+01:36:05	VICENTE ERRAZURIZ QUIROGA:	pero podrias programarlo para soportar ese caso
+01:36:06	Tomás C:	7
+01:36:07	María Luisa Claro:	El 7
+01:36:07	Piero Tassara:	La raíz
+01:37:15	VICENTE ERRAZURIZ QUIROGA:	igual para el caso de la eliminación ese caso no aparece 
+01:37:33	Pablo Vejar:	igual para el caso de la eliminación ese caso no aparece
+01:37:35	Pablo Vejar:	por que?
+01:37:47	VICENTE ERRAZURIZ QUIROGA:	porque el nodo se reemplaza por su sucesor (o antecesor)
+01:37:50	VICENTE ERRAZURIZ QUIROGA:	solo cuando tiene 2 hijos
+01:37:56	Pablo Vejar:	aah true
+01:38:04	VICENTE ERRAZURIZ QUIROGA:	y si tiene 2 hijos entonces si es llegar y decir pa abajo y pal lado
+01:38:34	Pablo Vejar:	yaya bacan
+01:39:05	Constanza Osorio:	de pana
+01:40:40	Tomás C:	o sea aca conviene que los datos vengan desordenados?
+01:40:44	VICENTE ERRAZURIZ QUIROGA:	esque
+01:40:47	VICENTE ERRAZURIZ QUIROGA:	kinda
+01:40:52	VICENTE ERRAZURIZ QUIROGA:	no tenemos idea en que orden vienen los datos
+01:40:57	VICENTE ERRAZURIZ QUIROGA:	asique no nos podemos preparar
+01:40:59	VICENTE ERRAZURIZ QUIROGA:	:'c
+01:41:22	Rosita Muñoz:	según yo es tomar el del cercano al centro, como explicó al principio, creo jhaja
+01:41:26	VICENTE ERRAZURIZ QUIROGA:	es
+01:41:27	Pablo Vejar:	gracias profe!
+01:41:27	VICENTE ERRAZURIZ QUIROGA:	la mediana
+01:41:29	VICENTE ERRAZURIZ QUIROGA:	juejuejue
+01:41:30	Cristian Hinostroza:	chao profe
+01:41:34	Sebastian Andres Veliz Hertling:	Gracias profee!
+01:41:45	Constanza Osorio:	gracias profe!
+01:41:45	JADRINA DE ANDRADE E SILVA:	chao profe, que le vaya bien!
+01:41:46	LAURENCE GOLBORNE:	jajaja nunca o habría visto venir
+01:41:47	Felipe Alberto Guzman Hernandez:	chao profe gracias
+01:41:48	Piero Tassara:	Chao profe gracias!!
+01:41:51	Maximiliano Narea:	chaooo graciaas
+01:41:55	Josefina Fernández:	muchas gracias!!
+01:41:55	Elías Sabja:	chao gracias profe
+01:41:56	LAURENCE GOLBORNE:	chao profe gracias
+01:42:07	Constanza Osorio:	muchas cosas para antes del 18
+01:42:07	Cristian Alonso Carrasco González:	si, esta atros
+01:42:07	Constanza Osorio:	:C
+01:42:11	LAURENCE GOLBORNE:	es la semana antes del receso
+01:42:16	Tomás C:	confirmo
+01:42:16	Jean-Paul Balazs Thenot:	siento que bastantes estudiantes tambien ven los videos en otros tiempos
+01:42:22	Cristian Alonso Carrasco González:	nos mato la semana de ajuste dios
+01:42:23	Elías Sabja:	Efectivamente esta semana y la anterior son/fueron nefastas
+01:42:31	Constanza Osorio:	no debiese, si por algo corrieron el calendario 
+01:42:31	Cristian Alonso Carrasco González:	asjajsjsajsjsaja
+01:42:39	Cristian Alonso Carrasco González:	ah
+01:42:46	PABLO ARANEDA:	prefiero las semanas de ajuste
+01:42:47	Constanza Osorio:	aguante Mr. Pep
+01:42:50	Constanza Osorio:	Pepo*
+01:42:53	LAURENCE GOLBORNE:	la próxima semana tengo entregas para todos mis ramos 
+01:42:54	LAURENCE GOLBORNE:	XD
+01:43:07	Constanza Osorio:	yo tengo prueba el mismo dia de la entrega de la T1 ;-;
+01:43:11	PABLO ARANEDA:	creo que con autómatas me salvé nomas
+01:49:59	PABLO ARANEDA:	sus bosques
+01:50:13	Constanza Osorio:	quien lo diri

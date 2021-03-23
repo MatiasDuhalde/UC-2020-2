@@ -1,0 +1,238 @@
+14:04:11	 From  Rolf Sommer : ty
+14:04:35	 From  N : nadie mas ve la pantalla muy mal?
+14:04:40	 From  ANDRES PLASS CAUSSADE : se ve bienn
+14:04:42	 From  PABLO ARANEDA : yo la veo bien
+14:04:45	 From  María Jesús Tala : se ve bien pero chica
+14:04:46	 From  N : yo la veo aplanada
+14:04:48	 From  María Jesús Tala : nose si pudieras aumentar
+14:04:49	 From  N : muy chica
+14:04:57	 From  Constanza Osorio : eso eso
+14:05:05	 From  Constanza Osorio : ahí si :D
+14:05:07	 From  María Jesús Tala : sii
+14:05:08	 From  N : gracias
+14:05:09	 From  PABLO ARANEDA : 10/10
+14:05:09	 From  José Ignacio Retamal : Espectacular
+14:05:09	 From  María Jesús Tala : gracias!
+14:05:12	 From  Martín Ocqueteau : ta nitido
+14:05:15	 From  PABLO ARANEDA : mucho mejor, gracias
+14:06:06	 From  PABLO ARANEDA : puede terminar
+14:06:15	 From  ANDRES PLASS CAUSSADE : que entrega lo esperado
+14:06:17	 From  JADRINA DE ANDRADE E SILVA : cumple su propósito
+14:06:18	 From  SEBASTIAN BARRAZA MOL : y cumple su objetivo
+14:06:20	 From  SOFIA REBOLLEDO VALDIVIA : cumple su proposito
+14:06:36	 From  mr.pepo877(raul) : podrias repetir el algoritmo no alcance a entenderlo
+14:07:45	 From  María Jesús Tala   to   VICENTE ERRAZURIZ QUIROGA(Privately) : hola vicente!, oye no había que tener la camara prendida por la persona que no escuacha?
+14:07:54	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : si, la tiene prendida
+14:07:55	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : o.O
+14:08:19	 From  María Jesús Tala   to   VICENTE ERRAZURIZ QUIROGA(Privately) : sorry! no había cachado! se me marcaba otra camara!
+14:08:24	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : si, ahora le hice spotlight
+14:08:25	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : gracias!
+14:08:33	 From  María Jesús Tala   to   VICENTE ERRAZURIZ QUIROGA(Privately) : :)
+14:11:12	 From  Julián Manuel García González : no, el algoritmo falló y se devolvió
+14:12:38	 From  MATIAS BEUCHAT BEROIZA : para que cumpla la condición de que termina tiene que terminar en todos los casos?
+14:12:56	 From  RAMIRO GALVEZ GARCIA : podrias repetir lo de la probabilidad que pase? 
+14:13:18	 From  ALONSO ORTEGA LOYOLA : Pero en un tiempo "infinito" no es una verdad matemática que en algún momento se cumpliría? 
+14:13:20	 From  JAVIERA FUENTES : podrias poner lo que escribiste de nuevo? porfi
+14:13:31	 From  ALONSO GOMEZ HERRERA : Pero no habría que confirmar que la multiplicación dee las probabilidades sea mayor que 0?
+14:13:33	 From  RAMIRO GALVEZ GARCIA : si porfa
+14:13:35	 From  JAVIERA FUENTES : sii gracias 
+14:13:40	 From  ALONSO GOMEZ HERRERA : No que solo una vez sea 0?
+14:14:30	 From  PABLO ARANEDA : asintótico?
+14:14:33	 From  ALONSO GOMEZ HERRERA : No se puede hablar de infinitos en algoritmos computacionales?
+14:14:39	 From  PABLO ARANEDA : no llega a 0
+14:14:43	 From  VICENTE ERRAZURIZ QUIROGA : además que aqui estamos trabajando en un context discreto
+14:14:45	 From  PABLO ARANEDA : pero se acerca caleta
+14:14:46	 From  VICENTE ERRAZURIZ QUIROGA : asique no existe ese limite
+14:14:48	 From  ALONSO GOMEZ HERRERA : Por que tiene que ser finito?
+14:14:57	 From  JOAQUIN STROBL DIEZ : Además que como n tiende a infinito contradice que se haga en finitos pasos no?
+14:15:00	 From  FELIPE WILLMER MINO : si la probabilidad fuera disminuyendo, si se podría ser en número finito de pasos?
+14:15:02	 From  ALONSO GOMEZ HERRERA : Si eso mismo
+14:15:06	 From  ALONSO GOMEZ HERRERA : Gracias
+14:15:06	 From  Julián Manuel García González : si sólo tuvieramos tiempo infinito, lo lograríamos 
+14:15:06	 From  VICENTE ERRAZURIZ QUIROGA : efectivamente
+14:15:11	 From  ALONSO ORTEGA LOYOLA : Según entendí no es correcto porque la probabilidad de que no termine en un tiempo finito es mayor a cero, no? 
+14:15:27	 From  ALONSO ORTEGA LOYOLA : Graciass
+14:15:36	 From  VICENTE ERRAZURIZ QUIROGA : aqui el punto clave es que luego de cada repeticion
+14:15:42	 From  VICENTE ERRAZURIZ QUIROGA : nunca estamos mas cerca de terminar
+14:16:15	 From  Eduardo Oteiza : Osea si hacemos que esté cerca de terminar puede ser correcto?
+14:16:22	 From  VICENTE ERRAZURIZ QUIROGA : claro
+14:16:25	 From  Felipe Guzmán : entonces si la probabilidad fuera estrictamente decreciente estaria bien}?
+14:16:30	 From  VICENTE ERRAZURIZ QUIROGA : efectivamente!
+14:16:44	 From  VICENTE ERRAZURIZ QUIROGA : el problema aqui es que al devolvernos no recordamos qué hemos hecho antes
+14:16:50	 From  VICENTE ERRAZURIZ QUIROGA : basicamente partimos el algoritmo desde 0
+14:16:54	 From  MATIAS BEUCHAT BEROIZA : y si cada vez la probabilidad es la mitad?
+14:16:59	 From  MATIAS BEUCHAT BEROIZA : ahí igual nunca terminaria
+14:17:10	 From  N : es la mitad para este array
+14:17:14	 From  N : para otro array podria ser distinto
+14:17:16	 From  VICENTE ERRAZURIZ QUIROGA : aqui las probabilidades surgen de una division de números enteros
+14:17:49	 From  VICENTE ERRAZURIZ QUIROGA : al final del dia 1/2 = 0
+14:19:26	 From  María Jesús Tala : más lento plis
+14:19:32	 From  mr.pepo877(raul) : +1
+14:21:22	 From  PABLO ARANEDA : esto es lo que hace minmax o hace otra cosa?
+14:21:37	 From  VICENTE ERRAZURIZ QUIROGA : que es "minmax" ?
+14:22:13	 From  Felipe Guzmán : termina
+14:22:19	 From  Rolf Sommer : terminar y ordenado
+14:22:22	 From  Diego Quezada : Que termina y que este ordenado
+14:22:28	 From  VICENTE ERRAZURIZ QUIROGA : pero si no estamos ordenando
+14:22:28	 From  JADRINA DE ANDRADE E SILVA : cumple su propósito
+14:22:28	 From  Julián Manuel García González : termina en una cantidad finita de pasos + logra su objetivo
+14:22:29	 From  PABLO ARANEDA : Vicente, http://www.cplusplus.com/reference/algorithm/minmax/ es de C++ eso si
+14:22:29	 From  VICENTE ERRAZURIZ QUIROGA : o.O
+14:22:42	 From  Felipe Guzmán : owo
+14:23:05	 From  VICENTE ERRAZURIZ QUIROGA : si, minmax hace esto
+14:23:14	 From  HUMBERTO ORTUZAR TORNERO : se referia a ordenada la demostración de que cumple su proposito
+14:23:34	 From  PABLO ARANEDA : ooh
+14:23:42	 From  VICENTE ERRAZURIZ QUIROGA : en este caso que cumple su proposito es que efectivamente min es el minimo de A y max es el máximo de A
+14:26:28	 From  ALONSO GOMEZ HERRERA : No seria el. Numero de combinaciones?
+14:26:33	 From  VICENTE ERRAZURIZ QUIROGA : no
+14:26:36	 From  VICENTE ERRAZURIZ QUIROGA : porque no comparamos todos con todos
+14:26:38	 From  N : este  algoritmo no es optimo, o no?
+14:26:44	 From  VICENTE ERRAZURIZ QUIROGA : ese algoritmo es optimo
+14:26:54	 From  ALONSO GOMEZ HERRERA : Tiens razón vicente gracias
+14:27:05	 From  N : pero M y m son arrays?
+14:27:10	 From  VICENTE ERRAZURIZ QUIROGA : son conjuntos
+14:27:31	 From  N : no hay uno que hace one pass y utiliza M, m como ints nomas?
+14:27:41	 From  N : y cambia el valor de m M si encuentra menores o mayores numeros a los actuales
+14:27:43	 From  VICENTE ERRAZURIZ QUIROGA : estamos analizando este
+14:28:01	 From  VICENTE ERRAZURIZ QUIROGA : si, no es necesario definer esos conjuntos, pero es un ejercicio para demostrar
+14:28:33	 From  N : osea es optimo en tiempo
+14:28:37	 From  VICENTE ERRAZURIZ QUIROGA : osea
+14:28:38	 From  N : pero no en espacio segun yo 
+14:28:47	 From  VICENTE ERRAZURIZ QUIROGA : correctitude = finito Y es correcto
+14:28:50	 From  VICENTE ERRAZURIZ QUIROGA : pero
+14:28:58	 From  VICENTE ERRAZURIZ QUIROGA : la optimalidad no tiene NADA que ver ahi
+14:29:00	 From  mr.pepo877(raul) : K es la mitad de A?
+14:29:07	 From  VICENTE ERRAZURIZ QUIROGA : K = n/2
+14:29:11	 From  VICENTE ERRAZURIZ QUIROGA : si
+14:29:13	 From  N : solo pregunto si es optimo
+14:29:15	 From  mr.pepo877(raul) : dale gracias
+14:29:48	 From  VICENTE ERRAZURIZ QUIROGA : me refiero que demostrar que es optimo es una demostracion completamente aparte de esto
+14:31:10	 From  María Jesús Tala : q era B?
+14:31:27	 From  María Jesús Tala : graias!
+14:31:30	 From  VICENTE ERRAZURIZ QUIROGA : B = el A original (ya que A cambia en algunos pasos del algoritmo)
+14:33:53	 From  Arturo Sande : Increíble la tecnología
+14:33:56	 From  VICENTE ERRAZURIZ QUIROGA : jaajaj
+14:36:08	 From  JOAQUIN STROBL DIEZ : Para todo x en B no?
+14:36:15	 From  BERNARDO VALDIVIESO OSEKOWSKA : podrías poner como "def", "entonces", "tenemos que", etc. para que se entienda un poco más?
+14:36:19	 From  VICENTE ERRAZURIZ QUIROGA : si, es en B ya que es el minimo de B
+14:38:15	 From  Felipe Guzmán : :0
+14:38:48	 From  MARIO GOMEZ HERRERA : perfect
+14:38:50	 From  JADRINA DE ANDRADE E SILVA : sip
+14:38:50	 From  mr.pepo877(raul) : es posible demostrarlo con palabras, diciendo algo asi como que, el minimo del conjunto jamas podra ganarle a ningun elemento. por el mismo hecho de ser el minimo del conjunto, por lo que nunca podra estar en M?
+14:38:51	 From  Constanza Osorio : por qué llegábamos a que min(B) > y?
+14:38:52	 From  Ignacio Vergara : claro
+14:39:02	 From  Felipe Guzmán : contradiccion es mi carta trampa
+14:39:49	 From  Constanza Osorio : ahh xq M son los que nos han perdido
+14:39:53	 From  Constanza Osorio : gracias!
+14:39:57	 From  Arturo Sande : que es y?
+14:40:06	 From  VICENTE ERRAZURIZ QUIROGA : y es el otro element que se extrajo en el paso 3
+14:40:10	 From  RAMIRO GALVEZ GARCIA : "y" seria cualquier elemento de A?
+14:40:12	 From  VICENTE ERRAZURIZ QUIROGA : junto con el min(B)
+14:40:23	 From  VICENTE ERRAZURIZ QUIROGA : recuerda que el paso 3 extrae 2 elementos cualquiera y los compara
+14:40:57	 From  Felipe Guzmán : que pasa si los 2 son iguales?
+14:41:22	 From  VICENTE ERRAZURIZ QUIROGA : no puede pasar
+14:41:23	 From  JADRINA DE ANDRADE E SILVA : No pueden haber 2 valores iguales pq A es un conjunto
+14:41:25	 From  VICENTE ERRAZURIZ QUIROGA : porque A es un conjunto
+14:41:30	 From  Felipe Guzmán : ah calro
+14:41:32	 From  Felipe Guzmán : claro
+14:43:22	 From  Julián Manuel García González : la mejor demostracion "como vimos en clase"
+14:43:24	 From  N : las pruebas son usualmente de leer un algoritmo y entregar correctitud y complejidad?
+14:43:33	 From  VICENTE ERRAZURIZ QUIROGA : si en la prueba te pedimos demostrar algo
+14:43:40	 From  VICENTE ERRAZURIZ QUIROGA : tienes que demostrarlo
+14:43:41	 From  VICENTE ERRAZURIZ QUIROGA : :)
+14:43:59	 From  VICENTE ERRAZURIZ QUIROGA : las pruebas son muy variadas
+14:44:06	 From  VICENTE ERRAZURIZ QUIROGA : pero en la I1
+14:44:14	 From  VICENTE ERRAZURIZ QUIROGA : va a haber si o si ejercicios de correctitud
+14:47:19	 From  María Jesús Tala   to   VICENTE ERRAZURIZ QUIROGA(Privately) : esta es otra forma de demostrar l omismo? me perdii
+14:47:28	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : no, lo que pasa es que
+14:47:35	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : el paso 5 busca el minimo de m
+14:47:41	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : y dice que es el minimo de B
+14:47:46	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : pero eso es correcto 
+14:47:47	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : solo si
+14:47:58	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : 1) min(B) in m
+14:48:09	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : 2) buscar el minimo efectivamente lo encuentra
+14:48:18	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : el punto 1 fue lo que demostramos antes por contradiccion
+14:48:42	 From  VICENTE ERRAZURIZ QUIROGA   to   María Jesús Tala(Privately) : y el punto 2 es lo que estamos demostrando ahora por inducción
+14:49:02	 From  María Jesús Tala   to   VICENTE ERRAZURIZ QUIROGA(Privately) : graias!!!!!
+14:49:03	 From  JOAQUIN ALLIENDE VACCARO : no entiendi, que queremos demostrar con esta inducción?
+14:49:14	 From  VICENTE ERRAZURIZ QUIROGA : que efectivamente buscar el minimo en el paso 5
+14:49:16	 From  VICENTE ERRAZURIZ QUIROGA : encuentra el minimo
+14:49:25	 From  VICENTE ERRAZURIZ QUIROGA : suena trivial pero hay que demostrarlo
+14:49:37	 From  JOAQUIN ALLIENDE VACCARO : aaah ya perfecto, y lo anterior era del paso 3 y 4 o no? 
+14:49:41	 From  VICENTE ERRAZURIZ QUIROGA : exacto!
+14:49:51	 From  JOAQUIN ALLIENDE VACCARO : gracias
+14:50:56	 From  Felipe Guzmán : no quedan al mismo nivel
+14:51:41	 From  Denisse Vaitiare Ogaz Herrera : Esa diferencia es para ey no se repita?
+14:51:56	 From  Arturo Sande : porque es m barrita?
+14:51:57	 From  VICENTE ERRAZURIZ QUIROGA : si, aunque con union no va a repetirse
+14:51:58	 From  Arturo Sande : y no m?
+14:52:07	 From  VICENTE ERRAZURIZ QUIROGA : pero es importante para poder usar la HI
+14:52:17	 From  VICENTE ERRAZURIZ QUIROGA : porque temenos que obtener un conjunto de largo i
+14:52:18	 From  VICENTE ERRAZURIZ QUIROGA : XD
+14:52:34	 From  SEBASTIÁN CARRASCO : en la hipótesis de inducción debería ser m barra o no?
+14:52:38	 From  Denisse Vaitiare Ogaz Herrera : ah ya
+14:52:41	 From  JOAQUIN STROBL DIEZ : m barra es igual a m no?
+14:52:44	 From  VICENTE ERRAZURIZ QUIROGA : si
+14:52:46	 From  VICENTE ERRAZURIZ QUIROGA : :)
+14:53:23	 From  MARIO GOMEZ HERRERA : ey es el ultimo elemento extraido de A?
+14:53:51	 From  MARIO GOMEZ HERRERA : aaah entiendo
+14:54:01	 From  VICENTE ERRAZURIZ QUIROGA : ese ey
+14:54:03	 From  VICENTE ERRAZURIZ QUIROGA : es phi
+14:54:18	 From  VICENTE ERRAZURIZ QUIROGA : claro
+14:54:24	 From  MARIO GOMEZ HERRERA : ya genial, gracias
+14:57:01	 From  Denisse Vaitiare Ogaz Herrera : Puedes mostrar lo que escribiste antes? 
+14:57:08	 From  Denisse Vaitiare Ogaz Herrera : sii
+14:57:17	 From  VICENTE ERRAZURIZ QUIROGA : vamos a subir un latex con toda la solucion ordenadita
+14:57:24	 From  Tom�s Contreras Casals : :3
+14:57:31	 From  Felipe Guzmán : gracia
+14:57:36	 From  Pablo Vejar : gracias
+14:57:37	 From  Denisse Vaitiare Ogaz Herrera : ahh buena
+14:57:44	 From  Denisse Vaitiare Ogaz Herrera : es que me perdí un poco 
+14:57:46	 From  Denisse Vaitiare Ogaz Herrera : graciaas
+14:58:09	 From  Felipe Guzmán : las fatales
+14:58:16	 From  VICENTE ERRAZURIZ QUIROGA : hay una demostración tan brutal
+14:58:21	 From  VICENTE ERRAZURIZ QUIROGA : que jamas esperariamos que la hagan
+14:58:26	 From  Felipe Guzmán : :0
+14:58:35	 From  Felipe Guzmán : y si yadran se enoja
+14:58:46	 From  VICENTE ERRAZURIZ QUIROGA : Bueno, den las gracias que las pruebas son pa la casa
+14:58:48	 From  VICENTE ERRAZURIZ QUIROGA : y con apuntes jaja
+15:00:46	 From  Felipe Guzmán : el segundo min que subindice tiene?
+15:02:30	 From  MARIO GOMEZ HERRERA : el caso de la igualdad es porque no hay elementos repetidos?
+15:02:35	 From  VICENTE ERRAZURIZ QUIROGA : exacto
+15:02:43	 From  MARIO GOMEZ HERRERA : vale
+15:05:37	 From  RAMIRO GALVEZ GARCIA : subiran un latex más ordenado dijo o no?
+15:05:44	 From  RAMIRO GALVEZ GARCIA : gracias
+15:07:23	 From  JOAQUIN ALLIENDE VACCARO : gracias por la ayudantiaa
+15:08:20	 From  Ricardo Benjamín Meza Aránguiz : semestre pasado no lo vimos en discretas
+15:08:30	 From  Felipe Guzmán : no lo recuerdo tampoco en discretas ._.
+15:10:07	 From  MARIO GOMEZ HERRERA : en esta pregunta pedían calcular la complejidad igual?
+15:10:21	 From  Julián Manuel García González : ya está hecha
+15:10:32	 From  VICENTE ERRAZURIZ QUIROGA : excato
+15:11:53	 From  Denisse Vaitiare Ogaz Herrera : por qué el + 20
+15:11:57	 From  Denisse Vaitiare Ogaz Herrera : 2*?
+15:12:07	 From  Denisse Vaitiare Ogaz Herrera : ahh
+15:12:16	 From  Denisse Vaitiare Ogaz Herrera : okey 
+15:13:22	 From  Felipe Guzmán : ah entonces lo podemos llegar y usar nomas?
+15:13:36	 From  VICENTE ERRAZURIZ QUIROGA : si
+15:13:38	 From  VICENTE ERRAZURIZ QUIROGA : en este curso
+15:13:41	 From  VICENTE ERRAZURIZ QUIROGA : todo es llegar y usar
+15:13:42	 From  VICENTE ERRAZURIZ QUIROGA : :)
+15:13:57	 From  VICENTE ERRAZURIZ QUIROGA : lo unico que tienes que demostrar tu es lo que te pedimos explicitamente que demuestres :P
+15:14:29	 From  Felipe Guzmán : :0
+15:15:03	 From  VICENTE ERRAZURIZ QUIROGA : lo mismo para cálculos de complejidad
+15:15:38	 From  ANDRES PLASS CAUSSADE : todo bien!
+15:16:20	 From  Denisse Vaitiare Ogaz Herrera : Graacias
+15:16:24	 From  ANDRES PLASS CAUSSADE : graciaas
+15:16:28	 From  BARBARA IRARRAZAVAL MONTES : Gracias!
+15:16:30	 From  Rosita Muñoz : muchas gracias!
+15:16:52	 From  Felipe Guzmán : graciass
+15:17:09	 From  Julián Manuel García González : kyle, te muteaste
+15:17:36	 From  Felipe Guzmán : kyle has disconnected
+15:17:38	 From  Constanza Osorio : si
+15:17:38	 From  Denisse Vaitiare Ogaz Herrera : sii
+15:17:39	 From  PABLO ARANEDA : si
+15:18:55	 From  Felipe Guzmán : xd
+15:18:57	 From  Denisse Vaitiare Ogaz Herrera : Las pruebas son por canvas?
+15:19:00	 From  ANDRES PLASS CAUSSADE : muchas gracias nos vemos
+15:19:04	 From  Denisse Vaitiare Ogaz Herrera : o se sube el desarrollo?
+15:19:10	 From  Denisse Vaitiare Ogaz Herrera : ahh yaya

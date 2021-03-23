@@ -1,0 +1,412 @@
+00:23:40	Rolf Sommer:	gracias profe, me alegra el dia
+00:25:30	PABLO ARANEDA:	se usa búsqueda binaria en insertion sort?
+00:25:46	Agustin Caracci:	me las juego con que cuesta lo mismo que el que vimos la clase pasada
+00:26:11	Benjamín Álvarez:	fijo
+00:26:16	Pablo De Solminihac:	tamaño fijo
+00:26:16	ALONSO ORTEGA LOYOLA:	están contiguos en memoria
+00:26:17	PABLO ARANEDA:	acceso constatnte
+00:26:19	Matías Patricio Duhalde:	elementos contiguos en memoria
+00:26:20	MACARENA MUÑOZ:	se busca en o(1)
+00:26:25	Sol Covacic Palet:	es accesible constante O(1)
+00:26:25	Fabián Sepúlveda:	O(1)
+00:27:00	VICENTE ERRAZURIZ QUIROGA:	y sí, el acceso es en tiempo constante
+00:27:12	PABLO ARANEDA:	tamaño variable
+00:27:14	Sol Covacic Palet:	flexibles
+00:27:18	MACARENA MUÑOZ:	se le pueden agregar y quitar elementos
+00:27:19	ALONSO ORTEGA LOYOLA:	pueden estar distribuidas en memoria
+00:27:36	Benjamín Álvarez:	en C los arrays son mutables?
+00:27:41	Eduardo Oteiza:	no
+00:27:48	PABLO ARANEDA:	acceso O(n)
+00:27:50	Eduardo Oteiza:	ah lei mal, no lo c
+00:27:50	Martín Ocqueteau:	se debe recorrer uno por uno
+00:27:54	JOAQUIN ALLIENDE VACCARO:	si en contenido no en tamaño
+00:27:56	ALONSO ORTEGA LOYOLA:	toma más tiempo el acceso
+00:28:15	LAURENCE GOLBORNE:	para insertar un elemento en un arreglo es necesario definir un nuev arreglo?
+00:28:35	VICENTE ERRAZURIZ QUIROGA:	> en C los arrays son mutables?los datos guardados en el array si, pero el array mismo no (largo y tipos fijo)
+00:28:40	Eduardo Oteiza:	en lists ligadas demora más buscar donde ponerlo, que ponerlo en si?
+00:28:51	VICENTE ERRAZURIZ QUIROGA:	> en lists ligadas demora más buscar donde ponerlo, que ponerlo en si?efectivamente
+00:29:25	BERNARDO VALDIVIESO OSEKOWSKA:	asumimos que sabemos la cantidad de elementos, no?
+00:29:28	VICENTE ERRAZURIZ QUIROGA:	> para insertar un elemento en un arreglo es necesario definir un nuev arreglo?Depende, si queda espacio libre en tu arreglo no es necesario
+00:29:29	BERNARDO VALDIVIESO OSEKOWSKA:	para hacer el arreglo
+00:29:50	N:	1 y n
+00:29:51	Juan Pablo Olivares:	n?
+00:29:53	VICENTE ERRAZURIZ QUIROGA:	> asumimos que sabemos la cantidad de elementos, no?si, al crear un arrelgo debes indicar el largo que tendrá
+00:29:54	PABLO ARANEDA:	en arreglos puede ser log(n) ?
+00:29:56	Eduardo Oteiza:	en el caso del arreglo, lo que cuesta mas es mover los otros elementos?
+00:29:59	Benjamin Urrutia:	log(n) en arreglos usando busqueda binaria
+00:30:22	Sol Covacic Palet:	pero no se pueden insertar elementos,o no?
+00:30:24	VICENTE ERRAZURIZ QUIROGA:	> en el caso del arreglo, lo que cuesta mas es mover los otros elementos?efectivamente
+00:30:51	smbarraza:	En una lista ligada. Es necesario que el puntero del ultimo elemento sea hacia el inicio de la misma, o puede ser Null por ejemplo?
+00:31:05	Juan Jiménez:	mover los demas
+00:31:06	ALONSO ORTEGA LOYOLA:	hay que hacer denuevo un arreglo
+00:31:08	MACARENA MUÑOZ:	tengo que hacer un arreglo nuevo
+00:31:08	Elisa Fernández:	no lo puedo sgregar
+00:31:08	PABLO ARANEDA:	se tienen que mover todos los siguientes
+00:31:29	VICENTE ERRAZURIZ QUIROGA:	> En una lista ligada. Es necesario que el puntero del ultimo elemento sea hacia el inicio de la misma, o puede ser Null por ejemplo?Si haces que apunte al prinicpio lo que tienes es un ciclo más que una lista… cuando la estás recorriendo como sabes donde termina? Necesitas un NULL, igual que en los strings
+00:32:10	PABLO ARANEDA:	n
+00:32:37	Tomás C:	n
+00:32:38	PABLO ARANEDA:	n
+00:32:39	Sol Covacic Palet:	O(n)
+00:32:39	MACARENA MUÑOZ:	n
+00:32:59	JOAQUIN ALLIENDE VACCARO:	búsqueda binaria = O(log(n))?
+00:33:01	ALONSO ORTEGA LOYOLA:	hago bin search y cambio el puntero del elemento anterior y le asigno el puntero del que inserté al elemento siguiente
+00:33:03	Teresita S:	Y se tienen que hacer un nuevo arreglo cierto?
+00:33:04	PABLO ARANEDA:	búsqueda O(n)inserción O(1) ?
+00:33:08	MACARENA MUÑOZ:	tengo que recorrer todo
+00:33:11	Matías Patricio Duhalde:	secuencial
+00:33:12	Tomás C:	O(n) pero la insercion es mas eficiente
+00:33:12	VICENTE ERRAZURIZ QUIROGA:	> búsqueda binaria = O(log(n))?Sip
+00:33:29	Sol Covacic Palet:	tambien seria O(n) entonces?
+00:33:33	Eduardo Oteiza:	pregunta del log en búsqueda binaria, es en base 2?
+00:33:42	Teresita S:	Y se tienen que hacer un nuevo arreglo cierto? Y por cada oveja?
+00:33:49	Javiera Ochoa Guin-Po:	se entiende
+00:33:54	VICENTE ERRAZURIZ QUIROGA:	> pregunta del log en búsqueda binaria, es en base 2?Si
+00:34:23	VICENTE ERRAZURIZ QUIROGA:	> Y se tienen que hacer un nuevo arreglo cierto? Y por cada oveja?En realidad no! Pero ya vamos a ver como hacerlo para no tener que crear muchos arreglos
+00:34:49	VICENTE ERRAZURIZ QUIROGA:	(El algoritmo se puede ejecutar in-place, igual que selection sort)
+00:35:32	Constanza Osorio:	yes
+00:37:06	Pablo Vejar:	eso es lo que hace el “next” en el archivo que subieron de listas ligadas?
+00:37:16	VICENTE ERRAZURIZ QUIROGA:	> eso es lo que hace el “next” en el archivo que subieron de listas ligadas?efectivamente!
+00:38:24	ALONSO GOMEZ HERRERA:	Solo hay que cambiar el valor de los punteros?
+00:38:27	ALONSO ORTEGA LOYOLA:	cambiar el puntero del elemento anterior y asignar el puntero del que se insertó al elemento siguiente 
+00:38:41	ALONSO GOMEZ HERRERA:	Eso mismo
+00:39:43	Juan Jiménez:	sii
+00:39:44	Sol Covacic Palet:	sip
+00:39:45	Teresita S:	Si
+00:39:46	Cristian Alonso Carrasco:	si
+00:40:04	ALONSO GOMEZ HERRERA:	Si
+00:40:22	Piero Tassara:	O(1)
+00:40:25	PABLO ARANEDA:	O(19?
+00:40:25	Javiera Ochoa Guin-Po:	O(1)
+00:41:12	ALONSO ORTEGA LOYOLA:	se usa hacer una combinación de arreglos y listas ligadas?
+00:41:48	VICENTE ERRAZURIZ QUIROGA:	> se usa hacer una combinación de arreglos y listas ligadas?Va a depender del problema que quieras resolver
+00:41:57	Benjamín Álvarez:	O(n)
+00:41:58	Piero Tassara:	O(n)
+00:41:58	VICENTE ERRAZURIZ QUIROGA:	pero todo vale!
+00:42:07	JADRINA DE ANDRADE E SILVA:	En la tarea es sería mejor usar listas ligadas que arreglos?
+00:42:11	Juan Jiménez:	Entonces, que establece que una sea mejor que la otra?
+00:42:16	Benjamín Álvarez:	pero no es mejor el caso promedio con lista ligada?
+00:42:23	VICENTE ERRAZURIZ QUIROGA:	si, en complejidad
+00:42:26	VICENTE ERRAZURIZ QUIROGA:	pero en la practica
+00:42:31	Joaquín Muñoz:	en arreglos la inserción es O(n) porque hay que correr la posición en memoria de cada elemento
+00:42:32	VICENTE ERRAZURIZ QUIROGA:	los arreglos al estar contiguous en memoria
+00:42:33	Joaquín Muñoz:	??
+00:42:36	VICENTE ERRAZURIZ QUIROGA:	aprovechan la caché
+00:42:47	VICENTE ERRAZURIZ QUIROGA:	y eso acelera mucho el proceso
+00:43:00	Juan Jiménez:	ah perfecto entonces de todas formas termina siendo mas rpido
+00:43:01	Juan Jiménez:	rapdo
+00:43:01	FELIPE WILLMER MINO:	esto es independiente a a dónde esté guardado en memoria? no sé si lo mencionaron
+00:43:41	VICENTE ERRAZURIZ QUIROGA:	> esto es independiente a a dónde esté guardado en memoria? no sé si lo mencionaronSi te refieres al HEAP vs el STACK, si, un arreglo en ambos aprovecha la caché
+00:44:34	ALONSO ORTEGA LOYOLA:	en c uno tendría que definir el orden de las letras?
+00:44:51	CRISTIAN OBERPAUR KOHLER:	no creo
+00:44:52	VICENTE ERRAZURIZ QUIROGA:	no, los char trabajan como que 'b' > 'a'
+00:44:58	ALONSO ORTEGA LOYOLA:	ahhh
+00:45:05	CRISTIAN OBERPAUR KOHLER:	los compara por ascii
+00:45:13	VICENTE ERRAZURIZ QUIROGA:	de hecho 'b' == 'a'+1
+00:45:25	Pablo Rademacher:	y las mayusculas??
+00:45:34	VICENTE ERRAZURIZ QUIROGA:	las mayusculas son menores
+00:45:38	VICENTE ERRAZURIZ QUIROGA:	que las minusculas
+00:45:45	Pablo Rademacher:	buenaaa
+00:45:46	FELIPE WILLMER MINO:	:o
+00:46:03	Fabián Sepúlveda:	es normal sentir que ya me heche el ramo?
+00:46:18	VICENTE ERRAZURIZ QUIROGA:	> es normal sentir que ya me heche el ramo?por qué?!
+00:46:29	Felipe Guzmán:	en este caso no se usa algo extra de memoria para "recordar" la ultima letra que fue reemplazada
+00:46:30	Felipe Guzmán:	?
+00:46:33	PABLO ARANEDA:	fabian, ve los videos y empieza la tarea y se te pasa
+00:46:35	Sol Covacic Palet:	:C
+00:46:44	Juan Jiménez:	estos replies los estas haciendo a mano o zoom tiene algo para quotear comentarios?
+00:46:45	Javiera Ochoa Guin-Po:	😢
+00:46:50	Tomás C:	256 porque para escribir la ñ es alt + 164
+00:46:52	Benjamín Aldana R.:	F
+00:46:54	PABLO ARANEDA:	cuando el programa compila, se siente esperanza
+00:46:56	Nico Benítez:	F
+00:47:01	Jorge Araneda:	yo tambien me siento parecido pero cuando termine la tarea estudiaré más
+00:47:07	VICENTE ERRAZURIZ QUIROGA:	> estos replies los estas haciendo a mano o zoom tiene algo para quotear comentarios?los estoy hacienda a mano pq el chat de szoom es pesimo y no te permite hacer quotes xD
+00:47:10	Jorge Araneda:	y espero entender mejor la materia
+00:47:59	Juan Jiménez:	factorial?
+00:48:09	Cristian Alonso Carrasco:	llega algo correcto
+00:48:18	SEBASTIAN ZABALA MARTINEZ:	pero esta acotado por arriba por eso
+00:48:23	Pablo Rademacher:	seria n^2/2 \in O(n^2)
+00:48:24	ALONSO GOMEZ HERRERA:	Pero la suma de 1 hasta a n debería ar algo a cuadratico o no?
+00:48:27	LUCAS VAN SINT JAN CAMPOS:	> los estoy haciendo a mano pq ep chat de szoom es pesimo y no te perimite hacer quotes xD
+00:48:33	LUCAS VAN SINT JAN CAMPOS:	Clase por discord entonces
+00:48:33	Piero Tassara:	Hay que ver el worst case o no?
+00:48:35	ALONSO GOMEZ HERRERA:	Se llega al mismo resultado pero creo que no
+00:48:37	JOAQUIN ALLIENDE VACCARO:	con n chicos no, pero para n grandes si se cumple
+00:48:39	JULIÁN GARCÍA:	es el peor caso
+00:48:41	Florencia Valdivia:	Tomamos el peor caso
+00:48:44	JOAQUIN ALLIENDE VACCARO:	eso diría yo jaaja
+00:48:49	LAURENCE GOLBORNE:	en promedio no es n/2?
+00:48:51	PABLO ARANEDA:	porque es n*(n+1)/2 ?
+00:49:07	VICENTE ERRAZURIZ QUIROGA:	pero
+00:49:11	VICENTE ERRAZURIZ QUIROGA:	el 1/2 que tienes ahi
+00:49:14	VICENTE ERRAZURIZ QUIROGA:	multiplicando el n
+00:49:20	LAURENCE GOLBORNE:	se va
+00:49:20	VICENTE ERRAZURIZ QUIROGA:	es despreciable
+00:49:22	VICENTE ERRAZURIZ QUIROGA:	se va
+00:49:24	VICENTE ERRAZURIZ QUIROGA:	efectivamente
+00:49:24	VICENTE ERRAZURIZ QUIROGA:	:)
+00:50:25	JULIÁN GARCÍA:	1+2+...+n = (n)(n+1)/2 que serían los desplazamientos en un array, creo
+00:52:04	Matias López:	No 
+00:52:04	Christian Carstens:	Va bieen
+00:52:05	NICOLAS ORELLANA DRAGO:	Según yo va bien
+00:52:05	Matias López:	va bien
+00:52:05	JOAQUIN ALLIENDE VACCARO:	esta bien según yo
+00:52:10	Christian Eilers:	vabene
+00:52:32	Eduardo Oteiza:	O(n) pq no sabe que está ordenado y los elementos los va poniendo al final en la nueva lista
+00:53:15	Cristian Hinostroza:	cabros, como van probando porciones pequeñas de su código, en la tarea?
+00:53:23	Cristian Hinostroza:	como para ver si van bien?
+00:53:34	Pablo Vejar:	me sumo a la pregunta de cristian
+00:53:34	Juan Jiménez:	Cuanta memoria es allocated al cache normalmente?
+00:53:37	PABLO ARANEDA:	me funcionan las cosas por separado en la tarea, cuando las junto, no
+00:53:38	LAURENCE GOLBORNE:	creo q su punto va por la parte en que se decía que no se necesitaba memoria adicional
+00:53:54	Cristian Alonso Carrasco:	yo partí usando solo celcula después celula+mould
+00:53:56	Tomás C:	1 a 6 megas (?)
+00:53:58	Constanza Osorio:	mmm
+00:54:04	Joaquín Muñoz:	usando make ves si esta bien en sintaxis y con valgrind ves si tienes errores de memoria 
+00:54:21	PABLO ARANEDA:	Ooh, y yo que hice esos tests a mano
+00:54:26	MOISES SAAVEDRA CACERES:	Alguna guía para hacer la función BUD bien?
+00:54:28	Constanza Osorio:	yo me hice test aparte para revisar por comando
+00:54:45	Felipe Guzmán:	el tiempo que se pide en los tests dificiles es usando valgrind?
+00:54:50	MOISES SAAVEDRA CACERES:	se hace NULL o free? :(
+00:54:58	DANIEL SOTO SILVA:	el código Python solo es para comparar velocidades ?? no hay que hacer nuestro código en C con una estructura parecida a como está en el código Python ?
+00:55:19	Felipe Guzmán:	free se usa cuando haces alloc moises
+00:55:23	Sol Covacic Palet:	tan re wenos los tests
+00:55:29	AGUSTIN RIOS:	yo la hice igual
+00:55:30	AGUSTIN RIOS:	xddd
+00:55:31	PABLO ARANEDA:	todos hacen print?
+00:55:31	Matias Cea:	en que lugar están los test?
+00:55:34	LAURENCE GOLBORNE:	cuanto maoma se debeia demorar el con carga? 
+00:55:38	AGUSTIN RIOS:	y en test hard se demora 1.5 s
+00:55:40	Matias Cea:	gracias
+00:55:54	Felipe Guzmán:	ah ya
+00:55:54	AGUSTIN RIOS:	a lo mas
+00:56:16	SEBASTIÁN CARRASCO:	La comparación de tiempo basta con que sea una tabla con los tiempos? y después poner lo que hay que investigar
+00:56:18	JOAQUIN ALLIENDE VACCARO:	cuando se corre con time cual de los 3 outputs se considera como el tiempo?
+00:56:24	Felipe Guzmán:	el de python como recibe el input y archivo de output?
+00:56:28	Diego Gazmuri:	En la tarea deberíamos usar todo lo que fue explicado en los videos?
+00:56:41	PABLO ARANEDA:	Felipe, esta en el readme de la tarea
+00:56:57	Felipe Guzmán:	gracias
+00:56:58	Nico Benítez:	no sirve un pantallazo? jajaj
+00:57:03	Nico Benítez:	:(
+00:57:21	MARIO GOMEZ HERRERA:	profe no me quedó muy claro lo de n*O(n)
+00:57:26	VICENTE ERRAZURIZ QUIROGA:	mas dudas de la T0 al discord! ->
+00:57:36	PABLO ARANEDA:	O(n)
+00:57:46	JULIÁN GARCÍA:	hay que insertar n veces y cada insercion es O(n)
+00:57:56	Eduardo Oteiza:	O(n) es lo que demoras en recorrer la lista ligada y debes recorrerlo n veces
+00:58:07	Eduardo Oteiza:	n*O(n) = O(n^2)
+00:58:22	VICENTE ERRAZURIZ QUIROGA:	gracias a todos por responder :)
+00:58:29	Eduardo Oteiza:	(lista ligada, arreglo)
+00:59:31	MARIO GOMEZ HERRERA:	muchas gracias!
+01:00:33	Fabián Sepúlveda:	toma tiempo max?
+01:00:35	Eduardo Oteiza:	Se demorará lo mismo
+01:00:37	PABLO ARANEDA:	O(n)
+01:00:38	Juan Jiménez:	se demora n
+01:00:55	ALONSO ORTEGA LOYOLA:	2n
+01:00:56	Jorge Araneda:	pero la comparación en sí no sigue tomando n?
+01:00:57	ALONSO ORTEGA LOYOLA:	?
+01:01:12	Eduardo Oteiza:	tiempo 2n es lo mismo que n, no?
+01:01:14	PABLO ARANEDA:	n
+01:01:15	Martín Ocqueteau:	n-1 comparaciones
+01:01:15	ALONSO GOMEZ HERRERA:	n
+01:01:16	VICENTE ERRAZURIZ QUIROGA:	son n-1 comparaciones, y cada una determina que no hay que mover nada
+01:01:17	Pablo Rademacher:	se demora n^2
+01:01:39	VICENTE ERRAZURIZ QUIROGA:	> tiempo 2n es lo mismo que n, no?si, las constantes que multiplican n se van
+01:01:48	ALONSO ORTEGA LOYOLA:	complejidad*
+01:01:52	Pablo Rademacher:	pero se hicieron 1 + 2+ 3+... = n^2/2 o no??
+01:01:55	VICENTE ERRAZURIZ QUIROGA:	eso significa que O(10000n) = O(2n) = O(n)
+01:02:24	VICENTE ERRAZURIZ QUIROGA:	> pero se hicieron 1 + 2+ 3+... = n^2/2 o no??no, porque no hicimos ninguna inserción, y eran las inserciones lo que nos costaban pasos
+01:02:30	JULIÁN GARCÍA:	Se hacen 1+1+1+1+1+1+1+... = n porque no se mueven los datos
+01:02:47	ALONSO ORTEGA LOYOLA:	pero un paso es acceder y otro comparar
+01:02:48	ALONSO GOMEZ HERRERA:	En selection sort se recorre siempre el array completo o no
+01:02:57	VICENTE ERRAZURIZ QUIROGA:	> En selection sort se recorre siempre el array completo o noefectivamente
+01:02:58	RODRIGO GEVERT WEIL:	entonces insertion sort es Omega(n)
+01:03:15	VICENTE ERRAZURIZ QUIROGA:	> entonces insertion sort es Omega(n)SI!
+01:03:42	Fabián Sepúlveda:	pero no que era O(n**2)
+01:03:51	Fabián Sepúlveda:	?
+01:03:52	Felipe Guzmán:	pero esto es por abajo
+01:03:54	VICENTE ERRAZURIZ QUIROGA:	omega y O son letras distintas
+01:03:58	Eduardo Oteiza:	osea cota maxima y minima
+01:03:59	ALONSO GOMEZ HERRERA:	Es O(N**2) en el peor caso posible
+01:04:03	Fabián Sepúlveda:	ahh lol
+01:04:04	ALONSO GOMEZ HERRERA:	Pero es O(n) en el mejor caso posible
+01:04:04	Fabián Sepúlveda:	vale
+01:04:09	VICENTE ERRAZURIZ QUIROGA:	si, O denota el peor caso, Omega el major caso
+01:04:17	VICENTE ERRAZURIZ QUIROGA:	(maldito autocorrect de zoom)
+01:04:21	ALONSO GOMEZ HERRERA:	Omega*
+01:04:27	Eduardo Oteiza:	el peor caso era cuando está ordenado al revés?
+01:04:30	Joaquín Muñoz:	vicho porque en inserción sort la comparación es O(n) no lo tengo claro
+01:04:36	Felipe Guzmán:	ordenado es el mejor
+01:04:50	Felipe Guzmán:	ah al revés
+01:04:50	Felipe Guzmán:	xd
+01:05:30	Liat Israel:	Las diapo están en el repo? Las que vi no tienen esta parte :(
+01:05:42	VICENTE ERRAZURIZ QUIROGA:	> vicho porque en inserción sort la comparación es O(n) no lo tengo claroEs una comparación por cada element para saber si hay que moverlo. Luego de cada comparacion nos damos cuenta que no hay que moverlo asi que pasamos al siguiente. Por lo tanto se hacen n comparaciones en total.
+01:05:48	Felipe Guzmán:	ahora la actualizaron
+01:05:51	VICENTE ERRAZURIZ QUIROGA:	> Las diapo están en el repo? Las que vi no tienen esta parte :(Vuelve a descargarlas
+01:06:16	ALONSO ORTEGA LOYOLA:	segun yo son más de una comparación por elemento
+01:06:21	ALONSO ORTEGA LOYOLA:	porque hay que ver donde queda
+01:06:35	VICENTE ERRAZURIZ QUIROGA:	> segun yo son más de una comparación por elementoporque hay que ver donde quedarevisa el pseudocódigo
+01:06:47	LAURENCE GOLBORNE:	tampoco importa si son mas comparaciones
+01:06:54	VICENTE ERRAZURIZ QUIROGA:	además...
+01:06:55	LAURENCE GOLBORNE:	es el mismo O igual
+01:07:01	VICENTE ERRAZURIZ QUIROGA:	si son 2 comparaciones por elemento
+01:07:06	VICENTE ERRAZURIZ QUIROGA:	O(2n) = O(n)
+01:07:19	Joaquín Muñoz:	no que insertion sort solo se compara con el de al lado vicho? en ese caso no se debería comparar con los n elementos 
+01:07:46	VICENTE ERRAZURIZ QUIROGA:	> no que insertion sort solo se compara con el de al lado vicho? en ese caso no se debería comparar con los n elementoscada elemento se compara con el anterior para ver si tiene que retroceder
+01:07:48	ALONSO ORTEGA LOYOLA:	se compara con los anteriores hasta que no se cumpla la condición
+01:08:03	ALONSO ORTEGA LOYOLA:	de que sea menor
+01:09:59	Diego Quezada:	Pero eso depende del criterio de ordenamientoo siempre es una inversión si es mayor? 
+01:10:16	VICENTE ERRAZURIZ QUIROGA:	en este caso ordenamos de menor a mayor
+01:10:39	Joaquin Terreros:	Eso quiere decir que para ordenar ese arreglo se requieren 9 operaciones o no tiene relación?
+01:10:49	Josefina Fernández:	pero profesor pasado cierto punto de desorden no lo podemos usar a nuestro favor? el orden inverso
+01:11:27	JOAQUIN ALLIENDE VACCARO:	pero para calcular la cantitade de inversiones es O(n^2) o no?
+01:11:32	VICENTE ERRAZURIZ QUIROGA:	> Eso quiere decir que para ordenar ese arreglo se requieren 9 operaciones o no tiene relación?Va por ahi! pero not really :) ya vamos a analizar qué significa esto
+01:11:39	JOAQUIN ALLIENDE VACCARO:	osea asi "a la rápida"
+01:11:52	VICENTE ERRAZURIZ QUIROGA:	> pero para calcular la cantitade de inversiones es O(n^2) o no?Si, no nos interesa calcular esto…
+01:12:08	VICENTE ERRAZURIZ QUIROGA:	lo vamos a usar para demostrar una propiedad
+01:12:10	VICENTE ERRAZURIZ QUIROGA:	:)
+01:12:47	Fabián Sepúlveda:	2 k?
+01:12:47	PABLO ARANEDA:	log(k) ?
+01:12:49	VICENTE ERRAZURIZ QUIROGA:	> pero profesor pasado cierto punto de desorden no lo podemos usar a nuestro favor? el orden inversoEfectivamente, un arreglo ordenado al reves tiene el número máximo de inversiones
+01:13:06	Cristian Hinostroza:	O(k*n)
+01:13:14	JULIÁN GARCÍA:	k(k+1)/2? así al ojo
+01:13:14	Cristian Hinostroza:	?
+01:14:10	PABLO ARANEDA:	O(nlog(k)) 
+01:14:37	Carlos Paredes:	pero si usaramos solo inversiones no seria mas parecido a bubble sort?
+01:15:12	PABLO ARANEDA:	O(n+k) ?
+01:16:14	JULIÁN GARCÍA:	0 o 1 inversiones no?
+01:16:25	JULIÁN GARCÍA:	ah no mentira
+01:16:38	VICENTE ERRAZURIZ QUIROGA:	(y un intercambio no genera nuevas inversions)
+01:16:46	Pablo Rademacher:	0
+01:16:46	Tomás C:	0
+01:16:47	JULIÁN GARCÍA:	0
+01:16:47	José Ignacio Retamal:	0
+01:16:47	Benjamín Álvarez:	0
+01:16:48	MACARENA MUÑOZ:	0
+01:16:48	Tomás Dubost:	0
+01:16:50	PABLO ARANEDA:	k tiende a n!/2 en promedio?
+01:17:00	Fabián Sepúlveda:	k! en el peor?
+01:17:08	MACARENA MUÑOZ:	n
+01:17:08	Tomás C:	n-1
+01:17:09	Carlos Paredes:	n/2
+01:17:09	JULIÁN GARCÍA:	n^2
+01:17:10	Tomás Dubost:	n
+01:17:14	Martín Ocqueteau:	n(n-1)/2
+01:17:14	PABLO ARANEDA:	n!
+01:17:15	LAURENCE GOLBORNE:	n!
+01:17:17	Diego Quezada:	n! 
+01:17:18	Benjamín Álvarez:	(n - 1)(n - 2)/2
+01:17:18	ALONSO GOMEZ HERRERA:	n^2 - n
+01:17:19	Fabián Sepúlveda:	descendientte
+01:17:20	ANIBAL ERRAZURIZ VERGARA:	n^2-n
+01:17:23	Elisa Fernández:	ordenados de mayor a menor
+01:17:23	JOSEMARIA ONETTO:	n^2
+01:17:38	Fabián Sepúlveda:	habran n! inversiones en ese caso
+01:17:40	ALONSO ORTEGA LOYOLA:	n!
+01:17:42	Fabián Sepúlveda:	a nono
+01:17:47	PABLO ARANEDA:	(n^2-n)/2
+01:17:48	Fabián Sepúlveda:	binomial(n,2)
+01:17:53	Teresita S:	(N-1)!
+01:18:12	VICENTE ERRAZURIZ QUIROGA:	parece que van a tener que repasar combinatoria :c
+01:18:16	VICENTE ERRAZURIZ QUIROGA:	veo muchos factoriales
+01:18:36	Fabián Sepúlveda:	pero las parejas de a 2 en un grupo de ene es bin(n,2) :c
+01:18:42	VICENTE ERRAZURIZ QUIROGA:	pero con binomial si sale
+01:18:43	VICENTE ERRAZURIZ QUIROGA:	:)
+01:18:46	Jorge Araneda:	me perdí con lo ultimo, como sacan la cantidad de parejas D:
+01:18:46	ALONSO GOMEZ HERRERA:	Pero si k = (n^2-n)/2 la suma con n no daria n^2 o si?
+01:19:29	PABLO ARANEDA:	(n^2 - 2n)/8 ?
+01:19:33	VICENTE ERRAZURIZ QUIROGA:	da (n + n^2) / 2
+01:19:41	VICENTE ERRAZURIZ QUIROGA:	y eso considerando solo el de mayor exponente
+01:19:45	SEBASTIÁN ELSACA:	O(n+k) no es lo mismo que O(n)?
+01:19:51	VICENTE ERRAZURIZ QUIROGA:	y eliminando el termino constante
+01:20:00	VICENTE ERRAZURIZ QUIROGA:	queda como n^2
+01:20:07	ALONSO GOMEZ HERRERA:	Ahhh sii
+01:20:09	VICENTE ERRAZURIZ QUIROGA:	O(n^2)
+01:20:11	ALONSO GOMEZ HERRERA:	Gracias Vicente ahi me quedo claro
+01:20:25	JULIÁN GARCÍA:	O(n + k) = O(max(n, k))
+01:21:38	Eduardo Oteiza:	el caso promedio como todas las permutaciones/cantidad de elementos?
+01:21:43	Fabián Sepúlveda:	n!
+01:21:44	Martín Ocqueteau:	n!
+01:21:47	VICENTE ERRAZURIZ QUIROGA:	ahora si jaja
+01:21:50	Fabián Sepúlveda:	alfin!
+01:21:52	Christian Carstens:	jajajaja
+01:23:20	VICENTE ERRAZURIZ QUIROGA:	> el caso promedio como todas las permutaciones/cantidad de elementos?no entiendo la pregunta
+01:23:44	Eduardo Oteiza:	nothing
+01:23:46	Fabián Sepúlveda:	como es la secuencia de las inversiones para cada permutación?
+01:24:12	Teresita S:	Como se calcula el caso promedio?
+01:24:13	JULIÁN GARCÍA:	(todas las permutaciones)/(cantidad de elementos)
+01:24:42	Fabián Sepúlveda:	caso promedio = Suma de inversiones para cada permutación / cantidad de permutaciones
+01:25:26	JULIÁN GARCÍA:	si dado que no hay numeros repetidos
+01:25:36	Teresita S:	Gracias
+01:25:37	VICENTE ERRAZURIZ QUIROGA:	> Como se calcula el caso promedio?cantidad promedio de inversiones = suma(cantidad de inversions por cada permutacion) / (cantidad total de permutaciones)
+01:25:56	Franco Berries:	Si profe
+01:26:00	VICENTE ERRAZURIZ QUIROGA:	> caso promedio = Suma de inversiones para cada permutación / cantidad de permutacionesay me demoré en escribirlo jaja
+01:26:26	Teresita S:	Gracias
+01:27:24	PABLO ARANEDA:	sigue O(n)
+01:27:26	Fabián Sepúlveda:	o(n**2)
+01:27:28	PABLO ARANEDA:	n~2
+01:27:31	LAURENCE GOLBORNE:	en promedio es O(n^2)
+01:28:22	ALONSO GOMEZ HERRERA:	A que se refiere en exactamente una de l y lr el par ordenando...
+01:28:42	VICENTE ERRAZURIZ QUIROGA:	que el par (x,y)
+01:28:45	VICENTE ERRAZURIZ QUIROGA:	o es inversion en L
+01:28:48	VICENTE ERRAZURIZ QUIROGA:	o es inversion en Lr
+01:28:50	VICENTE ERRAZURIZ QUIROGA:	pero no en los dos
+01:28:58	ALONSO GOMEZ HERRERA:	Aaah ya muchas gracias
+01:28:59	VICENTE ERRAZURIZ QUIROGA:	(y obligatoriamente en uno de ellos!)
+01:29:02	ALONSO GOMEZ HERRERA:	si
+01:29:30	Benjamín Álvarez:	esta brigido el análisis
+01:29:42	ALONSO GOMEZ HERRERA:	para poder hacer lo que dice el compañero creo se debería poder asegurar que los casos de peor a mejor aumentan de forma lineal
+01:29:55	ALONSO GOMEZ HERRERA:	Si ese es el caso si podrías por lo que tengo entendido
+01:30:04	Sol Covacic Palet:	“el numero total de estos pares” se refiere a inversiones, o a pares ordenados?
+01:30:27	VICENTE ERRAZURIZ QUIROGA:	se refiere a inversiones
+01:30:42	Teresita S:	sum(de i entre 1 y n) n-i
+01:30:42	Sol Covacic Palet:	aaaaaaaaaa
+01:30:43	VICENTE ERRAZURIZ QUIROGA:	que es la misma cantidad que el numero total de pares
+01:30:51	Sol Covacic Palet:	agora sim entendo
+01:31:07	VICENTE ERRAZURIZ QUIROGA:	esta diciendo hay esta cantidad de pares, y todos ellos son inversion en L o en Lr
+01:31:14	PABLO ARANEDA:	O(n*n)
+01:31:16	LAURENCE GOLBORNE:	n**2
+01:31:21	Benjamín Álvarez:	O(n^2)
+01:31:26	VICENTE ERRAZURIZ QUIROGA:	por lo tanto inversions(L) + inversions(Lr) = cantidad total de pares
+01:32:27	Benjamin Urrutia:	En la practica que se este dividiendo por 4 en el caso promedio no hace que este algoritmo sea más rapido que selection sort (en un caso promedio tambien)?
+01:32:32	LAURENCE GOLBORNE:	Todo esto para volver a llegar a n**2 :'( 
+01:32:43	Fabián Sepúlveda:	pero estaba bonito el argumento si
+01:33:40	JULIÁN GARCÍA:	bubble-sort=o(n²)?
+01:34:04	VICENTE ERRAZURIZ QUIROGA:	si, bubble sort es cuadrático
+01:34:09	VICENTE ERRAZURIZ QUIROGA:	y mal implementado puede ser cúbico!
+01:34:14	JULIÁN GARCÍA:	ewe
+01:34:16	Eduardo Oteiza:	:o
+01:34:18	Sol Covacic Palet:	:0
+01:34:26	Felipe Guzmán:	bubble no more
+01:34:39	JOAQUIN ALLIENDE VACCARO:	el peor caso es al menos O(n^2) o no? podría ser peor aun
+01:34:41	Josefina Fernández:	los pares x,y de la demostración no son ordenados? no entendí por qué eran n*(n-1)/2 pares
+01:34:44	Eduardo Oteiza:	get away from bubble
+01:35:01	VICENTE ERRAZURIZ QUIROGA:	> En la practica que se este dividiendo por 4 en el caso promedio no hace que este algoritmo sea más rapido que selection sort (en un caso promedio tambien)?Si, este algoritmo deberia ser siempre mas o igual de rapido que selection sort o 
+01:35:08	VICENTE ERRAZURIZ QUIROGA:	(ignora ese o al final)
+01:35:13	Benjamin Urrutia:	buena, gracias!
+01:35:28	ALONSO GOMEZ HERRERA:	La ultima duda como era exactamente a la expresión n(n-1)/2?
+01:35:29	VICENTE ERRAZURIZ QUIROGA:	> los pares x,y de la demostración no son ordenados? no entendí por qué eran n*(n-1)/2 paresefectivamente, no son ordenados.
+01:35:38	ALONSO GOMEZ HERRERA:	Ya que nP2 no debería ser n*(n-1)?
+01:35:50	Josefina Fernández:	ok, gracias!
+01:35:55	Victoria Matthews:	chao, gracias :)
+01:36:02	Pablo Vejar:	gracias profe y vicho!
+01:36:08	Eduardo Oteiza:	gracias!!
+01:36:12	VICENTE ERRAZURIZ QUIROGA:	> La ultima duda como era exactamente a la expresión n(n-1)/2?Es (n-1) + (n-2) + (n-3) … + 3 + 2 + 1
+01:36:19	Joaquin Terreros:	Este viernes hay ayudantía verdad?
+01:36:24	VICENTE ERRAZURIZ QUIROGA:	si, hay ayudantía
+01:36:31	VICENTE ERRAZURIZ QUIROGA:	vamos a practicar demostraciones y cálculos de complejidad
+01:36:31	Joaquin Terreros:	Vale! Gracias :D
+01:36:44	Josefina Fernández:	muchas gracias por la clase!!
+01:37:03	Tomás C:	chao! gracias profe y vicho
+01:37:45	Constanza Osorio:	inscritos = \infty
+01:38:13	LAURENCE GOLBORNE:	cupos != \infty
+01:38:13	Teresita S:	Chao Profe! gracias
+01:38:30	Gustavo Toro:	en el pseudocodigo, el intercambio se hace entre elementos contiguos en el arreglo. Eso cambiaría la complejidad?
+01:38:36	JOAQUIN ALLIENDE VACCARO:	chao profe, gracias
+01:38:39	Gustavo Toro:	porque serían más inversiones?
+01:38:56	VICENTE ERRAZURIZ QUIROGA:	> en el pseudocodigo, el intercambio se hace entre elementos contiguos en el arreglo. Eso cambiaría la complejidad?no, estamos hacienda todos los cálculos en base a eso
+01:39:20	VICENTE ERRAZURIZ QUIROGA:	es por eso precisamente que tanto insertionsort como selection sort no pueden ser más rapidos que O(n^2) en el peor caso
+01:39:43	Felipe Guzmán:	gracias chaito
+01:39:51	Gustavo Toro:	ok gracias
+01:40:51	Fabián Sepúlveda:	Chao, gracias!
+01:41:29	JULIÁN GARCÍA:	y no sería más rapido hacer una pasada previa para saber en qué dirección es más rapido ordenar la lista?
+01:41:53	-:	No lo cortaa

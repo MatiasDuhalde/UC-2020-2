@@ -1,0 +1,142 @@
+14:08:55	 De  Eduardo Oteiza : Afortunad@ el que haya tenido vdd con alanezz
+14:08:58	 De  HUMBERTO ORTUZAR TORNERO : si
+14:09:00	 De  Eduardo Oteiza : Blessed
+14:09:22	 De  Eduardo Oteiza : vdd = bdd
+14:11:36	 De  Fabi�n Esteban Sep�lveda Rivas : no es necesario demostrarlo con inducción?
+14:11:57	 De  Fabi�n Esteban Sep�lveda Rivas : si finitud
+14:12:17	 De  Fabi�n Esteban Sep�lveda Rivas : pero nos van a pedir demostrar ese tipo de cosas o basta dar un argumento heurístico?
+14:12:32	 De  Fabi�n Esteban Sep�lveda Rivas : ah bueno
+14:12:42	 De  Fabi�n Esteban Sep�lveda Rivas : y de que otra herramientas hay para demostrar finitud?
+14:12:42	 De  Felipe Alberto Guzman Hernandez : si cito un teorema del libro lo nombre nomas?
+14:12:55	 De  Fabi�n Esteban Sep�lveda Rivas : claro
+14:13:01	 De  VICENTE ERRAZURIZ QUIROGA : > si cito un teorema del libro lo nombre nomas?si
+14:13:04	 De  JOAQUIN ALLIENDE VACCARO : cual es el libeo?
+14:13:08	 De  Felipe Alberto Guzman Hernandez : contradiccion o no?
+14:13:09	 De  Fabi�n Esteban Sep�lveda Rivas : cormen
+14:13:13	 De  JOAQUIN ALLIENDE VACCARO : libro*
+14:13:37	 De  Felipe Alberto Guzman Hernandez : cormen introduction to algorithms
+14:14:35	 De  Sol Olivia Covacich Palet : duda, en caso n=1 la funcion no retornaría nada?
+14:14:35	 De  Liat Israel : Podrías ponerle un poco más de zoom al Paint porfa?
+14:14:43	 De  Liat Israel : graciasss
+14:14:45	 De  Sol Olivia Covacich Palet : porque nunca entra al if?
+14:14:47	 De  Fabi�n Esteban Sep�lveda Rivas : 8bit 
+14:14:49	 De  Felipe Alberto Guzman Hernandez : hf
+14:14:50	 De  Felipe Alberto Guzman Hernandez : hd
+14:14:59	 De  Sol Olivia Covacich Palet : si
+14:15:00	 De  Cristian Carrasco : puedes usar fuente más grande igual
+14:15:06	 De  Sol Olivia Covacich Palet : si si
+14:15:10	 De  Sol Olivia Covacich Palet : pero entonces no retorna nada?
+14:15:19	 De  Eduardo Oteiza : por demostrar: es correcto para inputs de tamaño n + 1?
+14:15:50	 De  Sol Olivia Covacich Palet : aa,no lo modifica entonces
+14:15:51	 De  Sol Olivia Covacich Palet : ok
+14:16:18	 De  Felipe Alberto Guzman Hernandez : las reglas de paint
+14:16:31	 De  VICENTE ERRAZURIZ QUIROGA : > pero entonces no retorna nada?no porque merge usa los arreglos auxiliares para dejar el arreglo original ordenado
+14:16:39	 De  Fabi�n Esteban Sep�lveda Rivas : rajense con una wacom pa los ayudantes
+14:16:46	 De  VICENTE ERRAZURIZ QUIROGA : <3
+14:17:15	 De  Cristian Hinostroza : o q por lo menos las presten, nachito rajate pls
+14:17:35	 De  Tomás C : porque podemos asumir que es valido para todos los arreglos menores a n?
+14:17:49	 De  JULIÁN GARCÍA : jejeje \le n si n > 0
+14:17:56	 De  VICENTE ERRAZURIZ QUIROGA : > porque podemos asumir que es valido para todos los arreglos menores a n?esa es la hipótesis inductiva
+14:17:58	 De  Eduardo Oteiza : Por hipótesis inductiva, no?
+14:18:04	 De  Felipe Alberto Guzman Hernandez : induccion juerte
+14:18:10	 De  VICENTE ERRAZURIZ QUIROGA : es inducción fuerte
+14:18:13	 De  VICENTE ERRAZURIZ QUIROGA : efectivamente
+14:18:13	 De  VICENTE ERRAZURIZ QUIROGA : :)
+14:18:15	 De  Hernán Sazo : puedes repetir lo ultimo? lo de merge
+14:18:16	 De  Tomás C : kul
+14:27:19	 De  Franco Fabián Castillo Gutiérrez : entonces habría que cambiar el return true por return mid ?
+14:27:20	 De  HUMBERTO ORTUZAR TORNERO : while min < max
+14:29:54	 De  Rosita Muñoz : puedes explicarlo denuevo porfi
+14:29:58	 De  ALONSO GOMEZ HERRERA : Si lo pudieras escribir mejor
+14:30:06	 De  ALONSO GOMEZ HERRERA : Asi lo podemos leer mientras vas avanzado
+14:30:08	 De  Fabi�n Esteban Sep�lveda Rivas : en cada llamada saca el mid
+14:30:13	 De  PABLO ARANEDA : con recursivo, si uno encuentra la complejidad, con eso ya se demuestra la finitud?
+14:30:18	 De  Fabi�n Esteban Sep�lveda Rivas : por lo que debería tomar a lo mas n llamadas o no?
+14:30:41	 De  VICENTE ERRAZURIZ QUIROGA : acuerdate que hay algoritmos que con algunos input terminan y con otros no
+14:32:58	 De  Felipe Alberto Guzman Hernandez : 00
+14:34:02	 De  VICENTE ERRAZURIZ QUIROGA : (independiente de si es correcto o no)
+14:37:46	 De  Liat Israel : claro
+14:37:58	 De  Tomás C : tienes la webcam en el teclado? wtf
+14:42:15	 De  Karl Mathias Haller Wiesner : Lo podrías anotar?
+14:42:17	 De  Karl Mathias Haller Wiesner : porfa
+14:42:17	 De  ALONSO GOMEZ HERRERA : Podrías decir un resumen rapidito
+14:42:37	 De  JULIO ANDRADE GOMEZ : max y min eran indices entonces?
+14:42:44	 De  JULIO ANDRADE GOMEZ : vale
+14:45:49	 De  Cristian Hinostroza : si
+14:45:50	 De  Daniela Francisca Corral Gardella : sii mas claro
+14:47:04	 De  ALONSO GOMEZ HERRERA : Dividiendo en 2?
+14:47:07	 De  Felipe Alberto Guzman Hernandez : arboles
+14:47:07	 De  ALONSO GOMEZ HERRERA : Como el de la clase
+14:47:12	 De  PABLO ARANEDA : se divide siempre a la mitad... log2(n)
+14:47:21	 De  JULIÁN GARCÍA : T(n) = T(n//2) + 1
+14:47:32	 De  JULIÁN GARCÍA : y dps telescópicas
+14:48:52	 De  ALONSO GOMEZ HERRERA : Habría que achantarle a la formula
+14:48:55	 De  ALONSO GOMEZ HERRERA : A lo maldito
+14:49:02	 De  Felipe Alberto Guzman Hernandez : la del magic johnson
+14:49:20	 De  ALONSO GOMEZ HERRERA : La del mike leatherbee
+14:49:30	 De  Sol Olivia Covacich Palet : JAJAJ
+14:50:40	 De  PABLO ARANEDA : n/2
+14:50:42	 De  Eduardo Oteiza : n//2
+14:50:53	 De  Eduardo Oteiza : habra que sumar
+14:50:58	 De  Eduardo Oteiza : piso + techo de n/2?
+14:51:45	 De  Eduardo Oteiza : No caché pq es techo de n/2
+14:51:52	 De  VICENTE ERRAZURIZ QUIROGA : es el peor caso
+14:51:58	 De  VICENTE ERRAZURIZ QUIROGA : si el arreglo tiene una cantidad impar de elementos
+14:52:03	 De  VICENTE ERRAZURIZ QUIROGA : techo de n/2 es la mitad mas grande
+14:52:21	 De  VICENTE ERRAZURIZ QUIROGA : perdón, cuando es par
+14:52:25	 De  Felipe Alberto Guzman Hernandez : para sacar el O(n) es necesario poner techo?
+14:52:34	 De  VICENTE ERRAZURIZ QUIROGA : si
+14:52:37	 De  VICENTE ERRAZURIZ QUIROGA : esa es la formula
+14:52:42	 De  Felipe Alberto Guzman Hernandez : osea
+14:52:45	 De  Eduardo Oteiza : aah
+14:52:46	 De  VICENTE ERRAZURIZ QUIROGA : ahora para calcularlo tienes que ver como librarte del techo
+14:52:51	 De  JULIO ANDRADE GOMEZ : complejidad parece
+14:52:56	 De  Felipe Alberto Guzman Hernandez : O(algo que depende de n)
+14:52:58	 De  Felipe Alberto Guzman Hernandez : la complejidad
+14:53:18	 De  VICENTE ERRAZURIZ QUIROGA : ah, un O(techo) dices tu?
+14:54:10	 De  Felipe Alberto Guzman Hernandez : si osea si elijo un n "maximo" puedo sacar el techo
+14:54:17	 De  Felipe Alberto Guzman Hernandez : osea el peor n
+14:54:34	 De  ALONSO GOMEZ HERRERA : Esto tampoco me quedo claro en clases, podemos decir que el algoritmo se cumple para pares y eso es para todo?
+14:54:47	 De  ALONSO GOMEZ HERRERA : Nos dan esa libertadle informalidad en el curso? O debemos también luego hacer el paso para los impares
+14:55:22	 De  ALONSO GOMEZ HERRERA : Que me acuerdo que el profesor lo solo lo hizo para el caso para 2^k
+14:56:18	 De  ALONSO GOMEZ HERRERA : Ya cache
+14:56:24	 De  ALONSO GOMEZ HERRERA : Gracias me quedo claro claro
+14:56:51	 De  Fabi�n Esteban Sep�lveda Rivas : XDD
+14:56:57	 De  Benjamin Lepe : F
+14:57:02	 De  Felipe Alberto Guzman Hernandez : lo pillamos
+14:57:08	 De  Cristian Carrasco : yadran troleando alumnos
+14:57:08	 De  Fabi�n Esteban Sep�lveda Rivas : te pillamos compadre
+14:57:19	 De  ALONSO GOMEZ HERRERA : Momento re crack, gracias a les ayudantes.
+14:57:26	 De  ALONSO GOMEZ HERRERA : Se pusieron la 10
+15:03:09	 De  JULIÁN GARCÍA : estamos simplificando la parte de la derecha
+15:03:10	 De  VICENTE ERRAZURIZ QUIROGA : O = cota superior 
+15:03:41	 De  Fabi�n Esteban Sep�lveda Rivas : pero es la mejor cota superior
+15:03:57	 De  Fabi�n Esteban Sep�lveda Rivas : eso igual habría que demostrarlo asi pa ser full formal no?
+15:04:10	 De  VICENTE ERRAZURIZ QUIROGA : sip
+15:04:18	 De  Fabi�n Esteban Sep�lveda Rivas : y eso tenemos que hacerlo en la prueba? jajaj
+15:04:22	 De  JULIÁN GARCÍA : +1
+15:04:25	 De  VICENTE ERRAZURIZ QUIROGA : sip
+15:04:28	 De  Fabi�n Esteban Sep�lveda Rivas : F
+15:04:31	 De  JULIÁN GARCÍA : F
+15:04:35	 De  VICENTE ERRAZURIZ QUIROGA : está en la solución de la ayudantía
+15:04:46	 De  Cristian Carrasco : lo acotaste por arriba
+15:04:48	 De  Fabi�n Esteban Sep�lveda Rivas : buena pero esta creo que es fácil por que todo n es par o impar
+15:04:52	 De  Cristian Carrasco : pero podría existir una mejor cota
+15:04:55	 De  Fabi�n Esteban Sep�lveda Rivas : noo
+15:04:56	 De  JULIÁN GARCÍA : cuanto tiempo tenemos para las pruebas?
+15:04:58	 De  Fabi�n Esteban Sep�lveda Rivas : esa es la mejor 
+15:05:01	 De  VICENTE ERRAZURIZ QUIROGA : para las pruebas 
+15:05:06	 De  VICENTE ERRAZURIZ QUIROGA : tienen 12 horas
+15:05:11	 De  JULIÁN GARCÍA : aaah excelente
+15:05:12	 De  VICENTE ERRAZURIZ QUIROGA : mentira 10 horas
+15:05:17	 De  JULIÁN GARCÍA : bueno parecido
+15:05:18	 De  Fabi�n Esteban Sep�lveda Rivas : y se usan las 10?
+15:05:22	 De  Fabi�n Esteban Sep�lveda Rivas : s:
+15:05:23	 De  VICENTE ERRAZURIZ QUIROGA : no estai loco
+15:05:25	 De  Fabi�n Esteban Sep�lveda Rivas : jajajajjaa
+15:05:31	 De  VICENTE ERRAZURIZ QUIROGA : estan diseñadas pa resolverla en 2hrs 
+15:05:34	 De  Felipe Alberto Guzman Hernandez : e usan solo 9 30
+15:05:39	 De  Fabi�n Esteban Sep�lveda Rivas : XDD
+15:05:42	 De  VICENTE ERRAZURIZ QUIROGA : pero se da tiempo
+15:05:46	 De  VICENTE ERRAZURIZ QUIROGA : pa que se lo tomen con calma
+15:05:52	 De  VICENTE ERRAZURIZ QUIROGA : y busquen en la literatura si lo necesitan

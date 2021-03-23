@@ -1,0 +1,464 @@
+00:16:20	Fabi�n Esteban Sep�lveda Rivas:	somos ada vez meno
+00:16:28	Fabi�n Esteban Sep�lveda Rivas:	ya han botado el curso ?
+00:16:30	ANDRES PLASS CAUSSADE:	Hora de almuerzo
+00:16:31	Daniel Andrés Soto Silva:	efecto post enunciado tarea 1
+00:16:33	Franco Nicolás Berríos Núñez:	Comenzó el semestre
+00:16:43	😂:	confirmo: efecto post enunciado tarea 1 
+00:16:45	Cristian Stefan Oberpaur Kohler:	diría que ven el video dsps
+00:16:45	ANDRES PLASS CAUSSADE:	jajajaja
+00:16:47	Alonso Rafael Gómez Herrera:	Igual es algo inevitable :c
+00:16:49	PABLO ARANEDA:	catidad de alumnos goes brr
+00:16:51	Alonso Rafael Gómez Herrera:	Siempre pasa en todos los ramos
+00:16:51	Cristian Alonso Carrasco González:	que paso?
+00:16:56	HUMBERTO ORTUZAR TORNERO:	si
+00:16:57	ANDRES PLASS CAUSSADE:	sii
+00:16:58	Edison Pizarro Godoy:	S
+00:17:03	Alonso Rafael Gómez Herrera:	sip
+00:17:09	Benjamin Urrutia:	Todavia no supen el pdf cierto?
+00:17:11	HUMBERTO ORTUZAR TORNERO:	hay que esperar al ultimo dia
+00:17:11	ALONSO ORTEGA LOYOLA:	estan terminando de almorzar uwu
+00:17:12	Sol Olivia Covacich Palet:	todavía...
+00:17:15	HUMBERTO ORTUZAR TORNERO:	este es el periodo de duda
+00:18:21	Eduardo Oteiza:	F tarea 1
+00:19:06	Rosita Muñoz:	muteense porfis
+00:19:09	Pablo Vejar:	hay alguien que tiene el mic abierto
+00:20:14	Juan Jiménez:	bbbubble
+00:20:33	Eduardo Oteiza:	raddix sort
+00:20:42	Alonso Rafael Gómez Herrera:	Por que alguien usaria quick sort sobre merge sort?
+00:20:45	Alonso Rafael Gómez Herrera:	Si el promedio es el mismo
+00:20:52	ALONSO ORTEGA LOYOLA:	por meoria
+00:20:53	ALONSO ORTEGA LOYOLA:	memoria
+00:20:54	Nicolás Bravo de la Cruz:	memoria
+00:20:55	Eduardo Oteiza:	Según yo por la memoria adicional
+00:20:58	VICENTE ERRAZURIZ QUIROGA:	la constante asociada
+00:20:59	VICENTE ERRAZURIZ QUIROGA:	es menor
+00:21:00	Carlos Daniel Paredes Robles:	y como se distribuyen los casos
+00:21:00	Alonso Rafael Gómez Herrera:	Ahhhh buena
+00:21:01	VICENTE ERRAZURIZ QUIROGA:	:)
+00:21:10	Alonso Rafael Gómez Herrera:	Ahi  lo vi lo de la memoria
+00:21:34	VICENTE ERRAZURIZ QUIROGA:	> y como se distribuyen los casosLos graficos que vimos el lunes mostraba como se demoraba el algoritmo segun los casos
+00:21:48	PABLO ARANEDA:	no era O(n) quick sort en el mejor caso?
+00:22:15	VICENTE ERRAZURIZ QUIROGA:	en el mejor caso el pivote era la mitad
+00:22:23	VICENTE ERRAZURIZ QUIROGA:	y quedaba la misma recurrencia que en mergesort
+00:22:37	Juan Jiménez:	sera un quicksort con algo para tomar mejor pviotes?
+00:22:55	VICENTE ERRAZURIZ QUIROGA:	hoy veremos un algoritmo completamente nuevo
+00:22:58	Rosita Muñoz:	O(n) era en el mejor caso de parititon
+00:23:11	VICENTE ERRAZURIZ QUIROGA:	patition es O(n) siempre
+00:23:42	Rosita Muñoz:	buena!
+00:25:52	😂:	queues
+00:26:06	Cristian Stefan Oberpaur Kohler:	si
+00:26:07	PABLO ARANEDA:	su deque
+00:26:11	Pablo Vejar:	si!
+00:26:12	Eduardo Oteiza:	si
+00:26:46	Fabi�n Esteban Sep�lveda Rivas:	las colas son los queues?
+00:26:52	Felipe Alberto Guzman Hernandez:	si
+00:26:58	Fabi�n Esteban Sep�lveda Rivas:	vale
+00:27:30	VICENTE ERRAZURIZ QUIROGA:	queue = cola en ingles
+00:27:57	Eduardo Oteiza:	pense que era in french
+00:28:00	😂:	tail
+00:28:07	Cristian Alonso Carrasco González:	shht
+00:28:14	VICENTE ERRAZURIZ QUIROGA:	cola en el contexto de fila
+00:28:21	VICENTE ERRAZURIZ QUIROGA:	como la cola del cajero
+00:28:29	VICENTE ERRAZURIZ QUIROGA:	o del banco
+00:28:33	VICENTE ERRAZURIZ QUIROGA:	o del supermercado
+00:28:35	JOAQUIN ALLIENDE VACCARO:	tmb en Spotify jaja
+00:28:40	VICENTE ERRAZURIZ QUIROGA:	......o de spotify
+00:28:41	VICENTE ERRAZURIZ QUIROGA:	jajaja
+00:28:42	Eduardo Oteiza:	su teoría de colas?
+00:29:10	PABLO ARANEDA:	binary heap?
+00:29:12	Teresita S:	Estas slides estan subidas?
+00:29:19	VICENTE ERRAZURIZ QUIROGA:	no, no las he podido subir
+00:29:23	VICENTE ERRAZURIZ QUIROGA:	mi correo no está funcionando bien
+00:29:40	Constanza Osorio:	yas, en los aeropuertos los aviones que han declarado emergencia tienen prioridad
+00:31:29	Juan Jiménez:	Estan las diapos en el repo?
+00:31:35	Constanza Osorio:	escucho las transmiciones de las torres
+00:31:36	Constanza Osorio:	jajaja
+00:31:52	Constanza Osorio:	es choro, hay una pagina quemuestra las de varios aeropuertos
+00:31:56	Sebastian Zabala Martinez:	fbi open up
+00:32:01	VICENTE ERRAZURIZ QUIROGA:	no estan las diapos en el repo todavia, lo siento
+00:32:06	Eduardo Oteiza:	(cual es la pagina)
+00:32:16	Juan Jiménez:	ta biens
+00:32:45	Constanza Osorio:	https://www.liveatc.net/
+00:33:01	VICENTE ERRAZURIZ QUIROGA:	porfa conversaciones offtopic haganlas en el discord
+00:33:12	Constanza Osorio:	gomen uwu
+00:33:31	PABLO ARANEDA:	n
+00:33:33	Eduardo Oteiza:	insertar el último dato en la posición que lo sacamos demora O(1)?
+00:33:34	Denisse Vaitiare Ogaz Herrera:	O(n)
+00:33:35	Juan Jiménez:	O(n)
+00:33:48	Alonso Rafael Gómez Herrera:	Pero colocarlo alfinal se puede así de a una?
+00:33:53	VICENTE ERRAZURIZ QUIROGA:	> insertar el último dato en la posición que lo sacamos demora O(1)?si porue esto es un arreglo
+00:34:02	Alonso Rafael Gómez Herrera:	Como que se asume que tenemos acceso directo al final
+00:34:07	VICENTE ERRAZURIZ QUIROGA:	si
+00:34:10	VICENTE ERRAZURIZ QUIROGA:	porque es un arreglo
+00:34:15	VICENTE ERRAZURIZ QUIROGA:	tenemos acceso a cualquier celda del arreglo
+00:34:34	Alonso Rafael Gómez Herrera:	Muchas gracias a los dos
+00:35:17	Benjamin Urrutia:	ordenados
+00:35:17	PABLO ARANEDA:	ordenados
+00:35:18	Felipe Alberto Guzman Hernandez:	ordenadis
+00:35:18	Sol Olivia Covacich Palet:	ordenados
+00:35:18	Benjamín Álvarez:	ordenados?
+00:35:33	PABLO ARANEDA:	log n?
+00:35:35	Benjamín Álvarez:	O(n)
+00:36:39	Fabi�n Esteban Sep�lveda Rivas:	profe no entendí xq la inserción es on en el caso ordenado?
+00:36:50	VICENTE ERRAZURIZ QUIROGA:	eso lo calculamos cuando vimos insertionsort
+00:37:19	Fabi�n Esteban Sep�lveda Rivas:	ahh no estamos insertando al final?
+00:37:25	Fabi�n Esteban Sep�lveda Rivas:	como en la cola
+00:37:29	VICENTE ERRAZURIZ QUIROGA:	no no porque queremos que quede ordenado
+00:37:30	VICENTE ERRAZURIZ QUIROGA:	siempre
+00:37:31	Fabi�n Esteban Sep�lveda Rivas:	ahh yaya
+00:37:33	VICENTE ERRAZURIZ QUIROGA:	despues de cada insercion
+00:37:36	ANDRES PLASS CAUSSADE:	yo no entendí bien lo otro, porque extracción en ordenado es O(1)? si igual tiene que recorrer hasta el puntero objetivo? 
+00:37:37	Fabi�n Esteban Sep�lveda Rivas:	ya gracias
+00:37:43	VICENTE ERRAZURIZ QUIROGA:	porque
+00:37:45	VICENTE ERRAZURIZ QUIROGA:	si esta ordenado
+00:37:47	VICENTE ERRAZURIZ QUIROGA:	de mayor a menor
+00:37:55	VICENTE ERRAZURIZ QUIROGA:	el maximo es siempre el primer elemento
+00:37:58	VICENTE ERRAZURIZ QUIROGA:	asique no hay ni que buscarlo
+00:37:58	Constanza Osorio:	entonces tendría que hacer las comparaciones al momento de insertar?
+00:38:02	Julián Manuel García González:	nlogn
+00:38:08	PABLO ARANEDA:	log n
+00:38:09	Sol Olivia Covacich Palet:	logn
+00:38:09	Benjamín Álvarez:	logn
+00:38:30	VICENTE ERRAZURIZ QUIROGA:	> entonces tendría que hacer las comparaciones al momento de insertar?en el caso de que siempre lo mantengamos ordenado, sí
+00:38:34	ANDRES PLASS CAUSSADE:	@Vicente ya gracias
+00:38:41	Constanza Osorio:	graciaas
+00:41:47	PABLO ARANEDA:	como un árbol binario?
+00:41:59	VICENTE ERRAZURIZ QUIROGA:	un arbol binario no tiene propiedades de por si
+00:42:06	VICENTE ERRAZURIZ QUIROGA:	pero eso es una estructura recursiva
+00:42:07	VICENTE ERRAZURIZ QUIROGA:	:)
+00:42:15	Constanza Osorio:	:0
+00:42:26	Eduardo Oteiza:	Tiene que ser binario?
+00:42:33	VICENTE ERRAZURIZ QUIROGA:	no necesariamente
+00:42:38	VICENTE ERRAZURIZ QUIROGA:	si lo haces de mayor grado
+00:42:39	Cristian Stefan Oberpaur Kohler:	se llama heap binario pq se guarda en el heap ?
+00:42:43	VICENTE ERRAZURIZ QUIROGA:	te cambia la base del logaritmo nomas
+00:42:47	VICENTE ERRAZURIZ QUIROGA:	no....
+00:42:56	VICENTE ERRAZURIZ QUIROGA:	el heap de memoria no tiene nada que ver con este heap
+00:42:58	Eduardo Oteiza:	aah perfect
+00:43:51	LUCAS VALENZUELA:	Y es requisito de que sea constante la cantidad de hijos, independientemente si es 2, 3, etc?
+00:44:00	Sol Olivia Covacich Palet:	mmmmmould
+00:44:03	LAURENCE GOLBORNE:	what kind of Guido van slimosumm is this?
+00:44:09	VICENTE ERRAZURIZ QUIROGA:	jajajaaj
+00:45:12	VICENTE ERRAZURIZ QUIROGA:	> Y es requisito de que sea constante la cantidad de hijos, independientemente si es 2, 3, etc?No realmente, pero eso complica un poco la estructura. En este caso cada nodo tiene un máximo de dos hijos
+00:45:39	LUCAS VALENZUELA:	okaaa
+00:46:16	Fabi�n Esteban Sep�lveda Rivas:	pero la definición de binario es que cada nodo tenga dos hijos no?
+00:46:35	VICENTE ERRAZURIZ QUIROGA:	máximo dos hijos
+00:46:47	VICENTE ERRAZURIZ QUIROGA:	si estuvieran obligados a tener siempre 2 hijos
+00:47:06	Fabi�n Esteban Sep�lveda Rivas:	van de mayor a menor
+00:47:10	VICENTE ERRAZURIZ QUIROGA:	entonces solo podrias tener (potencia de 2) elementos en el árbol
+00:47:11	PABLO ARANEDA:	el mayor estaba mas alto
+00:47:20	Fabi�n Esteban Sep�lveda Rivas:	ahh vd es a lo mas dos hijos
+00:47:41	VICENTE ERRAZURIZ QUIROGA:	(potencia de 2, -1)
+00:49:28	Fabi�n Esteban Sep�lveda Rivas:	ahi esta el orden parcial tonces :0
+00:49:33	VICENTE ERRAZURIZ QUIROGA:	exacto!
+00:49:39	Fabi�n Esteban Sep�lveda Rivas:	nice
+00:49:44	Cristian Stefan Oberpaur Kohler:	podría estar el 23 donde esta el 19 ?
+00:49:47	Sol Olivia Covacich Palet:	mayor estricto?
+00:49:56	VICENTE ERRAZURIZ QUIROGA:	> podría estar el 23 donde esta el 19 ?sip
+00:51:37	VICENTE ERRAZURIZ QUIROGA:	en el caso de ordenación, el problema es más fácil si admitimos elementos repetidos, asique analizamos el caso más dificil que es sin elementos repetidos
+00:51:39	Fabi�n Esteban Sep�lveda Rivas:	como que ordenes? uwu
+00:51:53	VICENTE ERRAZURIZ QUIROGA:	> como que ordenes? uwupermutaciones que son un heap válido
+00:52:29	PABLO ARANEDA:	log n si esta equilibrado
+00:52:30	😂:	log n?
+00:52:31	Fabi�n Esteban Sep�lveda Rivas:	n/2 - 1?
+00:52:32	LAURENCE GOLBORNE:	log n
+00:52:32	Tomás C:	a lo más la prioridad de la raiz
+00:52:34	Fabi�n Esteban Sep�lveda Rivas:	ah si
+00:52:35	Fabi�n Esteban Sep�lveda Rivas:	es log
+00:52:37	ALONSO ORTEGA LOYOLA:	suma geometrica
+00:52:38	Fabi�n Esteban Sep�lveda Rivas:	log2(n)
+00:52:39	Piero Tassara:	log n
+00:52:42	Alonso Rafael Gómez Herrera:	log2(n)
+00:52:43	Franco Fabián Castillo Gutiérrez:	log(n)
+00:52:44	Javiera Ochoa Guin-Po:	log n
+00:52:46	Juan Jiménez:	log n
+00:52:48	Eduardo Oteiza:	log2(n)
+00:52:49	Alonso Rafael Gómez Herrera:	Es como la tarea 0
+00:52:53	PABLO ARANEDA:	techo(log n)
+00:53:02	Carlos Daniel Paredes Robles:	puede ser n si todos solo tienen un hijo
+00:53:10	Benjamín Alejandro Lepe Maluenda:	n
+00:53:10	PABLO ARANEDA:	tengo flashback de la tarea 0
+00:53:14	Sol Olivia Covacich Palet:	demasiado ajjjaja
+00:53:15	Constanza Osorio:	jajajaja
+00:53:22	Sol Olivia Covacich Palet:	n-1?
+00:53:23	Josefina Fernández:	n
+00:53:24	Piero Tassara:	n
+00:53:36	PABLO ARANEDA:	log n
+00:57:15	Felipe Alberto Guzman Hernandez:	mould is that you
+00:57:15	PABLO ARANEDA:	cuando necesitas empezar el arreglo desde 1
+00:57:36	Franco Nicolás Berríos Núñez:	Tarea 0 flashbacks
+00:57:44	VICENTE ERRAZURIZ QUIROGA:	> cuando necesitas empezar el arreglo desde 1si, muchas implementaciones dejan el 0 vacio y trabajan del 1 en adelante
+00:58:01	ALONSO ORTEGA LOYOLA:	off-by-1 error
+00:58:04	HUMBERTO ORTUZAR TORNERO:	si
+00:58:10	Fabi�n Esteban Sep�lveda Rivas:	zi
+00:58:12	PABLO ARANEDA:	padre = hijo/2
+00:59:02	Eduardo Oteiza:	hijos de i: 2i y 2i+1
+00:59:05	Pablo Rademacher:	:0
+00:59:06	José Ignacio Retamal:	:0
+00:59:10	Sebastian Zabala Martinez:	funky math
+00:59:25	PABLO ARANEDA:	en el 0 se podría guardar el yamaño
+00:59:26	Eduardo Oteiza:	that’s satanic
+00:59:42	ALONSO ORTEGA LOYOLA:	en el 0 se guarda un meme
+00:59:49	ALONSO ORTEGA LOYOLA:	un puntero a un meme
+00:59:52	PABLO ARANEDA:	su puntero a meme goes brr
+01:00:10	Felipe Alberto Guzman Hernandez:	k/2 floor
+01:00:10	PABLO ARANEDA:	en la mitad
+01:00:11	Benjamín Álvarez:	floor(k/2)
+01:00:22	Benjamin Urrutia:	3
+01:00:23	Constanza Osorio:	piso(hijo/2)?
+01:00:24	Benjamín Álvarez:	division entera
+01:00:24	PABLO ARANEDA:	7/2 (en C)
+01:00:25	Franco Fabián Castillo Gutiérrez:	n//2
+01:00:27	JOAQUIN ALLIENDE VACCARO:	k//2
+01:00:29	Josemaria Onetto Hernández:	parte entera de k/2
+01:00:33	Ricardo Benjamín Meza Aránguiz:	se trunca
+01:00:38	ALONSO ORTEGA LOYOLA:	división entera
+01:00:52	PABLO ARANEDA:	C hace división entera por default si trata por enteros, cierto?
+01:00:58	VICENTE ERRAZURIZ QUIROGA:	si
+01:01:00	Pablo Rademacher:	pero si un nodo no tiene hijos, y trato de buscarle un hijo no voy a entrar a memoria prohibida??
+01:01:02	Eduardo Oteiza:	no cache
+01:01:07	Eduardo Oteiza:	floor no?
+01:01:09	Fabi�n Esteban Sep�lveda Rivas:	coffe breka
+01:01:30	PABLO ARANEDA:	es mas rápido hacer shift o dividir por 2?
+01:01:38	PABLO ARANEDA:	o son lo mismo?
+01:01:43	VICENTE ERRAZURIZ QUIROGA:	el compilador los traduce a lo mismo
+01:01:50	PABLO ARANEDA:	wena
+01:02:13	Eduardo Oteiza:	hola
+01:02:17	HUMBERTO ORTUZAR TORNERO:	creo que asumimos que hay un numero máximo conocido de datos, asi que no deberíamos entrar a memoria prohibida
+01:02:31	ANDRES PLASS CAUSSADE:	@Vicente Pero que pasa si el Nodo indice 7 no estuviera, entonces el nodo indice 4 tendría como hijo indice 7 y 8, y eso no cumple con multiplicar x 2 (+1)
+01:02:46	Eduardo Oteiza:	aah sii
+01:02:57	Eduardo Oteiza:	en C como es la division entera?
+01:03:22	ALONSO ORTEGA LOYOLA:	que pasa con la inserción en un bin heap?
+01:03:25	Tomás C:	en lo peor va a haber un hijo nulo?
+01:03:31	Eduardo Oteiza:	aaah
+01:03:38	Eduardo Oteiza:	ya
+01:03:46	Sebastian Zabala Martinez:	int / int = float dejenme soñar
+01:04:02	ANDRES PLASS CAUSSADE:	ahhh
+01:04:05	ANDRES PLASS CAUSSADE:	entiendo
+01:04:05	Julián Manuel García González:	en c hay un comando que agregue memoria al final de un espacio y si no encuentra que haga un nuevo espacio con toda la memoria que necesitabamos?
+01:04:06	ANDRES PLASS CAUSSADE:	gracias
+01:04:10	Felipe Alberto Guzman Hernandez:	se puede hacer un array con un puntero al final hacia otro array que sirve de extension?
+01:04:28	ANDRES PLASS CAUSSADE:	perfecto gracias
+01:04:36	Benjamín Álvarez:	como funciona la inserción de un dato que no queda lo mas abajo?
+01:04:43	Benjamín Álvarez:	aah chuta
+01:05:23	VICENTE ERRAZURIZ QUIROGA:	> en c hay un comando que agregue memoria al final de un espacio y si no encuentra que haga un nuevo espacio con toda la memoria que necesitabamos?no
+01:05:26	Julián Manuel García González:	entonces si en un heap nos quedamos sin memoria hay que hacer de nuevo otro heap?
+01:05:36	Julián Manuel García González:	con mas memoria
+01:05:41	VICENTE ERRAZURIZ QUIROGA:	> entonces si en un heap nos quedamos sin memoria hay que hacer de nuevo otro heap?igual que con un arreglo, sí
+01:05:48	Julián Manuel García González:	pucha jaja
+01:05:57	VICENTE ERRAZURIZ QUIROGA:	en general
+01:06:00	VICENTE ERRAZURIZ QUIROGA:	uno usa un heap
+01:07:14	Julián Manuel García González:	malloc(1000000000000000)
+01:07:23	ALONSO ORTEGA LOYOLA:	python goes 'b' + 10*'r'
+01:07:53	PABLO ARANEDA:	cota superior: INT_MAX
+01:07:56	HUMBERTO ORTUZAR TORNERO:	asi nos aseguramos
+01:07:57	Sebastian Zabala Martinez:	eso eso
+01:07:57	Tomás C:	es como un principio del palomar inverso
+01:07:58	Sol Olivia Covacich Palet:	o baia
+01:08:01	Julián Manuel García González:	excelente
+01:08:03	HUMBERTO ORTUZAR TORNERO:	mas vale que sobre a que falte
+01:08:10	Sebastian Zabala Martinez:	total la memoria esta barata
+01:08:15	Sebastian Zabala Martinez:	practicamente la regalan
+01:08:16	ALONSO ORTEGA LOYOLA:	un arreglo de 7gb
+01:08:24	HUMBERTO ORTUZAR TORNERO:	si
+01:08:24	Sol Olivia Covacich Palet:	sip
+01:08:30	Constanza Osorio:	como?
+01:08:37	Constanza Osorio:	ahh
+01:08:48	Eduardo Oteiza:	f
+01:09:45	Rodrigo Alberto Gevert Weil:	Hasta el momento la única restricción es que la raíz de cada subheap sea el de mayor prioridad?
+01:09:50	VICENTE ERRAZURIZ QUIROGA:	sip
+01:09:57	VICENTE ERRAZURIZ QUIROGA:	esa es "la" propiedad del heap
+01:10:28	Sol Olivia Covacich Palet:	:0
+01:10:32	PABLO ARANEDA:	perfectamente equilibrado
+01:10:45	Benjamin Urrutia:	en cualquier caso es O(n)?
+01:10:47	Eduardo Oteiza:	as all things should be
+01:10:51	Benjamin Urrutia:	O(logn)?*
+01:10:59	VICENTE ERRAZURIZ QUIROGA:	veamoslo
+01:11:25	Eduardo Oteiza:	siempre tenemos que sacar el más prioritario?
+01:11:38	Carlos Daniel Paredes Robles:	 411
+01:11:38	VICENTE ERRAZURIZ QUIROGA:	si! ha sido nuestro proposito desde el principio
+01:11:55	PABLO ARANEDA:	flashbacks de la TXX de avanzada 2019/1
+01:12:04	Fabi�n Esteban Sep�lveda Rivas:	pero la raíz no era el mayor
+01:12:10	Juan Jiménez:	tentativamente
+01:12:13	VICENTE ERRAZURIZ QUIROGA:	la raiz si era el mayor
+01:12:26	Julián Manuel García González:	que ya no es un heap
+01:12:27	Benjamín Álvarez:	ya no es heap
+01:12:29	Carlos Daniel Paredes Robles:	.
+01:12:34	Eduardo Oteiza:	cambiarlo por el menor de sus hijos?
+01:12:36	Tomás C:	que no es la maxima prioridad
+01:12:36	PABLO ARANEDA:	11 no es mayor, debe hacer swap
+01:12:36	José Ignacio Retamal:	los hijos son mas prioritarios
+01:12:41	Daniel Andrés Soto Silva:	la prioridad es mas baja de la raiz
+01:12:45	Ricardo Benjamín Meza Aránguiz:	se cambia por el mayor?
+01:12:48	Pablo Rademacher:	Se puede inetrcambiar por el mayor de sus hijos
+01:13:06	Pablo Rademacher:	y asi hasta que sus dos hijos sean menores
+01:13:16	Eduardo Oteiza:	asi que tenemos que cambiar por el mayor hasta que se recupere el heap
+01:13:21	Julián Manuel García González:	en que situacion queríamos tener el elemento más prioritario?
+01:13:48	Tomás C:	2
+01:13:49	Eduardo Oteiza:	Para ordenar un arreglo (?)
+01:13:49	Benjamín Álvarez:	es el mayor hijo
+01:13:52	VICENTE ERRAZURIZ QUIROGA:	> en que situacion queríamos tener el elemento más prioritario?el ejemplo era en la sala de espera del hospital, donde atienden por orden de gravedad
+01:13:59	Fabi�n Esteban Sep�lveda Rivas:	29
+01:14:01	Julián Manuel García González:	aah claro
+01:14:07	Fabi�n Esteban Sep�lveda Rivas:	en los hijos
+01:14:09	Benjamín Álvarez:	en el segundo nivel
+01:14:10	ALONSO ORTEGA LOYOLA:	los hijos
+01:14:10	José Ignacio Retamal:	el más grande de los hijos (?)
+01:14:12	Julián Manuel García González:	2k, 2k+1 y sacar el mayor
+01:14:23	Eduardo Oteiza:	11 <-> 29
+01:14:34	PABLO ARANEDA:	combiene cambiar el 11 con el hijo mas cercano para evitar hacer mas swaps(tentativamente)?
+01:14:36	Juan Jiménez:	swaps entonces
+01:14:44	Fabi�n Esteban Sep�lveda Rivas:	no debería ser el índice 2
+01:14:45	Fabi�n Esteban Sep�lveda Rivas:	sio o si
+01:14:51	Fabi�n Esteban Sep�lveda Rivas:	x el orden de izquierda a derecha?
+01:14:59	VICENTE ERRAZURIZ QUIROGA:	no, recuerda que no hay orden de izquierda a derecha
+01:15:05	Benjamín Álvarez:	no hay orden en un mismo nivel, solo en un mismo heap
+01:15:06	Fabi�n Esteban Sep�lveda Rivas:	ahah sisi me confundii
+01:15:47	Eduardo Oteiza:	revisar recursivamente el subheap
+01:16:13	Fabi�n Esteban Sep�lveda Rivas:	oh sh*t here we go again
+01:16:33	Alonso Rafael Gómez Herrera:	Y eso se ejecuta n / 2 veces ?
+01:16:41	Fabi�n Esteban Sep�lveda Rivas:	logn o no
+01:17:00	VICENTE ERRAZURIZ QUIROGA:	en el peor de los casos el elemento tiene que bajar hasta una hoja
+01:17:13	Alonso Rafael Gómez Herrera:	Es que mas que con nivel debería ser ademas con cada célula de cada nivel (?)
+01:17:26	Eduardo Oteiza:	entonces el peor caso sería log2(n)?
+01:17:26	VICENTE ERRAZURIZ QUIROGA:	nop
+01:17:30	PABLO ARANEDA:	log n
+01:17:32	VICENTE ERRAZURIZ QUIROGA:	solo te importan tus 2 hijos
+01:17:32	MARIO GOMEZ HERRERA:	log n
+01:17:37	VICENTE ERRAZURIZ QUIROGA:	y una vez que te cambias por el mas grande
+01:17:40	Fabi�n Esteban Sep�lveda Rivas:	aah es O(n) tonces
+01:17:42	VICENTE ERRAZURIZ QUIROGA:	el otro queda intacto
+01:17:47	PABLO ARANEDA:	sacar: 1restaurar: log n
+01:17:49	Elías Sabja:	log(n)
+01:22:04	Benjamín Álvarez:	es como el mismo proceso de intercambios pero hacia arriba?
+01:23:15	ALONSO ORTEGA LOYOLA:	:o
+01:23:44	Sebastian Zabala Martinez:	que tan eficientemente ordena esto? osea si vamos sacando el best hasta tener un arreglo ordenado 
+01:23:53	Juan Jiménez:	tambien es log n
+01:23:55	Sol Olivia Covacich Palet:	logn
+01:24:10	Julián Manuel García González:	entonces es un poco mas rapido insertar que extraer?
+01:24:18	Julián Manuel García González:	aunque tengan misma complejidad
+01:25:14	VICENTE ERRAZURIZ QUIROGA:	si te vas a poner a comparar a nivel de instrucciones de máquina, sí
+01:26:00	PABLO ARANEDA:	saca todo y ponlo todo en otro array
+01:26:06	Julián Manuel García González:	sift down recursivo?
+01:26:09	PABLO ARANEDA:	o saca todo y ponlo al final
+01:26:09	Julián Manuel García González:	o sift up
+01:26:16	Cristian Alonso Carrasco González:	pero la idea es no gastar tanta memoria
+01:26:22	VICENTE ERRAZURIZ QUIROGA:	> o saca todo y ponlo al final this
+01:26:23	Fabi�n Esteban Sep�lveda Rivas:	hay que comparar por niveles
+01:26:30	Fabi�n Esteban Sep�lveda Rivas:	aaah
+01:26:33	PABLO ARANEDA:	si sacas todo y lo pones al final mantienes la memoria
+01:26:34	Benjamín Álvarez:	ordenados
+01:26:34	Fabi�n Esteban Sep�lveda Rivas:	mayor a menor
+01:26:36	Sol Olivia Covacich Palet:	de mayor a menor
+01:27:07	Constanza Osorio:	es porque siempre se saca la raíz?
+01:27:11	Fabi�n Esteban Sep�lveda Rivas:	sii
+01:27:14	VICENTE ERRAZURIZ QUIROGA:	> es porque siempre se saca la raíz?si0p
+01:27:18	Constanza Osorio:	de pana
+01:27:38	Cristian Alonso Carrasco González:	impacta2
+01:27:41	Sol Olivia Covacich Palet:	:00000
+01:27:55	Pablo Rademacher:	Pero necesito primero darle la estructura de heap
+01:27:55	Franco Fabián Castillo Gutiérrez:	es in place ?
+01:27:57	Sol Olivia Covacich Palet:	impacteishon
+01:28:00	Cristian Alonso Carrasco González:	si
+01:28:35	Cristian Alonso Carrasco González:	partimos hablando de este algoritmo pq su gracia es que es in place
+01:28:44	Fabi�n Esteban Sep�lveda Rivas:	de menor a mayor
+01:29:44	Fabi�n Esteban Sep�lveda Rivas:	hay que hacer heaps en la tarea 1?
+01:30:04	Tomás C:	nlogn
+01:30:04	Carlos Daniel Paredes Robles:	nlogn
+01:30:05	Nicolás Bravo de la Cruz:	n
+01:30:05	TOMÁS ÁLVAREZ:	nlogn
+01:30:08	Benjamín Álvarez:	insertar todos es nlogn
+01:30:09	Fabi�n Esteban Sep�lveda Rivas:	log n para la extraccion
+01:30:14	Fabi�n Esteban Sep�lveda Rivas:	y se hace n veces o no?
+01:30:19	VICENTE ERRAZURIZ QUIROGA:	> hay que hacer heaps en la tarea 1?nop
+01:30:23	Fabi�n Esteban Sep�lveda Rivas:	;(
+01:30:41	PABLO ARANEDA:	para la tarea 2 entonces?
+01:30:45	VICENTE ERRAZURIZ QUIROGA:	no
+01:30:49	PABLO ARANEDA:	;c
+01:30:50	Eduardo Oteiza:	F
+01:30:55	VICENTE ERRAZURIZ QUIROGA:	sigue sigue
+01:30:59	Fabi�n Esteban Sep�lveda Rivas:	jajajja
+01:31:00	ALONSO ORTEGA LOYOLA:	para la prueba?
+01:31:01	PABLO ARANEDA:	estamos perdirijillos
+01:31:02	Benjamín Álvarez:	3?
+01:31:03	Fabi�n Esteban Sep�lveda Rivas:	tarea N
+01:31:10	ALONSO ORTEGA LOYOLA:	tarea nlogn
+01:31:11	VICENTE ERRAZURIZ QUIROGA:	maybe xd
+01:31:13	Pablo Rademacher:	1.5??
+01:31:19	VICENTE ERRAZURIZ QUIROGA:	pa la t3 
+01:31:21	Juan Jiménez:	en tav
+01:31:27	Alonso Rafael Gómez Herrera:	Pero como sabemos cual es el menor entre dos nodos?
+01:31:35	Alonso Rafael Gómez Herrera:	Ósea suponiendo que ya estamos alfinal
+01:31:40	TOMÁS ÁLVAREZ:	Se supne q ya estamos en condiciones de hacer la tarea entera?
+01:31:41	VICENTE ERRAZURIZ QUIROGA:	> Pero como sabemos cual es el menor entre dos nodos?comparamos sus elementos
+01:31:44	Alonso Rafael Gómez Herrera:	Y tengo 13, 17
+01:31:50	Alonso Rafael Gómez Herrera:	O 17, 13
+01:31:50	VICENTE ERRAZURIZ QUIROGA:	si a < b, entonces a es menor a b
+01:31:52	Benjamín Álvarez:	osea heapsort es lo mejor de lo mejor?
+01:32:01	Sebastian Zabala Martinez:	dado un heap
+01:32:04	PABLO ARANEDA:	--- Algorythm aunlocked ---
+01:32:06	Isabel Muñoz Roa:	Se sacaba el de menor prioridad?
+01:32:07	Alonso Rafael Gómez Herrera:	Entonces llegamos alginal del árbol y. Luego comparamos?
+01:32:08	Eduardo Oteiza:	Raddix sort es lo mejor de lo mejor
+01:32:11	Cristian Alonso Carrasco González:	jajaja
+01:32:15	LUCAS VALENZUELA:	Y en la práctica cual se usa más?
+01:32:23	HUMBERTO ORTUZAR TORNERO:	cual es el costo de hacer que un array sea un heap binario?
+01:32:33	Julián Manuel García González:	si quiero recorrer ordenadamente un arreglo ordenado en un heap cual es la complejidad?
+01:32:46	Josefina Fernández:	en el horario de ayudantía?
+01:32:52	PABLO ARANEDA:	para la tarea 1 es un heap con esteroides?
+01:33:20	Sebastian Zabala Martinez:	cries in tope
+01:33:23	LUCAS VAN SINT JAN CAMPOS:	Van a grabarlo? Tengo clases :(
+01:33:28	Joaquín Muñoz:	Vicho lo puedes grabar? porfa :c
+01:33:30	Joaquín Muñoz:	que tengo tope
+01:33:33	Joaquín Muñoz:	con otra clase
+01:33:46	Fabi�n Esteban Sep�lveda Rivas:	army edd
+01:33:47	PABLO ARANEDA:	oooh, como una programaton?
+01:34:00	Felipe Alberto Guzman Hernandez:	edd assemble
+01:34:01	ALONSO ORTEGA LOYOLA:	diy
+01:34:03	PABLO ARANEDA:	weeena, no esperaba programatones en este año
+01:34:04	Araceli Rojas Vilaplana:	cuando era esto?
+01:34:06	Constanza Osorio:	pana banana
+01:34:07	Sol Olivia Covacich Palet:	lo que siempre quize
+01:34:12	Benjamín Álvarez:	suena super choro
+01:34:22	ALONSO ORTEGA LOYOLA:	ciy, code it yourself
+01:34:24	Cristian Alonso Carrasco González:	pregunta,¿es un heap cualquier estructura?
+01:34:28	Fabi�n Esteban Sep�lveda Rivas:	 spoiler alert
+01:34:32	Cristian Alonso Carrasco González:	o esta estructura se llama heap?
+01:34:38	Cristian Alonso Carrasco González:	ahhhh
+01:34:40	Cristian Alonso Carrasco González:	super
+01:34:45	Cristian Alonso Carrasco González:	xd
+01:34:48	Cristian Alonso Carrasco González:	jaja
+01:34:51	Cristian Stefan Oberpaur Kohler:	Que tan caro es armar el bianry heap si los datos vienen desordenados ?
+01:34:52	TOMÁS ÁLVAREZ:	Se supne q ya estamos en condiciones de hacer la tarea entera? 
+01:34:53	Sol Olivia Covacich Palet:	de donde viene el nombre “heap”?
+01:34:53	Cristian Alonso Carrasco González:	gracias
+01:35:11	Sol Olivia Covacich Palet:	aaah
+01:35:12	ALONSO ORTEGA LOYOLA:	porque tiene forma de un montoncito :3
+01:35:35	Josefina Fernández:	gracias por la clase!!
+01:35:48	Cristian Alonso Carrasco González:	piramid sort sería + bakan
+01:35:48	PABLO ARANEDA:	nani???
+01:35:57	Pablo Rademacher:	Si mis datos no están con estructura de heap, tengo que darle la estructura antes o no??
+01:35:58	HUMBERTO ORTUZAR TORNERO:	bogo sort
+01:36:07	ALONSO ORTEGA LOYOLA:	quantum bogo sort
+01:36:07	MARIO GOMEZ HERRERA:	random sort
+01:36:24	Constanza Osorio:	ohhh claro
+01:36:30	ALONSO ORTEGA LOYOLA:	quantum bogosort es O(1) asumiendo que el tiempo necesario para destruir un universo es constante
+01:36:41	PABLO ARANEDA:	heap sort me da confianza eso si
+01:37:00	Constanza Osorio:	mientras menos misses de cache, mas cool (?)
+01:37:11	Cristian Stefan Oberpaur Kohler:	Que tan caro es armar el bianry heap si los datos vienen desordenados ? (se perdió la pregunta entre tantos comentarios jajaja)
+01:37:13	Constanza Osorio:	ohh mi kokoro
+01:37:19	Isabel Muñoz Roa:	no entendí una parte del algoritmo, en la diapo salía que se sacaba el menor elemento, eso se refiere al elemento del menor índice -> elemento de mayor prioridad?
+01:38:45	PABLO ARANEDA:	están los resultados por maquina de la tarea 0?
+01:39:17	HUMBERTO ORTUZAR TORNERO:	profe sigue compartiendo pantalla
+01:39:27	Felipe Alberto Guzman Hernandez:	es una constante
+01:39:34	Felipe Alberto Guzman Hernandez:	asi que da lo mismo
+01:41:18	Constanza Osorio:	jajaja 
+01:41:24	Sol Olivia Covacich Palet:	chao graciaaas
+01:41:25	Sol Olivia Covacich Palet:	<3
+01:41:52	Constanza Osorio:	loool
+01:42:02	Constanza Osorio:	de hecho profe, sigue grabando
+01:42:30	Constanza Osorio:	profe, la grabación xD
+01:42:52	HUMBERTO ORTUZAR TORNERO:	chao gracias!
+01:43:00	HUMBERTO ORTUZAR TORNERO:	que les vaya bien
+01:43:06	Constanza Osorio:	chaooo gracias :3
+01:43:10	Edison Pizarro Godoy:	chao gracias!
